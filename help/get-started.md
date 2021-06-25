@@ -2,9 +2,9 @@
 title: Kom igång med  [!DNL Assets Essentials]
 description: Hur du får åtkomst till, kan logga in på, vilka användningsfall som stöds och kända problem i [!DNL Assets Essentials].
 role: Business Practitioner, Leader
-source-git-commit: 825297959b19361260121949c99ede37dced9a9c
+source-git-commit: 4a7fe369485db5cae843694c68f84133c9118337
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ When logging in, after providing the credentials, you can be prompted to select 
 ![Select an account to login](assets/do-not-localize/login-experience.gif)
 -->
 
-## [!DNL Assets Essentials] användningsfall  {#use-cases}
+## [!DNL Assets Essentials] användningsfall {#use-cases}
 
 De olika DAM-åtgärderna (Digital Asset Management) som du kan utföra med [!DNL Assets Essentials] anges nedan.
 
@@ -69,13 +69,16 @@ De olika DAM-åtgärderna (Digital Asset Management) som du kan utföra med [!DN
 | How do I collaborate with others and get my assets reviewed | <ul> <li>Share for review</li> <li>Provide comments. Resolve and filter comments</li> <li>Annotations on images</li> <li>Assign tasks to specific users and prioritize</li> </ul> |
 -->
 
-## ![feedback-](assets/do-not-localize/feedback-icon.png) ikonGe feedback  {#provide-feedback}
+## ![feedback-](assets/do-not-localize/feedback-icon.png) ikonGe feedback {#provide-feedback}
 
 Adobe välkomnar feedback om lösningen. Använd alternativet [!UICONTROL Feedback] i användargränssnittet för att ge feedback utan att ens växla arbetsprogram. Det gör det även möjligt att bifoga filer som skärmdumpar eller videoinspelningar av ett problem.
 
 ![feedback-alternativ i gränssnittet](assets/feedback-panel.png)
 
-Om du vill ge feedback på dokumentationen klickar du på Redigera den här sidan ![redigera sidan](assets/do-not-localize/edit-page.png) eller Logga ett problem ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) från den högra marginalen. Uppdatera innehållet och skicka en GitHub-pull-begäran eller skapa ett problem eller en biljett i GitHub.
+Om du vill ge feedback för dokumentation klickar du på [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) från den högra sidopanelen. Du kan göra något av följande:
+
+* Gör innehållsuppdateringarna och skicka en GitHub-pull-begäran.
+* Skapa ett problem eller en biljett i GitHub. Behåll det automatiskt ifyllda artikelnamnet när du skapar ett problem.
 
 >[!MORELIKETHIS]
 >
