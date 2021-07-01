@@ -3,7 +3,7 @@ title: Versionsinformation
 description: Versionsinformation och kända fel i [!DNL Assets Essentials]
 role: Business Practitioner,Leader,Administrator,Architect,Developer
 contentOwner: AG
-source-git-commit: a52db0574483d3c17643a2c35c95be67c6608602
+source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 1%
@@ -27,5 +27,9 @@ Mer information om lösningen finns i [introduktionen till [!DNL Assets Essentia
 ## Kända fel {#known-issues}
 
 För närvarande finns det inga kända problem med [!DNL Assets Essentials].
+
+<!--
+* Use assets that do not have whitespace in the file names. The replies to comments do not work for such assets.
+-->
 
 Om du stöter på problem eller till och med förbättringsförfrågningar kan du [ge feedback](#provide-feedback) till teamet.
