@@ -2,9 +2,9 @@
 title: Överför resurser till databasen
 description: Överför resurser till [!DNL Assets Essentials], visa överföringsstatus och åtgärda överföringsproblem.
 role: Business Practitioner
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,10 @@ När alla filer är köade klickar du på **[!UICONTROL Upload]**.
 
 *Bild: Innan du överför de valda resurserna kan du lägga till eller ta bort resurser från kön.*
 
+>[!CAUTION]
+>
+>Använd resurser som inte har tomt utrymme i filnamnen. Svaren på kommentarer fungerar inte för sådana resurser.
+
 ## Visa överföringsförlopp och status {#upload-progress}
 
 När du överför många resurser eller kapslade mappar till [!DNL Assets Essentials] kan vissa resurser inte överföras av olika anledningar, till exempel duplicerade resurser och nätverksproblem.
@@ -44,13 +48,13 @@ Om du vill visa en delmängd av resurser baserat på överföringsförloppet ell
 
 *Bild: Filtrera de resurser som du försökte överföra baserat på deras överföringsstatus eller överföringsförlopp.*
 
-Omedelbart efter att materialet har överförts bearbetar Assets Essentials materialet för att generera miniatyrbilder och bearbeta metadata. För många resurser tar bearbetningen tid. Om ingen miniatyrbild visas och du ser ett bearbetningsmeddelande på platshållarminiatyrbilden kontrollerar du mappen igen efter några minuter.
+Omedelbart efter att resurserna har överförts bearbetar [!DNL Assets Essentials] resurserna för att generera miniatyrbilder och bearbeta metadata. För många resurser tar bearbetningen tid. Om ingen miniatyrbild visas och du ser ett bearbetningsmeddelande på platshållarminiatyrbilden kontrollerar du mappen igen efter några minuter.
 
 ![Bearbetning vid överföring](assets/upload-processing.png)
 
 ## Resursåtergivningar {#renditions}
 
-Assets Essentials bearbetar det överförda materialet i nära realtid och för många filtyper som stöds genereras renderingar. Återgivningarna skapas för bilder och ändrar storlek på versioner av den överförda bilden. Du kan inte bara hämta resursen utan även återgivningarna för att använda en lämplig version. Du kan visa alla återgivningar av en resurs när du [förhandsgranskar en resurs](/help/navigate-view.md#preview-assets).
+[!DNL Assets Essentials] bearbetar det överförda materialet i nära realtid och för många filtyper som stöds genereras renderingar. Återgivningarna skapas för bilder och ändrar storlek på versioner av den överförda bilden. Du kan inte bara hämta resursen utan även återgivningarna för att använda en lämplig version. Du kan visa alla återgivningar av en resurs när du [förhandsgranskar en resurs](/help/navigate-view.md#preview-assets).
 
 ![Återgivningar](assets/renditions-view-download.png)
 
