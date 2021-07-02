@@ -2,9 +2,9 @@
 title: Överför resurser till databasen
 description: Överför resurser till [!DNL Assets Essentials], visa överföringsstatus och åtgärda överföringsproblem.
 role: Business Practitioner
-source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
+source-git-commit: 6e482854e7cec3d8bc2fed786a2c6a685b3f8eed
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -48,15 +48,19 @@ Om du vill visa en delmängd av resurser baserat på överföringsförloppet ell
 
 *Bild: Filtrera de resurser som du försökte överföra baserat på deras överföringsstatus eller överföringsförlopp.*
 
-Omedelbart efter att resurserna har överförts bearbetar [!DNL Assets Essentials] resurserna för att generera miniatyrbilder och bearbeta metadata. För många resurser tar bearbetningen tid. Om ingen miniatyrbild visas och du ser ett bearbetningsmeddelande på platshållarminiatyrbilden kontrollerar du mappen igen efter några minuter.
+Omedelbart efter att resurserna har överförts bearbetar [!DNL Assets Essentials] resurserna för att generera miniatyrbilder och bearbeta metadata. För många resurser tar bearbetningen tid. Om ingen miniatyrbild visas och du ser ett bearbetningsmeddelande på platshållarminiatyrbilden kontrollerar du mappen igen efter några minuter. Under bearbetningen genererar bland annat [!DNL Assets Essentials] renderingarna, lägger till smarta taggar och indexerar resursinformationen för sökning.
 
-![Bearbetning vid överföring](assets/upload-processing.png)
+![Resurser är processer vid överföring och bearbetningen visas i plattan](assets/upload-processing.png)
+
+*Bild: Överförda resurser visar bearbetningen på plattan som de bearbetas.*
 
 ## Resursåtergivningar {#renditions}
 
 [!DNL Assets Essentials] bearbetar det överförda materialet i nära realtid och för många filtyper som stöds genereras renderingar. Återgivningarna skapas för bilder och ändrar storlek på versioner av den överförda bilden. Du kan inte bara hämta resursen utan även återgivningarna för att använda en lämplig version. Du kan visa alla återgivningar av en resurs när du [förhandsgranskar en resurs](/help/navigate-view.md#preview-assets).
 
 ![Återgivningar](assets/renditions-view-download.png)
+
+*Bild: Visa och ladda ned renderingarna.*
 
 ## Hantera misslyckade överföringar {#resolve-upload-fails}
 
@@ -87,5 +91,7 @@ Användare kan ta bort enskilda resurser eller mappar som inte längre behövs. 
 * Använd alternativet som är tillgängligt på en resurs eller en mapps miniatyrbild.
 
    ![Alternativ på miniatyrbild av resurs för att hantera en resurs](assets/options-on-thumbnail.png)
+
+   *Bild: Åtgärder för filer och mappar är tillgängliga på resurs- eller mapppanelen.*
 
 * Markera en resurs eller en mapp och klicka på **[!UICONTROL Delete]** ![ikonen Ta bort](assets/do-not-localize/delete-icon.png) i verktygsfältet.
