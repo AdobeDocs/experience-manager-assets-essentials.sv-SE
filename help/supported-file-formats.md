@@ -3,7 +3,7 @@ title: Filformat som stöds
 description: Filformat som stöds för de olika användningsområdena för [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
+source-git-commit: e791ef4ffdfdad907b5e868b3f3eab0c597ae4cd
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 9%
@@ -35,15 +35,15 @@ De olika filtyperna har olika stöd för de användningsområden och funktioner 
 -->
 
 | Tillgångstyp | Bläddra | Kopiera | Överför | Skapa | Ta bort | Information | Zooma bilden | Senast visade |
-|---------------|----------|------|----------|----------|----------|----------|------------|-----------------|
-| Rasterbilder | ✓ |  | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| Mappar | ✓ |  | ✓ | ✓ | ✓ | ✓ | - | - |
-| Videor | ✓ |  | ✓ | - | ✓ | * | - | ✓ |
-| CC Libraries | ✓ |  | ✓ | ✓ | ✓ | ✓ | - | - |
-| PDF | ✓ |  | ✓ | - | ✓ | ✓ | - | ✓ |
-| PSD | ✓ |  | ✓ | - | ✓ | * | - | ✓ |
-| AI | ✓ |  | ✓ | - | ✓ | * | - | ✓ |
-| INDD | ✓ |  | ✓ | - | ✓ | * | - | ✓ |
+|---------------|----------|----------|----------|----------|----------|----------|------------|-----------------|
+| Rasterbilder | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
+| Mappar | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | - | - |
+| Videor | ✓ | ✓ | ✓ | - | ✓ | * | - | ✓ |
+| CC Libraries | ✓ | - | ✓ | ✓ | ✓ | ✓ | - | - |
+| PDF | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
+| PSD | ✓ | ✓ | ✓ | - | ✓ | * | - | ✓ |
+| AI | ✓ | ✓ | ✓ | - | ✓ | * | - | ✓ |
+| INDD | ✓ | ✓ | ✓ | - | ✓ | * | - | ✓ |
 
 ## Söka efter, använda och redigera resurser {#support-to-search-use-edit}
 
