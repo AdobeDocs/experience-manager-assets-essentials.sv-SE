@@ -7,10 +7,10 @@ breadcrumb-title: Assets Essentials Guide
 user-guide-description: Lär dig använda Adobe Experience Manager Assets Essentials.
 feature-set: Experience Manager Assets,Experience Manager
 feature: Resurshantering
-role: Business Practitioner, Leader
-source-git-commit: e54cdf9b8ecb5d9ddc5b90a3ca82549c61b35074
+role: User, Leader
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '59'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 3%
 + [Versionsinformation](release-notes.md)
 + [Distribuera och lägga till användare](deploy-administer.md)
 + [Kom igång med  [!DNL Assets Essentials]](get-started.md)
++ [Filtyper och användningsområden som stöds](supported-file-formats.md)
 + [Visa resurser](navigate-view.md)
 + [Överför och lägg till resurser](add-delete.md)
 + [Söka efter och identifiera resurser](search.md)
