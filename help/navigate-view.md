@@ -1,8 +1,8 @@
 ---
 title: '[!DNL Assets Essentials] användargränssnitt'
 description: Förstå användargränssnittet för och navigering i [!DNL Assets Essentials].
-role: Business Practitioner
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- TBD: The options in left sidebar may change. Shared with me and Shared by me are missing for now. Update this section as UI is updated. -->
 
-## Förstå användargränssnittet [!DNL Assets Essentials] {#understand-interface-navigation}
+## Förstå användargränssnittet för [!DNL Assets Essentials] {#understand-interface-navigation}
 
 [!DNL Assets Essentials] har ett intuitivt och användarvänligt gränssnitt. Det rena gränssnittet gör det enkelt att hitta och komma ihåg resurser och relaterad information.
 
