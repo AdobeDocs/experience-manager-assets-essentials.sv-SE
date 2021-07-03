@@ -1,8 +1,8 @@
 ---
 title: Redigera bilder
 description: Redigera bilder med  [!DNL Adobe Photoshop Express] kraftfulla alternativ och spara uppdaterade bilder som versioner.
-role: Business Practitioner
-source-git-commit: b3fea5209fb29409b3aae5970fa30505f8b5c22c
+role: User
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Spara ändringarna genom att klicka på **[!UICONTROL Crop Image]**. När du har
 
 Med många standardalternativ kan du beskära bilden till de bästa proportioner som passar olika profiler och inlägg på sociala medier.
 
-## Ändra storlek på bild {#resize-image}
+## Ändra bildstorlek {#resize-image}
 
 Att ändra storlek på en bild till en viss storlek är ett vanligt användningsexempel. [!DNL Assets Essentials] Med kan du snabbt ändra storlek på bilden så att den passar de vanliga fotostorlekarna genom att tillhandahålla förberäknade nya upplösningar för specifika fotostorlekar. Du kan visa de vanliga fotostorlekarna i centimeter eller tum för att ta reda på måtten. Som standard behåller metoden för storleksändring proportionerna. Om du vill åsidosätta proportionerna manuellt klickar du på ![](assets/do-not-localize/lock-closed-icon.png).
 
