@@ -1,9 +1,9 @@
 ---
 title: Hantera metadata
 description: Hantera metadata för resurser i [!DNL Assets Essentials]
-role: Business Practitioner,Leader,Administrator,Architect,Developer
+role: User,Leader,Administrator,Architect,Developer
 contentOwner: AG
-source-git-commit: 3389908e3ba085362b48a18cd3c106e658484a96
+source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -51,7 +51,7 @@ De smarta taggarna används nästan i realtid och genereras baserat på bildens 
 
 Smarta taggar innehåller också ett konfidensintervall som ett procenttal. Det anger förtroendet som är kopplat till den tillämpade taggen. Du kan moderera de automatiskt tillämpade smarta taggarna.
 
-## Lägg till eller uppdatera taggar {#manually-tag}
+## Lägga till eller uppdatera taggar {#manually-tag}
 
 Du kan lägga till fler taggar i dina resurser, utöver de smarta taggar som läggs till automatiskt med den smarta [!DNL Adobe Sensei]-tjänsten. Öppna en resurs för förhandsgranskning, klicka på [!UICONTROL Tags] och skriv önskade nyckelord i fältet [!UICONTROL Keywords]. Om du vill lägga till taggen trycker du på Retur. [!DNL Assets Essentials] indexerar nyckelordet i nära realtid och ditt team kan snart söka efter uppdaterade resurser med de nya nyckelorden.
 
