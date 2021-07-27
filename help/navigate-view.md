@@ -2,9 +2,9 @@
 title: '[!DNL Assets Essentials] användargränssnitt'
 description: Förstå användargränssnittet för och navigering i [!DNL Assets Essentials].
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,15 @@ När du loggar in på [!DNL Assets Essentials] visas följande gränssnitt.
 
 ## Bläddra bland och visa resurser och mappar {#browse-repository}
 
-Du kan bläddra till önskade filer eller mappar från huvudanvändargränssnittet eller från vänster sidofält. När du bläddrar kan du använda gränssnittet för att visa miniatyrbilder av resurser för att visuellt bläddra i databasen eller visa resursinformation för att snabbt hitta den resurs du vill ha. De alternativ som är tillgängliga i den vänstra sidlisten är:
+Du kan bläddra bland mapparna från huvudanvändargränssnittet eller från vänster sidofält. När du bläddrar kan du använda gränssnittet för att visa miniatyrbilder av resurser för att visuellt bläddra i databasen eller visa resursinformation för att snabbt hitta den resurs du vill ha. De alternativ som är tillgängliga i den vänstra sidlisten är:
 
-* **Resurser**: Lista över alla mappar och resurser i en trädvy som du har åtkomst till.
-* **Senast visade**: Lista över resurser som du nyligen har förhandsgranskat. [!DNL Assets Essentials] visar bara de resurser som du förhandsgranskar. Här visas inte de resurser som du bläddrar förbi när du bläddrar bland databasfilerna eller databasmapparna.
-* **Bibliotek**: Åtkomst till  [!DNL Adobe Creative Cloud Team] (CCT) Libraries-vyn. Den här vyn är bara synlig om användaren är berättigad till CCT-bibliotek.
+* **Resurser**: Lista över alla mappar i en trädvy som du har åtkomst till.
+* **Senast visade**: Lista över resurser som du nyligen har förhandsgranskat. [!DNL Assets Essentials] visar bara de resurser som du förhandsgranskar. Det visar inte de resurser som du bläddrar förbi när du bläddrar bland databasfilerna eller databasmapparna.
+* **Papperskorgen**:
+
+<!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
+* **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.
+-->
 
 <!-- TBD: My Work Space shows task inbox and it is not visible on AEM Cloud Demos as of now. It is the source of truth server hence not documenting My Work Space option for now.
 -->
