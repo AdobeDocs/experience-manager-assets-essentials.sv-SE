@@ -2,9 +2,9 @@
 title: Introduktion till [!DNL Assets Essentials]
 description: Assets Essentials i korthet
 role: User,Leader
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ För administratörer ger det enklare konfiguration och administration, vilket l
 För användare är det så enkelt att hantera dina digitala resurser med [!DNL Assets Essentials] som i följande tre steg. Se [komma igång med [!DNL Assets Essentials]](/help/get-started.md).
 
 * **Steg 1**: Överför och visa resurser.
-* **Steg 2**: Sök efter och hämta nödvändiga resurser.
+* **Steg 2**: Sök efter och hämta resurser.
 * **Steg 3**: Hantera och ordna resurserna.
 
 >[!MORELIKETHIS]
