@@ -3,10 +3,10 @@ title: Versionsinformation
 description: Versionsinformation och kända fel i [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: a1dc66213f602bce5b5a2ec0ba99084c7f7b1ee1
+source-git-commit: fd95cf87ae8e5449471cd580405b228c32ede264
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 1%
+source-wordcount: '275'
+ht-degree: 0%
 
 ---
 
@@ -24,9 +24,19 @@ För närvarande är [!DNL Assets Essentials] tillgängligt för [[!DNL Journey 
 
 Mer information om lösningen finns i [introduktionen till [!DNL Assets Essentials]](introduction.md). Information om hur du börjar använda funktionerna finns i [komma igång](/help/get-started.md).
 
+## Aktuell version {#release-notes-current}
+
+Den aktuella versionen av Assets Essentials är 2021.7.0, släppt 29 juli 2021, med följande uppdateringar:
+
+* Du kan skapa och hantera anpassade metadataformulär som ska användas för att visa metadataegenskaper för användare på resursinformationsskärmen i [!UICONTROL Metadata Forms]-alternativet under [!DNL Settings].
+* Olika felkorrigeringar och produktförbättringar, inklusive bättre prestanda vid överföring av en kapslad mapp med många undermappar.
+
 ## Kända fel {#known-issues}
 
-För närvarande finns det inga kända problem med [!DNL Assets Essentials].
+Listan över kända fel i [!DNL Assets Essentials]-erbjudandet revideras och uppdateras fortlöpande:
+
+* Om du vill överföra en mapp eller resurser placeras överföringen automatiskt i en av undermapparna när du drar objekten till en mapp med undermappar i databasen. Du kan lösa problemet genom att klicka på [!DNL Upload assets] och dra det till dialogrutan. <!-- CQ-4327753 -->
+* När du har överfört en mapp kan nya mappar ibland visas felaktigt i den vänstra listen i stället för att visas i trädvyn. Du kan lösa problemet genom att uppdatera webbläsaren. <!-- CQ-4323534 -->
 
 <!--
 * Use assets that do not have whitespace in the file names. The replies to comments do not work for such assets.
