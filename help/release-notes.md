@@ -3,9 +3,9 @@ title: Versionsinformation
 description: Versionsinformation och kända fel i [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: fd95cf87ae8e5449471cd580405b228c32ede264
+source-git-commit: cbeb6f6f59da164115af52dfdbb97023b84bc1d1
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Mer information om lösningen finns i [introduktionen till [!DNL Assets Essentia
 
 Den aktuella versionen av Assets Essentials är 2021.7.0, släppt 29 juli 2021, med följande uppdateringar:
 
-* Du kan skapa och hantera anpassade metadataformulär som ska användas för att visa metadataegenskaper för användare på resursinformationsskärmen i [!UICONTROL Metadata Forms]-alternativet under [!DNL Settings].
+* Du kan skapa och hantera anpassade metadataformulär som ska användas för att visa metadataegenskaper för användare på resursinformationsskärmen i [!UICONTROL Metadata Forms]-alternativet under [!DNL Settings]. Se [metadataformulär](metadata.md#metadata-forms).
 * Olika felkorrigeringar och produktförbättringar, inklusive bättre prestanda vid överföring av en kapslad mapp med många undermappar.
 
 ## Kända fel {#known-issues}
