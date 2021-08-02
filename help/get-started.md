@@ -2,9 +2,9 @@
 title: Kom igång med  [!DNL Assets Essentials]
 description: Hur du får åtkomst till, kan logga in på, vilka användningsfall som stöds och kända problem i [!DNL Assets Essentials].
 role: User, Leader
-source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
+source-git-commit: 135832e18bdf7ae66f29638cf548088a83daee8d
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -57,10 +57,11 @@ De olika DAM-åtgärderna (Digital Asset Management) som du kan utföra med [!DN
 |-----|------|
 | Hur lägger jag till en resurs? | <ul> <li> [Överför resurser](/help/add-delete.md) </li> <li> [Återgivningar](/help/add-delete.md#renditions) </li> </ul> |
 | Hur uppdaterar jag resurser eller relaterad information? | <ul> <li>Ändra en befintlig resurs</li> <li>[Skapa ](/help/manage-organize.md#create-versions) versioner och  [visa versioner](/help/manage-organize.md#view-versions)</li> <li>[Redigera bilder](/help/edit-images.md)</li> </ul> |
-| Hur identifierar jag resurser? | <ul> <li>[Bläddra i databasen](/help/navigate-view.md#view-assets-and-details) </li> <li> [Förhandsgranska ](/help/navigate-view.md#preview-assets) material och  [hämta resurser](/help/manage-organize.md#download) </li> <li>[Visa detaljerade metadata](/help/metadata.md) </li> <li>[Söka efter resurser](/help/search.md)</li></ul> |
+| Hur identifierar jag resurser? | <ul> <li>[Bläddra i databasen](/help/navigate-view.md#view-assets-and-details) </li> <li> [Förhandsgranska ](/help/navigate-view.md#preview-assets) material och  [hämta resurser](/help/manage-organize.md#download) </li> <li>[Söka efter resurser](/help/search.md)</li></ul> |
 | Hur redigerar jag resurser i databasen? | <ul> <li>[Redigering i webbläsaren med Adobe Photoshop Express](/help/edit-images.md)</li> <li>[Beskär för en profil för sociala medier](/help/edit-images.md#crop-straighten-images)</li> <li>[Visa och hantera versioner](/help/manage-organize.md#view-versions)</li> <li>Använd [Adobe-resurslänk](/help/integration.md#integrations)</ul></ul> |
 | Hur söker jag efter resurser i databasen? | <ul> <li>[Sök i en viss mapp](/help/search.md#refine-search-results)</li> <li>[Sparade sökningar](/help/search.md#saved-search)</li> <li>[Sök efter nyligen visade resurser](/help/search.md)</li> <li>[Fulltextsökning](/help/search.md) |
 | Hur lägger jag till nya resurser? | <ul> <li>[Överför nya resurser och mappar](/help/add-delete.md#add-assets)</li> <li>[Övervaka överföringsförloppet och hantera överföringar](/help/add-delete.md#upload-progress)</li> <li>[Lös dubbletter](/help/add-delete.md#resolve-upload-fails)</li> </ul> |
+| Metadataåtgärder | <ul> <li>[Visa detaljerade metadata](/help/metadata.md) </li> <li> [Skapa nytt metadataformulär](/help/metadata.md#metadata-forms) </li> </ul> |
 | Kan [!DNL Assets Essentials] integreras med andra lösningar? | <ul> <li>[Använd resursväljaren i [!DNL Adobe Journey Optimizer]](/help/integration.md)</li> <li>[[!DNL Adobe Asset Link] for [!DNL Creative Cloud]](/help/integration.md)</li> <li>Integrering med [!DNL Creative Cloud Team]-bibliotek</li> </ul> |
 
 <!--TBD: Merge in above table when these use cases are documented/available.
