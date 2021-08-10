@@ -3,9 +3,9 @@ title: Hantera era digitala resurser
 description: Flytta, ta bort, kopiera, byta namn på, uppdatera och version av dina resurser i [!DNL Assets Essentials].
 role: User,Leader
 contentOwner: AG
-source-git-commit: 9bff6e8570ca05f60844cfd84ef3e695e07ae27b
+source-git-commit: 3f8ba14c702fb3ee0df61aa503c9064c33f94794
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Använd [!DNL Assets Essentials] för att utföra följande resurshanteringsåtg
 * ![details ](assets/do-not-localize/edit-in-icon.png) iconKlicka för att förhandsgranska en resurs och visa detaljerade metadata. När du förhandsgranskar kan du visa versionerna och redigera en bild.
 * ![hämtningsikon](assets/do-not-localize/download-icon.png) Hämta den valda resursen till det lokala filsystemet.
 * ![ta bort ](assets/do-not-localize/delete-icon.png) ikonTa bort den markerade resursen eller mappen.
-* Checka ut en resurs. <!-- ![checkout icon](assets/do-not-localize/checkout-icon.png) -->
+* ![utcheckningsikon](assets/do-not-localize/checkout-icon.png) Utcheckning av markerad resurs.
 * ![kopiera ](assets/do-not-localize/copy-icon.png) ikonKopiera den markerade filen eller mappen.
 * ![flytta ](assets/do-not-localize/move-icon.png) ikonFlytta den markerade resursen eller mappen till en annan plats i databashierarkin.
 * ![Byt namn på ](assets/do-not-localize/rename-icon.png) ikonByt namn på den markerade resursen eller mappen. Använd ett unikt namn, annars misslyckas namnbytet med en varning. Du kan försöka igen med ett nytt namn.
-* Tilldela uppgifter till andra användare för att samarbeta med en resurs. <!-- ![assign task icon](assets/do-not-localize/assign-task-icon.png) -->
+* ![tilldela ](assets/do-not-localize/review-delegate-icon.png) en uppgiftsikonTilldela uppgifter till andra användare för samarbete i en resurs.
 
 Du kan visa samma alternativ för miniatyrbilder av resurser.
 
