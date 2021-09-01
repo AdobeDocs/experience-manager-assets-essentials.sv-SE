@@ -3,9 +3,9 @@ title: Versionsinformation
 description: Versionsinformation och kända fel i [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
-source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
+source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den aktuella versionen av [!DNL Assets Essentials] släpps den 30 augusti 2021. Den innehåller integreringar med [!DNL Adobe Workfront] som gör att [!DNL Workfront]-användare kan hantera sina digitala resurser när de hanterar sitt arbete. Se [integreringar med andra Adobe-lösningar](/help/integration.md).
+Den aktuella versionen av [!DNL Assets Essentials] släpps den 30 augusti 2021. Den innehåller integreringar med [!DNL Adobe Workfront] som gör att [!DNL Workfront]-användare kan hantera sina digitala resurser när de hanterar sitt arbete. Mer information finns i [integreringar med andra Adobe-lösningar](/help/integration.md).
 
 Mer information om lösningen finns i [introduktionen till [!DNL Assets Essentials]](introduction.md). Information om hur du börjar använda funktionerna finns i [komma igång](/help/get-started.md).
 
@@ -46,4 +46,4 @@ Den första utgåvan av [!DNL Assets Essentials], som släpptes 21 juni 2021, er
 * Överför och lägg till resurser, inklusive kapslade mappar. Förhandsgranska resurserna och versionerna.
 * Fulltextsökning, nyansrika sökfilter och sparade sökningar för snabb resursidentifiering.
 * Grundläggande resurshanteringsåtgärder som att uppdatera, ta bort, hämta och hantera metadata.
-* [!DNL Assets Essentials] är tillgängligt för  [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html).
+* [!DNL Assets Essentials] är tillgängligt för  [!DNL Adobe Journey Optimizer] användare för att hantera resurser när de skapar meddelanden. Mer information finns i [integreringar med andra Adobe-lösningar](/help/integration.md).
