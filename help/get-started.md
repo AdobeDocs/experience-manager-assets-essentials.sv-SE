@@ -2,10 +2,11 @@
 title: Kom igång med  [!DNL Assets Essentials]
 description: Hur du får åtkomst till, kan logga in på, vilka användningsfall som stöds och kända problem i [!DNL Assets Essentials].
 role: User, Leader
-source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
+exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
+source-git-commit: f2c6ea9d31cc6eccf46216b52de254ca88ba1079
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 0%
+source-wordcount: '446'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +26,7 @@ Mer referensinformation som kan vara till hjälp är [förståelse av användarg
 
 ## Få åtkomst till [!DNL Assets Essentials] {#get-access}
 
-Adobe tillhandahåller lösningen och lägger till den utsedda personen från din organisation som administratör. Administratörerna kan ge åtkomst till olika användare i organisationen genom att använda [[!DNL Admin Console]](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/welcome.ug.html). Kontakta organisationens administratör för frågor som rör din åtkomst.
+Adobe tillhandahåller lösningen och lägger till den utsedda personen från din organisation som administratör. Administratörerna kan ge åtkomst till olika användare i organisationen genom att använda [[!DNL Admin Console]](https://helpx.adobe.com/enterprise/using/admin-console.html). Kontakta organisationens administratör för frågor som rör din åtkomst.
 
 ## Konfigurera [!DNL Assets Essentials] {#configuration}
 

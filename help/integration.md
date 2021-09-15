@@ -2,13 +2,13 @@
 title: Integrering med andra Adobe-lösningar
 description: '[!DNL Assets Essentials] integreras med andra Adobe-lösningar och ger en inbäddad upplevelse inifrån det inbyggda programmet.'
 role: User
-source-git-commit: 574ac781fc5c5dfdba0640b1032a50268947875d
+exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
+source-git-commit: f2c6ea9d31cc6eccf46216b52de254ca88ba1079
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 0%
+source-wordcount: '284'
+ht-degree: 1%
 
 ---
-
 
 # Integrering med andra Adobe-lösningar {#integrations}
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den inbäddade [!DNL Assets Essentials]-upplevelsen kan integreras med följande lösningar:
 
-* **[!DNL Creative Cloud for Enterprise]**:  [Adobe Asset Link ](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html) i appen-paneler ger kreatörer möjlighet att ansluta till  [!DNL Assets Essentials] databasen inifrån de  [!DNL Adobe Creative Cloud] datorprogram som stöds. Panelen är tillgänglig för [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] och [!DNL Adobe XD]. Det effektiviserar åtkomsten till resurser som i sin tur ökar innehållets hastighet. Se [hantera resurser med [!DNL Adobe Asset Link]](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-assets-using-adobe-asset-link.ug.html).
+* **[!DNL Creative Cloud for Enterprise]**:  [Adobe Asset Link ](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html) i appen-paneler ger kreatörer möjlighet att ansluta till  [!DNL Assets Essentials] databasen inifrån de  [!DNL Adobe Creative Cloud] datorprogram som stöds. Panelen är tillgänglig för [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] och [!DNL Adobe XD]. Det effektiviserar åtkomsten till resurser som i sin tur ökar innehållets hastighet. Se [hantera resurser med [!DNL Adobe Asset Link]](https://helpx.adobe.com/se/enterprise/using/manage-assets-using-adobe-asset-link.html).
 
 * **[!DNL Adobe Journey Optimizer]**:  [[!DNL Adobe Journey Optimizer]](https://business.adobe.com/products/journey-optimizer/adobe-journey-optimizer.html) förenklar hanteringen av kundresan och ger kunderna möjlighet att skapa flerkanalskampanjer med smarta beslut och insikter. När du utformar meddelanden med [!DNL Journey Optimizer] kan du komma åt [!DNL Assets Essentials]-databasen direkt från [!DNL Journey Optimizer]-gränssnittet. Användare får åtkomst till resurser med det inbäddade användargränssnittet i [!DNL Assets Essentials]. Se [använda [!DNL Assets Essentials] hjälpartikeln](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html) eller [videosjälvstudiekurs för att skapa e-postinnehåll](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html).
 
