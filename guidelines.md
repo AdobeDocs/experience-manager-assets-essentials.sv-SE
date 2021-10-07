@@ -1,5 +1,5 @@
 ---
-source-git-commit: 0dd6f278a75668c3ceafa2ad8d9d232bcecd56ba
+source-git-commit: 15070ea99308741242b43206ed69cf1dbddca890
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 4%
@@ -37,9 +37,9 @@ Undantag från den här regeln gäller versionsinformationen där kända problem
 
 Alla idéer du kan behöva förbättra [!DNL Experience Manager]-dokumentationen är välkomna som bidrag. Kommentarer, utgåvor och pull-begäranden är dock endast avsedda för *bidrag*. De är inte avsedda att användas för att besvara dina frågor om hur du använder [!DNL Experience Manager], implementerar ditt [!DNL Experience Manager]-projekt eller löser tekniska problem.
 
-Frågor om hur du använder [!DNL Experience Manager] eller tekniska fel som du kan ha gjort ska rapporteras via den normala supportprocessen via [[!DNL Experience Cloud] supportportalen](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support) eller diskuteras i [Experience Manager-communityn](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
+Frågor om hur du använder [!DNL Experience Manager] eller tekniska fel som du kan ha gjort ska rapporteras via den normala supportprocessen via [[!DNL Experience Manager] supportportalen](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support) eller diskuteras i [Experience Manager-communityn](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
-***[!DNL Experience Manager]Dokumentationsbidragen ersätter inte Adobe Customer*** Careoch eventuella bidrag som söker svar på supportrelaterade frågor kommer att refuseras.
+***[!DNL Experience Manager]Dokumentationsbidragen ersätter inte Adobe Customer*** Support och eventuella bidrag som söker svar på supportrelaterade frågor kommer att refuseras.
 
 ### Bidragen ska tydligt hänvisa till berörda dokumentationssidor.
 
@@ -63,7 +63,7 @@ Genom att följa dessa riktlinjer blir det enklare att granska ditt bidrag och d
 
 Kom ihåg att läsare av [!DNL Experience Manager]-dokumentation finns i hela världen och inte kan förväntas vara inbyggda eller flytande engelska högtalare. Undvik kollokvialism och håll språket så tydligt och enkelt som möjligt.
 
-#### Följ Microsoft-formathandboken
+#### Följ Microsoft formathandbok
 
 [Microsoft Manual of ](https://docs.microsoft.com/en-us/style-guide/welcome/) Style är en kostnadsfri handbok för dokumentationsformat som fokuserar på programvarudokumentation och - [!DNL Experience Manager] dokumentation. Handboken följer den när det är möjligt.
 
