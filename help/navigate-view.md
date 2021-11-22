@@ -2,13 +2,13 @@
 title: '[!DNL Assets Essentials] användargränssnitt'
 description: Förstå användargränssnittet för och navigering i [!DNL Assets Essentials].
 role: User
-source-git-commit: 6c050d55aadeffa59c989f5b8ff6fe67da0d4d86
+exl-id: 534a8084-88f7-410e-b872-719e47e62b10
+source-git-commit: 94467e029615514942f429069c0eb7248f44bab5
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
-
 
 # Navigera till filer och mappar och visa resurser {#view-assets-and-details}
 
@@ -16,25 +16,25 @@ ht-degree: 0%
 
 <!-- TBD: The options in left sidebar may change. Shared with me and Shared by me are missing for now. Update this section as UI is updated. -->
 
-## Förstå användargränssnittet för [!DNL Assets Essentials] {#understand-interface-navigation}
+## Förstå [!DNL Assets Essentials] användargränssnitt {#understand-interface-navigation}
 
 [!DNL Assets Essentials] har ett intuitivt och användarvänligt gränssnitt. Det rena gränssnittet gör det enkelt att hitta och komma ihåg resurser och relaterad information.
 
-När du loggar in på [!DNL Assets Essentials] visas följande gränssnitt.
+När du loggar in [!DNL Assets Essentials]visas följande gränssnitt.
 
 <!-- TBD: Update this screenshot. Remove top bar. Remove 2 labels from top bar. -->
 
 ![[!DNL Assets Essentials] användargränssnitt](assets/essentials-interface1.png)
 
 *Bild: Första inloggningsskärmen och var du hittar de utjämnade funktionerna.*
-     *S: Med vänster sidofält kan du bläddra i databasen och få tillgång till några andra alternativ.*
-     *B: Visa eller dölj det vänstra sidfältet för att öka resursens visningsområde.*
-     *C: Filtrera sökresultat.*
-     *D: Sökruta.*
-     *E: Alternativ för att sortera resurser.*
-     *F: Ge feedback.*
-     *G: Redigera dina användarinställningar eller logga ut.*
-     *H: Växla mellan olika vyer.*
+    *S: Med vänster sidofält kan du bläddra i databasen och få tillgång till några andra alternativ.*
+    *B: Visa eller dölj det vänstra sidfältet för att öka resursens visningsområde.*
+    *C: Filtrera sökresultat.*
+    *D: Sökruta.*
+    *E: Alternativ för att sortera resurser.*
+    *F: Ge feedback.*
+    *G: Redigera dina användarinställningar eller logga ut.*
+    *H: Växla mellan olika vyer.*
 
 <!-- TBD: Need an embedded video here with narration. It has to be hosted on MPC to be embeddable. -->
 
@@ -55,14 +55,14 @@ Du kan bläddra bland mapparna från huvudanvändargränssnittet eller från vä
 
 Du kan öppna eller komprimera det vänstra sidofältet om du vill öka det tillgängliga området för visning av resurser.
 
-I [!DNL Assets Essentials] kan du visa resurser, mappar och sökresultat i fyra olika typer av layouter.
+I [!DNL Assets Essentials]kan du visa resurser, mappar och sökresultat i fyra olika typer av layouter.
 
 * ![ikon för listvy](assets/do-not-localize/list-view.png) [!UICONTROL List View]
 * ![ikon för stödrastervyn](assets/do-not-localize/grid-view.png) [!UICONTROL Grid View]
 * ![gallerivy, ikon](assets/do-not-localize/gallery-view.png) [!UICONTROL Gallery View]
 * ![ikon för vattenfallsvy](assets/do-not-localize/waterfall-view.png) [!UICONTROL Waterfall View]
 
-Om du vill hitta en resurs kan du sortera resurserna i stigande eller fallande ordning `Name`, `Relevancy`, `Size`, `Modified` och `Created`.
+Om du vill hitta en resurs kan du sortera resurserna i stigande eller fallande ordning efter `Name`, `Relevancy`, `Size`, `Modified`och `Created`.
 
 Om du vill navigera till en mapp dubbelklickar du på mappens miniatyrbilder eller väljer mappen från vänster sidopanel. Om du vill visa information om en mapp markerar du den och klickar på Information i verktygsfältet högst upp. Om du vill navigera uppåt och nedåt i hierarkin använder du vänster sidospalt eller de synliga spåren högst upp.
 
@@ -74,7 +74,7 @@ Om du vill navigera till en mapp dubbelklickar du på mappens miniatyrbilder ell
 
 Innan du använder, delar eller hämtar en resurs kan du visa den närmare. Med förhandsvisningsfunktionen kan du visa inte bara bilderna utan även några andra resurstyper som stöds.
 
-Om du vill förhandsgranska en resurs markerar du den och klickar på [!UICONTROL Details] ![informationsikonen](assets/do-not-localize/edit-in-icon.png) i verktygsfältet högst upp. Du kan inte bara visa resursen utan även visa detaljerade metadata och vidta andra åtgärder.
+Om du vill förhandsgranska en resurs markerar du den och klickar på [!UICONTROL Details] ![informationsikon](assets/do-not-localize/edit-in-icon.png) i verktygsfältet högst upp. Du kan inte bara visa resursen utan även visa detaljerade metadata och vidta andra åtgärder.
 
 ![Förhandsgranska en resurs](assets/preview-asset.png)
 
@@ -91,11 +91,16 @@ Om du vill förhandsgranska en resurs markerar du den och klickar på [!UICONTRO
 *K: Förhandsgranska mer ingående. Zooma, helskärmsläge och andra alternativ.*
 *L: Gå till föregående eller nästa resurs i den aktuella mappen utan att gå tillbaka till mappen.*
 
+Du kan också förhandsgranska videoklipp.
+
+![Videoförhandsgranskning](/help/assets/preview-video.png)
+
+Om du förhandsgranskar en resurs explicit [!DNL Assets Essentials] visar det som en nyligen visad resurs.
+
 <!-- TBD: Describe the options.
 
 Explicitly previewed assets are displayed as recently viewed assets. Give screenshot of this.
 Other use cases after previewing.
-
 -->
 
 >[!MORELIKETHIS]
