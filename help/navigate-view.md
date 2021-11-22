@@ -3,7 +3,7 @@ title: '[!DNL Assets Essentials] användargränssnitt'
 description: Förstå användargränssnittet för och navigering i [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 94467e029615514942f429069c0eb7248f44bab5
+source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -26,7 +26,7 @@ När du loggar in [!DNL Assets Essentials]visas följande gränssnitt.
 
 ![[!DNL Assets Essentials] användargränssnitt](assets/essentials-interface1.png)
 
-*Bild: Första inloggningsskärmen och var du hittar de utjämnade funktionerna.*
+*Bild: Första skärmen efter inloggning och placering av de utjämnade funktionerna.*
     *S: Med vänster sidofält kan du bläddra i databasen och få tillgång till några andra alternativ.*
     *B: Visa eller dölj det vänstra sidfältet för att öka resursens visningsområde.*
     *C: Filtrera sökresultat.*
