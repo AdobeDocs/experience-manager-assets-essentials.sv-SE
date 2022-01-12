@@ -4,9 +4,9 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 0c849c92562f9102819aaea627f5945030b27a1e
+source-git-commit: 01814dace83fec64851d7ccf97a0f4bb22519ee3
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Mer information om lösningen finns i [introduktion till [!DNL Assets Essentials
 
 Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
 
-* Det går inte att överföra enskilda resurser till den översta mappen (Resurser), endast till en undermapp i systemet. <!-- CQ-4337638 -->
+* Inget
 
 Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
 
