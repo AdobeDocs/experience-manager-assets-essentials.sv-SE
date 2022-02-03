@@ -4,7 +4,7 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 73d5e66cfb2315f730329b5db9e6e648c1fe017d
+source-git-commit: a72c3399fabd37c561f3c51e51029810d038ae40
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den aktuella versionen av [!DNL Assets Essentials] släpps den 27 januari 2022. I den här versionen:
+Den aktuella versionen av [!DNL Assets Essentials] släpps den 3 februari 2022. I den här versionen:
 
 * [!DNL Assets Essentials] gör att du nu kan skapa en länk och dela resurser med andra som inte har tillgång till [!DNL Assets Essentials] program. Du kan definiera: <!-- CQ-4329575 -->
 
