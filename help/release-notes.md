@@ -4,22 +4,26 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 01814dace83fec64851d7ccf97a0f4bb22519ee3
+source-git-commit: 73d5e66cfb2315f730329b5db9e6e648c1fe017d
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den aktuella versionen av [!DNL Assets Essentials] släpps den 16 december 2021. I den här versionen:
+Den aktuella versionen av [!DNL Assets Essentials] släpps den 27 januari 2022. I den här versionen:
 
-* Adobe distribuerar Assets Essentials automatiskt när provisioneringsprocessen är slutförd. Administratörerna behöver inte utföra ytterligare steg för att distribuera Assets Essentials med [!DNL Cloud Manager] användargränssnitt. Den här automatiska distributionen kommer att vara tillgänglig för miljöer som etablerats efter den 6 januari 2022.
-* Nya versioner av Creative Cloud-plugin-program som fungerar med Assets Essentials finns på Adobe Exchange - [Adobe Asset Link for Adobe XD v 2.1.0](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9) och [Adobe Asset Link for Photoshop / InDesign / Illustrator v 3.1.65](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html).
-* Olika felkorrigeringar och produktförbättringar, inklusive tidigare kända fel (mapparna visas nu korrekt i det vänstra navigeringsträdet efter överföringen<!-- CQ-4337638 -->kan användaren välja antingen aktuell mapp eller en undermapp när den släpps för överföring genom att dra och släppa<!-- CQ-4327753 -->).
+* [!DNL Assets Essentials] gör att du nu kan skapa en länk och dela resurser med andra som inte har tillgång till [!DNL Assets Essentials] program. Du kan definiera: <!-- CQ-4329575 -->
 
-Mer information om lösningen finns i [introduktion till [!DNL Assets Essentials]](introduction.md). Information om hur du börjar använda funktionerna finns i [komma igång](/help/get-started.md).
+   * Ett förfallodatum för länken
+
+   * Om mottagarna får ladda ned resursen efter att ha öppnat länken.
+
+   Baserat på de här inställningarna kan mottagaren av länken välja att förhandsgranska resurserna eller hämta dem.
+
+* Prestandaförbättringar för [!UICONTROL Create Folder] operation. <!-- CQ-4338818 -->
 
 ## Kända fel {#known-issues}
 
@@ -30,6 +34,14 @@ Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och upp
 Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
 
 ## Tidigare versioner {#past-release}
+
+### 2021.11.0-utgåvan {#november-2021}
+
+[!DNL Assets Essentials] släpps den 16 december 2021, med följande uppdateringar:
+
+* Adobe distribuerar Assets Essentials automatiskt när provisioneringsprocessen är slutförd. Administratörerna behöver inte utföra ytterligare steg för att distribuera Assets Essentials med [!DNL Cloud Manager] användargränssnitt. Den här automatiska distributionen kommer att vara tillgänglig för miljöer som etablerats efter den 6 januari 2022.
+* Nya versioner av Creative Cloud-plugin-program som fungerar med Assets Essentials finns på Adobe Exchange - [Adobe Asset Link for Adobe XD v 2.1.0](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9) och [Adobe Asset Link for Photoshop / InDesign / Illustrator v 3.1.65](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html).
+* Olika felkorrigeringar och produktförbättringar, inklusive tidigare kända fel (mapparna visas nu korrekt i det vänstra navigeringsträdet efter överföringen<!-- CQ-4337638 -->kan användaren välja antingen aktuell mapp eller en undermapp när den släpps för överföring genom att dra och släppa<!-- CQ-4327753 -->).
 
 ### 2021.8.0-utgåvan {#august2021}
 
