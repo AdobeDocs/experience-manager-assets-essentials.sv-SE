@@ -4,24 +4,16 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: a72c3399fabd37c561f3c51e51029810d038ae40
+source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den aktuella versionen av [!DNL Assets Essentials] släpps den 3 februari 2022. I den här versionen:
-
-* [!DNL Assets Essentials] gör att du nu kan skapa en länk och dela resurser med andra som inte har tillgång till [!DNL Assets Essentials] program. Du kan definiera: <!-- CQ-4329575 -->
-
-   * Ett förfallodatum för länken
-
-   * Om mottagarna får ladda ned resursen efter att ha öppnat länken.
-
-   Baserat på de här inställningarna kan mottagaren av länken välja att förhandsgranska resurserna eller hämta dem.
+Den aktuella versionen av [!DNL Assets Essentials] släpps den 3 februari 2022. Den här versionen innehåller:
 
 * Prestandaförbättringar för [!UICONTROL Create Folder] operation. <!-- CQ-4338818 -->
 
