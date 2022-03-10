@@ -4,18 +4,27 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
+source-git-commit: 211233202b667f9d25713491c8ae59e002139777
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den aktuella versionen av [!DNL Assets Essentials] släpps den 3 februari 2022. Den här versionen innehåller:
+Den aktuella versionen av [!DNL Assets Essentials] släpps den 3 mars 2022. Den här versionen innehåller:
 
-* Prestandaförbättringar för [!UICONTROL Create Folder] operation. <!-- CQ-4338818 -->
+* [!DNL Assets Essentials] nu kan du [skapa en länk och dela resurser med externa intressenter](share-links-for-assets.md), som inte har tillgång till [!DNL Assets Essentials] program. Du kan definiera ett förfallodatum för länken och sedan dela det med andra via den kommunikationsmetod du föredrar, som e-post eller meddelandetjänster. Mottagarna av länken kan förhandsgranska resurser och hämta dem.
+
+* The [!DNL Assets Essentials] nu omfattar [en administratörsproduktprofil](deploy-administer.md#add-users-to-essentials) på Admin Console utöver de befintliga vanliga produktprofilerna och konsumentproduktprofilerna. En administratör kan nu tilldela andra användare till administratörens produktprofil.
+
+* Assets Essentials tillåter nu administratörer att [hantera åtkomstnivåer för mappar som är tillgängliga i databasen](manage-permissions.md). Som administratör kan du skapa användargrupper och tilldela behörigheter till dessa grupper för att hantera åtkomstnivåer. Du kan även delegera behörighetshanteringsprivilegier till användargrupper på mappnivå.
+
+* Förbättringar och felkorrigeringar som bygger på kundfeedback.
+
+Dessutom [!DNL Adobe Asset Link] för Creative Cloud (Photoshop, Illustrator och InDesign) lanserade [ny version 3.2.0](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html), med prestandaförbättringar för panelens starttid och hämtningshastighet.
+
 
 ## Kända fel {#known-issues}
 
@@ -26,6 +35,12 @@ Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och upp
 Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
 
 ## Tidigare versioner {#past-release}
+
+### 2022.1.0-utgåvan {#january-2022}
+
+[!DNL Assets Essentials] släpps den 3 februari 2022 med följande uppdateringar:
+
+* Prestandaförbättringar för [!UICONTROL Create Folder] operation. <!-- CQ-4338818 -->
 
 ### 2021.11.0-utgåvan {#november-2021}
 

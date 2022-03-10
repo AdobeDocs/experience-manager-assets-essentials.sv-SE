@@ -8,10 +8,10 @@ user-guide-description: Assets Essentials är en enkel resurshanteringslösning 
 feature-set: Experience Manager Assets,Experience Manager
 feature: Asset Management
 role: User,Leader
-source-git-commit: eb6822a1e813b6c7687ba3d797e4f43b3c1ef2a0
+source-git-commit: be84c4c7a5e2f3220cde54f1d01007e9dacf183a
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 3%
+source-wordcount: '77'
+ht-degree: 5%
 
 ---
 
@@ -21,6 +21,9 @@ ht-degree: 3%
 + [Översikt över lösningar](introduction.md)
 + [Versionsinformation](release-notes.md)
 + [Distribuera och lägga till användare](deploy-administer.md)
++ Hantera mappåtkomst{#folder-access}
+   + [Hantera mappbehörigheter](manage-permissions.md)
+   + [Bästa tillvägagångssätt för behörighetshantering](permission-management-best-practices.md)
 + [Kom igång med [!DNL Assets Essentials]](get-started.md)
 + [Filtyper och användningsområden som stöds](supported-file-formats.md)
 + [Visa resurser](navigate-view.md)
@@ -29,4 +32,5 @@ ht-degree: 3%
 + [Resurshanteringsaktiviteter](manage-organize.md)
 + [Redigera bilder](edit-images.md)
 + [Hantera metadata för resurser](metadata.md)
++ [Dela resurser](share-links-for-assets.md)
 + [Integration med andra lösningar](integration.md)
