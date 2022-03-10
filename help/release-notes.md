@@ -4,7 +4,7 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 211233202b667f9d25713491c8ae59e002139777
+source-git-commit: 4cced7aba92fd0f041842e5ef78d02f0a4f7ffe0
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den aktuella versionen av [!DNL Assets Essentials] släpps den 3 mars 2022. Den här versionen innehåller:
+Den aktuella versionen av [!DNL Assets Essentials] släpps den 9 mars 2022. Den här versionen innehåller:
 
 * [!DNL Assets Essentials] nu kan du [skapa en länk och dela resurser med externa intressenter](share-links-for-assets.md), som inte har tillgång till [!DNL Assets Essentials] program. Du kan definiera ett förfallodatum för länken och sedan dela det med andra via den kommunikationsmetod du föredrar, som e-post eller meddelandetjänster. Mottagarna av länken kan förhandsgranska resurser och hämta dem.
 
@@ -23,7 +23,7 @@ Den aktuella versionen av [!DNL Assets Essentials] släpps den 3 mars 2022. Den 
 
 * Förbättringar och felkorrigeringar som bygger på kundfeedback.
 
-Dessutom [!DNL Adobe Asset Link] för Creative Cloud (Photoshop, Illustrator och InDesign) lanserade [ny version 3.2.0](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html), med prestandaförbättringar för panelens starttid och hämtningshastighet.
+Dessutom [!DNL Adobe Asset Link] för Creative Cloud (Photoshop, Illustrator och InDesign) lanserade [ny version 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html), med prestandaförbättringar för panelens starttid och hämtningshastighet.
 
 
 ## Kända fel {#known-issues}
