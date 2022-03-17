@@ -2,7 +2,7 @@
 title: Hur hanterar jag behörigheter för mappar i AEM Assets Essentials?
 description: I Assets Essentials kan administratörer hantera åtkomstnivåerna för de mappar som är tillgängliga i databasen. Skapa användargrupper och tilldela behörigheter till dessa grupper för att hantera åtkomstnivåer. Som administratör kan du även delegera behörighetshanteringsbehörighet till användargrupper på mappnivå.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 94435a9fc17ab02c6872bb165a4cb697b56d5602
+source-git-commit: 424517e7961bcc39cd3048ebc750fe1b4b06f659
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 0%
@@ -93,13 +93,13 @@ Om du till exempel tilldelar `Can View` behörigheter för en mapp till en över
 
 Om du behöver ange redigeringsbehörigheter för `Marketing` mapp endast till din organisations marknadsföringsavdelning och visa behörigheter för andra, tilldela `Can View` behörigheter till supergrupp `All Authenticated Users` och `Can Edit` behörigheter till undergruppen `Marketing`.
 
-![Tilldela behörigheter](assets/permissions-management-groups-new.png)
+![Tilldela behörigheter](assets/permissions-management-groups.svg)
 
 **Tillståndsarv**
 
 I Assets Essentials används behörighetsarv, vilket gör att du kan ärva behörighetsuppsättningen för den överordnade mappen i den underordnade mappen. Om den överordnade mappen till exempel har `Can View` behörigheter för `All Authenticated Users` gruppen och den underordnade mappen har `Can Edit` behörigheter för `Marketing` användargrupp, aktiverar det för alla autentiserade användare att ha visningsbehörighet för den underordnade mappen och `Marketing` användargrupp som ska ha redigeringsbehörighet för den underordnade mappen. The `Marketing` användargruppen har redigeringsbehörighet för ytterligare mappnivåer under den underordnade mappen (Marketing).
 
-![Tilldela behörigheter](assets/permissions-inheritance-new.png)
+![Tilldela behörigheter](assets/permissions-inheritance.svg)
 
 >[!NOTE]
 >
