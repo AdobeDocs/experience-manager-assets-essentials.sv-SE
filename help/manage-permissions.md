@@ -2,7 +2,7 @@
 title: Hur hanterar jag behörigheter för mappar i AEM Assets Essentials?
 description: I Assets Essentials kan administratörer hantera åtkomstnivåerna för de mappar som är tillgängliga i databasen. Skapa användargrupper och tilldela behörigheter till dessa grupper för att hantera åtkomstnivåer. Som administratör kan du även delegera behörighetshanteringsbehörighet till användargrupper på mappnivå.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 68bfd7cb55b38e12ee0f5b8f12449c7137e02e90
+source-git-commit: 98879f59bd1bb5725f51f91bfa638f2de6759e9a
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 0%
@@ -15,7 +15,7 @@ I Assets Essentials kan administratörer hantera åtkomstnivåerna för de mappa
 
 I följande dataflödesdiagram visas de åtgärder som du utför för att konfigurera och hantera behörigheter för mappar som är tillgängliga i Assets Essentials-databasen:
 
-![Alternativ i verktygsfältet när du väljer en resurs](assets/permissions-management.png)
+![Alternativ i verktygsfältet när du väljer en resurs](assets/permissions-management-updated.png)
 
 ## Innan du hanterar behörigheter för mappar {#before-managing-permissions}
 
@@ -93,7 +93,7 @@ Om du till exempel tilldelar `Can View` behörigheter för en mapp till en över
 
 Om du behöver ange redigeringsbehörigheter för `Marketing` mapp endast till din organisations marknadsföringsavdelning och visa behörigheter för andra, tilldela `Can View` behörigheter till supergrupp `All Authenticated Users` och `Can Edit` behörigheter till undergruppen `Marketing`.
 
-![Tilldela behörigheter](assets/permissions-management-groups.png)
+![Tilldela behörigheter](assets/permissions-management-groups-updated.png)
 
 **Tillståndsarv**
 
@@ -183,7 +183,7 @@ Skapa följande användargrupper i Admin Console:
 * Jurister
 
 I följande diagram visas mapphierarkin och de behörigheter som tilldelats respektive användargrupp:
-![Tilldela behörigheter](assets/use-case-permissions-mamagement.png)
+![Tilldela behörigheter](assets/use-case-permissions-management.png)
 
 Följande åtkomstnivåer gäller för alla användargrupper i mapphierarkin:
 
