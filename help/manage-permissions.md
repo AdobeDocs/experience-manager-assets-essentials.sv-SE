@@ -2,7 +2,7 @@
 title: Hur hanterar jag behörigheter för mappar i AEM Assets Essentials?
 description: I Assets Essentials kan administratörer hantera åtkomstnivåerna för de mappar som är tillgängliga i databasen. Skapa användargrupper och tilldela behörigheter till dessa grupper för att hantera åtkomstnivåer. Som administratör kan du även delegera behörighetshanteringsbehörighet till användargrupper på mappnivå.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 424517e7961bcc39cd3048ebc750fe1b4b06f659
+source-git-commit: 57aa6f4641deb8cc687a462a380404e8fc3b6844
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Du kan använda följande metoder för att skapa en mappstruktur i Assets Essent
 
 Skapa en mappstruktur som fungerar bra med organisationens affärsmål. Om du överför en befintlig mappstruktur till Assets Essentials-databasen bör du granska strukturen. Mer information finns i [Effektiv behörighetshantering](permission-management-best-practices.md).
 
-## Hantera behörigheter för mappar {#manage-permissions-folders}
+## Hantera behörigheter för mappar {#manage-permissions-on-folders}
 
 Du kan tilldela följande behörigheter till användargrupperna eller användarna. Adobe rekommenderar inte att du tilldelar behörigheter till användare.
 
