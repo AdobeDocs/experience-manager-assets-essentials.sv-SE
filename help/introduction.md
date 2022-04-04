@@ -3,9 +3,9 @@ title: Introduktion till [!DNL Assets Essentials]
 description: Assets Essentials i korthet
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
-source-git-commit: ecc36da0de9e4e7075085251aacdaf92640311a6
+source-git-commit: c95717e9898ade023d785b9d0191f4bc20f10a39
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,15 @@ ht-degree: 0%
 
 Adobe erbjuder en robust DAM-lösning (Digital Asset Management) så att ni får ut mesta möjliga av era digitala resurser. Som en del av Adobe Experience Manager produktserie erbjuder Adobe en ny SaaS-lösning för att lagra, hantera och upptäcka digitala resurser som också kan integreras med andra Adobe-lösningar.
 
-[!DNL Experience Manager Assets Essentials] är en ny lättviktig utgåva av [!DNL Adobe Experience Manager Assets]. [!DNL Assets Essentials] tillhandahålla enhetlig resurshantering och samarbete med ett förenklat och enhetligt användargränssnitt. Tack vare den lättanvända tekniken kan fler kreatörer och marknadsförare lagra, upptäcka och distribuera digitala resurser. För närvarande [!DNL Assets Essentials] är tillgänglig för [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html) som en del av den senare lösningen.
+[!DNL Experience Manager Assets Essentials] är en ny lättviktig utgåva av [!DNL Adobe Experience Manager Assets]. [!DNL Assets Essentials] tillhandahålla enhetlig resurshantering och samarbete med ett förenklat och enhetligt användargränssnitt. Tack vare den lättanvända tekniken kan fler kreatörer och marknadsförare lagra, upptäcka och distribuera digitala resurser. För närvarande är den inbäddade [!DNL Assets Essentials] upplevelsen kan integreras med följande lösningar:
+
+* Creative Cloud for Enterprise
+
+* Adobe Journey Optimizer
+
+* Adobe Workfront
+
+Mer information finns i [Integrering med andra Adobe-lösningar](integration.md).
 
 [!DNL Assets Essentials] fokuserar på ett enkelt gränssnitt och effektiv sökning och upptäckt av digitala resurser för att säkerställa resursanvändning, styrning och varumärkestrohet mellan olika team. Slutanvändarupplevelsen kan vara via ett fristående webbanvändargränssnitt och en inbyggd upplevelse i andra Adobe-lösningar.
 
