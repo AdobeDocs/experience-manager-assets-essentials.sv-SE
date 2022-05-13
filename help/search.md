@@ -1,16 +1,16 @@
 ---
-title: Söka efter och identifiera resurser i [!DNL Assets Essentials]
-description: Sök och upptäck resurser i [!DNL Assets Essentials].
+title: Sök efter och hitta resurser i [!DNL Assets Essentials]
+description: Sök efter och hitta resurser i [!DNL Assets Essentials].
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+exl-id: be9597a3-056c-436c-a09e-15a03567c85a
+source-git-commit: 0420b0836affe453cced6789ea4a7c56660e9f0a
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '663'
 ht-degree: 1%
 
 ---
 
-
-# Sök efter resurser i [!DNL Assets Essentials] {#search-assets}
+# Sök resurser i [!DNL Assets Essentials] {#search-assets}
 
 [!DNL Assets Essentials] innehåller effektiva sökfunktioner som bara fungerar som standard. Sökningen är omfattande eftersom den består av fulltextsökning. Med de kraftfulla sökfunktionerna kan du snabbt hitta rätt resurs och hjälpa dig att förbättra innehållets hastighet. [!DNL Assets Essentials] innehåller fulltextsökning och till och med sökningar via metadata som smarta taggar, titel, skapad den och copyright.
 
@@ -32,21 +32,83 @@ Du kan filtrera sökresultaten baserat på följande parametrar.
 
 *Bild: Filtrera sökningar efter resurser baserat på olika parametrar.*
 
-* Filtyp: Filtrera sökresultaten efter de filtyper som stöds, `Images`, `Documents` och `Videos`.
+* Resursstatus: Filtrera sökresultaten med en `Approved` eller `Rejected` tillgångsstatus.
+
+* Filtyp: Filtrera sökresultaten efter de filtyper som stöds, det vill säga `Images`, `Documents`och `Videos`.
 * MIME-typ: Filtrera efter ett eller flera filformat som stöds. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
 * Bildstorlek: Ange en eller flera av de minsta och högsta måtten för att filtrera bilder. Storleken anges i pixeldimensioner och är inte bildens filstorlek.
 * Skapa datum: Skapandedatumet för resursen enligt metadatan. Standarddatumformatet som används är `yyyy-mm-dd`.
 * Ändringsdatum: Senaste ändringsdatum för resurserna. Standarddatumformatet som används är `yyyy-mm-dd`.
 
-Du kan sortera de sökda resurserna i stigande eller fallande ordning `Name`, `Relevancy`, `Size`, `Modified` och `Created`.
+Du kan sortera de sökda resurserna i stigande eller fallande ordning efter `Name`, `Relevancy`, `Size`, `Modified`och `Created`.
+
+## Hantera anpassade filter {#custom-filters}
+
+**Behörigheter krävs:**  `Can Edit`, `Owner`eller Administratör.
+
+Med Assets Essentials kan du också lägga till egna filter i användargränssnittet. Du kan sedan använda dessa anpassade filter utöver [standardfilter](#refine-search-results) för att förfina sökresultaten.
+
+Assets Essentials har följande anpassade filter:
+
+<table>
+    <tbody>
+     <tr>
+      <th><strong>Eget filternamn</strong></th>
+      <th><strong>Beskrivning</strong></th>
+     </tr>
+     <tr>
+      <td>Titel</td>
+      <td>Filtrera resurser med resursens titel. Titeln som du anger i det skiftlägeskänsliga sökvillkoret måste matcha den exakta titeln för resursen som ska visas i resultatet.</td>
+     </tr>
+     <tr>
+      <td>Namn</td>
+      <td>Filtrera resurser med resursfilens namn. Namnet som du anger i det skiftlägeskänsliga sökvillkoret måste matcha det exakta filnamnet på resursen som ska visas i resultatet.</td>
+     </tr>
+     <tr>
+      <td>Resursstorlek</td>
+      <td>Filtrera resurser genom att definiera ett storleksintervall, i byte, i sökvillkoren för en resurs som ska visas i resultaten.</td>
+     </tr>
+     <tr>
+      <td>Förutsedda taggar</td>
+      <td>Filtrera resurser med den smarta resurstaggen. Det smarta taggnamn som du anger i de skiftlägeskänsliga sökvillkoren måste matcha det exakta smarta taggnamnet för resursen som ska visas i resultatet. Du kan inte ange flera smarta taggar i sökvillkoren.</td>
+     </tr>    
+    </tbody>
+   </table>
+
+### Lägga till egna filter {#add-custom-filters}
+
+Så här lägger du till anpassade filter:
+
+1. Klicka på **[!UICONTROL Filters]**.
+
+1. I **[!UICONTROL Custom Filters]** avsnitt, klicka **[!UICONTROL Edit]** eller **[!UICONTROL Add Filters]**.
+
+   ![Lägga till egna filter](assets/add-custom-filters.png)
+
+1. På **[!UICONTROL Custom filters management]** väljer du de filter som du vill lägga till i den befintliga filterlistan. Välj **[!UICONTROL Custom Filters]** om du vill markera alla filter.
+
+1. Klicka **[!UICONTROL Confirm]** för att lägga till filter i användargränssnittet.
+
+### Ta bort egna filter {#remove-custom-filters}
+
+Så här tar du bort anpassade filter:
+
+1. Klicka på **[!UICONTROL Filters]**.
+
+1. I **[!UICONTROL Custom Filters]** avsnitt, klicka **[!UICONTROL Edit]**.
+
+1. På **[!UICONTROL Custom filters management]** avmarkerar du de filter som du vill ta bort från den befintliga filterlistan.
+
+1. Klicka **[!UICONTROL Confirm]** för att ta bort filtren från användargränssnittet.
+
 
 ## Sparade sökningar {#saved-search}
 
 Sökfunktionen är mycket enkel att använda i [!DNL Assets Essentials]. I sökrutan kan du inte bara skriva ett nyckelord och trycka på Retur för att se resultatet. Du kan också snabbt söka igen efter dina nyligen sökta nyckelord med ett enda klick.
 
-Du kan också filtrera sökresultaten baserat på specifika villkor runt metadata och resurstyp. För filter som används ofta kan du spara sökparametrarna med [!DNL Assets Essentials] för att förbättra sökupplevelsen. Du kan sedan markera den sparade sökningen och använda filtret med bara ett klick.
+Du kan också filtrera sökresultaten baserat på specifika villkor runt metadata och resurstyp. För filter som används ofta, för att förbättra sökupplevelsen, [!DNL Assets Essentials] I kan du spara sökparametrarna. Du kan sedan markera den sparade sökningen och använda filtret med bara ett klick.
 
-Om du vill skapa en sparad sökning söker du efter en resurs, använder ett eller flera filter och klickar på [!UICONTROL Save Search] på panelen [!UICONTROL Filters].
+Om du vill skapa en sparad sökning söker du efter en resurs, använder ett eller flera filter och klickar på [!UICONTROL Save Search] i [!UICONTROL Filters] -panelen.
 
 ![Sparad sökning från panelen Filter](assets/saved-search.png)
 

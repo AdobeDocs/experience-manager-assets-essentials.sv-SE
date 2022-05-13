@@ -2,18 +2,52 @@
 title: Versionsinformation
 description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
-contentOwner: AG
+contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 4cced7aba92fd0f041842e5ef78d02f0a4f7ffe0
+source-git-commit: 7c4bc88e2110ff1dd7442af303bdd2c586ba5a6f
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den aktuella versionen av [!DNL Assets Essentials] släpps den 9 mars 2022. Den här versionen innehåller:
+Den aktuella versionen av [!DNL Assets Essentials] släpps den 12 maj 2022. Den här versionen innehåller:
+
+* [!DNL Assets Essentials] nu har stöd för [skapa samlingar](manage-collections.md). En samling är en uppsättning resurser i Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare. Till skillnad från mappar kan en samling innehålla resurser från olika platser.
+
+* Nu kan Assets Essentials även [lägga till egna filter](search.md#custom-filters) till användargränssnittet. Du kan sedan använda dessa anpassade filter utöver standardfiltren för att förfina sökresultaten.
+
+* Nu kan du [ange status](manage-organize.md#set-asset-status) på resurser som är tillgängliga i databasen. Ange en resursstatus som bättre styr och hanterar nedströmsanvändningen av digitala resurser.
+
+* Förbättringar och felkorrigeringar som bygger på kundfeedback.
+
+## Inkognitoläge i Chrome {#incognito-mode}
+
+I den här versionen optimerar vi prestanda för gränssnittsleverans och specifika funktioner i Assets Essentials - som kommenterar resurser och bildredigering - beroende på att webblagring och tredjepartskcookies är aktiverade. Inkognitoläget i webbläsaren Chrome blockerar cookies från tredje part som standard - användarna har ett antal alternativ för att fortsätta få tillgång till alla funktioner:
+
+* Använd Chrome-profiler i stället för Incognito-läge när användaren behöver separata webbläsarsessioner
+
+* Stäng av `Block third-party cookies` på skärmen Inkognito-läge i Chrome
+
+## Kända fel {#known-issues}
+
+Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
+
+* Du kan inte filtrera resurser med `No Status` tillgångsstatus.
+
+* Du kan inte bläddra till eller söka efter en resurs med en `Expired` status. Du kan bara komma åt resursen via en djup länk eller en URL.
+
+* Assets Essentials stöder inte skapande av privata samlingar.
+
+Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
+
+## Tidigare versioner {#past-release}
+
+### 2022.2.0 {#march-2022}
+
+[!DNL Assets Essentials] släpps den 9 mars 2022 med följande uppdateringar:
 
 * [!DNL Assets Essentials] nu kan du [skapa en länk och dela resurser med externa intressenter](share-links-for-assets.md), som inte har tillgång till [!DNL Assets Essentials] program. Du kan definiera ett förfallodatum för länken och sedan dela det med andra via den kommunikationsmetod du föredrar, som e-post eller meddelandetjänster. Mottagarna av länken kan förhandsgranska resurser och hämta dem.
 
@@ -25,16 +59,6 @@ Den aktuella versionen av [!DNL Assets Essentials] släpps den 9 mars 2022. Den 
 
 Dessutom [!DNL Adobe Asset Link] för Creative Cloud (Photoshop, Illustrator och InDesign) lanserade [ny version 3.2](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html), med prestandaförbättringar för panelens starttid och hämtningshastighet.
 
-
-## Kända fel {#known-issues}
-
-Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
-
-* Inget
-
-Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
-
-## Tidigare versioner {#past-release}
 
 ### 2022.1.0-utgåvan {#january-2022}
 

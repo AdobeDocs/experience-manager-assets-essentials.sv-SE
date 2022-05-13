@@ -3,17 +3,17 @@ title: Hantera era digitala resurser
 description: Flytta, ta bort, kopiera, byta namn på, uppdatera och version av dina resurser i [!DNL Assets Essentials].
 role: User,Leader
 contentOwner: AG
-source-git-commit: eda2ba0d271310d0e87f904dc7622583a80d002e
+exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
+source-git-commit: e8bae7cb2b424fe6956247398398e86f559db67f
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
 
-
 # Hantera resurser {#manage-assets}
 
-Du kan enkelt utföra olika DAM-åtgärder (Digital Asset Management) med det användarvänliga gränssnittet i [!DNL Assets Essentials]. När du har lagt till resurserna kan du söka efter, hämta, flytta, kopiera, byta namn på, ta bort, uppdatera och redigera dina resurser.
+Du kan enkelt utföra olika DAM-åtgärder med det användarvänliga gränssnittet i [!DNL Assets Essentials]. När du har lagt till resurserna kan du söka efter, hämta, flytta, kopiera, byta namn på, ta bort, uppdatera och redigera dina resurser.
 
 Använd [!DNL Assets Essentials] för att utföra följande resurshanteringsåtgärder. När du markerar en resurs visas följande alternativ i verktygsfältet högst upp.
 
@@ -21,15 +21,15 @@ Använd [!DNL Assets Essentials] för att utföra följande resurshanteringsåtg
 
 *Bild: Alternativ som är tillgängliga i verktygsfältet för en markerad bild.*
 
-* ![avmarkera ](assets/do-not-localize/close-icon.png) ikonAvmarkera markeringen.
-* ![details ](assets/do-not-localize/edit-in-icon.png) iconKlicka för att förhandsgranska en resurs och visa detaljerade metadata. När du förhandsgranskar kan du visa versionerna och redigera en bild.
-* ![hämtningsikon](assets/do-not-localize/download-icon.png) Hämta den valda resursen till det lokala filsystemet.
-* ![ta bort ](assets/do-not-localize/delete-icon.png) ikonTa bort den markerade resursen eller mappen.
-* ![utcheckningsikon](assets/do-not-localize/checkout-icon.png) Utcheckning av markerad resurs.
-* ![kopiera ](assets/do-not-localize/copy-icon.png) ikonKopiera den markerade filen eller mappen.
-* ![flytta ](assets/do-not-localize/move-icon.png) ikonFlytta den markerade resursen eller mappen till en annan plats i databashierarkin.
-* ![Byt namn på ](assets/do-not-localize/rename-icon.png) ikonByt namn på den markerade resursen eller mappen. Använd ett unikt namn, annars misslyckas namnbytet med en varning. Du kan försöka igen med ett nytt namn.
-* ![tilldela ](assets/do-not-localize/review-delegate-icon.png) en uppgiftsikonTilldela uppgifter till andra användare för samarbete i en resurs.
+* ![avmarkera ikon](assets/do-not-localize/close-icon.png) Avmarkera markeringen.
+* ![informationsikon](assets/do-not-localize/edit-in-icon.png) Klicka för att förhandsgranska en resurs och visa detaljerade metadata. När du förhandsgranskar kan du visa versionerna och redigera en bild.
+* ![hämtningsikon](assets/do-not-localize/download-icon.png) Hämta den valda resursen till ditt lokala filsystem.
+* ![ta bort ikon](assets/do-not-localize/delete-icon.png) Ta bort den markerade resursen eller mappen.
+* ![utcheckningsikon](assets/do-not-localize/checkout-icon.png) Checka ut den valda resursen.
+* ![kopieringsikon](assets/do-not-localize/copy-icon.png) Kopiera den markerade filen eller mappen.
+* ![flytta ikon](assets/do-not-localize/move-icon.png) Flytta den markerade resursen eller mappen till en annan plats i databashierarkin.
+* ![ikonen Byt namn](assets/do-not-localize/rename-icon.png) Byt namn på den markerade resursen eller mappen. Använd ett unikt namn, annars misslyckas namnbytet med en varning. Du kan försöka igen med ett nytt namn.
+* ![tilldelningsikon](assets/do-not-localize/review-delegate-icon.png) Tilldela uppgifter till andra användare för att samarbeta med en resurs.
 
 Du kan visa samma alternativ för miniatyrbilder av resurser.
 
@@ -47,7 +47,7 @@ Du kan visa samma alternativ för miniatyrbilder av resurser.
 
 ## Hämta och distribuera resurser {#download}
 
-Du kan välja en eller flera resurser eller mappar eller en kombination av båda och hämta urvalet till det lokala filsystemet. Du kan redigera resurserna och överföra dem igen eller distribuera resurserna utanför [!DNL Assets Essentials]. Du kan även [hämta återgivningarna](/help/add-delete.md#renditions) för en resurs.
+Du kan välja en eller flera resurser eller mappar eller en kombination av båda och hämta urvalet till det lokala filsystemet. Du kan redigera resurserna och överföra dem igen eller distribuera resurserna utanför [!DNL Assets Essentials]. Du kan också [ladda ned renderingarna](/help/add-delete.md#renditions) av en tillgång.
 
 ## Resursversionshantering {#versions-of-assets}
 
@@ -68,7 +68,7 @@ TBD: query for engineering: How many versions are maintained. What happens when 
 
    *Bild: Spara den redigerade bilden som en version.*
 
-* Öppna versionerna av en befintlig resurs. Klicka på **[!UICONTROL New Version]** och överför en senare version av resursen till databasen.
+* Öppna versionerna av en befintlig resurs. Klicka **[!UICONTROL New Version]** och ladda upp en nyare version av resursen i databasen.
 
    ![Alternativ för att överföra en ny version av en resurs från versionshistoriken](assets/view-asset-versions2.png)
 
@@ -76,10 +76,72 @@ TBD: query for engineering: How many versions are maintained. What happens when 
 
 När du överför en duplicerad kopia eller en modifierad kopia av en resurs kan du skapa dess versioner. Med versionshantering kan du granska historiska resurser och återgå till en tidigare version om det behövs.
 
-Om du vill visa versioner öppnar du förhandsgranskningen av en resurs och klickar på **[!UICONTROL Versions]** ![Versionsikon](assets/do-not-localize/versions-clock-icon.png) i den högra sidofältet. Om du vill förhandsgranska en viss version markerar du den. Klicka på **[!UICONTROL Make Latest]** om du vill återgå till den.
+Om du vill visa versioner öppnar du en resurses förhandsgranskning och klickar på **[!UICONTROL Versions]** ![Versionsikon](assets/do-not-localize/versions-clock-icon.png) från höger sidospalt. Om du vill förhandsgranska en viss version markerar du den. Om du vill återgå till den klickar du på **[!UICONTROL Make Latest]**.
 
 Du kan också skapa versioner från tidslinjen för versionerna. Välj den senaste versionen, klicka på **[!UICONTROL New Version]** och överför en ny kopia av resursen från det lokala filsystemet.
 
 ![Visa versioner av en resurs](assets/view-asset-versions1.png)
 
 *Bild: Visa versioner av en resurs, återgå till en tidigare version eller överför en annan ny version.*
+
+## Hantera resursstatus {#manage-asset-status}
+
+**Behörigheter krävs:**  `Can Edit`, `Owner`eller administratörsbehörigheter för en resurs.
+
+Med Assets Essentials kan du ange status för resurser som är tillgängliga i databasen. Ange en resursstatus som bättre styr och hanterar nedströmsanvändningen av digitala resurser.
+
+Du kan ange följande status för resurser:
+
+* Godkänd
+
+* Avvisad
+
+* Ingen status
+
+### Ange resursstatus {#set-asset-status}
+
+Så här anger du resursstatus:
+
+1. Markera resursen och klicka på **[!UICONTROL Details]** i verktygsfältet.
+
+1. I **[!UICONTROL Basic]** väljer du resursstatus på fliken **[!UICONTROL Status]** listruta. Möjliga värden är Godkänd, Avvisat och Ingen status (standard).
+
+   >[!VIDEO](https://video.tv.adobe.com/v/342495)
+
+<!--
+
+### Set asset expiration date {#set-asset-expiration-date}
+
+To set asset expiration date:
+
+1. Select the asset, and click **[!UICONTROL Details]** in the toolbar.
+
+1. In the **[!UICONTROL Basic]** tab, set the expiration date for the asset using the  **[!UICONTROL Expiration date]** field.
+
+The `Expired` asset card indicator overrides the `Approved` or `Rejected` indicator set for an asset.
+
+-->
+
+Du kan även filtrera resurser baserat på en resursstatus. Mer information finns i [Söka efter resurser i Assets Essentials](search.md).
+
+## Anpassa metadataformulär för att inkludera resursstatusfält {#customize-asset-status-metadata-form}
+
+**Behörigheter krävs:** Administratör
+
+Assets Essentials tillhandahåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält i en resurs [!UICONTROL Details] sida. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser.
+
+Mer information om hur du lägger till ytterligare metadatafält i metadataformuläret finns i [Metadata Forms](metadata.md##metadata-forms).
+
+**Lägg till metadatafält för resursstatus i formuläret**
+
+Om du vill lägga till metadatafältet Resursstatus i formuläret drar du **[!UICONTROL Asset Status]** från den vänstra listen till formuläret. Mappningsegenskapen fylls i automatiskt. Spara formuläret för att bekräfta ändringarna.
+
+<!--
+
+**Add Expiration Date metadata field to the form**
+
+To add Expiration Date metadata field to the form,  drag **[!UICONTROL Date]** component from the left rail to the form. Specify **Expiration Date** as the label and `pur:expirationDate` as the mapping property. Save the form to confirm the changes.
+
+-->
+
+
