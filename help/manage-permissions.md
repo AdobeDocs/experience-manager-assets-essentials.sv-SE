@@ -2,7 +2,7 @@
 title: Hur hanterar jag behörigheter för mappar i AEM Assets Essentials?
 description: I Assets Essentials kan administratörer hantera åtkomstnivåerna för de mappar som är tillgängliga i databasen. Skapa användargrupper och tilldela behörigheter till dessa grupper för att hantera åtkomstnivåer. Som administratör kan du även delegera behörighetshanteringsbehörighet till användargrupper på mappnivå.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 57aa6f4641deb8cc687a462a380404e8fc3b6844
+source-git-commit: c5cb27f3f660935487bb214088b4300475ef5fce
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Så här lägger du till administratörer:
 
 Skapa användargrupper och tilldela behörigheter till dessa grupper för att hantera mappåtkomstnivåer i Assets Essentials-databasen. Du kan sedan tilldela dina användare till användargrupperna.
 
-![Lägga till användare i grupper och produktprofiler](assets/user-groups-product-profiles-updated.png)
+![Lägga till användare i grupper och produktprofiler](assets/user-groups-product-profiles.svg)
 
 Du kan lägga till användare i användargrupper (1) och [användare till Assets Essentials produktprofiler (2)](#add-admin-users). Du kan dock inte lägga till användargrupper direkt i Assets Essentials produktprofiler (3).
 

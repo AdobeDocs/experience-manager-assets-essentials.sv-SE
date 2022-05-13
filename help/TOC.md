@@ -8,10 +8,10 @@ user-guide-description: Assets Essentials är en enkel resurshanteringslösning 
 feature-set: Experience Manager Assets,Experience Manager
 feature: Asset Management
 role: User,Leader
-source-git-commit: 8baffa9c1d98733f481b6a97bcdb78cf6ce38ae4
+source-git-commit: e0e16fd3c2f491e5f828bb45efe9193f6f137f5a
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 7%
+source-wordcount: '120'
+ht-degree: 5%
 
 ---
 
@@ -20,10 +20,16 @@ ht-degree: 7%
 
 + [Översikt över lösningar](introduction.md)
 + [Versionsinformation](release-notes.md)
-+ [Distribuera och lägga till användare](deploy-administer.md)
-+ Hantera mappåtkomst{#folder-access}
-   + [Hantera mappbehörigheter](manage-permissions.md)
-   + [Bästa tillvägagångssätt för behörighetshantering](permission-management-best-practices.md)
++ Kom igång med Assets Essentials för administratörer {#get-started-admins}
+   + [Distribuera och lägga till användare](deploy-administer.md)
+   + Hantera mappåtkomst{#folder-access}
+      + [Hantera mappbehörigheter](manage-permissions.md)
+      + [Bästa tillvägagångssätt för behörighetshantering](permission-management-best-practices.md)
+   + Administratörsresa för Assets Essentials for Creative Cloud Pro med Work Management Solutions{#admin-journey}
+      + [Översikt över administratörsresan](assets-essentials-cc-pro-work-management-admin-journey.md)
+      + [Administrera Experience Manager Assets Essentials](adminster-aem-assets-essentials.md)
+      + [Integrera Assets Essentials med Creative Cloud](integrate-assets-essentials-creative-cloud.md)
+      + [Integrera Assets Essentials med Adobe Workfront](integrate-assets-essentials-workfront.md)
 + [Kom igång med [!DNL Assets Essentials]](get-started.md)
 + [Filtyper och användningsområden som stöds](supported-file-formats.md)
 + [Visa resurser](navigate-view.md)

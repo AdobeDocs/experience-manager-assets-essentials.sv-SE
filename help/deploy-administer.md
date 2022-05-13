@@ -3,9 +3,9 @@ title: Administrera och hantera användare
 description: Administrationsexempel, t.ex. distribution och användarhantering i [!DNL Assets Essentials].
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: fb4ca5b3ab85f77cc1013c2d4743530f5d48e96d
+source-git-commit: 552dcf43677ac2a95864666faab9938534f70d40
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Administrera [!DNL Assets Essentials] och lägga till användare {#administer}
 
 [!DNL Adobe Experience Manager Assets Essentials] tillhandahålls av Adobe för sina kunder. Som en del av provisioneringen [!DNL Assets Essentials] läggs till i en kunds organisation i [!DNL Adobe Admin Console]. Administratörer kommer att använda [!DNL Admin Console] för att hantera användarrättigheter till [!DNL Assets Essentials] och tilldela programadministratörer behörighet och metadataformulär i [!DNL Assets Essentials].
+
+Klicka här om du vill hantera Assets Essentials via en resebaserad upplevelse [link](adminster-aem-assets-essentials.md).
 
 ## Automatisk driftsättning av Assets Essentials {#automatic-deployment-assets-essentials}
 
