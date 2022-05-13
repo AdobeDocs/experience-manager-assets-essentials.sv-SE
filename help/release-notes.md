@@ -4,9 +4,9 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 7c4bc88e2110ff1dd7442af303bdd2c586ba5a6f
+source-git-commit: 4fcac20c15ebabcafe851ce207bd937c8a7f6b03
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,6 @@ I den här versionen optimerar vi prestanda för gränssnittsleverans och specif
 Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
 
 * Du kan inte filtrera resurser med `No Status` tillgångsstatus.
-
-* Du kan inte bläddra till eller söka efter en resurs med en `Expired` status. Du kan bara komma åt resursen via en djup länk eller en URL.
 
 * Assets Essentials stöder inte skapande av privata samlingar.
 
