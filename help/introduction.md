@@ -1,11 +1,11 @@
 ---
 title: Introduktion till [!DNL Assets Essentials]
-description: Assets Essentials i korthet
+description: Hantera materialet med AEM Assets Essentials, ett lättviktsverktyg som fungerar i Experience Cloud-program.
 role: User,Leader
 exl-id: 43ddf11c-36d3-4643-80c9-b7dd5d199450
-source-git-commit: c95717e9898ade023d785b9d0191f4bc20f10a39
+source-git-commit: 2c2d490da79cb2f5d2069049baf3944aaa0050a5
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
