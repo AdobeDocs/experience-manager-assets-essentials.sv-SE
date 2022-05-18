@@ -1,13 +1,13 @@
 ---
 title: Integrera Assets Essentials med Adobe Workfront
 description: Integrera Assets Essentials med Adobe Workfront så att du får tillgång till Assets Essentials-databasen i Workfront.
-source-git-commit: 7d49060ba2e02bd9c5caf9753ef56b5feed5b3df
+exl-id: 47c2963d-57f0-463e-8d5b-5e5af9928f77
+source-git-commit: 507d5de0fad337f5c84dab28bc396dbfa7c5afe1
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
-
 
 # Integrera Assets Essentials med Adobe Workfront {#integrate-assets-essentials-workfront}
 
@@ -66,7 +66,7 @@ Mer information om hur du tilldelar användare till Assets Essentials produktpro
 
 ## Konfigurera integrering av Experience Manager Assets Essentials {#configure-assets-essentials-integration}
 
-När du har lagt till användare i Workfront- och Assets Essentials-produktprofilerna med Admin Console kan du [konfigurera integreringen av Experience Manager Assets Essentials](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm).
+När du har lagt till användare i Workfront- och Assets Essentials-produktprofilerna med Admin Console kan du [konfigurera integreringen av Experience Manager Assets Essentials med Adobe Workfront](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm).
 
 När du har konfigurerat integreringen kan du:
 
