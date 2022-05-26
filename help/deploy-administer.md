@@ -3,9 +3,9 @@ title: Administrera och hantera användare
 description: Administrationsexempel, t.ex. distribution och användarhantering i [!DNL Assets Essentials].
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 552dcf43677ac2a95864666faab9938534f70d40
+source-git-commit: 59f6165fd7576736ff75369c2805c15ce3ae9af0
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -125,6 +125,18 @@ Efter etablering, [!DNL Assets Essentials] berättigande läggs till din organis
    ![Klar miljö i [!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
 
    *Bild: En miljö i [!DNL Cloud Manager] som är klar att användas.*
+
+## Nästa steg {#next-steps}
+
+* [Se en video om Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en)
+
+* Ge produktfeedback med [!UICONTROL Feedback] finns i Assets Essentials användargränssnitt
+
+* Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
+
+* Kontakt [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)
+
+
 
 >[!MORELIKETHIS]
 >

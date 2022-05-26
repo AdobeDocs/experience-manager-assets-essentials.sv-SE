@@ -3,9 +3,9 @@ title: Kom igång med [!DNL Assets Essentials]
 description: Hur man får åtkomst till, kan logga in på, vilka användningsfall som stöds och kända problem med [!DNL Assets Essentials].
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: fdfbe04b41c6b164007591855c4dd37b6fe3dfa7
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -55,6 +55,17 @@ De olika DAM-åtgärderna (Digital Asset Management) som du kan utföra med [!DN
 | Metadataåtgärder | <ul> <li>[Visa detaljerade metadata](/help/metadata.md) </li> <li> [Uppdatera metadata](/help/metadata.md#update-metadata)</li> <li> [Skapa nytt metadataformulär](/help/metadata.md#metadata-forms) </li> </ul> |
 | Integration med andra lösningar | <ul> <li>[Använd resursväljaren i [!DNL Adobe Journey Optimizer]](/help/integration.md)</li> <li>[[!DNL Adobe Asset Link] for [!DNL Creative Cloud]](/help/integration.md)</li> <li>[Integration med [!DNL Adobe Workfront]](/help/integration.md)</li> </ul> |
 
+## Nästa steg {#next-steps}
+
+* [Se en video för att komma igång med Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html)
+
+* Ge produktfeedback med [!UICONTROL Feedback] finns i Assets Essentials användargränssnitt
+
+* Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
+
+* Kontakt [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)
+
+
 <!--TBD: Merge the below rows in the table when the use cases are documented/available.
 
 | How do I delete assets? | <ul> <li>[Delete assets](/help/manage-organize.md)</li> <li>Recover deleted assets</li> <li>Permanently delete assets</li> </ul> |
@@ -63,16 +74,20 @@ De olika DAM-åtgärderna (Digital Asset Management) som du kan utföra med [!DN
 
 -->
 
-## ![feedback-ikon](assets/do-not-localize/feedback-icon.png) Ge feedback {#provide-feedback}
+<!-- 
 
-Adobe välkomnar feedback om lösningen. Använd [!UICONTROL Feedback] i användargränssnittet. Du kan även bifoga filer som skärmdumpar eller videoinspelningar av ett problem.
+## ![feedback icon](assets/do-not-localize/feedback-icon.png) Provide product feedback {#provide-feedback}
 
-![feedback-alternativ i gränssnittet](assets/feedback-panel.png)
+Adobe welcomes feedback about the solution. To provide feedback without even switching your working application, use the [!UICONTROL Feedback] option in the user interface. It also lets you attach files such as screenshots or video recording of an issue.
 
-Klicka på [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) från höger sidospalt. Du kan göra något av följande:
+  ![feedback option in the interface](assets/feedback-panel.png)
 
-* Gör innehållsuppdateringarna och skicka en GitHub-pull-begäran.
-* Skapa ett problem eller en biljett i GitHub. Behåll det automatiskt ifyllda artikelnamnet när du skapar ett problem.
+To provide feedback for documentation, click [!UICONTROL Edit this page] ![edit the page](assets/do-not-localize/edit-page.png) or [!UICONTROL Log an issue] ![create a GitHub issue](assets/do-not-localize/github-issue.png) from the right sidebar. You can do one of the following: 
+
+* Make the content updates and submit a GitHub pull request.
+* Create an issue or ticket in GitHub. Retain the automatically populated article name when creating an issue.
+
+-->
 
 >[!MORELIKETHIS]
 >

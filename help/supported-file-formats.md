@@ -4,10 +4,10 @@ description: Filformat som stöds för olika användningsområden för [!DNL Ass
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
-source-git-commit: b9d333a862cca6227ef386ae8dadf431c2fb6d71
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 6%
+source-wordcount: '348'
+ht-degree: 5%
 
 ---
 
@@ -110,3 +110,11 @@ Användare av [!DNL Adobe Asset Link] kan överföra och checka in (överföra e
 >
 >* []()
 -->
+
+## Nästa steg {#next-steps}
+
+* Ge produktfeedback med [!UICONTROL Feedback] finns i Assets Essentials användargränssnitt
+
+* Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
+
+* Kontakt [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)

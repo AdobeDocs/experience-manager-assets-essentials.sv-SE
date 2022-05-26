@@ -1,9 +1,10 @@
 ---
 title: Hantera samlingar
 description: En samling är en uppsättning resurser i Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare.
-source-git-commit: 6e86dc11e953423c156c3c06cb20c1700afdd59b
+exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '483'
 ht-degree: 1%
 
 ---
@@ -125,3 +126,11 @@ Så här tar du bort en samling:
 1. Markera den samling som du vill ta bort.
 
 1. Klicka på **[!UICONTROL Delete]**.
+
+## Nästa steg {#next-steps}
+
+* Ge produktfeedback med [!UICONTROL Feedback] finns i Assets Essentials användargränssnitt
+
+* Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
+
+* Kontakt [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)

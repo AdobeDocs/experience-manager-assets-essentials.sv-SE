@@ -2,9 +2,9 @@
 title: Hur hanterar jag behörigheter för mappar i AEM Assets Essentials?
 description: I Assets Essentials kan administratörer hantera åtkomstnivåerna för de mappar som är tillgängliga i databasen. Skapa användargrupper och tilldela behörigheter till dessa grupper för att hantera åtkomstnivåer. Som administratör kan du även delegera behörighetshanteringsbehörighet till användargrupper på mappnivå.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: c5cb27f3f660935487bb214088b4300475ef5fce
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1599'
 ht-degree: 0%
 
 ---
@@ -202,3 +202,13 @@ Följande åtkomstnivåer gäller för alla användargrupper i mapphierarkin:
 * /projects/project-x: Alla användare kan visa mapparna och dess undermappar. Användargruppen Projektledare i teamet har redigeringsbehörigheter och kan hantera behörigheter för en mapp och dess undermappar (ägarbehörigheter). Användargruppen Project X Team har redigeringsbehörighet.
 
 * /legal: Ingen användare har åtkomst till mappen baserat på `Deny Access` behörigheter för `All Authenticated Users` grupp. Användargruppen Legal Team har redigeringsbehörighet.
+
+## Nästa steg {#next-steps}
+
+* [Se en video om hur du hanterar behörigheter i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html)
+
+* Ge produktfeedback med [!UICONTROL Feedback] finns i Assets Essentials användargränssnitt
+
+* Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
+
+* Kontakt [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)

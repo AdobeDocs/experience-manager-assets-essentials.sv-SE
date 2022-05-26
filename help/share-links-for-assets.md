@@ -1,13 +1,13 @@
 ---
 title: Hur delar jag länkar till resurser?
 description: Generera en länk och dela resurser med andra som inte har tillgång till [!DNL Assets Essentials] program.
-source-git-commit: 6c922bac00b2b1aa514c5408a56da514466d4483
+exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
-
 
 # Dela länkar till resurser {#share-links-assets}
 
@@ -43,3 +43,12 @@ Om du vill hämta alla resurser samtidigt växlar du till **[!UICONTROL List vie
 
 ![Förhandsgranska delade resurser](assets/preview-shared-assets.png)
 
+## Nästa steg {#next-steps}
+
+* [Titta på en video där du kan dela länkar för resurser i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html)
+
+* Ge produktfeedback med [!UICONTROL Feedback] finns i Assets Essentials användargränssnitt
+
+* Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
+
+* Kontakt [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)

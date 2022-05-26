@@ -2,13 +2,13 @@
 title: Överför resurser till databasen
 description: Överför resurser till [!DNL Assets Essentials], visa överföringsstatus och åtgärda överföringsproblem.
 role: User
-source-git-commit: 5bae37e18ac587aaacaa004e5ec02775888d7f9a
+exl-id: a85a4455-4456-48af-aee9-f05300677605
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
-
 
 # Överför resurser {#add-assets}
 
@@ -17,16 +17,16 @@ Om du vill lägga till nya resurser att arbeta med överför du några resurser 
 Du kan använda följande metoder för att överföra en eller flera resurser eller en mapp som innehåller resurser:
 
 * Dra resurser eller mappar i användargränssnittet och följ instruktionerna på skärmen.
-* Klicka på alternativet **[!UICONTROL Add Assets]** i verktygsfältet och lägg till några filer i dialogrutan för överföring.
+* Klicka **[!UICONTROL Add Assets]** i verktygsfältet och lägg till filer i dialogrutan för överföring.
 
 <!-- TBD: Update this GIF
 ![Asset and nested folder upload demo](assets/do-not-localize/upload-assets.gif) -->
 
-Du kan använda någon av dessa metoder för att överföra resurser när du har skapat en mapp. Om du vill skapa en tom mapp klickar du på **[!UICONTROL Create Folder]** i verktygsfältet. [!DNL Assets Essentials] har kraftfulla textsökningsfunktioner, men du kan också använda mappar för att ordna dina resurser bättre.
+Du kan använda någon av dessa metoder för att överföra resurser när du har skapat en mapp. Om du vill skapa en tom mapp klickar du på **[!UICONTROL Create Folder]** i verktygsfältet. while [!DNL Assets Essentials] har en kraftfull fulltextsökningsfunktion som du kan använda för att ordna dina resurser bättre med hjälp av mappar.
 
 När du har markerat filerna visas en bekräftelsedialogruta där du kan lägga till fler filer eller ta bort redan markerade filer. Om du vill lägga till fler filer i en markering klickar du på **[!UICONTROL Browse]** och väljer **[!UICONTROL Browse files]** eller **[!UICONTROL Browse folders]**. Lägg till fler filer eller mappar från samma mapp eller från en annan mapp.
 
-När alla filer är köade klickar du på **[!UICONTROL Upload]**.
+När alla filer är i kö klickar du på **[!UICONTROL Upload]**.
 
 ![Överför filer och mappar](assets/upload-browse-files-folders.png)
 
@@ -38,17 +38,17 @@ När alla filer är köade klickar du på **[!UICONTROL Upload]**.
 
 ## Visa överföringsförlopp och status {#upload-progress}
 
-När du överför många resurser eller kapslade mappar till [!DNL Assets Essentials] kan vissa resurser inte överföras av olika anledningar, till exempel duplicerade resurser och nätverksproblem.
+När du överför många resurser eller kapslade mappar till [!DNL Assets Essentials]kan vissa resurser inte överföras av olika anledningar, till exempel duplicerade resurser och nätverksproblem.
 
 Om du vill spåra överföringsförloppet klickar du på **[!UICONTROL Upload Progress]** i verktygsfältet. En panel visar överföringsförloppet för alla resurser.
 
-Om du vill visa en delmängd av resurser baserat på överföringsförloppet eller överföringsstatusen använder du filtret i sidofältet **[!UICONTROL Upload Progress]**. De olika filtren är att visa alla resurser, slutförda överföringar, pågående överföringar, köade resurser som ska överföras, pausade överföringar, duplicerade resurser och resurser som inte kunde överföras.
+Om du vill visa en delmängd av resurser baserat på överföringsförloppet eller överföringsstatusen använder du filtret i **[!UICONTROL Upload Progress]** sidofält. De olika filtren är att visa alla resurser, slutförda överföringar, pågående överföringar, köade resurser som ska överföras, pausade överföringar, duplicerade resurser och resurser som inte kunde överföras.
 
 ![Filtrera överföringsförloppet baserat på överföringsstatus](assets/filter-upload-progress.png)
 
 *Bild: Filtrera de resurser som du försökte överföra baserat på deras överföringsstatus eller överföringsförlopp.*
 
-Omedelbart efter att resurserna har överförts bearbetar [!DNL Assets Essentials] resurserna för att generera miniatyrbilder och bearbeta metadata. För många resurser tar bearbetningen tid. Om ingen miniatyrbild visas och du ser ett bearbetningsmeddelande på platshållarminiatyrbilden kontrollerar du mappen igen efter några minuter. Under bearbetningen genererar bland annat [!DNL Assets Essentials] renderingarna, lägger till smarta taggar och indexerar resursinformationen för sökning.
+Omedelbart efter att resurserna har överförts [!DNL Assets Essentials] bearbetar resurserna för att generera miniatyrbilder och bearbeta metadata. För många resurser tar bearbetningen tid. Om ingen miniatyrbild visas och du ser ett bearbetningsmeddelande på platshållarminiatyrbilden kontrollerar du mappen igen efter några minuter. Under bearbetningen, bland annat, [!DNL Assets Essentials] skapar återgivningarna, lägger till smarta taggar och indexerar resursinformationen för sökning.
 
 ![Resurser är processer vid överföring och bearbetningen visas i plattan](assets/upload-processing.png)
 
@@ -56,7 +56,7 @@ Omedelbart efter att resurserna har överförts bearbetar [!DNL Assets Essential
 
 ## Resursåtergivningar {#renditions}
 
-[!DNL Assets Essentials] bearbetar det överförda materialet i nära realtid och för många filtyper som stöds genereras renderingar. Återgivningarna skapas för bilder och ändrar storlek på versioner av den överförda bilden. Du kan inte bara hämta resursen utan även återgivningarna för att använda en lämplig version. Du kan visa alla återgivningar av en resurs när du [förhandsgranskar en resurs](/help/navigate-view.md#preview-assets).
+[!DNL Assets Essentials] bearbetar det överförda materialet i nära realtid och för många filtyper som stöds genereras renderingar. Återgivningarna skapas för bilder och ändrar storlek på versioner av den överförda bilden. Du kan inte bara hämta resursen utan även återgivningarna för att använda en lämplig version. Du kan visa alla återgivningar av en resurs när du [förhandsgranska en resurs](/help/navigate-view.md#preview-assets).
 
 ![Återgivningar](assets/renditions-view-download.png)
 
@@ -64,7 +64,7 @@ Omedelbart efter att resurserna har överförts bearbetar [!DNL Assets Essential
 
 ## Hantera misslyckade överföringar {#resolve-upload-fails}
 
-Om överföringen av en resurs som stöds av någon anledning misslyckas, klickar du på **[!UICONTROL Retry]** i rutan [!UICONTROL Upload Progress].
+Om det av någon anledning inte går att överföra en resurs som stöds klickar du på **[!UICONTROL Retry]** från [!UICONTROL Upload Progress] fönster.
 
 ![Försök igen med en misslyckad överföring](assets/upload-retry.png)
 
@@ -82,7 +82,7 @@ Om du försöker överföra duplicerade resurser överförs inte resurserna för
 
 >[!TIP]
 >
->Du kan överföra resurser till DAM-databasen direkt från dina [!DNL Creative Cloud]-skrivbordsprogram. Se hur [[!DNL Assets Essentials] integreras med [!DNL Adobe Asset Link]](/help/integration.md).
+>Du kan överföra resurser till DAM-databasen direkt från din [!DNL Creative Cloud] datorprogram. Se hur [[!DNL Assets Essentials] integrerar med [!DNL Adobe Asset Link]](/help/integration.md).
 
 ## Ta bort resurser eller mappar {#delete-assets}
 
@@ -94,4 +94,14 @@ Användare kan ta bort enskilda resurser eller mappar som inte längre behövs. 
 
    *Bild: Åtgärder för filer och mappar är tillgängliga på resurs- eller mapppanelen.*
 
-* Markera en resurs eller en mapp och klicka på **[!UICONTROL Delete]** ![ikonen Ta bort](assets/do-not-localize/delete-icon.png) i verktygsfältet.
+* Välj en resurs eller en mapp och klicka på **[!UICONTROL Delete]** ![ta bort ikon](assets/do-not-localize/delete-icon.png) i verktygsfältet.
+
+## Nästa steg {#next-steps}
+
+* [Se en video om hur du överför resurser i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/creating.html)
+
+* Ge produktfeedback med [!UICONTROL Feedback] finns i Assets Essentials användargränssnitt
+
+* Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
+
+* Kontakt [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)

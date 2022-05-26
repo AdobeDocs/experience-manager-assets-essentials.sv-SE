@@ -1,9 +1,10 @@
 ---
 title: Hur hanterar man mappbehörigheter effektivt?
 description: Effektiv behörighetshantering
-source-git-commit: fe716385939d18aa23d01dac5fe5f041541d2b31
+exl-id: 06b06f0b-3806-44ce-abc4-c1449a93dd29
+source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -63,3 +64,10 @@ När du har skapat användargrupper för din organisation, lagt till användare 
 
 Exempel på hur du får en effektiv och enkel mappstruktur finns i [Hantera behörigheter för mappar](manage-permissions.md##manage-permissions-folders).
 
+## Nästa steg {#next-steps}
+
+* Ge produktfeedback med [!UICONTROL Feedback] finns i Assets Essentials användargränssnitt
+
+* Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
+
+* Kontakt [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)
