@@ -3,7 +3,7 @@ title: Sök efter och hitta resurser i [!DNL Assets Essentials]
 description: Sök efter och hitta resurser i [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: 378aa0ee62ad814bdf598dfcf21f8b2775c83b84
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Du kan filtrera sökresultaten baserat på följande parametrar.
 
 *Bild: Filtrera sökningar efter resurser baserat på olika parametrar.*
 
-* Resursstatus: Filtrera sökresultaten med en `Approved` eller `Rejected` tillgångsstatus.
+* Resursstatus: Filtrera sökresultaten med en `Approved`, `Rejected`, eller `No Status` tillgångsstatus.
 
 * Filtyp: Filtrera sökresultaten efter de filtyper som stöds, det vill säga `Images`, `Documents`och `Videos`.
 * MIME-typ: Filtrera efter ett eller flera filformat som stöds. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
