@@ -3,9 +3,9 @@ title: Sök efter och hitta resurser i [!DNL Assets Essentials]
 description: Sök efter och hitta resurser i [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 378aa0ee62ad814bdf598dfcf21f8b2775c83b84
+source-git-commit: 8fe62d7073b313da9a5ca4c365636933d44d24c4
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '744'
 ht-degree: 1%
 
 ---
@@ -58,11 +58,11 @@ Assets Essentials har följande anpassade filter:
      </tr>
      <tr>
       <td>Titel</td>
-      <td>Filtrera resurser med resursens titel. Titeln som du anger i det skiftlägeskänsliga sökvillkoret måste matcha den exakta titeln för resursen som ska visas i resultatet.</td>
+      <td>Filtrera resurser med resursens titel. Du kan använda en jokerteckenoperator (*) för att aktivera Assets Essentials för att visa resurser i resultat som delvis matchar sökvillkoren. Om du till exempel definierar <b>ma*</b> som sökvillkor visar Assets Essentials resurser med titel, som marknad, marknadsföring, man, manchester osv. i resultaten.</td>
      </tr>
      <tr>
       <td>Namn</td>
-      <td>Filtrera resurser med resursfilens namn. Namnet som du anger i det skiftlägeskänsliga sökvillkoret måste matcha det exakta filnamnet på resursen som ska visas i resultatet.</td>
+      <td>Filtrera resurser med resursfilens namn. Du kan använda en jokerteckenoperator (*) för att aktivera Assets Essentials för att visa resurser i resultat som delvis matchar sökvillkoren.</td>
      </tr>
      <tr>
       <td>Resursstorlek</td>
@@ -70,7 +70,7 @@ Assets Essentials har följande anpassade filter:
      </tr>
      <tr>
       <td>Förutsedda taggar</td>
-      <td>Filtrera resurser med den smarta resurstaggen. Det smarta taggnamn som du anger i de skiftlägeskänsliga sökvillkoren måste matcha det exakta smarta taggnamnet för resursen som ska visas i resultatet. Du kan inte ange flera smarta taggar i sökvillkoren.</td>
+      <td>Filtrera resurser med den smarta resurstaggen. Du kan använda en jokerteckenoperator (*) för att aktivera Assets Essentials för att visa resurser i resultat som delvis matchar sökvillkoren. Du kan ange flera smarta taggar avgränsade med kommatecken i sökvillkoren.</td>
      </tr>    
     </tbody>
    </table>

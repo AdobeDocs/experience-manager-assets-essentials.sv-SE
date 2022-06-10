@@ -4,9 +4,9 @@ description: Flytta, ta bort, kopiera, byta namn på, uppdatera och version av d
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: 05c9903d1225cd7875cc42ffe9ed7bd98aa1b757
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -108,19 +108,16 @@ Så här anger du resursstatus:
 
    >[!VIDEO](https://video.tv.adobe.com/v/342495)
 
-<!--
 
-### Set asset expiration date {#set-asset-expiration-date}
+### Ange förfallodatum för tillgång {#set-asset-expiration-date}
 
-To set asset expiration date:
+Så här anger du förfallodatum för tillgång:
 
-1. Select the asset, and click **[!UICONTROL Details]** in the toolbar.
+1. Markera resursen och klicka på **[!UICONTROL Details]** i verktygsfältet.
 
-1. In the **[!UICONTROL Basic]** tab, set the expiration date for the asset using the  **[!UICONTROL Expiration date]** field.
+1. I **[!UICONTROL Basic]** anger du förfallodatum för resursen med hjälp av  **[!UICONTROL Expiration date]** fält.
 
-The `Expired` asset card indicator overrides the `Approved` or `Rejected` indicator set for an asset.
-
--->
+The `Expired` tillgångskortsindikatorn åsidosätter `Approved` eller `Rejected` indikatoruppsättning för en tillgång.
 
 Du kan även filtrera resurser baserat på en resursstatus. Mer information finns i [Söka efter resurser i Assets Essentials](search.md).
 
@@ -136,13 +133,9 @@ Mer information om hur du lägger till ytterligare metadatafält i metadataformu
 
 Om du vill lägga till metadatafältet Resursstatus i formuläret drar du **[!UICONTROL Asset Status]** från den vänstra listen till formuläret. Mappningsegenskapen fylls i automatiskt. Spara formuläret för att bekräfta ändringarna.
 
-<!--
+**Lägg till metadatafältet Förfallodatum i formuläret**
 
-**Add Expiration Date metadata field to the form**
-
-To add Expiration Date metadata field to the form,  drag **[!UICONTROL Date]** component from the left rail to the form. Specify **Expiration Date** as the label and `pur:expirationDate` as the mapping property. Save the form to confirm the changes.
-
--->
+Om du vill lägga till metadatafältet Förfallodatum i formuläret drar du **[!UICONTROL Date]** från den vänstra listen till formuläret. Ange **Förfallodatum** som etikett och `pur:expirationDate` som mappningsegenskapen. Spara formuläret för att bekräfta ändringarna.
 
 ## Nästa steg {#next-steps}
 
