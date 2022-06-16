@@ -4,14 +4,67 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 4fcac20c15ebabcafe851ce207bd937c8a7f6b03
+source-git-commit: 7c6293bb99d5be8084e6998da966bb89be9c714e
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
+
+Den aktuella versionen av [!DNL Assets Essentials] släpps den 16 juni 2022.
+
+Den här versionen innehåller:
+
+**Förbättringar av resursstatus**
+
+* Assets Essentials ger dig nu möjlighet att [ange ett förfallodatum för en tillgång](manage-organize.md#set-asset-status). Dessutom kan du [filterresurser](search.md#refine-search-results) baserat på `Expired` tillgångsstatus och ett förfallodatumintervall.
+
+* Nu kan du visa statusindikatorn för alla resurser som är tillgängliga i Papperskorgen. Därför kan du välja att återställa en resurs baserat på dess status.
+
+**Förbättrade sökfilter**
+
+* Assets Essentials ger dig nu möjlighet att [filterresurser](search.md#refine-search-results) med `No Status` tillgångsstatus.
+
+<!--
+
+* Assets Essentials now supports [using a wildcard operator (*) while using custom filters](search.md#custom-filters) to enable Assets Essentials to display assets in the results that partially match the search criteria.
+
+-->
+
+**Förbättrade samlingar**
+
+<!--
+
+* Assets Essentials now enables you to [create Private collections](manage-collections.md#create-collection).
+
+-->
+
+* Assets Essentials har nu stöd för [hämta en samling](manage-collections.md).
+
+* Nu kan du redigera metadatafältet Beskrivning för en samling.
+
+**Förbättrad dokumentation**
+
+* En ny version av [Översiktsdokumentation för Assets Essentials](introduction.md) är nu tillgängligt.
+
+**Förbättringar baserade på kundfeedback**
+
+* Förbättringar och felkorrigeringar som bygger på kundfeedback.
+
+
+## Kända fel {#known-issues}
+
+Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
+
+* Assets Essentials stöder inte skapande av privata samlingar.
+
+Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
+
+## Tidigare versioner {#past-release}
+
+### 2022.4.0 {#april-2022}
 
 Den aktuella versionen av [!DNL Assets Essentials] släpps den 12 maj 2022. Den här versionen innehåller:
 
@@ -23,25 +76,13 @@ Den aktuella versionen av [!DNL Assets Essentials] släpps den 12 maj 2022. Den 
 
 * Förbättringar och felkorrigeringar som bygger på kundfeedback.
 
-## Inkognitoläge i Chrome {#incognito-mode}
+#### Inkognitoläge i Chrome {#incognito-mode}
 
 I den här versionen optimerar vi prestanda för gränssnittsleverans och specifika funktioner i Assets Essentials - som kommenterar resurser och bildredigering - beroende på att webblagring och tredjepartskcookies är aktiverade. Inkognitoläget i webbläsaren Chrome blockerar cookies från tredje part som standard - användarna har ett antal alternativ för att fortsätta få tillgång till alla funktioner:
 
 * Använd Chrome-profiler i stället för Incognito-läge när användaren behöver separata webbläsarsessioner
 
 * Stäng av `Block third-party cookies` på skärmen Inkognito-läge i Chrome
-
-## Kända fel {#known-issues}
-
-Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
-
-* Du kan inte filtrera resurser med `No Status` tillgångsstatus.
-
-* Assets Essentials stöder inte skapande av privata samlingar.
-
-Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
-
-## Tidigare versioner {#past-release}
 
 ### 2022.2.0 {#march-2022}
 
