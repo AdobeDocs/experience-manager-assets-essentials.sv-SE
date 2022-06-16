@@ -4,9 +4,9 @@ description: Flytta, ta bort, kopiera, byta namn på, uppdatera och version av d
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 05c9903d1225cd7875cc42ffe9ed7bd98aa1b757
+source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,8 @@ Så här anger du resursstatus:
 
 
 ### Ange förfallodatum för tillgång {#set-asset-expiration-date}
+
+I Assets Essentials kan du också ange förfallodatum för resurser som är tillgängliga i databasen. Då kan du [filtrera sökresultaten](search.md#refine-search-results) baserat på en `Expired` tillgångsstatus. Du kan dessutom ange ett förfallodatumintervall för resurser för att ytterligare filtrera sökresultaten.
 
 Så här anger du förfallodatum för tillgång:
 

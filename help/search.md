@@ -3,9 +3,9 @@ title: Sök efter och hitta resurser i [!DNL Assets Essentials]
 description: Sök efter och hitta resurser i [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 8fe62d7073b313da9a5ca4c365636933d44d24c4
+source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -37,8 +37,12 @@ Du kan filtrera sökresultaten baserat på följande parametrar.
 * Filtyp: Filtrera sökresultaten efter de filtyper som stöds, det vill säga `Images`, `Documents`och `Videos`.
 * MIME-typ: Filtrera efter ett eller flera filformat som stöds. <!-- TBD:  [supported file formats](/help/supported-file-formats.md). -->
 * Bildstorlek: Ange en eller flera av de minsta och högsta måtten för att filtrera bilder. Storleken anges i pixeldimensioner och är inte bildens filstorlek.
-* Skapa datum: Skapandedatumet för resursen enligt metadatan. Standarddatumformatet som används är `yyyy-mm-dd`.
+* Skapad: Skapandedatumet för resursen enligt metadatan. Standarddatumformatet som används är `yyyy-mm-dd`.
 * Ändringsdatum: Senaste ändringsdatum för resurserna. Standarddatumformatet som används är `yyyy-mm-dd`.
+
+* Förfallodatum: Filtrera sökresultaten baserat på en `Expired` tillgångsstatus. Du kan dessutom ange ett förfallodatumintervall för resurser för att ytterligare filtrera sökresultaten.
+
+* Egna filter: [Lägga till egna filter](#custom-filters) till Assets Essentials användargränssnitt. Använd de anpassade filtren utöver standardfiltren för att förfina sökresultaten.
 
 Du kan sortera de sökda resurserna i stigande eller fallande ordning efter `Name`, `Relevancy`, `Size`, `Modified`och `Created`.
 
@@ -58,11 +62,11 @@ Assets Essentials har följande anpassade filter:
      </tr>
      <tr>
       <td>Titel</td>
-      <td>Filtrera resurser med resursens titel. Du kan använda en jokerteckenoperator (*) för att aktivera Assets Essentials för att visa resurser i resultat som delvis matchar sökvillkoren. Om du till exempel definierar <b>ma*</b> som sökvillkor visar Assets Essentials resurser med titel, som marknad, marknadsföring, man, manchester osv. i resultaten.</td>
+      <td>Filtrera resurser med resursens titel. Titeln som du anger i det skiftlägeskänsliga sökvillkoret måste matcha den exakta titeln för resursen som ska visas i resultatet.</td>
      </tr>
      <tr>
       <td>Namn</td>
-      <td>Filtrera resurser med resursfilens namn. Du kan använda en jokerteckenoperator (*) för att aktivera Assets Essentials för att visa resurser i resultat som delvis matchar sökvillkoren.</td>
+      <td>Filtrera resurser med resursfilens namn. Namnet som du anger i det skiftlägeskänsliga sökvillkoret måste matcha det exakta filnamnet på resursen som ska visas i resultatet.</td>
      </tr>
      <tr>
       <td>Resursstorlek</td>
@@ -70,10 +74,19 @@ Assets Essentials har följande anpassade filter:
      </tr>
      <tr>
       <td>Förutsedda taggar</td>
-      <td>Filtrera resurser med den smarta resurstaggen. Du kan använda en jokerteckenoperator (*) för att aktivera Assets Essentials för att visa resurser i resultat som delvis matchar sökvillkoren. Du kan ange flera smarta taggar avgränsade med kommatecken i sökvillkoren.</td>
+      <td>Filtrera resurser med den smarta resurstaggen. Det smarta taggnamn som du anger i de skiftlägeskänsliga sökvillkoren måste matcha det exakta smarta taggnamnet för resursen som ska visas i resultatet. Du kan inte ange flera smarta taggar i sökvillkoren.</td>
      </tr>    
     </tbody>
    </table>
+
+<!--
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria. For example, if you define <b>ma*</b> as the search criteria, Assets Essentials displays assets with title, such as, market, marketing, man, manchester, and so on in the results.
+
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria.
+
+   You can use a wildcard operator (*) to enable Assets Essentials to display assets in the results that partially match the search criteria. You can specify multiple smart tags separated by a comma in the search criteria.
+
+   -->
 
 ### Lägga till egna filter {#add-custom-filters}
 

@@ -2,9 +2,9 @@
 title: Hantera samlingar
 description: En samling är en uppsättning resurser i Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: 88dd604492ffd5be305fe2f54edae1f158247e26
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,15 @@ You can share collections with various users that are assigned different levels 
 
 Du kan dela flera samlingar med en användare. Varje samling innehåller referenser till resurser. Resursernas referensintegritet bevaras i alla samlingar.
 
+![Samlingar](assets/collections.png)
+
 Du kan utföra följande åtgärder för att hantera och använda samlingar:
 
 * [Skapa en samling](#create-collection)
 
 * [Lägga till resurser i en samling](#add-assets-to-collection)
 
-* [Ta bort resurser i en samling](#remove-assets-from-collection)
+* [Ta bort resurser från en samling](#remove-assets-from-collection)
 
 * [Visa och redigera samlingsmetadata](#view-edit-collection-metadata)
 
@@ -44,6 +46,16 @@ Så här skapar du en samling:
 1. Ange en rubrik och en valfri beskrivning för samlingen.
 
 1. Klicka **[!UICONTROL Save]** för att skapa samlingen.
+
+![Skapa samling](assets/create-collection.png)
+
+<!--
+
+1. Select if you need to a create a Private collection or a Public collection.
+
+   A Public collection is available for viewing and editing to all users. However, if you are a non-administrator user, a Private collection is available for viewing and editing only to users with the appropriate [permissions](#manage-collection-access). 
+
+-->
 
 ## Lägga till resurser i en samling {#add-assets-to-collection}
 
@@ -71,11 +83,15 @@ Så här tar du bort resurser från en samling:
 
 <!--
 
-## Manage access to a collection {#manage-collection-access}
+## Manage access to a Private collection {#manage-collection-access}
 
 The permission management for collections function in the same manner as folders in [!DNL Assets Essentials]. Administrators can manage the access levels for collections available in the repository. As an administrator, you can create user groups and assign permissions to those groups to manage access levels. You can also delegate the permission management privileges to user groups at the collection-level.
 
 For more information, see [Manage permissions for folders and collections](manage-permissions.md).
+
+-->
+
+<!--
 
 ## Search a collection {#search-collections}
 
@@ -97,25 +113,27 @@ Så här visar och redigerar du samlingens metadata:
 1. Visa samlingens metadata med **[!UICONTROL Basic]** -fliken.
 1. Ändra metadatafälten efter behov. Du kan ändra [!UICONTROL Title], [!UICONTROL Description]och [!UICONTROL Author] fält.
 
+![Samlingsmetadata](assets/collection-metadata.png)
+
 ## Dela länkar för samlingar {#share-collection-links}
 
 [!DNL Assets Essentials] gör att du kan skapa en länk och dela samlingar och resurser i samlingar med externa intressenter som inte har tillgång till [!DNL Assets Essentials] program. Du kan definiera ett förfallodatum för länken och sedan dela det med andra via den kommunikationsmetod du föredrar, som e-post eller meddelandetjänster. Mottagarna av länken kan förhandsgranska resurser och hämta dem.
 
+![Dela länk för resurser](assets/share-link-collections.png)
+
 Mer information om hur du delar samlingslänkar med externa intressenter finns i [Dela länkar för resurser](share-links-for-assets.md).
 
-## Hämta samlingselement {#download-collection-elements}
+## Hämta en samling {#download-collection}
 
-Så här hämtar du samlingselement:
+Så här hämtar du en samling:
 
 1. Klicka **[!UICONTROL Collections]** till vänster.
 
-1. Klicka på samlingen och välj de element du vill hämta.
+1. Välj den samling du vill hämta och klicka på **[!UICONTROL Download]**.
 
-1. Klicka på **[!UICONTROL Download]**.
+1. På [!UICONTROL Downloading Asset] klickar du på **[!UICONTROL OK]**.
 
-1. På [!UICONTROL Download Asset] klickar du på **[!UICONTROL OK]**.
-
-De valda samlingselementen hämtas som en ZIP-fil på den lokala datorn.
+Samlingen laddas ned som en ZIP-fil på den lokala datorn.
 
 ## Ta bort en samling {#delete-collection}
 
