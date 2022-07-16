@@ -4,14 +4,58 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 7c6293bb99d5be8084e6998da966bb89be9c714e
+source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
+
+Den aktuella versionen av [!DNL Assets Essentials] släpps den 14 juli 2022.
+
+Den här versionen innehåller:
+
+**Smarta samlingar**
+
+Spara sökresultaten som en smart samling för att dynamiskt uppdatera samlingens innehåll. Om det finns resurser som har lagts till i Assets Essentials-databasen och som passar sökvillkoren som definieras under [skapa den smarta samlingen](manage-collections.md#create-smart-collection)uppdateras innehållet i den smarta samlingen automatiskt.
+
+**Meddelanden**
+
+Med Assets Essentials-meddelanden kan du [övervaka de åtgärder som utförs på de resurser eller mappar som är tillgängliga i databasen](manage-notifications.md). Du måste välja och prenumerera på det innehåll som meddelandena skickas till dig för. Du kan också konfigurera de kategorier som meddelanden skickas till dig för.
+
+**Rapportering**
+
+Med tillgångsrapportering kan administratörer utvärdera användaraktiviteten i Adobe Experience Manager Assets Essentials. Rapporterna och kontrollpanelen för live-statistik innehåller användbar information om hur användare interagerar med resurser som är tillgängliga i din distribution. [Använd informationen i rapporterna](manage-reports.md) för att ta fram nyckeltal för att mäta användningen av resurser inom företaget och av kunderna.
+
+Visa tillgångshämtningsrapporter och instrumentpanelsmodulen för livstatistik för att se vilka resurser som hämtas och hur ofta hämtningarna görs.
+
+**Förbättringar baserade på kundfeedback**
+
+Förbättringar och felkorrigeringar som bygger på kundfeedback.
+
+
+## Kända fel {#known-issues}
+
+Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* Assets Essentials stöder inte redigering av en Smart Collection.
+
+* Privata samlingar är tillgängliga för den som skapat dem och för användare med administratörsbehörighet. Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
+
+Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
+
+## Tidigare versioner {#past-release}
+
+### 2022.5.0 {#may-2022}
 
 Den aktuella versionen av [!DNL Assets Essentials] släpps den 16 juni 2022.
 
@@ -52,17 +96,6 @@ Den här versionen innehåller:
 **Förbättringar baserade på kundfeedback**
 
 * Förbättringar och felkorrigeringar som bygger på kundfeedback.
-
-
-## Kända fel {#known-issues}
-
-Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
-
-* Assets Essentials stöder inte skapande av privata samlingar.
-
-Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
-
-## Tidigare versioner {#past-release}
 
 ### 2022.4.0 {#april-2022}
 

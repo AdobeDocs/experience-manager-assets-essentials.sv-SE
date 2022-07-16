@@ -1,26 +1,25 @@
 ---
 title: Hantera rapporter i Assets Essentials
-description: Använd informationen i rapporterna i Assets Essentials för att ta fram nyckeltal för att mäta användningen av resurser inom företaget och hos kunderna.
-source-git-commit: 511b7904eca972e76f55e574c7c364dd88fb1721
+description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
+exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
+source-git-commit: e445cd77c6d57281cbf2442a849b249f3da1a4ee
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '469'
 ht-degree: 2%
 
 ---
 
 # Hantera rapporter {#manage-reports}
 
-Med tillgångsrapportering kan administratörer bedöma nyttan av Adobe Experience Manager Assets Essentials-driftsättning. Rapporterna innehåller användbar information om hur användare interagerar med resurser som är tillgängliga i din distribution.
-
-Använd informationen i rapporterna för att ta fram nyckeltal för att mäta användningen av resurser inom företaget och hos kunderna.
+Resursrapportering ger administratörer insyn i Adobe Experience Manager Assets Essentials-miljöns aktivitet. Dessa data ger användbar information om hur användarna interagerar med innehållet och produkten.
 
 ## Åtkomstrapporter {#access-reports}
 
-Alla användare som är tilldelade till [Assets Essentials Administrators produktprofil](deploy-administer.md) har tillgång till statistik och rapporter i Assets Essentials.
+Alla användare som är tilldelade till [Assets Essentials Administrators produktprofil](deploy-administer.md) kan komma åt kontrollpanelen Live-statistik och skapa användardefinierade rapporter i Assets Essentials.
 
 ## Visa livesstatistik {#view-live-statistics}
 
-Med Assets Essentials kan du visa automatiskt genererade hämtningsdata för din Assets Essentials-distribution. Du kan välja att visa antalet hämtningar av mediefiler som har utförts under de senaste 30 dagarna eller under de senaste 12 månaderna.
+Med Assets Essentials kan du visa realtidsdata för din Assets Essentials-miljö med kontrollpanelen Live Statistics. Du kan visa händelsemått i realtid under de senaste 30 dagarna eller under de senaste 12 månaderna.
 
 ![Alternativ i verktygsfältet när du väljer en resurs](assets/asset-reports-live-statistics.png)
 
@@ -99,9 +98,9 @@ I följande tabell förklaras användningen av alla kolumner som du kan lägga t
     </tbody>
    </table>
 
-## Visa listan med rapporter {#view-report-list}
+## Visa befintliga rapporter {#view-report-list}
 
-Efter [skapa rapporten](#create-report)kan du visa listan med rapporter och välja att hämta dem i CSV-format eller ta bort dem.
+Efter [skapa rapporten](#create-report)kan du visa listan över befintliga rapporter och välja att hämta dem i CSV-format eller ta bort dem.
 
 Om du vill visa en lista med rapporter går du till **[!UICONTROL Settings]** > **[!UICONTROL Reports]**.
 

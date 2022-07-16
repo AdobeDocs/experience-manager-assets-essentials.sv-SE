@@ -2,9 +2,9 @@
 title: Hantera samlingar
 description: En samling är en uppsättning resurser i Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 466f64018a37f553c0ad0cfaa2dc98b1e84b9be1
+source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '636'
 ht-degree: 1%
 
 ---
@@ -45,15 +45,15 @@ Så här skapar du en samling:
 
 1. Ange en rubrik och en valfri beskrivning för samlingen.
 
+1. Välj om du behöver skapa en privat samling eller en offentlig samling. En offentlig samling är tillgänglig för visning och redigering av alla användare. En privat samling är dock tillgänglig för skaparen och användare med administratörsbehörighet.
+
 1. Klicka **[!UICONTROL Save]** för att skapa samlingen.
 
 ![Skapa samling](assets/create-collection.png)
 
 <!--
-
-1. Select if you need to a create a Private collection or a Public collection.
-
-   A Public collection is available for viewing and editing to all users. However, if you are a non-administrator user, a Private collection is available for viewing and editing only to users with the appropriate [permissions](#manage-collection-access). 
+   
+   for viewing and editing only to users with the appropriate [permissions](#manage-collection-access).
 
 -->
 
@@ -70,6 +70,25 @@ Så här lägger du till resurser i en samling:
 1. Klicka **[!UICONTROL Add]** om du vill lägga till resursen i de valda samlingarna.
 
 Om du vill lägga till resurser i samlingen kan du även klicka på **[!UICONTROL Collections]** i det vänstra fältet klickar du på samlingen för att lägga till resurser i och klickar på **[!UICONTROL Add to Collection]**, markera resursen/resurserna och klicka på **[!UICONTROL Select]**.
+
+## Skapa en smart samling {#create-smart-collection}
+
+Spara sökresultaten som en smart samling för att dynamiskt uppdatera samlingens innehåll. Om det finns resurser som läggs till i Assets Essentials-databasen och som uppfyller sökvillkoren när du skapar den smarta samlingen uppdateras innehållet i den smarta samlingen automatiskt.
+
+Så här skapar du en smart samling:
+
+1. Klicka **[!UICONTROL Filter]** och [definiera sökvillkoren](search.md##refine-search-results).
+
+1. Klicka **[!UICONTROL Save as]** och sedan markera **[!UICONTROL Smart Collection]**.
+
+1. På [!UICONTROL Create Smart Collection] anger du en rubrik och en beskrivning för den smarta samlingen.
+
+1. Välj **[!UICONTROL Public Collection]** om alla användare behöver komma åt samlingen. Välj **[!UICONTROL Private Collection]** om du behöver en begränsad grupp användare för att komma åt samlingen.
+
+1. Klicka **[!UICONTROL Create]** för att skapa den smarta samlingen.
+
+![Skapa smart samling](assets/create-smart-collection.png)
+
 
 ## Ta bort resurser från en samling {#remove-assets-from-collection}
 
