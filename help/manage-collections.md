@@ -2,7 +2,7 @@
 title: Hantera samlingar
 description: En samling är en uppsättning resurser i Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: f273e1e3c8a290e0beee0423da00c63013062c43
+source-git-commit: 096906eded35dc0a8c231534204bfc672c2430b7
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 1%
@@ -47,7 +47,7 @@ Så här skapar du en samling:
 
 1. Välj om du behöver skapa en privat samling eller en offentlig samling. En offentlig samling är tillgänglig för visning och redigering av alla användare. En privat samling är dock tillgänglig för skaparen och användare med administratörsbehörighet.
 
-1. Klicka **[!UICONTROL Save]** för att skapa samlingen.
+1. Klicka **[!UICONTROL Create]** för att skapa samlingen.
 
 ![Skapa samling](assets/create-collection.png)
 
