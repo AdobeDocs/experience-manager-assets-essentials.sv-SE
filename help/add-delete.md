@@ -3,9 +3,9 @@ title: Överför resurser till databasen
 description: Överför resurser till [!DNL Assets Essentials], visa överföringsstatus och åtgärda överföringsproblem.
 role: User
 exl-id: a85a4455-4456-48af-aee9-f05300677605
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: 80cb4ba5bc56658a4ae8d162f4ae5f2ae3d822a0
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ När alla filer är i kö klickar du på **[!UICONTROL Upload]**.
 
 *Bild: Innan du överför de valda resurserna kan du lägga till eller ta bort resurser från kön.*
 
->[!CAUTION]
+>[!TIP]
 >
->Använd resurser som inte har tomt utrymme i filnamnen. Svaren på kommentarer fungerar inte för sådana resurser.
+>Om du överför en mappstruktur till Assets Essentials behöver du inte skapa en ZIP-fil med mappstrukturen. Du kan överföra mappstrukturer direkt. En ZIP-fil som överförts till Assets Essentials lagras som en ZIP-resurs och extraheras inte automatiskt efter överföringen.
 
 ## Visa överföringsförlopp och status {#upload-progress}
 
