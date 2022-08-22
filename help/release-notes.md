@@ -4,7 +4,7 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 2b1b6d3503f8c96ac250d4b0ff7dd5b7c2b81d64
+source-git-commit: b118b841cbca05edc5b67d86ea87abfd09dcd452
 workflow-type: tm+mt
 source-wordcount: '1265'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och upp
 
 Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
 
-## Tidigare versioner {#past-release}
+## Tidigare versioner {#past-releases}
 
 ### 2022.6.0 {#june-2022}
 
@@ -185,7 +185,7 @@ Dessutom [!DNL Adobe Asset Link] för Creative Cloud (Photoshop, Illustrator och
 
 ### 2021.6.0-utgåvan {#june2021}
 
-Den första versionen av [!DNL Assets Essentials], som släpptes den 21 juni 2021, erbjuder lättviktiga funktioner för resurshantering. Det har stöd för följande huvudfunktioner och CRUD-åtgärder (skapa, läsa, uppdatera och ta bort):
+Den första versionen av [!DNL Assets Essentials], som släpptes den 21 juni 2021, erbjuder lättviktiga funktioner för resurshantering. Det har stöd för följande huvudfunktioner och CRUD-åtgärder (Create, Read, Update och Delete):
 
 * Överför och lägg till resurser, inklusive kapslade mappar. Förhandsgranska resurserna och versionerna.
 * Fulltextsökning, nyansrika sökfilter och sparade sökningar för snabb resursidentifiering.
