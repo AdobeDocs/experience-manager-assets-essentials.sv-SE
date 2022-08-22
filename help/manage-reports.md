@@ -2,9 +2,9 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: e445cd77c6d57281cbf2442a849b249f3da1a4ee
+source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '678'
 ht-degree: 2%
 
 ---
@@ -21,17 +21,29 @@ Alla användare som är tilldelade till [Assets Essentials Administrators produk
 
 Med Assets Essentials kan du visa realtidsdata för din Assets Essentials-miljö med kontrollpanelen Live Statistics. Du kan visa händelsemått i realtid under de senaste 30 dagarna eller under de senaste 12 månaderna.
 
-![Alternativ i verktygsfältet när du väljer en resurs](assets/asset-reports-live-statistics.png)
+![Alternativ i verktygsfältet när du väljer en resurs](assets/assets-essentials-live-statistics.png)
 
-Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Live Statistics]** för att visa automatiskt genererade nedladdningsdata.
+Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Live Statistics]** om du vill visa följande automatiskt genererade diagram:
 
-## Skapa en rapport {#create-report}
+* **Nedladdningar**: Antalet resurser som laddats ned från Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
 
-Så här skapar du en rapport:
+* **Överföringar**: Antalet mediefiler som har överförts till Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
+
+<!--
+
+* **Storage usage**: The storage usage, in gigabytes (GB), for the Assets Essentials environment, for the last 30 days or 12 months represented using a bar chart.
+
+-->
+
+## Skapa en nedladdningsrapport {#create-download-report}
+
+Så här skapar du en hämtningsrapport:
 
 1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Reports]** och klicka **[!UICONTROL Create Report]**.
 
-1. I [!UICONTROL Configuration] anger du en rubrik och en valfri beskrivning för rapporten.
+1. I [!UICONTROL Configuration] -fliken, ange rapporttypen som **[!UICONTROL Download]**.
+
+1. Ange en rubrik och en valfri beskrivning för rapporten.
 
 1. Välj mappsökvägen, som omfattar de resurser som rapporten ska köras på, med hjälp av **[!UICONTROL Select Folder Path]** fält.
 
@@ -60,7 +72,7 @@ I följande tabell förklaras användningen av alla kolumner som du kan lägga t
       <td>Mappsökvägen där resursen är tillgänglig i Assets Essentials.</td>
      </tr>
      <tr>
-      <td>Typ</td>
+      <td>MIME-typ</td>
       <td>MIME-typen för resursen.</td>
      </tr>
      <tr>
@@ -95,6 +107,69 @@ I följande tabell förklaras användningen av alla kolumner som du kan lägga t
       <td>Hämtat efter användarnamn</td>
       <td>Namnet på den användare som hämtade resursen.</td>
      </tr>           
+    </tbody>
+   </table>
+
+## Skapa en överföringsrapport {#create-upload-report}
+
+Så här skapar du en överföringsrapport:
+
+1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Reports]** och klicka **[!UICONTROL Create Report]**.
+
+1. I [!UICONTROL Configuration] -fliken, ange rapporttypen som **[!UICONTROL Upload]**.
+
+1. Ange en rubrik och en valfri beskrivning för rapporten.
+
+1. Välj mappsökvägen, som omfattar de resurser som rapporten ska köras på, med hjälp av **[!UICONTROL Select Folder Path]** fält.
+
+1. Välj datumintervall för rapporten.
+
+1. I [!UICONTROL Columns] markerar du de kolumnnamn du vill visa i rapporten.
+
+1. Klicka på **[!UICONTROL Create]**.
+
+   ![Överför rapport](assets/upload-reports-config.png)
+
+I följande tabell förklaras användningen av alla kolumner som du kan lägga till i rapporten:
+
+<table>
+    <tbody>
+     <tr>
+      <th><strong>Kolumnnamn</strong></th>
+      <th><strong>Beskrivning</strong></th>
+     </tr>
+     <tr>
+      <td>Titel</td>
+      <td>Namnet på resursen.</td>
+     </tr>
+     <tr>
+      <td>Bana</td>
+      <td>Mappsökvägen där resursen är tillgänglig i Assets Essentials.</td>
+     </tr>
+     <tr>
+      <td>MIME-typ</td>
+      <td>MIME-typen för resursen.</td>
+     </tr>
+     <tr>
+      <td>Storlek</td>
+      <td>Resursens storlek.</td>
+     </tr>
+     <tr>
+      <td>Författare</td>
+      <td>Resursens författare.</td>
+     </tr>
+     <tr>
+      <td>Skapad</td>
+      <td>Det datum då resursen överförs till Assets Essentials.</td>
+     </tr>
+     <tr>
+      <td>Ändringsdatum</td>
+      <td>Datumet då tillgången senast ändrades.</td>
+     </tr>
+     <tr>
+      <td>Utgånget</td>
+      <td>Tillgångens förfallostatus.</td>
+     </tr>              
     </tbody>
    </table>
 

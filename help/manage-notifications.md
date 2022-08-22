@@ -1,16 +1,17 @@
 ---
 title: Hantera meddelanden
-description: 'Övervaka åtgärderna som utförs på de resurser eller mappar som är tillgängliga i databasen med Assets Essentials-meddelanden. '
-source-git-commit: 511b7904eca972e76f55e574c7c364dd88fb1721
+description: Övervaka åtgärderna som utförs på de resurser eller mappar som är tillgängliga i databasen med Assets Essentials-meddelanden.
+exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
+source-git-commit: 2a8899c333e08c50e4cf8b49399188f50a0d3a46
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
 # Hantera meddelanden {#manage-notifications}
 
-Med Assets Essentials-meddelanden kan du övervaka åtgärder som utförs på de resurser och mappar som finns i databasen. Du måste välja och prenumerera på det innehåll som meddelandena skickas till dig för. Du kan också konfigurera de kategorier som meddelanden skickas till dig för.
+Med Assets Essentials-meddelanden kan du övervaka åtgärder som utförs på de resurser, mappar och samlingar som finns i databasen. Du måste välja och prenumerera på det innehåll som meddelandena skickas till dig för. Du kan också konfigurera de kategorier som meddelanden skickas till dig för.
 
 ## Prenumerera på meddelandekategorier {#subscribe-to-notification-categories}
 
@@ -36,11 +37,11 @@ Du kan välja och prenumerera från en lista med kategorier för att få meddela
      </tr>
      <tr>
       <td>Borttagning av prenumererat innehåll</td>
-      <td>Du får ett meddelande när en användare tar bort din prenumererade resurs eller mapp.</td>
+      <td>Du får ett meddelande när en användare tar bort din prenumererade resurs, mapp eller samling.</td>
      </tr>
      <tr>
       <td>Extern andel av prenumererat innehåll</td>
-      <td>Du får ett meddelande när en användare genererar en offentlig länk för din prenumererade resurs eller mapp.</td>
+      <td>Du får ett meddelande när en användare genererar en offentlig länk för din prenumererade resurs, mapp eller samling.</td>
      </tr>
      <tr>
       <td>Ändring av prenumererat innehåll</td>
@@ -52,7 +53,7 @@ Du kan välja och prenumerera från en lista med kategorier för att få meddela
      </tr>
      <tr>
       <td>Uppdateringar av prenumerationsmappar och samlingar</td>
-      <td>Du får ett meddelande när en användare lägger till eller tar bort en resurs från en prenumerationsmapp.</td>
+      <td>Du får ett meddelande när en användare lägger till eller tar bort en resurs från en prenumerationsmapp eller samling.</td>
      </tr>    
     </tbody>
    </table>
@@ -74,7 +75,7 @@ Så här prenumererar du på meddelandekategorierna:
 
 1. Välj de meddelandekategorier för vilka du måste meddelas.
 
-## Titta på och ta bort bevakade mappar eller resurser {#watch-unwatch-assets}
+## Titta på och ta bort bevakade mappar, resurser och samlingar {#watch-unwatch-assets}
 
 Efter [prenumerera på meddelandekategorierna](#subscribe-to-notification-categories)måste du prenumerera på innehållet för att få meddelanden.
 
@@ -82,15 +83,15 @@ Efter [prenumerera på meddelandekategorierna](#subscribe-to-notification-catego
 >
 >För **[!UICONTROL Requests]** och **[!UICONTROL Assigned to me]** meddelandekategorier behöver du inte prenumerera på innehållet efter att du har prenumererat på meddelandekategorierna. Meddelanden skickas automatiskt till dig för förfrågningar som du har skapat och när en uppgift har tilldelats dig.
 
-Om du vill prenumerera på innehållet väljer du den mapp eller resurs som du vill prenumerera på och klickar på **[!UICONTROL Watch]**.
+Om du vill prenumerera på innehållet väljer du den mapp, resurs eller samling som du vill prenumerera på och klickar på **[!UICONTROL Watch]**.
 
 Assets Essentials visar ett meddelande om att åtgärden lyckades. Du kan klicka **[!UICONTROL Go to notification preferences]** finns i meddelandet om att åtgärden lyckades redigera [prenumeration på meddelandekategorier](#subscribe-to-notification-categories).
 
 ![Meddelanden i Assets Essentials](assets/watch-assets.png)
 
-Assets Essentials skickar nu meddelanden om de prenumerationskategorier som används. Du kan också markera flera resurser eller mappar och klicka på **[!UICONTROL Watch]** för att spara tid. Om du väljer flera enheter som några av dem redan prenumererat på, kan du **[!UICONTROL Watch]** alternativet visas inte.
+Assets Essentials skickar nu meddelanden om de prenumerationskategorier som används. Du kan också markera flera resurser, mappar eller samlingar och klicka på **[!UICONTROL Watch]** för att spara tid. Om du väljer flera enheter som några av dem redan prenumererat på, kan du **[!UICONTROL Watch]** alternativet visas inte.
 
-Om du vill avbryta prenumerationen markerar du resursen eller mappen som du prenumererar på och klickar på **[!UICONTROL Unwatch]**.
+Om du vill avbryta prenumerationen markerar du resursen, mappen eller samlingen som du prenumererar på och klickar på **[!UICONTROL Unwatch]**.
 
 ## Visa meddelanden {#view-notifications}
 
@@ -99,8 +100,3 @@ Meddelandena visas i den högra änden av menyraden i Assets Essentials använda
 ![Meddelanden i Assets Essentials](assets/notifications-assets-essentials.png)
 
 När du klickar på ett meddelande navigerar Assets Essentials till rätt resurs eller mapp som det hänvisas till i meddelandet.
-
-
-
-
-
