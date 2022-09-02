@@ -4,9 +4,9 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: b118b841cbca05edc5b67d86ea87abfd09dcd452
+source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,9 @@ Med Assets Essentials-meddelanden kan du nu övervaka de åtgärder som utförs 
 
 Nu kan Assets Essentials även redigera sökvillkoren som används när en smart samling skapas.  Spara de nya sökvillkoren för att uppdatera samlingens innehåll dynamiskt.
 
-<!--
+**Visa Live-statistik för lagringskonto**
 
-**View live statistics for storage account**
-
-Assets Essentials now also enables you to view real-time storage account data for your Assets Essentials environment with the Live Statistics dashboard. You can view real-time event metrics for the last 30 days or for the last 12 months.
-
--->
+Med Assets Essentials kan du nu även visa kontodata i realtid för din Assets Essentials-miljö med kontrollpanelen Live Statistics. Du kan visa händelsemått i realtid de senaste 30 dagarna eller de senaste 12 månaderna.
 
 **Visa överföringsrapporter**
 
