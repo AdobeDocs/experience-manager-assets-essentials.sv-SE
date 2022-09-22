@@ -3,128 +3,154 @@ title: Administrera och hantera användare
 description: Administrationsexempel, t.ex. distribution och användarhantering i [!DNL Assets Essentials].
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 59f6165fd7576736ff75369c2805c15ce3ae9af0
+source-git-commit: 9818d06d8da806190c61aadeecd50a7c65b31cbe
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
 
 # Administrera [!DNL Assets Essentials] och lägga till användare {#administer}
 
-[!DNL Adobe Experience Manager Assets Essentials] tillhandahålls av Adobe för sina kunder. Som en del av provisioneringen [!DNL Assets Essentials] läggs till i en kunds organisation i [!DNL Adobe Admin Console]. Administratörer kommer att använda [!DNL Admin Console] för att hantera användarrättigheter till [!DNL Assets Essentials] och tilldela programadministratörer behörighet och metadataformulär i [!DNL Assets Essentials].
+[!DNL Adobe Experience Manager Assets Essentials] tillhandahålls av Adobe för sina kunder. Som en del av provisioneringen [!DNL Assets Essentials] läggs till i en kunds organisation i [!DNL Adobe Admin Console]. Administratörer använder [!DNL Admin Console] för att hantera användarrättigheter till [!DNL Assets Essentials] och tilldela programadministratörer behörighet och metadataformulär i [!DNL Assets Essentials].
 
-Klicka här om du vill hantera Assets Essentials via en resebaserad upplevelse [link](adminster-aem-assets-essentials.md).
 
-## Automatisk driftsättning av Assets Essentials {#automatic-deployment-assets-essentials}
+I följande dataflödesdiagram visas de åtgärder som en administratör måste utföra för att konfigurera och hantera Assets Essentials:
+
+![Distribuera Assets Essentials](assets/deploy-assets-essentials.svg)
+
+## Gå till Admin Console {#access-admin-console}
 
 När Assets Essentials-lösningen har etablerats får administratören ett e-postmeddelande från Adobe. E-postmeddelandet innehåller ett välkomstmeddelande och en länk för att komma igång. Dessutom startar Adobe processen att automatiskt installera Assets Essentials. Distributionsprocessen tar en timme att slutföra.
 
-Från länken i e-postmeddelandet kan du komma åt och logga in på [Admin Console](https://adminconsole.adobe.com). Om du har administratörsåtkomst till mer än ett organisationskonto väljer du lämplig organisation eller växlar till den med väljaren i det övre fältet. När den automatiska driftsättningsprocessen är slutförd kan du [!DNL AEM Assets Essentials] är synlig i [!DNL Admin Console].
+Från länken i e-postmeddelandet kan du komma åt och logga in på [Admin Console](https://adminconsole.adobe.com). Om du har administratörsåtkomst till mer än ett organisationskonto väljer du lämplig organisation eller växlar till den med [organisationsväljare](https://helpx.adobe.com/enterprise/using/admin-console.html). När den automatiska driftsättningsprocessen är slutförd kan du [!DNL AEM Assets Essentials] är synlig i [!DNL Admin Console].
 
-![Driftsättning av Assets Essentials](assets/assets-essentials-deployment.png)
+Utför följande åtgärder för användartillstånd med Admin Console:
 
-Administratörer måste utföra följande uppgifter när Assets Essentials-lösningen har distribuerats:
+* [Skapa Assets Essentials-programadministratör](#create-assets-essentials-administrator)
 
-* [Konfigurera användargrupper, mappstruktur och behörigheter](manage-permissions.md) för lösningen. Följ [bästa praxis](permission-management-best-practices.md) för att säkerställa en enkel och effektiv behörighetsinställning.
-* [Hantera användaråtkomst](#add-users-to-essentials) för organisationsmedlemmar till [!DNL Assets Essentials].
-* Valfritt, [visa tjänststatus och loggar](#view-logs).
+* [Lägg till användargrupper](#add-user-groups)
 
->[!NOTE]
->
->Om Assets Essentials etableras före 6 januari 2022 kör du [distributionssteg i Cloud Manager](#deploy-essentials) innan du hanterar användaråtkomst för organisationsmedlemmar.
+* [Lägga till användargrupper i produktprofiler](#add-users-to-product-profiles)
 
+![Driftsättning av Assets Essentials](assets/admin-console-cards.png)
 
-## Användarhantering {#add-users-to-essentials}
+### Skapa Assets Essentials-programadministratör {#create-assets-essentials-administrator}
 
-En administratör hanterar vilka användare som har åtkomst till [!DNL Assets Essentials]. Administratörer använder [!DNL Adobe Admin Console] för att lägga till eller ta bort användaråtkomst. [!DNL Assets Essentials] har följande två typer av användaråtkomst.
+En Admin Console-administratör måste lägga till en Assets Essentials-programadministratör för att hantera uppgifter som att skapa en mappstruktur, överföra resurser, konfigurera behörigheter, konfigurera metadataformulär och skapa offentliga samlingar. Mer information om hur du tilldelar en användare eller en användargrupp till en Assets Essentials-programadministratörsprofil finns i [lägga till användare i produktprofiler](#add-users-to-product-profiles).
 
-* **[!DNL Assets Essentials]Administratörer** ha administrativ åtkomst till programmet. Utöver alla slutanvändarfunktioner kan programadministratörer i den här gruppen hantera behörigheter för alla mappar och grupper/användare i hela programdatabasen.
-* **[!DNL Assets Essentials]Användare** har tillgång till hela användargränssnittet. Dessa användare kan överföra, ordna, tagga och hitta digitala resurser.
-* **[!DNL Assets Essentials]Konsumentanvändare**: har tillgång till den inbäddade upplevelsen av resursval i [!DNL Adobe Journey Optimizer] e-postmallsredigerare. Mer information finns i [Använd [!DNL Assets Essentials] in [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html).
+### Lägg till användargrupper {#add-user-groups}
 
-I [!DNL Admin Console], dessa tre åtkomsttyper representeras av tre [!UICONTROL Product Profiles]. Så här lägger du till och tar bort medlemmar i din organisation i någon av de två profilerna:
+Skapa användargrupper och tilldela sedan användarna till användargrupperna. Dessa användargrupper är tillgängliga i Assets Essentials för att ange behörigheter för mappar.
 
-1. Åtkomst [!DNL Admin Console] för din organisation klickar du på **[!UICONTROL Products]** i det övre fältet klickar du på **[!UICONTROL AEM Assets Essentials]** och klicka sedan på [!DNL Assets Essentials] miljö. [!DNL Assets Essentials] har tre produktprofiler som representerar åtkomst för administratörsanvändare, vanliga användare och konsumentanvändare.
-
-   ![Tre profiler för tre typer av användare](assets/admin-console-admin-profile.png)
-   <!-- Need to update screenshot to include 3 profiles -->
-
-   *Bild: Det finns tre profiler för att lägga till de tre typerna av användare.*
-
-1. Om du vill lägga till en användare i en grupp klickar du på gruppen och väljer **[!UICONTROL Add User]**, anger användarinformationen och klickar på **[!UICONTROL Save]**. När du lägger till en användare får användaren en e-postinbjudan om att komma igång. Du kan inaktivera e-postinbjudningarna i inställningarna för produktprofilen i [!DNL Admin Console].
-
-   ![Lägg till en användare i [!DNL Assets Essentials]](assets/adminconsole-add-user.png)
-
-   *Bild: Lägg till en användare i [!DNL Assets Essentials] från [!DNL Admin Console].*
-
-1. Om du vill ta bort en användare från en grupp klickar du på gruppen, markerar en befintlig användare och väljer **[!UICONTROL Remove User]**.
-
->[!TIP]
->
->I [!DNL Admin Console]kan du hantera flera användare samtidigt med CSV-filer. Mer information finns på [[!DNL Admin Console] dokumentation](https://helpx.adobe.com/enterprise/using/accounts.html).
-
-## Visa tjänststatus och åtkomstloggar {#view-logs}
-
-Efter etablering distribuerar administratörer [!DNL Assets Essentials] bara en gång. Efter den första driftsättningen utför Adobe underhåll och uppdateringar av tjänsten. Administratörer kan använda [!DNL Cloud Manager] användargränssnitt för att kontrollera tjänstens status och för att hämta de senaste åtkomstloggarna.
-
-1. När användare rapporterar problem ska du kontrollera tjänstens status för [!DNL Assets Essentials] i **[!UICONTROL Program Overview]** gränssnitt. Under den normala driften av lösningen är statusen `Running`. If [!DNL Cloud Manager] visar all annan status, skapa en supportanmälan i [!DNL Admin Console] supportavdelningen.
-
-   ![Status för [!DNL Assets Essentials] in [!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
-
-   *Bild: Normal status för [!DNL Assets Essentials] in [!DNL Cloud Manager] är `Running`.*
-
-1. Om du vill hämta de senaste åtkomstloggarna klickar du på ![alternativikon](assets/do-not-localize/options-ellipses-icon.png), markera **[!UICONTROL Download Logs]** och följ instruktionerna på skärmen. Du kan granska HTTPS-åtkomstbegäranden med hjälp av loggarna.
-
-   ![ Möjlighet att ladda ned åtkomstloggarna](assets/cloudmanager-download-logs.png)
-
-   *Bild: Möjlighet att hämta åtkomstloggarna.*
-
-## Distribuera [!DNL Assets Essentials] {#deploy-essentials}
+Mer information om hur du hanterar användargrupper finns i `Create user groups` och `Edit user groups` finns på [Hantera användargrupper](https://helpx.adobe.com/enterprise/using/user-groups.html).
 
 >[!NOTE]
 >
->Utför endast dessa steg om Assets Essentials etableras före 6 januari 2022.
+>Om Admin Console är konfigurerat för att utnyttja ett externt system för att hantera användare/grupper-tilldelningar, till exempel Azure- eller Google-anslutningar, användarsynkroniseringsverktyg eller API för användarhanteringsmål, konfigureras dina grupper och användartilldelningar automatiskt. Mer information finns i [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/users.html).
 
-Efter etablering, [!DNL Assets Essentials] berättigande läggs till din organisation i [!DNL Admin Console]. Innan lösningen är tillgänglig för användaren måste en organisationsadministratör distribuera den. Administratören gör en engångsdistribution med [!DNL Cloud Manager] användargränssnitt. Efter den första driftsättningen utför Adobe underhåll och uppdateringar av tjänsten. När lösningen har etablerats får administratören ett e-postmeddelande från Adobe. E-postmeddelandet innehåller ett välkomstmeddelande och en länk för att komma igång. Så här distribuerar du:
+Mer information om hur du hanterar tillägg av användare i användargrupper finns i `Add users to groups` finns på [Hantera användargrupper](https://helpx.adobe.com/in/enterprise/using/user-groups.html#add-users-to-groups).
 
-1. Från länken i e-postmeddelandet kan du komma åt och logga in på [Admin Console](https://adminconsole.adobe.com). Om du har administratörsåtkomst till mer än ett organisationskonto väljer du lämplig organisation eller växlar till den med väljaren i det övre fältet. produktkortet för [!DNL Assets Essentials] är synlig i [!DNL Admin Console].
+### Lägga till användargrupper i produktprofiler {#add-users-to-product-profiles}
 
-   ![[!DNL Assets Essentials] kort in [!DNL Admin Console]](assets/essentials-in-admin-console.png)
+Lägg till användargrupper i produktprofiler så att de har tillgång till Assets Essentials-programmet.
 
-   *Bild: [!DNL Assets Essentials] kort in [!DNL Admin Console].*
+Så här lägger du till användargrupper i produktprofiler:
+
+1. Åtkomst [Admin Console](https://adminconsole.adobe.com) för din organisation klickar du på **[!UICONTROL Products]** i det övre fältet klickar du på **[!UICONTROL AEM Assets Essentials]** och klicka sedan på instansen för [!DNL Assets Essentials]. Namnet på instansen kan skilja sig från skärmbilden nedan.
+   >[!NOTE]
+   >
+   >[!DNL Cloud Manager] -instansen används endast för att kontrollera tjänstens status och få åtkomst till tjänstloggar och kan inte användas för att lägga till användare i produkten.
+
+   ![Administratörsprofil för Admin Console](assets/assets-essentials-instance.png)
+
+   [!DNL Assets Essentials] har tre produktprofiler som ger åtkomst för administratörer, vanliga användare och konsumentanvändare.
+
+   * **[!DNL Assets Essentials]Administratörer** ha administrativ åtkomst till programmet. Utöver alla slutanvändarfunktioner kan programadministratörer i den här gruppen hantera behörigheter för alla mappar och grupper/användare i hela programdatabasen.
+
+   * **[!DNL Assets Essentials]Användare** har tillgång till hela användargränssnittet. Dessa användare kan överföra, ordna, tagga och hitta digitala resurser.
+
+   * **[!DNL Assets Essentials]Konsumentanvändare**: har tillgång till den inbäddade upplevelsen av resursval i [!DNL Adobe Journey Optimizer] e-postmallsredigerare. Mer information finns i [Använd [!DNL Assets Essentials] in [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html).
+
+   ![Administratörsprofil för Admin Console](assets/admin-console-admin-profile.png)
+
+1. Om du vill lägga till en användargrupp i produkten klickar du på någon av de tre produktprofilerna för Assets Essentials och väljer **[!UICONTROL Add User]**, ange användargruppsinformation och klicka på **[!UICONTROL Save]**.
+
+   ![Lägg till administratörsprofil för användare](assets/add-users-admin-profile.png)
+
+   När du lägger till en användare får användaren en e-postinbjudan om att komma igång. Du kan inaktivera e-postinbjudningarna i inställningarna för produktprofilen i [!DNL Admin Console].
 
    >[!NOTE]
    >
-   >Om du kan visa **[!UICONTROL AEM Assets Essentials]** i produktavsnittet istället för **[!UICONTROL AEM Assets Essentials - Cloud Manager]** driftsättningen av Assets Essentials är klar. Du kan hoppa över de återstående stegen.
+   >Du måste lägga till en användare i administratörens Assets Essentials-produktprofil på Admin Console för att kunna utföra administrativa uppgifter i Assets Essentials-programmet. Dessa uppgifter omfattar [Skapa mappstruktur](#create-folder-structure), [Hantera behörigheter för mappar](#manage-permissions-for-folders)och [Konfigurera metadata-Forms](#metadata-forms).
 
-1. Lägg till dig själv som administratör för `AEM Assets Essentials - Cloud Manager` produktprofil i [!DNL Admin Console]. I stället för att du själv kan lägga till en annan medlem i organisationen eller så kan du lägga till fler än en administratör.
+## Använd Assets Essentials {#access-assets-essentials-application}
 
-1. Klicka ![lägg till ikon](assets/do-not-localize/add-icon.svg) till [!UICONTROL Select product profiles]och sedan markera [!UICONTROL Deployment Manager - Assets Essentials] som **[!UICONTROL product profile]**. Den användare som läggs till i det här steget får ett e-postmeddelande från Adobe med åtkomst till [!DNL Cloud Manager] och kan göra distributionen.
+När du har utfört användarberättiganden i Admin Console kan du få åtkomst till Assets Essentials-programmet och utföra följande uppgifter:
 
-   ![Lägg till en administratör och välj en produktprofil i [!DNL Admin Console]](assets/adminconsole-user1.png)
+* [Skapa mappstruktur](#create-folder-structure)
 
-   *Bild: Lägg till en administratör och välj en produktprofil i [!DNL Admin Console].*
+* [Överför resurser](#upload-assets)
 
-1. För åtkomst [!DNL Cloud Manager]klickar du på länken i e-postmeddelandet med åtkomst till [!DNL Cloud Manager]. Du kan även använda [https://experience.adobe.com/#/cloud-manager/](https://experience.adobe.com/#/cloud-manager/) i webbläsaren.
+* [Hantera behörigheter för mappar](#manage-permissions-for-folders)
 
-1. I användargränssnittet i Cloud Manager klickar du på **[!UICONTROL Add Program]** från det övre högra hörnet.
+* [Konfigurera metadata-Forms](#metadata-forms)
 
-1. Ange ett namn och ladda upp en bild (den representerar programmet i [!DNL Cloud Manager]) och sedan klicka på **[!UICONTROL Create]**. [!DNL Cloud Manager] tar några minuter att konfigurera programmet.
+* [Skapa offentliga samlingar](#create-public-collections)
 
-1. Håll pekaren över plattan och klicka när programmet är klart ![lägg till miljöikon](assets/do-not-localize/add-environment-icon.png).
+### Skapa mappstruktur {#create-folder-structure}
 
-1. Lägg till [!DNL Assets Essentials] till din organisation, klicka **[!UICONTROL Add Environment]**, välj ett namn och en distributionsregion och klicka på **[!UICONTROL Save]**. Du kan inte ändra distributionsregionen senare. Försök att matcha distributionsregionen för [!DNL Assets Essentials] med distributionsregionen för den andra lösningen som du tänker använda [!DNL Assets Essentials]. Matchningen är att säkerställa snabb nätverksåtkomst till digitala resurser och lägsta möjliga fördröjning.
+Du kan använda följande metoder för att skapa en mappstruktur i Assets Essentials-databasen:
 
-   ![Lägga till en miljö i [!DNL Cloud Manager]](assets/cloudmanager-add-environment-for-essentials.png)
+* Klicka på **[!UICONTROL Create Folder]** som finns i verktygsfältet för att skapa en tom mapp.
 
-   *Bild: Lägga till en miljö i [!DNL Cloud Manager] att börja använda [!DNL Assets Essentials].*
+* Klicka **[!UICONTROL Add Assets]** i verktygsfältet till [ladda upp en mappstruktur som är tillgänglig på din lokala dator](add-delete.md).
 
-1. När miljön har skapats på flera minuter kan du öppna [!DNL Admin Console] och lägga till användare i din organisation [!DNL Assets Essentials] lösning. Klicka ![alternativikon](assets/do-not-localize/options-ellipses-icon.png) och väljer **[!UICONTROL Manage Access]** alternativ.
+Skapa en mappstruktur som fungerar bra med organisationens affärsmål. Om du överför en befintlig mappstruktur till Assets Essentials-databasen bör du granska strukturen. Mer information finns i [Bästa metoder för mappstruktur för effektiv behörighetshantering](permission-management-best-practices.md##folder-structure-assets-essentials).
 
-   ![Klar miljö i [!DNL Cloud Manager]](assets/cloudmanager-manage-access-essentials.png)
+Det finns olika mappstrukturtyper som du kan använda för din organisation. Nedan följer några exempel på typiska mappstrukturer:
 
-   *Bild: En miljö i [!DNL Cloud Manager] som är klar att användas.*
+![Vanliga mappstrukturer](assets/folder-structure.svg)
+
+>[!NOTE]
+>
+>För att kunna hantera dessa uppgifter, särskilt hantera behörigheter, måste användaren ha programadministrationsbehörighet - det måste läggas till i [Administratörens Assets Essentials-produktprofil](#add-users-to-product-profiles).
+
+### Överför resurser {#upload-assets}
+
+Om du vill lägga till nya resurser att arbeta med överför du några resurser från det lokala filsystemet. Du kan antingen dra resurser eller mappar i användargränssnittet och följa instruktionerna på skärmen eller klicka på **[!UICONTROL Add Assets]** i verktygsfältet och lägg till filer i dialogrutan för överföring. while [!DNL Assets Essentials] har en kraftfull fulltextsökningsfunktion som du kan använda för att ordna dina resurser bättre med hjälp av mappar. Mer information finns i [Överför resurser](add-delete.md).
+
+![Överför filer och mappar](assets/upload-assets.png)
+
+### Hantera behörigheter för mappar {#manage-permissions-for-folders}
+
+I Assets Essentials kan administratörer hantera åtkomstnivåerna för de mappar som är tillgängliga i databasen. Som administratör kan du skapa användargrupper och tilldela behörigheter till dessa grupper för att hantera åtkomstnivåer. Du kan även delegera behörighetshanteringsprivilegier till användargrupper på mappnivå.
+
+>[!VIDEO](https://video.tv.adobe.com/v/341104)
+
+Mer information finns i [Hantera behörigheter för mappar](manage-permissions.md).
+
+### Konfigurera metadata Forms (valfritt) {#metadata-forms}
+
+Assets Essentials tillhandahåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält i en resurs [!UICONTROL Details] sida. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser. Du kan skapa formulär från grunden eller återanvända befintliga formulär.
+
+Du kan konfigurera metadataformulär för olika typer av resurser (olika MIME-typer). Använd samma formulärnamn som filens MIME-typ. Med Essentials matchas automatiskt MIME-typen för överförda resurser mot namnet på formuläret och metadata för överförda resurser uppdateras baserat på formulärfälten.
+
+Om ett metadataformulär till exempel har namnet `PDF` eller `pdf` finns, innehåller de överförda PDF-dokumenten metadatafält som definierats i formuläret.
+
+Mer information finns i [Metadataformulär](metadata.md#metadata-forms).
+
+>[!VIDEO](https://video.tv.adobe.com/v/341275)
+
+Mer information om Metadata Forms finns i [Metadata Forms i Assets Essentials](metadata.md#metadata-forms).
+
+### Skapa publika samlingar (valfritt) {#create-public-collections}
+
+En samling är en uppsättning resurser i Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare.
+
+Till skillnad från mappar kan en samling innehålla resurser från olika platser. Du kan dela flera samlingar med en användare. Varje samling innehåller referenser till resurser. Resursernas referensintegritet bevaras i alla samlingar. Mer information finns i [Hantera samlingar](manage-collections.md).
+
+![Samlingar](assets/collections.png)
 
 ## Nästa steg {#next-steps}
 
