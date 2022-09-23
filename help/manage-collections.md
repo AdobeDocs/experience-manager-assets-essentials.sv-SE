@@ -2,16 +2,16 @@
 title: Hantera samlingar
 description: En samling är en uppsättning resurser i Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: cd57eda1f15ea349f810b3ce0086d3e3b92ddb19
+source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '711'
 ht-degree: 1%
 
 ---
 
 # Hantera samlingar {#manage-collections}
 
-En samling är en uppsättning resurser i Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare.
+En samling är en uppsättning resurser, mappar eller andra samlingar i Adobe Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare.
 
 Till skillnad från mappar kan en samling innehålla resurser från olika platser.
 
@@ -29,11 +29,11 @@ Du kan utföra följande åtgärder för att hantera och använda samlingar:
 
 * [Lägga till resurser i en samling](#add-assets-to-collection)
 
+* [Ta bort resurser från en samling](#remove-assets-from-collection)
+
 * [Skapa en smart samling](#create-smart-collection)
 
 * [Redigera en smart samling](#edit-smart-collection)
-
-* [Ta bort resurser från en samling](#remove-assets-from-collection)
 
 * [Visa och redigera samlingsmetadata](#view-edit-collection-metadata)
 
@@ -67,7 +67,7 @@ Så här skapar du en samling:
 
 Så här lägger du till resurser i en samling:
 
-1. Klicka **[!UICONTROL Assets]** till vänster och välj tillgångar.
+1. Klicka **[!UICONTROL Assets]** i den vänstra listen och välj de resurser som du behöver lägga till i en samling.
 
 1. Klicka på **[!UICONTROL Add to Collection]**.
 
@@ -77,9 +77,19 @@ Så här lägger du till resurser i en samling:
 
 Om du vill lägga till resurser i samlingen kan du även klicka på **[!UICONTROL Collections]** i det vänstra fältet klickar du på samlingen för att lägga till resurser i och klickar på **[!UICONTROL Add to Collection]**, markera resursen/resurserna och klicka på **[!UICONTROL Select]**.
 
+## Ta bort resurser från en samling {#remove-assets-from-collection}
+
+Så här tar du bort resurser från en samling:
+
+1. Klicka **[!UICONTROL Collections]** i den vänstra listen för att visa en lista över samlingar.
+
+1. Klicka på samlingen och markera objekt som du vill ta bort från samlingen.
+
+1. Klicka på **[!UICONTROL Remove]**.
+
 ## Hantera en smart samling {#manage-smart-collection}
 
-Spara sökresultaten som en smart samling för att dynamiskt uppdatera samlingens innehåll. Om det finns resurser som läggs till i Assets Essentials-databasen och som uppfyller sökvillkoren när du skapar den smarta samlingen uppdateras innehållet i den smarta samlingen automatiskt.
+Spara sökresultaten som en smart samling för att dynamiskt uppdatera samlingens innehåll. Om det finns resurser som har lagts till i Assets Essentials-databasen och som uppfyller sökvillkoren när du skapar den smarta samlingen, uppdateras innehållet i den smarta samlingen automatiskt när du öppnar en smart samling.
 
 ### Skapa en smart samling {#create-smart-collection}
 
@@ -108,16 +118,6 @@ Så här redigerar du en smart samling:
 1. På [!UICONTROL Edit Smart Collection Filters] dialogruta, [uppdatera sökvillkoren](search.md##refine-search-results) för den smarta samlingen.
 
 1. Klicka på **[!UICONTROL Save]**.
-
-## Ta bort resurser från en samling {#remove-assets-from-collection}
-
-Så här tar du bort resurser från en samling:
-
-1. Klicka **[!UICONTROL Collections]** i den vänstra listen för att visa en lista över samlingar.
-
-1. Klicka på samlingen och välj de resurser som du vill ta bort från samlingen.
-
-1. Klicka på **[!UICONTROL Remove]**.
 
 <!--
 
@@ -149,7 +149,7 @@ Så här visar och redigerar du samlingens metadata:
 
 1. Klicka **[!UICONTROL Collections]** i den vänstra listen väljer du en samling och klickar på **[!UICONTROL Details]**.
 1. Visa samlingens metadata med **[!UICONTROL Basic]** -fliken.
-1. Ändra metadatafälten efter behov. Du kan ändra [!UICONTROL Title], [!UICONTROL Description]och [!UICONTROL Author] fält.
+1. Ändra metadatafälten efter behov. Du kan ändra [!UICONTROL Title] och [!UICONTROL Description] fält.
 
 ![Samlingsmetadata](assets/collection-metadata.png)
 

@@ -2,9 +2,9 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 9879dd2fd28c949727e85c3a54e07ea7c1a50c82
+source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '720'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ Resursrapportering ger administratörer insyn i Adobe Experience Manager Assets 
 
 ## Åtkomstrapporter {#access-reports}
 
-Alla användare som är tilldelade till [Assets Essentials Administrators produktprofil](deploy-administer.md) kan komma åt kontrollpanelen Live-statistik och skapa användardefinierade rapporter i Assets Essentials.
+Alla användare som är tilldelade till [Assets Essentials Administrators produktprofil](deploy-administer.md) kan komma åt kontrollpanelen Live-statistik eller skapa användardefinierade rapporter i Assets Essentials.
 
 ## Visa livesstatistik {#view-live-statistics}
 
@@ -44,6 +44,9 @@ Så här skapar du en hämtningsrapport:
 1. Välj mappsökvägen, som omfattar de resurser som rapporten ska köras på, med hjälp av **[!UICONTROL Select Folder Path]** fält.
 
 1. Välj datumintervall för rapporten.
+   >[!NOTE]
+   >
+   > Assets Essentials konverterar alla lokala tidszoner till UTC (Coordinated Universal Time).
 
 1. I [!UICONTROL Columns] markerar du de kolumnnamn du vill visa i rapporten.
 
@@ -73,7 +76,7 @@ I följande tabell förklaras användningen av alla kolumner som du kan lägga t
      </tr>
      <tr>
       <td>Storlek</td>
-      <td>Resursens storlek.</td>
+      <td>Resursens storlek i byte.</td>
      </tr>
      <tr>
       <td>Hämtat av</td>
@@ -171,7 +174,7 @@ I följande tabell förklaras användningen av alla kolumner som du kan lägga t
 
 ## Visa befintliga rapporter {#view-report-list}
 
-Efter [skapa rapporten](#create-report)kan du visa listan över befintliga rapporter och välja att hämta dem i CSV-format eller ta bort dem.
+Efter [skapa rapporten](#create-download-report)kan du visa listan över befintliga rapporter och välja att hämta dem i CSV-format eller ta bort dem.
 
 Om du vill visa en lista med rapporter går du till **[!UICONTROL Settings]** > **[!UICONTROL Reports]**.
 
@@ -190,7 +193,7 @@ Så här hämtar du en rapport i CSV-format:
 
 1. Välj en rapport och klicka på **[!UICONTROL Download CSV]**.
 
-Den valda rapporten hämtas i CSV-format. Kolumnerna som visas i CSV-rapporten beror på vilka kolumner som du markerar när [skapa rapporten](#create-report).
+Den valda rapporten hämtas i CSV-format. Kolumnerna som visas i CSV-rapporten beror på vilka kolumner som du markerar när [skapa rapporten](#create-download-report).
 
 ## Ta bort en rapport {#delete-report}
 
@@ -199,3 +202,5 @@ Så här tar du bort en rapport:
 1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Reports]**.
 
 1. Välj en rapport och klicka på **[!UICONTROL Delete]**.
+
+1. Klicka **[!UICONTROL Delete]** igen för att bekräfta.

@@ -2,9 +2,9 @@
 title: Hantera meddelanden
 description: Övervaka åtgärderna som utförs på de resurser eller mappar som är tillgängliga i databasen med Assets Essentials-meddelanden.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: 2a8899c333e08c50e4cf8b49399188f50a0d3a46
+source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,9 @@ Efter [prenumerera på meddelandekategorierna](#subscribe-to-notification-catego
 
 >[!NOTE]
 >
->För **[!UICONTROL Requests]** och **[!UICONTROL Assigned to me]** meddelandekategorier behöver du inte prenumerera på innehållet efter att du har prenumererat på meddelandekategorierna. Meddelanden skickas automatiskt till dig för förfrågningar som du har skapat och när en uppgift har tilldelats dig.
+>* För **[!UICONTROL Requests]** och **[!UICONTROL Assigned to me]** meddelandekategorier behöver du inte prenumerera på innehållet efter att du har prenumererat på meddelandekategorierna. Meddelanden skickas automatiskt till dig för förfrågningar som du har skapat och när en uppgift har tilldelats dig.
+>* Assets Essentials skickar endast meddelanden när andra användare utför åtgärder på det prenumererade innehållet. Du får inga meddelanden om vilka åtgärder du utför på det prenumererade innehållet.
+
 
 Om du vill prenumerera på innehållet väljer du den mapp, resurs eller samling som du vill prenumerera på och klickar på **[!UICONTROL Watch]**.
 
