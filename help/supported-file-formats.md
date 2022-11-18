@@ -4,9 +4,9 @@ description: Filformat som stöds för olika användningsområden för [!DNL Ass
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: e8791aab7c99e020921bdd65ed3d579bb11ffd6b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 5%
 
 ---
@@ -78,6 +78,14 @@ De olika filtyperna har olika typer av stöd för användningsfall och funktione
 | PDF | - | ✓ | ✓ |
 | PSD, AI och INDD | - | ✓ | ✓ |
 | Andra binära filer | - | ✓ | ✓ |
+| DOC | - | ✓ | ✓ |
+| DOCX | - | ✓ | ✓ |
+| PPT | - | ✓ | ✓ |
+| PPTX | - | ✓ | ✓ |
+| XLS | - | ✓ | ✓ |
+| XLSX | - | ✓ | ✓ |
+| TXT | - | ✓ | ✓ |
+| RTF | - | ✓ | ✓ |
 
 ## Andra resurshanteringsåtgärder {#support-to-manage-assets}
 
