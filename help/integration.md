@@ -1,11 +1,11 @@
 ---
 title: Integrering med andra Adobe-lösningar
-description: '"[!DNL Assets Essentials] integreras med andra Adobe-lösningar och ger en inbäddad upplevelse inifrån det inbyggda programmet."'
+description: "[!DNL Assets Essentials] integreras med andra Adobe-lösningar och ger en inbäddad upplevelse inifrån det inbyggda programmet."
 role: User
 exl-id: bc43a59e-f295-44d2-a14d-854174f91e41
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: 268b7eb82b15b658207f24750eeae085ce5bb3d4
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
@@ -21,8 +21,6 @@ Den inbäddade [!DNL Assets Essentials] upplevelsen kan integreras med följande
    [Se en video om hur du kan integrera Assets Essentials med Adobe Creative Cloud Libraries](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/creative-cloud.html)
 
 * **[!DNL Adobe Journey Optimizer]**: [[!DNL Adobe Journey Optimizer]](https://business.adobe.com/products/journey-optimizer/adobe-journey-optimizer.html) förenklar hanteringen av kundresan och ger kunderna möjlighet att skapa flerkanalskampanjer med smarta beslut och insikter. När du utformar meddelanden med [!DNL Journey Optimizer]kan du komma åt [!DNL Assets Essentials] direkt från [!DNL Journey Optimizer] gränssnitt. Användare får åtkomst till resurser via det inbäddade användargränssnittet i [!DNL Assets Essentials]. Se [använda [!DNL Assets Essentials] hjälpartikel](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html) eller [videosjälvstudiekurs för att skapa e-postinnehåll](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html).
-
-   [Titta på en video för att skapa e-postinnehåll med meddelanderedigeraren](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-messages/create-email-content-with-the-message-editor.html)
 
 * **[!DNL Adobe Workfront]**: [[!DNL Adobe Workfront]](https://www.workfront.com/) är ett program för arbetshantering som hjälper dig att hantera hela arbetscykeln på ett och samma ställe. Integrationen mellan [!DNL Adobe Workfront] och [!DNL Assets Essentials] Med kan organisationer förbättra innehållets hastighet och time-to-market genom att knyta samman arbete och resurshantering. Inom ramen för hanteringen av sitt arbete har användarna tillgång till dokument och bilder som behövs i samma lösning. [!DNL Assets Essentials] är tillgängligt som ett tillägg till det nya [!DNL Workfront] kunderna kan köpa separat. Se [konfigurera och använda [!DNL Workfront] och [!DNL Essentials] integration](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FDocuments%2FAdobe_Workfront_for_Experience_Manager_Assets_Essentials%2F_workfront-for-aem-asset-essentials.htm).
 

@@ -1,29 +1,14 @@
 ---
 title: Integrera Assets Essentials med Creative Cloud
 description: Integrera Assets Essentials med Creative Cloud-program så att du kan använda Adobe Asset-länken i appanelen för att ansluta till [!DNL Assets Essentials] databas från den databas som stöds [!DNL Adobe Creative Cloud] datorprogram.
-exl-id: 611fd958-3fd3-4c46-bee9-8b866b7dc208
-source-git-commit: 268b7eb82b15b658207f24750eeae085ce5bb3d4
+source-git-commit: 44b8b8f3c734bd80e9d86177d607d897e696e4ed
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
 
 # Integrera Assets Essentials med Creative Cloud {#integrate-assets-essentials-creative-cloud-applications}
-
-![Inställning för växling av mörkt och ljust tema](assets/cce-creative-cloud.png)
-
-## Berättelsen hittills
-
-Efter [konfigurera Experience Manager Assets Essentials](adminster-aem-assets-essentials.md) i den här självstudiekursen kan du bygga vidare på upplevelsen för att integrera Creative Cloud-programmen med Assets Essentials.
-
-## Syfte
-
-* **Målgrupp**: Creative Cloud administratörer
-
-* **Syfte**: Integrera Assets Essentials med Creative Cloud-program så att dina kreativa användare kan använda länken Adobe Asset i appen för att ansluta till [!DNL Assets Essentials] databas från den databas som stöds [!DNL Adobe Creative Cloud] datorprogram.
-
-## Översikt
 
 [Adobe Asset Link i apppanelen](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html) ger kreatörer möjlighet att [!DNL Assets Essentials] databas från den databas som stöds [!DNL Adobe Creative Cloud] datorprogram. Panelen är tillgänglig för [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign]och [!DNL Adobe XD]. Det effektiviserar åtkomsten till resurser, vilket i sin tur hjälper till att öka innehållets hastighet.
 
@@ -53,7 +38,7 @@ När du har upprättat ett katalogförtroende mellan Admin Console för Creative
 
 Andra Assets Essentials-produktprofiler - **[!DNL Assets Essentials]Administratörer** och **[!DNL Assets Essentials]Konsumentanvändare** - används för olika användarrättigheter (programadministratörer och användare som använder Assets Essentials via Experience Cloud).
 
-Mer information om hur du tilldelar användare till Assets Essentials produktprofiler finns i [Tilldela användare till Assets Essentials produktprofiler](adminster-aem-assets-essentials.md#add-users-to-product-profiles).
+Mer information om hur du tilldelar användare till Assets Essentials produktprofiler finns i [Tilldela användare till Assets Essentials produktprofiler](deploy-administer.md#add-users-to-product-profiles).
 
 ## Installera Adobe Asset Link {#install-asset-link}
 
@@ -79,7 +64,7 @@ Om du vill ha information om hur du konfigurerar Adobe Asset Link för Adobe XD 
 
 >[!NOTE]
 >
->När du arbetar med maskinvara från Apple Silicon/M1 måste Adobe Photoshop startas med kompatibilitetsläget Rosetta för att se till att kreativa användare har tillgång till panelen Adobe Asset Link, eftersom den byggs med CEP-tilläggstekniken. Mer information finns i [Photoshop for Apple Silicon](https://helpx.adobe.com/photoshop/kb/photoshop-for-apple-silicon.html).
+>När du arbetar med maskinvara från Apple Silicon/M1 måste Adobe Photoshop startas i Rosetta-kompatibilitetsläge för att se till att kreativa användare har tillgång till panelen Adobe Asset Link, eftersom den är byggd med CEP-tilläggstekniken. Mer information finns i [Photoshop for Apple Silicon](https://helpx.adobe.com/photoshop/kb/photoshop-for-apple-silicon.html).
 
 
 Använd Adobe Asset Link för att arbeta med och ändra resurser som lagras i Assets Essentials-databasen. Du kan utföra olika åtgärder, till exempel:
@@ -97,7 +82,3 @@ Använd Adobe Asset Link för att arbeta med och ändra resurser som lagras i As
 * Visa versionshistorik och filinformation
 
 Instruktioner om hur du utför dessa åtgärder finns i [Hantera resurser med Adobe Asset Link](https://helpx.adobe.com/in/enterprise/using/manage-assets-using-adobe-asset-link.html).
-
-## What&#39;s Next
-
-Nu när du har integrerat Creative Cloud-programmen med Assets Essentials [integrera Adobe Workfront med Experience Manager Assets Essentials](integrate-assets-essentials-workfront.md).

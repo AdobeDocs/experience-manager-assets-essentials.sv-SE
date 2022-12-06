@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: 1d7055f95e051dd0dd8790a0e655344d99f8f24d
+source-git-commit: 73a425d494b00650e917a98a35fd53e23cb2a4f1
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 4%
+source-wordcount: '121'
+ht-degree: 5%
 
 ---
 
@@ -26,11 +26,7 @@ ht-degree: 4%
    + Hantera mappåtkomst{#folder-access}
       + [Hantera mappbehörigheter](manage-permissions.md)
       + [Bästa tillvägagångssätt för behörighetshantering](permission-management-best-practices.md)
-   + Administratörsresa för Assets Essentials for Creative Cloud Pro med Work Management Solutions{#admin-journey}
-      + [Översikt över administratörsresan](assets-essentials-cc-pro-work-management-admin-journey.md)
-      + [Administrera Experience Manager Assets Essentials](adminster-aem-assets-essentials.md)
-      + [Integrera Assets Essentials med Creative Cloud](integrate-assets-essentials-creative-cloud.md)
-      + [Integrera Assets Essentials med Adobe Workfront](integrate-assets-essentials-workfront.md)
+   + [Administratörsresa för Assets Essentials for Creative Cloud Pro med Work Management Solutions](assets-essentials-cc-pro-work-management-admin-journey.md)
 + [Kom igång med [!DNL Assets Essentials]](get-started.md)
 + [Filtyper och användningsområden som stöds](supported-file-formats.md)
 + [Visa resurser](navigate-view.md)
@@ -43,5 +39,8 @@ ht-degree: 4%
 + [Hantera samlingar](manage-collections.md)
 + [Hantera meddelanden](manage-notifications.md)
 + [Hantera rapporter](manage-reports.md)
-+ [Integration med andra lösningar](integration.md)
++ Integration med andra lösningar {#integration-with-other-solutions}
+   + [Översikt](integration.md)
+   + [Integrera med Creative Cloud för företag](integrate-with-creative-cloud.md)
+   + [Integrera med Adobe Workfront](integrate-with-workfront.md)
 + [Videor](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html)
