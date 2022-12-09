@@ -2,9 +2,9 @@
 title: Hantera samlingar
 description: En samling är en uppsättning resurser i Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
+source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '684'
 ht-degree: 1%
 
 ---
@@ -74,8 +74,6 @@ Så här lägger du till resurser i en samling:
 1. På [!UICONTROL Collections] väljer du de samlingar du vill lägga till de markerade resurserna i.
 
 1. Klicka **[!UICONTROL Add]** om du vill lägga till resursen i de valda samlingarna.
-
-Om du vill lägga till resurser i samlingen kan du även klicka på **[!UICONTROL Collections]** i det vänstra fältet klickar du på samlingen för att lägga till resurser i och klickar på **[!UICONTROL Add to Collection]**, markera resursen/resurserna och klicka på **[!UICONTROL Select]**.
 
 ## Ta bort resurser från en samling {#remove-assets-from-collection}
 

@@ -2,9 +2,9 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
+source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '725'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Med Assets Essentials kan du visa realtidsdata för din Assets Essentials-miljö
 
 ![Alternativ i verktygsfältet när du väljer en resurs](assets/assets-essentials-live-statistics.png)
 
-Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Live Statistics]** om du vill visa följande automatiskt genererade diagram:
+Klicka **[!UICONTROL Live Statistics]** som finns i det vänstra navigeringsfönstret för att visa följande automatiskt genererade diagram:
 
 * **Nedladdningar**: Antalet resurser som laddats ned från Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
 
