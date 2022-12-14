@@ -4,9 +4,9 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: fbbd982e36f2b0d126c01f71afed8da984320523
+source-git-commit: 2a19ab3dd9c3d15916cfb93083a23569005a86b6
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1467'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,16 @@ Det nya alternativet Spara metadata finns nu i Assets Essentials användargräns
 **Förbättringar baserade på kundfeedback**
 
 Förbättringar och felkorrigeringar som bygger på kundfeedback.
+
+**Adobe Asset Link version 3.3**
+
+[Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html) version 3.3 släpps den 13 december 2022, med följande funktioner:
+
+* Stöd för [Creative Cloud for teams](https://www.adobe.com/creativecloud/business/teams.html) utöver att stödja [Creative Cloud för företag](https://www.adobe.com/creativecloud/business/enterprise.html) före.
+
+* Stöd för de senaste Adobe InDesign-, Photoshop- och Illustrator 2023-programmen.
+
+* Stöd för CEP-plugin för Adobe Asset Link i miljöer med proxyservrar.
 
 ## Kända fel {#known-issues}
 
