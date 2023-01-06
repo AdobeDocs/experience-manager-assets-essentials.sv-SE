@@ -2,9 +2,9 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
+source-git-commit: b37e633518513023dd947157d4a7a9297590ccd3
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '701'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,11 @@ Klicka **[!UICONTROL Live Statistics]** som finns i det vänstra navigeringsfön
 
 * **Överföringar**: Antalet mediefiler som har överförts till Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
 
-* **Lagringsanvändning**: Lagringsanvändningen, i gigabyte (GB), för Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna, visas i ett stapeldiagram.
+<!--
+
+* **Storage usage**: The storage usage, in gigabytes (GB), for the Assets Essentials environment, for the last 30 days or 12 months represented using a bar chart.
+
+-->
 
 ## Skapa en nedladdningsrapport {#create-download-report}
 
