@@ -3,9 +3,9 @@ title: Administrera och hantera användare
 description: Administrationsexempel, t.ex. distribution och användarhantering i [!DNL Assets Essentials].
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 940f3155a8310ace2768cdfee152c62e99ea2526
+source-git-commit: c7b863aa81337293454199e72f705e53f05a5130
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Utför följande åtgärder för användartillstånd med Admin Console:
 
 ### Skapa Assets Essentials-programadministratör {#create-assets-essentials-administrator}
 
-En Admin Console-administratör måste lägga till Assets Essentials-administratörens produktprofil för en användare och inte för en användargrupp. Assets Essentials programadministratör kan sedan hantera uppgifter som att skapa en mappstruktur, överföra resurser, konfigurera behörigheter, konfigurera metadataformulär och skapa offentliga samlingar. Mer information om hur du tilldelar en användare till en Assets Essentials-programadministratörsprofil finns i [lägga till användare i produktprofiler](#add-users-to-product-profiles).
+En Admin Console-administratör måste lägga till Assets Essentials-administratörens produktprofil för en användare och inte för en användargrupp. Assets Essentials programadministratör kan sedan hantera uppgifter som att skapa en mappstruktur, överföra resurser, konfigurera behörigheter, konfigurera metadataformulär och skapa offentliga samlingar. Mer information om hur du tilldelar en Assets Essentials-programadministratörsprofil till en användare finns i [lägga till produktprofiler i användargrupper](#add-product-profiles-to-user-groups).
 
 ### Lägg till användargrupper {#add-user-groups}
 
