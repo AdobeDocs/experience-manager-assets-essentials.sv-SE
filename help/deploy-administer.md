@@ -3,9 +3,9 @@ title: Administrera och hantera användare
 description: Administrationsexempel, t.ex. distribution och användarhantering i [!DNL Assets Essentials].
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 6d36813bff1dd99f9185935605a10012c7865a50
+source-git-commit: 940f3155a8310ace2768cdfee152c62e99ea2526
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1322'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Utför följande åtgärder för användartillstånd med Admin Console:
 
 ### Skapa Assets Essentials-programadministratör {#create-assets-essentials-administrator}
 
-En Admin Console-administratör måste lägga till en användare, och inte en användargrupp, i Assets Essentials administratörs produktprofil. Assets Essentials programadministratör kan sedan hantera uppgifter som att skapa en mappstruktur, överföra resurser, konfigurera behörigheter, konfigurera metadataformulär och skapa offentliga samlingar. Mer information om hur du tilldelar en användare till en Assets Essentials-programadministratörsprofil finns i [lägga till användare i produktprofiler](#add-users-to-product-profiles).
+En Admin Console-administratör måste lägga till Assets Essentials-administratörens produktprofil för en användare och inte för en användargrupp. Assets Essentials programadministratör kan sedan hantera uppgifter som att skapa en mappstruktur, överföra resurser, konfigurera behörigheter, konfigurera metadataformulär och skapa offentliga samlingar. Mer information om hur du tilldelar en användare till en Assets Essentials-programadministratörsprofil finns i [lägga till användare i produktprofiler](#add-users-to-product-profiles).
 
 ### Lägg till användargrupper {#add-user-groups}
 
@@ -51,11 +51,11 @@ Mer information om hur du hanterar användargrupper finns i `Create user groups`
 
 Mer information om hur du hanterar tillägg av användare i användargrupper finns i `Add users to groups` finns på [Hantera användargrupper](https://helpx.adobe.com/in/enterprise/using/user-groups.html#add-users-to-groups).
 
-### Lägga till användargrupper i produktprofiler {#add-users-to-product-profiles}
+### Lägga till produktprofiler i användargrupper {#add-product-profiles-to-user-groups}
 
-Lägg till användargrupper i produktprofiler så att de har tillgång till Assets Essentials-programmet.
+Lägg till produktprofiler i användargrupper så att de har tillgång till Assets Essentials.
 
-Så här lägger du till användargrupper i produktprofiler:
+Så här lägger du till produktprofiler i användargrupper:
 
 1. Åtkomst [Admin Console](https://adminconsole.adobe.com) för din organisation klickar du på **[!UICONTROL Products]** i det övre fältet klickar du på **[!UICONTROL AEM Assets Essentials]** och klicka sedan på instansen för [!DNL Assets Essentials]. Namnet på instansen kan skilja sig från skärmbilden nedan.
    >[!NOTE]
