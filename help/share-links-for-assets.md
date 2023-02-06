@@ -2,9 +2,9 @@
 title: Hur delar jag länkar till resurser?
 description: Generera en länk och dela resurser med andra som inte har tillgång till [!DNL Assets Essentials] program.
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: 79039f96a4aa44bb81923ec909766969f81e1a3f
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,7 @@ Så här skapar du en länk för en resurs eller en mapp som innehåller resurse
 
 1. Om du vill justera den klickar du på kalenderikonen för att definiera ett förfallodatum för länken med hjälp av **[!UICONTROL Expiration Date]** fält. Du kan också ange ett datum direkt i dialogrutan `yyyy-mm-dd` format. Som standard är förfallodatumet för en länk inställt på två veckor från delningsdatumet.
 
-1. Klicka på **[!UICONTROL Generate Link]**.
-
-1. Klicka **[!UICONTROL Copy Link]** för att kopiera länken. Du kan också kopiera länken från **[!UICONTROL Share Link]** fält.
+1. Kopiera länken från **[!UICONTROL Share Link]** fält.
 
    ![Möjlighet att beskära och räta upp](assets/share-asset-link.png)
 

@@ -2,9 +2,9 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: b37e633518513023dd947157d4a7a9297590ccd3
+source-git-commit: ec9cdf0d206aa59d67b8ac96504b590a2db19663
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '698'
 ht-degree: 2%
 
 ---
@@ -15,15 +15,15 @@ Resursrapportering ger administratörer insyn i Adobe Experience Manager Assets 
 
 ## Åtkomstrapporter {#access-reports}
 
-Alla användare som är tilldelade till [Assets Essentials Administrators produktprofil](deploy-administer.md) kan komma åt kontrollpanelen Live-statistik eller skapa användardefinierade rapporter i Assets Essentials.
+Alla användare som är tilldelade till [Assets Essentials Administrators produktprofil](deploy-administer.md) kan komma åt Insikter-instrumentpanelen eller skapa användardefinierade rapporter i Assets Essentials.
 
-## Visa livesstatistik {#view-live-statistics}
+## Visa insikter {#view-live-statistics}
 
-Med Assets Essentials kan du visa realtidsdata för din Assets Essentials-miljö med kontrollpanelen Live Statistics. Du kan visa händelsemått i realtid under de senaste 30 dagarna eller under de senaste 12 månaderna.
+Med Assets Essentials kan du visa realtidsdata för din Assets Essentials-miljö med Insikter-instrumentpanelen. Du kan visa händelsemått i realtid under de senaste 30 dagarna eller under de senaste 12 månaderna.
 
 ![Alternativ i verktygsfältet när du väljer en resurs](assets/assets-essentials-live-statistics.png)
 
-Klicka **[!UICONTROL Live Statistics]** som finns i det vänstra navigeringsfönstret för att visa följande automatiskt genererade diagram:
+Klicka **[!UICONTROL Insights]** som finns i det vänstra navigeringsfönstret för att visa följande automatiskt genererade diagram:
 
 * **Nedladdningar**: Antalet resurser som laddats ned från Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
 

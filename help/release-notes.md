@@ -4,16 +4,62 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 2a19ab3dd9c3d15916cfb93083a23569005a86b6
+source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1685'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den aktuella versionen av Assets Essentials släpptes 17 november 2022.
+Den aktuella versionen av Assets Essentials släpps den 27 januari 2023.
+
+Den här versionen innehåller:
+
+**Min arbetsyta med konfigurerbara widgetar**
+
+Resurserna har nu en anpassad arbetsyta som fungerar som en helhetslösning för att ge smidig åtkomst till viktiga delar av Assets-användargränssnittet och den information som är mest relevant för dig. Snabbare åtkomst till dessa alternativ ökar materialets hastighet och effektivitet.
+
+Min arbetsyta innehåller widgetar för kommande nya funktioner, insikter, uppgifter och innehåll. Du kan konfigurera hur dessa widgetar visas på arbetsytan utifrån dina inställningar.
+
+**Dedikerat gränssnitt för uppgiftshantering**
+
+Med Assets Essentials kan du nu hantera listan över uppgifter som för närvarande är tilldelade dig, skapade av dig och redan har slutförts av dig på en central plats med hjälp av den nya **[!UICONTROL Tasks]** i det vänstra navigeringsfönstret. Du kan också vidta lämpliga åtgärder genom att välja en uppgift som ska godkännas eller avvisas, eller öppna uppgiftsinformationen för att godkänna, avvisa, redigera eller ta bort den.
+
+![Uppgifter på arbetsytan](assets/tasks-workspace.png)
+
+**Automatiskt genererade länkar för att dela resurser**
+
+Assets Essentials genererar nu en länk automatiskt så snart du väljer att dela en resurs med Assets Essentials användargränssnitt. Den genererade länken fortsätter att gälla även om du ändrar förfallodatumet.
+
+![Uppgifter på arbetsytan](assets/share-asset.png)
+
+
+**Förbättringar baserade på kundfeedback**
+
+Förbättringar och felkorrigeringar som bygger på kundfeedback.
+
+## Kända fel {#known-issues}
+
+Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* Privata samlingar är tillgängliga för den som skapat dem och för användare med administratörsbehörighet. Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
+
+Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
+
+## Tidigare versioner {#past-releases}
+
+### 2022.11.0 {#november-2022}
+
+Novemberversionen av [!DNL Assets Essentials] släpps den 17 november 2022.
 
 Den här versionen innehåller:
 
@@ -55,23 +101,6 @@ Förbättringar och felkorrigeringar som bygger på kundfeedback.
 * Stöd för de senaste Adobe InDesign-, Photoshop- och Illustrator 2023-programmen.
 
 * Stöd för CEP-plugin för Adobe Asset Link i miljöer med proxyservrar.
-
-## Kända fel {#known-issues}
-
-Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* Privata samlingar är tillgängliga för den som skapat dem och för användare med administratörsbehörighet. Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
-
-Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
-
-## Tidigare versioner {#past-releases}
 
 ### 2022.8.0 {#august-2022}
 

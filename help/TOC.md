@@ -2,17 +2,17 @@
 cloud: Experience Cloud
 product: experience manager
 audience: end-user
-user-guide-title: Experience Manager Assets Essentials Guide
-breadcrumb-title: Assets Essentials Guide
+user-guide-title: Användarhandbok om Experience Manager Assets Essentials
+breadcrumb-title: Användarhandbok om Assets Essentials
 user-guide-description: Assets Essentials är en enkel resurshanteringslösning som fungerar inifrån andra Experience Cloud-program.
 feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: 73a425d494b00650e917a98a35fd53e23cb2a4f1
+source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 5%
+source-wordcount: '123'
+ht-degree: 25%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 5%
 
 + [Översikt över lösningar](introduction.md)
 + [Versionsinformation](release-notes.md)
++ [Min arbetsyta](my-workspace.md)
 + Kom igång med Assets Essentials för administratörer {#get-started-admins}
    + [Administrera och lägga till användare](deploy-administer.md)
    + Hantera mappåtkomst{#folder-access}
