@@ -4,9 +4,9 @@ description: Hantera metadata för resurser i [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: 9a29e1a9403a9790a3e6aa50b222fa7a6bfd66ec
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -59,9 +59,17 @@ Du kan även ta bort taggar från [!UICONTROL Smart Tags] avsnitt som automatisk
 
 ## Metadataformulär {#metadata-forms}
 
-Assets Essentials tillhandahåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält i en resurs [!UICONTROL Details] sida. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser.
+Assets Essentials tillhandahåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält i en resurs [!UICONTROL Details] sida. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser. Du kan skapa formulär från grunden eller återanvända befintliga formulär.
 
-Du kan konfigurera metadataformulär för olika typer av resurser (olika MIME-typer). Använd samma formulärnamn som filens MIME-typ. Med Essentials matchas automatiskt överförda resurser mot formulärets namn. Om ett metadataformulär till exempel har namnet `PDF` eller `pdf` finns, innehåller de överförda PDF-dokumenten metadatafält som definierats i formuläret. Du kan skapa formulär från grunden eller återanvända befintliga formulär.
+Du kan konfigurera metadataformulär för olika typer av resurser (olika MIME-typer). Använd samma formulärnamn som filens MIME-typ. Med Essentials matchas automatiskt MIME-typen för överförda resurser mot namnet på formuläret och metadata för överförda resurser uppdateras baserat på formulärfälten.
+
+Om ett metadataformulär till exempel har namnet `PDF` eller `pdf` finns, innehåller de överförda PDF-dokumenten metadatafält som definierats i formuläret.
+
+Assets Essentials använder följande sekvens för att söka efter befintliga metadataformulärnamn för att tillämpa metadatafälten på de överförda resurserna av en viss typ:
+
+MIME-undertyp > MIME-typ > `default` form > Out-of-box form
+
+Om ett metadataformulär till exempel har namnet `PDF` eller `pdf` finns, innehåller de överförda PDF-dokumenten metadatafält som definierats i formuläret. Om ett metadataformulär har namnet `PDF` eller `pdf` finns inte, Assets Essentials matchar om det finns ett metadataformulär med namnet `application`. Om det finns ett metadataformulär med namnet `application`innehåller de överförda PDF-dokumenten metadatafält som definierats i formuläret. Om Assets Essentials fortfarande inte hittar något matchande metadataformulär söker programmet efter `default` metadataformulär för att använda metadatafält som definieras i formuläret på de överförda PDF-dokumenten. Om inget av dessa steg fungerar använder Assets Essentials metadatafält som är definierade i det färdiga formuläret för alla överförda PDF-dokument.
 
 >[!IMPORTANT]
 >
@@ -87,6 +95,10 @@ Så här skapar du ett metadataformulär:
 1. Om du vill kan du klicka **[!UICONTROL Preview]** om du vill förhandsgranska formuläret som du skapar.
 1. Du kan också lägga till fler flikar och de nödvändiga komponenterna på varje flik.
 1. Klicka **[!UICONTROL Save]** när formuläret har fyllts i.
+
+I den här videon visas stegsekvensen:
+
+>[!VIDEO](https://video.tv.adobe.com/v/341275)
 
 När ett formulär har skapats används det automatiskt när användare överför en resurs av den matchande MIME-typen.
 
