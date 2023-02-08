@@ -4,9 +4,9 @@ description: Hantera metadata för resurser i [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: b264c9cdff39f75dce31976add8621a33bc72e4b
+source-git-commit: 274028a1fb224b045c047e63539a9b96b1cc4357
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -62,12 +62,11 @@ Du kan även ta bort taggar från [!UICONTROL Smart Tags] avsnitt som automatisk
 >[!CONTEXTUALHELP]
 >id="assets_metadata_forms"
 >title="Metadata Forms"
->abstract="Experience Manager Assets tillhandahåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält på sidan Detaljer för en resurs. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html#metadata-forms" text="Läs mer"
+>abstract="[!DNL Experience Manager Assets] innehåller många standardmetadatafält som standard. Organisationer har ytterligare metadatakrav och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält på sidan Detaljer för en resurs. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser."
 
 Assets Essentials tillhandahåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält i en resurs [!UICONTROL Details] sida. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser. Du kan skapa formulär från grunden eller återanvända befintliga formulär.
 
-Du kan konfigurera metadataformulär för olika typer av resurser (olika MIME-typer). Använd samma formulärnamn som filens MIME-typ. Med Essentials matchas automatiskt MIME-typen för överförda resurser mot namnet på formuläret och metadata för överförda resurser uppdateras baserat på formulärfälten.
+Du kan konfigurera metadataformulär för olika typer av resurser (olika MIME-typer). Använd samma formulärnamn som filens MIME-typ. Assets Essentials matchar automatiskt MIME-typen för överförda resurser med namnet på formuläret och uppdaterar metadata för överförda resurser baserat på formulärfälten.
 
 Om ett metadataformulär till exempel har namnet `PDF` eller `pdf` finns, innehåller de överförda PDF-dokumenten metadatafält som definierats i formuläret.
 
