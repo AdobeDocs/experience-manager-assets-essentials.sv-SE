@@ -4,9 +4,9 @@ description: Hantera metadata för resurser i [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 274028a1fb224b045c047e63539a9b96b1cc4357
+source-git-commit: 260eb904240652d174cc29bacfe92b03699305d0
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Du kan lägga till fler taggar i dina resurser, utöver de smarta taggar som lä
 
 Du kan även ta bort taggar från [!UICONTROL Smart Tags] avsnitt som automatiskt läggs till av [!DNL Assets Essentials] till alla överförda resurser.
 
-## Metadata Forms {#metadata-forms}
+## Konfigurera metadata-Forms {#metadata-forms}
 
 >[!CONTEXTUALHELP]
 >id="assets_metadata_forms"
