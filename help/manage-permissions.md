@@ -2,14 +2,19 @@
 title: Hur hanterar jag behörigheter för mappar i AEM Assets Essentials?
 description: I Assets Essentials kan administratörer hantera åtkomstnivåerna för de mappar som är tillgängliga i databasen. Skapa användargrupper och tilldela behörigheter till dessa grupper för att hantera åtkomstnivåer. Som administratör kan du även delegera behörighetshanteringsbehörighet till användargrupper på mappnivå.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: 999d5106469d002deed3eccd689a802396dd42d4
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
 
-# Hantera behörigheter för mappar
+# Hantera behörigheter för mappar {#manage-permissions}
+
+>[!CONTEXTUALHELP]
+>id="assets_permissions_folders"
+>title="Hantera behörigheter"
+>abstract="[!DNL Assets Essentials] gör att administratörer kan hantera åtkomstnivåerna för de mappar som är tillgängliga i databasen. Som administratör kan du skapa användargrupper och tilldela behörigheter till dessa grupper för att hantera åtkomstnivåer. Du kan även delegera behörighetshanteringsprivilegier till användargrupper på mappnivå."
 
 I Assets Essentials kan administratörer hantera åtkomstnivåerna för de mappar som är tillgängliga i databasen. Som administratör kan du skapa användargrupper och tilldela behörigheter till dessa grupper för att hantera åtkomstnivåer. Du kan även delegera behörighetshanteringsprivilegier till användargrupper på mappnivå.
 
