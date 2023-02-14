@@ -3,14 +3,20 @@ title: Sök efter och hitta resurser i [!DNL Assets Essentials]
 description: Sök efter och hitta resurser i [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: cfe72bb73493c84dc57a0438817e3868d8a1ed14
+source-git-commit: 18929733eb7ef1c862637cc5d03d44ac3c62875b
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '839'
 ht-degree: 1%
 
 ---
 
 # Sök resurser i [!DNL Assets Essentials] {#search-assets}
+
+>[!CONTEXTUALHELP]
+>id="assets_search"
+>title="Sök resurser"
+>abstract="Sök efter dina resurser genom att ange sökvillkor eller genom att filtrera resurser baserat på status, filtyp, MIME-typ, storlek, skapande, ändring och förfallodatum. Du kan också använda egna filter förutom standardfiltren. Du kan spara de filtrerade resultaten som en sparad sökning eller som en smart samling."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=en#manage-smart-collection" text="Skapa smarta samlingar"
 
 [!DNL Assets Essentials] innehåller effektiva sökfunktioner som bara fungerar som standard. Sökningen är omfattande eftersom den består av fulltextsökning. Med de kraftfulla sökfunktionerna kan du snabbt hitta rätt resurs och hjälpa dig att förbättra innehållets hastighet. [!DNL Assets Essentials] innehåller fulltextsökning och till och med sökningar via metadata som smarta taggar, titel, skapad den och copyright.
 
