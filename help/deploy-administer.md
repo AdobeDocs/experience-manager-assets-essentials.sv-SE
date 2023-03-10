@@ -3,9 +3,9 @@ title: Administrera och hantera användare
 description: Administrationsexempel, t.ex. distribution och användarhantering i [!DNL Assets Essentials].
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: c7b863aa81337293454199e72f705e53f05a5130
+source-git-commit: 07537aea39140f649d17353430a505c36e971aea
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -154,7 +154,7 @@ Till skillnad från mappar kan en samling innehålla resurser från olika platse
 
 ## Nästa steg {#next-steps}
 
-* [Se en video om Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en)
+<!-- THIS URL IS A 404 ERROR; NO REDIRECT WAS PUT IN PLACE * [Watch a video to deploy Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/provisioning.html?lang=en) -->
 
 * Ge produktfeedback med [!UICONTROL Feedback] finns i Assets Essentials användargränssnitt
 
