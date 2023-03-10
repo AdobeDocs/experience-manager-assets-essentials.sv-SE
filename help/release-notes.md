@@ -4,18 +4,22 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
+source-git-commit: 71760e20e7c3984f7099474e3b17db5e7d83496a
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1732'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den aktuella versionen av Assets Essentials släpps den 27 januari 2023.
+Den aktuella versionen av Assets Essentials släpptes den 9 mars 2023.
 
-Den här versionen innehåller:
+De senaste två produktversionerna innehåller bland annat följande nya funktioner:
+
+**Redigera metadata för gruppresurser**
+
+Med hjälp av satsvisa metadatauppdateringar kan användare utföra vanliga metadatauppdateringar för flera resurser samtidigt. Användarna behöver inte längre uppdatera posterna separat och kan snabbt tillämpa egenskaper på resurser som du når via sökning, mappar och samlingar.
 
 **Min arbetsyta med konfigurerbara widgetar**
 
