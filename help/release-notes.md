@@ -4,7 +4,7 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 9192ca1e72c79ef0f2c6d2b4d1e5a71e991abafb
+source-git-commit: f06e3a5db2c91e6778ea196fdc69293d1b2732e5
 workflow-type: tm+mt
 source-wordcount: '1690'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den aktuella versionen av Assets Essentials släpptes 27 januari 2023.
+Den aktuella versionen av Assets Essentials släpps den 27 januari 2023.
 
 Listan med funktioner i versionen innehåller:
 
