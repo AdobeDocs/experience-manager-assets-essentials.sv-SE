@@ -3,9 +3,9 @@ title: Sök efter och hitta resurser i [!DNL Assets Essentials]
 description: Sök efter och hitta resurser i [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 126d0c9921d109a4ac487203aa6bbcdcaf16b003
+source-git-commit: f63cbffbbc6acc37a1a08f28cbdc4cee7f66d883
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '861'
 ht-degree: 1%
 
 ---
@@ -127,9 +127,9 @@ Sökfunktionen är mycket enkel att använda i [!DNL Assets Essentials]. I sökr
 
 Du kan också filtrera sökresultaten baserat på specifika villkor runt metadata och resurstyp. För filter som används ofta, för att förbättra sökupplevelsen, [!DNL Assets Essentials] I kan du spara sökparametrarna. Du kan sedan markera den sparade sökningen och använda filtret med bara ett klick.
 
-Om du vill skapa en sparad sökning söker du efter en resurs, använder ett eller flera filter och klickar på [!UICONTROL Save Search] i [!UICONTROL Filters] -panelen.
+Om du vill skapa en sparad sökning söker du efter en resurs, använder ett eller flera filter och klickar på **[!UICONTROL Save as]** > **[!UICONTROL Saved Search]** i [!UICONTROL Filters] -panelen. Du kan också klicka **[!UICONTROL Save as]** och markera **[!UICONTROL Smart Collection]** om du vill spara resultatet som en smart samling. Se [Skapa en smart samling](manage-collections.md#create-a-smart-collection) för mer information.
 
-![Sparad sökning från panelen Filter](assets/saved-search.png)
+![Skapa smart samling](assets/create-smart-collection.png)
 
 <!-- TBD: Search behavior. Full-text search. Ranking and rank boosts. Hidden assets.
 Report poor UX that users can only save a filtered search and not a simple search.
