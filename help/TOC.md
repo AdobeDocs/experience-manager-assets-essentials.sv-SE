@@ -12,12 +12,12 @@ solution: Experience Manager
 source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 25%
+ht-degree: 26%
 
 ---
 
 
-# [!DNL Assets Essentials] Guide {#help}
+# [!DNL Assets Essentials] Användarhandbok {#help}
 
 + [Översikt över lösningar](introduction.md)
 + [Versionsinformation](release-notes.md)
