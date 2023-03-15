@@ -3,9 +3,9 @@ title: Administrera och hantera användare
 description: Administrationsexempel, t.ex. distribution och användarhantering i [!DNL Assets Essentials].
 role: Admin
 exl-id: ef91126f-3aee-442b-b242-a6bf4034f3dc
-source-git-commit: 07537aea39140f649d17353430a505c36e971aea
+source-git-commit: 989d4b2105636b03bef8b8aa5e653c3800845f69
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,8 @@ Så här lägger du till produktprofiler i användargrupper:
 
    * **[!DNL Assets Essentials]Användare** har tillgång till hela användargränssnittet. Dessa användare kan överföra, ordna, tagga och hitta digitala resurser.
 
-   * **[!DNL Assets Essentials]Konsumentanvändare**: har tillgång till den inbäddade upplevelsen av resursval i [!DNL Adobe Journey Optimizer] e-postmallsredigerare. Mer information finns i [Använd [!DNL Assets Essentials] in [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html).
+   * **[!DNL Assets Essentials]Konsumentanvändare** kan söka, förhandsgranska och ladda ned i Assets Essentials. De kan också söka efter och välja resurser i Adobe Journey Optimizer och söka efter och välja resurser som ska användas i Workfront.
+Mer information finns i [Integration med andra lösningar](integration.md).
 
    ![Administratörsprofil för Admin Console](assets/admin-console-admin-profile.png)
 
