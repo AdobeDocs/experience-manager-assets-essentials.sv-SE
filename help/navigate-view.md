@@ -1,11 +1,11 @@
 ---
-title: '"[!DNL Assets Essentials] användargränssnitt"'
+title: "[!DNL Assets Essentials] användargränssnitt"
 description: Förstå användargränssnittet för och navigering i [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: b627c20ee9be9be79bb0325b55543ae9e2935b9a
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Du kan bläddra bland mapparna från huvudanvändargränssnittet eller från vä
 
 * **Resurser**: Lista över alla mappar i en trädvy som du har åtkomst till.
 * **Senast visade**: Lista över resurser som du nyligen har förhandsgranskat. [!DNL Assets Essentials] visar bara de resurser som du förhandsgranskar. Det visar inte de resurser som du bläddrar förbi när du bläddrar bland databasfilerna eller databasmapparna.
-* **Papperskorgen**:
+* **Papperskorgen**: Lista över resurser som tagits bort från roten **[!UICONTROL Assets]** mapp. Du kan markera en resurs i papperskorgen och antingen återställa den till den ursprungliga platsen eller ta bort den permanent.
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
 * **Libraries**: Access to [!DNL Adobe Creative Cloud Team] (CCT) Libraries view. This view is visible only if the user is entitled to CCT Libraries.

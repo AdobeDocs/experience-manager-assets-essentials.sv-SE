@@ -1,9 +1,9 @@
 ---
 title: Min arbetsyta för resurser
 description: Min arbetsyta är en sida med anpassningsbara visuella moduler som ger smidig åtkomst till viktiga delar av Assets-användargränssnittet och information som är mest relevant för användaren.
-source-git-commit: a085ac1c5bdd4ff6d83b8d80b334f55b3995fc96
+source-git-commit: 184e80c88fb8e13ca24049d95146b5305b2008dc
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -12,17 +12,21 @@ ht-degree: 0%
 
 Resurserna innehåller nu en anpassningsbar arbetsyta med widgetar som du kan använda för att enkelt få tillgång till viktiga delar av användargränssnittet och den information som är mest relevant för dig. Den här sidan är en helhetslösning som ger en översikt över dina arbetsobjekt och ger snabb åtkomst till viktiga arbetsflöden. Mer lättåtkomlig åtkomst till dessa alternativ ökar effektiviteten och ökar innehållets hastighet.
 
-Du kommer åt Min arbetsyta genom att klicka **[!UICONTROL My Workspace]** från de objekt som är tillgängliga i den vänstra navigeringsrutan. Min arbetsyta innehåller en mängd widgetar som visar de nya funktioner som snart kommer, insikter, uppgifter och innehållswidgetar. Du kan konfigurera hur dessa widgetar visas på arbetsytan utifrån dina inställningar.
+Du kommer åt Min arbetsyta genom att klicka **[!UICONTROL My Workspace]** från de objekt som är tillgängliga i den vänstra navigeringsrutan. Min arbetsyta innehåller en mängd widgetar som visar insikter, uppgifter och innehållswidgetar. Du kan konfigurera hur dessa widgetar visas på arbetsytan utifrån dina inställningar.
 
 >[!NOTE]
 >
 >Widgeten Insights är bara synlig för administratörer.
 
-**Nya funktioner kommer snart**
+<!--
 
-Framtidens funktioner för Assets.
+**New features coming soon**
 
-![Nya funktioner som snart kommer i Workspace](assets/new-features.png)
+Highlights upcoming features for Assets.
+
+![New features coming soon in Workspace](assets/new-features.png)
+
+-->
 
 **Insikter**
 
