@@ -4,10 +4,10 @@ description: Filformat som stöds för olika användningsområden för [!DNL Ass
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: bc44e98d-446e-41ff-b5b4-9dc324834630
-source-git-commit: e8791aab7c99e020921bdd65ed3d579bb11ffd6b
+source-git-commit: 93c6c273e2ad82237b29f93bc42d090f219e6c79
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 5%
+ht-degree: 1%
 
 ---
 
@@ -31,22 +31,22 @@ De olika filtyperna har olika typer av stöd för användningsfall och funktione
 |-------------------|-------------------------|
 | ✓ | Stöds |
 | ✓ ‡ | Stöds villkorligt |
-| - | Ej relevant |
+| − | Ej tillämpligt |
 
 ## Lägga till, överföra och visa resurser {#support-to-upload-view}
 
 <!-- TBD: For AEM, AI files require the PDF option to be selected when saving the AI file.
 -->
 
-| Tillgångstyp | [Bläddra](/help/navigate-view.md) | Kopiera | [Överför](/help/add-delete.md) | Skapa | [Ta bort](/help/add-delete.md#delete-assets) | Information | Zooma bilden | [Senast visade](/help/navigate-view.md) |
+| Tillgångstyp | [Bläddra](/help/navigate-view.md) | Kopiera | [Överför](/help/add-delete.md) | Skapa | [Ta bort](/help/add-delete.md#delete-assets) | Detaljer | Zooma bilden | [Senast visade](/help/navigate-view.md) |
 |-------------------|----------|----------|----------|----------|----------|-------------------|------------|-----------------|
-| Rasterbilder | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| RAW-filer | ✓ | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| Mappar | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | - | - |
-| MP4-videor | ✓ | ✓ | ✓ | - | ✓ | ✓ ‡ | - | ✓ |
-| PDF | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
-| PSD, AI och INDD | ✓ | ✓ | ✓ | - | ✓ | ✓ ‡ | - | ✓ |
-| Andra binära filer | ✓ | ✓ | ✓ | - | ✓ | ✓ | - | ✓ |
+| Rasterbilder | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| RAW-filer | ✓ | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| Mappar | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | − | − |
+| MP4-videor | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
+| PDF | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
+| PSD, AI och INDD | ✓ | ✓ | ✓ | − | ✓ | ✓ ‡ | − | ✓ |
+| Andra binära filer | ✓ | ✓ | ✓ | − | ✓ | ✓ | − | ✓ |
 
 <!-- Hiding CC Libraries (considered beta) as per PM feedback.
 | CC Libraries  | &#10003; | &minus;  | &#10003; | &#10003; | &#10003; | &#10003; | &minus;    | &minus;         |
@@ -54,16 +54,17 @@ De olika filtyperna har olika typer av stöd för användningsfall och funktione
 
 ## Söka efter, använda och redigera resurser {#support-to-search-use-edit}
 
-| Tillgångstyp | [Hämta](/help/manage-organize.md#download) | Dra och släpp | [Bildredigerare](/help/edit-images.md) | [Sökning](/help/search.md) | [Smarta taggar](/help/metadata.md#tags) | [Byt namn på](/help/manage-organize.md) | [Versioner](/help/manage-organize.md#versions-of-assets) |
+| Tillgångstyp | [Hämta](/help/manage-organize.md#download) | Dra och släpp | [Bildredigerare](/help/edit-images.md) | [Sökning](/help/search.md) | [Smarta taggar](/help/metadata.md#tags) | [Byt namn](/help/manage-organize.md) | [Versioner](/help/manage-organize.md#versions-of-assets) |
 |---------------|----------|---------------|--------------|----------|------------|----------|----------|
 | Rasterbilder | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| RAW-filer | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Mappar | ✓ | ✓ | - | ✓ | - | ✓ | ✓ |
-| Videor | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| CC Libraries | - | - | - | - | - | ✓ | ✓ |
-| PDF | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| PSD, AI och INDD | ✓ | ✓ | - | ✓ | ✓ | ✓ | ✓ |
-| Andra binära filer | ✓ | ✓ | - | ✓ | - | ✓ | ✓ |
+| RAW-filer | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Mappar | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
+| Videor | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| CC Libraries | − | − | − | − | − | ✓ | ✓ |
+| PDF | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| PSD | ✓ | ✓ | − | ✓ | ✓ | ✓ | ✓ |
+| AI och INDD | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
+| Andra binära filer | ✓ | ✓ | − | ✓ | − | ✓ | ✓ |
 
 
 ## Granska resurser och samarbeta {#support-to-review-collaborate}
@@ -72,20 +73,20 @@ De olika filtyperna har olika typer av stöd för användningsfall och funktione
 |---------------|----------|----------|-------------------------|
 | Rasterbilder | ✓ | ✓ | ✓ |
 | RAW-filer | ✓ | ✓ | ✓ |
-| Mappar | - | - | - |
-| Videor | - | ✓ | ✓ |
-| CC Libraries | - | - | - |
-| PDF | - | ✓ | ✓ |
-| PSD, AI och INDD | - | ✓ | ✓ |
-| Andra binära filer | - | ✓ | ✓ |
-| DOC | - | ✓ | ✓ |
-| DOCX | - | ✓ | ✓ |
-| PPT | - | ✓ | ✓ |
-| PPTX | - | ✓ | ✓ |
-| XLS | - | ✓ | ✓ |
-| XLSX | - | ✓ | ✓ |
-| TXT | - | ✓ | ✓ |
-| RTF | - | ✓ | ✓ |
+| Mappar | − | − | − |
+| Videor | − | ✓ | ✓ |
+| CC Libraries | − | − | − |
+| PDF | − | ✓ | ✓ |
+| PSD, AI och INDD | − | ✓ | ✓ |
+| Andra binära filer | − | ✓ | ✓ |
+| DOC | − | ✓ | ✓ |
+| DOCX | − | ✓ | ✓ |
+| PPT | − | ✓ | ✓ |
+| PPTX | − | ✓ | ✓ |
+| XLS | − | ✓ | ✓ |
+| XLSX | − | ✓ | ✓ |
+| TXT | − | ✓ | ✓ |
+| RTF | − | ✓ | ✓ |
 
 ## Andra resurshanteringsåtgärder {#support-to-manage-assets}
 
@@ -93,12 +94,12 @@ De olika filtyperna har olika typer av stöd för användningsfall och funktione
 |---------------|-------------------|------------|----------|----------|----------|
 | Rasterbilder | ✓ | ✓ | ✓ | ✓ | ✓ |
 | RAW-filer | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Mappar | ✓ | - | ✓ | ✓ | ✓ |
-| Videor | ✓ | - | ✓ | ✓ | ✓ |
-| CC Libraries | ✓ | - | - | - | - |
-| PDF | ✓ | - | ✓ | ✓ | ✓ |
-| PSD, AI och INDD | ✓ | - | ✓ | ✓ | ✓ |
-| Andra binära filer | ✓ | - | ✓ | ✓ | ✓ |
+| Mappar | ✓ | − | ✓ | ✓ | ✓ |
+| Videor | ✓ | − | ✓ | ✓ | ✓ |
+| CC Libraries | ✓ | − | − | − | − |
+| PDF | ✓ | − | ✓ | ✓ | ✓ |
+| PSD, AI och INDD | ✓ | − | ✓ | ✓ | ✓ |
+| Andra binära filer | ✓ | − | ✓ | ✓ | ✓ |
 
 Användare av [!DNL Adobe Asset Link] kan överföra och checka in (överföra en ny version) filer till [!DNL Assets Essentials] databas från den databas som stöds [!DNL Adobe Creative Cloud] datorprogram.
 
