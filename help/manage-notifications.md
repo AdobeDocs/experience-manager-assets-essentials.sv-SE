@@ -2,14 +2,14 @@
 title: Hantera meddelanden
 description: Övervaka åtgärderna som utförs på de resurser eller mappar som är tillgängliga i databasen med Assets Essentials-meddelanden.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: 95001cb7b1d37807fcd1fed0e26333cca15bbfbd
+source-git-commit: c48ec7f5bfa1e449f461e73c5f3b725d52d9b1d1
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
 
-# Hantera meddelanden {#manage-notifications}
+# Titta på resurser, mappar och samlingar {#watch-assets-folders}
 
 Med Assets Essentials-meddelanden kan du övervaka åtgärder som utförs på de resurser, mappar och samlingar som finns i databasen. Du måste välja och prenumerera på det innehåll som meddelandena skickas till dig för. Du kan också konfigurera de kategorier som meddelanden skickas till dig för.
 
