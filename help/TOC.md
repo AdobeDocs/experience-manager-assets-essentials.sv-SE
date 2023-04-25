@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: 55f24357266d2f063d1aaf92777fae32c7b127bd
+source-git-commit: 7acef27127f5659ad2aa5da69f7032da1280e1eb
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 26%
+source-wordcount: '127'
+ht-degree: 25%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 26%
 + [Hantera metadata för resurser](metadata.md)
 + [Dela resurser](share-links-for-assets.md)
 + [Hantera samlingar](manage-collections.md)
-+ [Hantera meddelanden](manage-notifications.md)
++ [Titta på resurser, mappar och samlingar](manage-notifications.md)
 + [Hantera rapporter](manage-reports.md)
 + Integration med andra lösningar {#integration-with-other-solutions}
    + [Översikt](integration.md)
