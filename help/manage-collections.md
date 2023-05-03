@@ -2,14 +2,19 @@
 title: Hantera samlingar
 description: En samling är en uppsättning resurser i Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 368b27c4f1f14ff6209c4e45ff288be192809c0e
+source-git-commit: 14048cd4c40c4d942d43a2ed955d09c71d72b684
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '740'
 ht-degree: 1%
 
 ---
 
 # Hantera samlingar {#manage-collections}
+
+>[!CONTEXTUALHELP]
+>id="assets_collections"
+>title="Hantera samlingar"
+>abstract="En samling är en uppsättning resurser, mappar eller andra samlingar i Assets Essentials. Använd samlingar för att dela resurser mellan användare. Till skillnad från mappar kan en samling innehålla resurser från olika platser. Du kan dela flera samlingar med en användare. Varje samling innehåller referenser till resurser. Resursernas referensintegritet bevaras i alla samlingar."
 
 En samling är en uppsättning resurser, mappar eller andra samlingar i Adobe Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare.
 
