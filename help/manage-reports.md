@@ -5,7 +5,7 @@ exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: b222e03a8eca0837ca647740baed7d77afe96ed3
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -100,7 +100,7 @@ I följande tabell förklaras användningen av alla kolumner som du kan lägga t
       <td>Resursens författare.</td>
      </tr>
      <tr>
-      <td>Skapad</td>
+      <td>Skapad den</td>
       <td>Det datum då resursen överförs till Assets Essentials.</td>
      </tr>
      <tr>
@@ -167,7 +167,7 @@ I följande tabell förklaras användningen av alla kolumner som du kan lägga t
       <td>Resursens författare.</td>
      </tr>
      <tr>
-      <td>Skapad</td>
+      <td>Skapad den</td>
       <td>Det datum då resursen överförs till Assets Essentials.</td>
      </tr>
      <tr>

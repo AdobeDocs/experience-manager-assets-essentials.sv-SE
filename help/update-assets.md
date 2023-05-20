@@ -24,6 +24,6 @@ Link to versioning once an asset is updated.
 >[!MORELIKETHIS]
 >
 >* [Redigera bilder](edit-images.md)
-* [Visa versioner av en resurs](navigate-view.md#view-versions)
-* [Ta bort en resurs](manage-organize.md#delete-assets)
+>* [Visa versioner av en resurs](navigate-view.md#view-versions)
+>* [Ta bort en resurs](manage-organize.md#delete-assets)
 

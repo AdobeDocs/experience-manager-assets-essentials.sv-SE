@@ -1,8 +1,9 @@
 ---
-title: "Säkerhetsöversikt för Assets Essentials"
+title: Säkerhetsöversikt för Assets Essentials
 description: Säkerhetsöversikt för Assets Essentials
 mini-toc-levels: 1
-source-git-commit: 895f178384f653729a5625db4782d3c134cf3309
+exl-id: 7efa50d5-2e9d-47bf-a810-ebc19e003af1
+source-git-commit: 32627a342e1297e7b8dc21ac668a735689dc79da
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%

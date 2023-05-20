@@ -1,7 +1,8 @@
 ---
 title: Integrera Assets Essentials med Creative Cloud
 description: Integrera Assets Essentials med Creative Cloud-program så att du kan använda Adobe Asset-länken i appanelen för att ansluta till [!DNL Assets Essentials] databas från den databas som stöds [!DNL Adobe Creative Cloud] datorprogram.
-source-git-commit: 44b8b8f3c734bd80e9d86177d607d897e696e4ed
+exl-id: 817bc955-0074-435e-83a8-3fd5f7f2505a
+source-git-commit: 6194a778133842d40c4ef2bc257eec8a34b0a481
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 0%

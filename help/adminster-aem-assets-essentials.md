@@ -1,13 +1,13 @@
 ---
 title: Administrera Experience Manager Assets Essentials
 description: Konfigurera åtkomst till Assets Essentials-programmet med Admin Console och hantera sedan de uppgifter som kan utföras efter inloggning till Assets Essentials-programmet.
-source-git-commit: 1f01dd340f79d1c2d9748232c2b1a589ae7f8545
+exl-id: ffd65741-21b7-47cd-9779-63a7903879e6
+source-git-commit: a40b608ec72691c10dfbf7dff518a2cfc87d6552
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 0%
 
 ---
-
 
 # Administrera Experience Manager Assets Essentials {#administer-assets-essentials}
 
@@ -168,4 +168,3 @@ Mer information om Metadata Forms finns i [Metadata Forms i Assets Essentials](m
 ## What&#39;s Next
 
 Nu när du har konfigurerat och hanterat Assets Essentials-programmet [integrera Creative Cloud-program med Experience Manager Assets Essentials-programmet](integrate-assets-essentials-creative-cloud.md).
-
