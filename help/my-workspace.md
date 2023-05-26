@@ -2,9 +2,9 @@
 title: Min arbetsyta för resurser
 description: Min arbetsyta är en sida med anpassningsbara visuella moduler som ger smidig åtkomst till viktiga delar av Assets-användargränssnittet och information som är mest relevant för användaren.
 exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
-source-git-commit: 7234af017de7e5d5ebf31e8855a322d846c3a389
+source-git-commit: e6c6a7ee20fca5e87f521708fb7ddec453131e40
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,8 @@ Visar en lista över uppgifter som för närvarande är tilldelade dig i **[!UIC
 **Innehåll**
 
 Visar utvalda vyer av resurser, inklusive en lista över resurser som du nyligen har visat. Du kan välja att visa resurser i widgeten i en listvy, stödrastervy, gallerivy eller vattenfallsvy och sortera resurserna efter namn, storlek och ändringsdatum. Du kan också välja en resurs om du vill visa resursinformationen eller ta bort den från listan över nyligen visade resurser.
+
+The **[!UICONTROL Top Downloads]** I visas de tio viktigaste resurserna som du har hämtat i din Assets Essentials-miljö. Du kan välja att visa resurser i listvyn eller stödrastervyn. Båda vyerna visar formattyp och antal hämtningar för varje resurs. Du kan också välja en resurs och klicka på **[!UICONTROL Details]** för att visa dess egenskaper.
 
 ![Innehållswidgeten i arbetsytan](assets/workspace-content.png)
 

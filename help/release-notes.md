@@ -4,28 +4,32 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: aefa3e0c76a4b92b00ff069655297387cfe733b0
+source-git-commit: de0a8e4f31a378f79c5b94414886c8ec9d3d7891
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1777'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den aktuella versionen av Assets Essentials släpps den 30 mars 2023.
+Den aktuella versionen av Assets Essentials släpptes 24 maj 2023.
 
 Listan över nyligen tillagda funktioner innehåller:
 
+**De vanligaste hämtade resurserna**
+
+Min arbetsyta visar nu de tio viktigaste hämtade resurserna för din Assets Essentials-miljö i [!UICONTROL Content] -avsnitt. Du kan också visa formattyp och antal hämtningar för varje listad resurs.
+
 **Massuppdateringar av metadata för resurser**
 
-Med hjälp av satsvisa metadatauppdateringar kan du utföra vanliga metadatauppdateringar för flera resurser samtidigt. Du behöver inte uppdatera posterna individuellt och kan snabbt tillämpa egenskaper på resurser som du kommer åt via sökning, mappar och samlingar.
+Med hjälp av satsvisa metadatauppdateringar kan du utföra vanliga metadatauppdateringar för flera resurser samtidigt. Du behöver inte uppdatera posterna individuellt och kan snabbt tillämpa egenskaper på resurser och mappar som du kommer åt via sökningen.
 
 **Min arbetsyta med konfigurerbara widgetar**
 
 Resurserna har nu en anpassad arbetsyta som fungerar som en helhetslösning för att ge smidig åtkomst till viktiga delar av Assets-användargränssnittet och den information som är mest relevant för dig. Snabbare åtkomst till dessa alternativ ökar materialets hastighet och effektivitet.
 
-Min arbetsyta innehåller widgetar för kommande nya funktioner, insikter, uppgifter och innehåll. Du kan konfigurera hur dessa widgetar visas på arbetsytan utifrån dina inställningar.
+Min arbetsyta innehåller widgetar för insikter, uppgifter och innehåll. Du kan konfigurera hur dessa widgetar visas på arbetsytan utifrån dina inställningar.
 
 **Dedikerat gränssnitt för uppgiftshantering**
 
@@ -56,6 +60,8 @@ Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och upp
 
 
 * Privata samlingar är tillgängliga för den som skapat dem och för användare med administratörsbehörighet. Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
+
+* Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
 
 Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
 
