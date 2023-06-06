@@ -3,14 +3,14 @@ title: Kom igång med [!DNL Assets Essentials]
 description: Hur man får åtkomst till, kan logga in på, vilka användningsfall som stöds och kända problem med [!DNL Assets Essentials].
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: 02f28c00b387fbcac4cd917fab7763124fdd5d70
+source-git-commit: a95f0cba350d0c766fefb90609aba5a3f50e9d0f
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 1%
 
 ---
 
-# Kom igång med [!DNL Experience Manager Assets Essentials] {#assets-essentials-get-started}
+# Kom igång med [!DNL Adobe Experience Manager Assets Essentials] {#assets-essentials-get-started}
 
 <!-- TBD: Make links for these steps. -->
 
