@@ -4,8 +4,8 @@ description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '748'
+ht-degree: 1%
 
 ---
 
