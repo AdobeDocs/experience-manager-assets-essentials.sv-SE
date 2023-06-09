@@ -3,9 +3,9 @@ title: "[!DNL Assets Essentials] användargränssnitt"
 description: Förstå användargränssnittet för och navigering i [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: b2ec3dde3d231cdb772833dfa7c9de01b7c3dd38
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Du kan bläddra bland mapparna från huvudanvändargränssnittet eller från vä
 * [Samlingar](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=en): En samling är en uppsättning resurser, mappar eller andra samlingar i Adobe Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare. Till skillnad från mappar kan en samling innehålla resurser från olika platser. Du kan dela flera samlingar med en användare. Varje samling innehåller referenser till resurser. Resursernas referensintegritet bevaras i alla samlingar.
 
 * [Insikter](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=en#view-live-statistics): I [!DNL Assets Essentials]kan du visa realtidsinsikter på din instrumentpanel. Med Assets Essentials kan du visa realtidsdata för din Assets Essentials-miljö med Insikter-instrumentpanelen. Du kan visa händelsemått i realtid under de senaste 30 dagarna eller under de senaste 12 månaderna.
-* **Papperskorgen**: Lista över resurser som tagits bort från roten **[!UICONTROL Assets]** mapp. Du kan markera en resurs i papperskorgen och antingen återställa den till den ursprungliga platsen eller ta bort den permanent.
+* **Papperskorgen**: Lista över resurser som tagits bort från roten **[!UICONTROL Assets]** mapp. Du kan markera en resurs i papperskorgen och antingen återställa den till den ursprungliga platsen eller ta bort den permanent. Du kan också ange ett nyckelord eller använda standardfilter eller anpassade filter för att söka efter lämpliga resurser i papperskorgen. Mer information om hur du använder standardfilter och anpassade filter finns i [Söka efter resurser i Assets Essentials](search.md).
 * **Inställningar**: Du kan konfigurera olika alternativ för Assets Essentials med **Inställningar**, t.ex. Metadataformulär, rapporter och taxonomihantering.
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
