@@ -4,9 +4,9 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 9b05b9cec106b426038d53d195516a1c616a07a1
+source-git-commit: 84b830af6225242aa8cb851ac6458a66394a281a
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '2038'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Den aktuella versionen av Assets Essentials släpps den 22 juni 2023.
 
-Listan med funktioner är:
+Listan med funktioner i utgåvan är:
 
 
 **Hierarkisk taggning av resurser för snabbare sökupplevelse**
