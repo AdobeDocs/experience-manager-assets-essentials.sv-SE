@@ -4,16 +4,77 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: d6737d903b8010e2a3b7434584a7aae0d7bc68bd
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '2034'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den aktuella versionen av Assets Essentials släpptes 24 maj 2023.
+Den aktuella versionen av Assets Essentials släpptes den 8 juni 2023.
+
+Listan med funktioner är:
+
+
+**Hierarkisk taggning av resurser för snabbare sökupplevelse**
+
+Platta listor med kontrollerade vokabulärer blir ohanterliga över tid. Assets Essentials har nu stöd för hierarkisk taggningsstruktur som gör det enklare att använda relevanta metadata, kategorisera resurser, söka, återanvända taggar, förbättra upptäckbarheten och så vidare.
+
+![Tagghantering](assets/tags-hierarchy.png)
+
+**Fäst filer, mappar och samlingar för snabb åtkomst**
+
+Du kan nu fästa filer, mappar och samlingar så att du snabbare kommer åt dessa objekt när du behöver dem senare. De fästa objekten visas i **Snabb åtkomst** i Min arbetsyta. Du kan komma åt dem med Min arbetsyta i stället för att navigera till den plats där de sparas i databasen.
+
+![Uppgifter på arbetsytan](assets/quick-access.png)
+
+**Filtrera resurser i papperskorgen**
+
+Med Assets Essentials kan du nu filtrera resurser som finns i papperskorgen. Du kan använda standardfilter eller anpassade filter för att söka efter lämpliga resurser i papperskorgen för att antingen återställa eller ta bort dem permanent.
+
+**Miniatyrförhandsvisningar för 3D-resurser**
+
+Assets Essentials genererar nu miniatyrförhandsvisningar för vanliga 3D-filformat som gLB, USDz, FBX, 3DS, OBJ och SBSAR. När dessa filer överförs till Assets Essentials genereras miniatyrbilder automatiskt av systemet som standard.
+
+![Uppgifter på arbetsytan](assets/3d-preview.png)
+
+**Visa de vanligaste söktermerna**
+
+Assets Essentials har nu stöd för att visa de vanligaste söktermerna i din Assets Essentials-distribution med **Insikter** i Min arbetsyta. Du kan även navigera till detaljerade insikter för att visa de vanligaste sökningarna under de senaste 30 dagarna eller 12 månaderna.
+
+![Uppgifter på arbetsytan](assets/insights-top-searches.png)
+
+**Förbättringar av metadataformulär**
+
+Nu kan du lägga till text med flera värden och nedrullningsbara listegenskapskomponenter i metadataformulären.
+
+
+**Förbättringar baserade på kundfeedback**
+
+Förbättringar och felkorrigeringar som bygger på kundfeedback.
+
+## Kända fel {#known-issues}
+
+Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* Privata samlingar är tillgängliga för den som skapat dem och för användare med administratörsbehörighet. Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
+
+* Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
+
+Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
+
+## Tidigare versioner {#past-releases}
+
+### Flera versioner under 2023 {#multiple-releases-2023}
 
 Listan över nyligen tillagda funktioner innehåller:
 
@@ -47,25 +108,6 @@ Assets Essentials genererar nu en länk automatiskt så snart du väljer att del
 **Förbättringar baserade på kundfeedback**
 
 Förbättringar och felkorrigeringar som bygger på kundfeedback.
-
-## Kända fel {#known-issues}
-
-Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* Privata samlingar är tillgängliga för den som skapat dem och för användare med administratörsbehörighet. Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
-
-* Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
-
-Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
-
-## Tidigare versioner {#past-releases}
 
 ### 2022.11.0 {#november-2022}
 
@@ -253,7 +295,7 @@ Dessutom [!DNL Adobe Asset Link] för Creative Cloud (Photoshop, Illustrator och
 
 [!DNL Assets Essentials] 2021.8.0 släpps den 30 augusti 2021, med följande uppdateringar:
 
-* Integrering med [!DNL Adobe Workfront] som [!DNL Workfront] användarna hanterar sina digitala resurser när de hanterar arbetet. Mer information finns i [integrering med andra Adobe-lösningar](/help/using/integration.md).
+* Integrering med [!DNL Adobe Workfront] som [!DNL Workfront] användarna hanterar sina digitala resurser när de hanterar arbetet.
 
 ### 2021.7.0-utgåvan {#july2021}
 
@@ -269,4 +311,4 @@ Den första versionen av [!DNL Assets Essentials], som släpptes den 21 juni 202
 * Överför och lägg till resurser, inklusive kapslade mappar. Förhandsgranska resurserna och versionerna.
 * Fulltextsökning, nyansrika sökfilter och sparade sökningar för snabb resursidentifiering.
 * Grundläggande resurshanteringsåtgärder som att uppdatera, ta bort, hämta och hantera metadata.
-* [!DNL Assets Essentials] är tillgänglig för [!DNL Adobe Journey Optimizer] -användare för att hantera resurser när de skapar meddelanden. Mer information finns i [integrering med andra Adobe-lösningar](/help/using/integration.md).
+* [!DNL Assets Essentials] är tillgänglig för [!DNL Adobe Journey Optimizer] -användare för att hantera resurser när de skapar meddelanden.

@@ -2,9 +2,9 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '781'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,9 @@ Klicka **[!UICONTROL Insights]** som finns i det vänstra navigeringsfönstret f
 
 * **Nedladdningar**: Antalet resurser som laddats ned från Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
 
-* **Överföringar**: Antalet mediefiler som har överförts till Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
+* **Överföringar**: Antalet resurser som har överförts till Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
+
+* **Vanliga sökningar**: Se de mest sökbara termerna tillsammans med hur många gånger de har sökts igenom i Assets Essentials under de senaste 30 dagarna eller 12 månaderna i tabellformat.
 
 <!--
 

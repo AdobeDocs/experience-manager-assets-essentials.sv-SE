@@ -2,9 +2,9 @@
 title: Min arbetsyta för resurser
 description: Min arbetsyta är en sida med anpassningsbara visuella moduler som ger smidig åtkomst till viktiga delar av Assets-användargränssnittet och information som är mest relevant för användaren.
 exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Resurserna innehåller nu en anpassningsbar arbetsyta med widgetar som du kan använda för att enkelt få tillgång till viktiga delar av användargränssnittet och den information som är mest relevant för dig. Den här sidan är en helhetslösning som ger en översikt över dina arbetsobjekt och ger snabb åtkomst till viktiga arbetsflöden. Mer lättåtkomlig åtkomst till dessa alternativ ökar effektiviteten och ökar innehållets hastighet.
 
-Du kommer åt Min arbetsyta genom att klicka **[!UICONTROL My Workspace]** från de objekt som är tillgängliga i den vänstra navigeringsrutan. Min arbetsyta innehåller en mängd widgetar som visar insikter, uppgifter och innehållswidgetar. Du kan konfigurera hur dessa widgetar visas på arbetsytan utifrån dina inställningar.
+Du kommer åt Min arbetsyta genom att klicka **[!UICONTROL My Workspace]** från de objekt som är tillgängliga i den vänstra navigeringsrutan. Min arbetsyta innehåller en mängd widgetar som visar widgetar för snabbåtkomst, insikter, uppgifter och innehåll. Du kan konfigurera hur dessa widgetar visas på arbetsytan utifrån dina inställningar.
 
 >[!NOTE]
 >
@@ -34,9 +34,21 @@ Highlights upcoming features for Assets.
 
 -->
 
+
+
+**Snabb åtkomst**
+
+Fäst filer, mappar och samlingar för snabbare åtkomst till dessa objekt när du behöver dem senare. Alla fästa objekt visas i **Snabb åtkomst** i Min arbetsyta. Du kan komma åt dem med Min arbetsyta i stället för att navigera till den plats där de sparas i databasen.
+
+Om du vill fästa en resurs, en mapp eller en samling markerar du objektet och klickar på **[!UICONTROL Pin to Quick Access]**.
+
+![Uppgifter på arbetsytan](assets/quick-access.png)
+
 **Insikter**
 
 Administratörer kan visa en sammanfattning av antalet hämtningar och överföringar som har gjorts i Assets-miljön under de senaste 30 dagarna. Du kan klicka **[!UICONTROL View all]** för att snabbt navigera till Insights-sidan för mer detaljerade instrumentpaneler.
+
+Du kan även visa de mest sökbara termerna tillsammans med det antal gånger som de söks igenom i din Assets Essentials-distribution med **Insikter** i Min arbetsyta. Du kan även navigera till detaljerade insikter för att visa de vanligaste sökningarna under de senaste 30 dagarna eller 12 månaderna.
 
 ![Insikter i arbetsytan](assets/insights.png)
 
