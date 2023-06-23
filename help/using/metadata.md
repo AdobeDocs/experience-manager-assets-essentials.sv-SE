@@ -4,14 +4,14 @@ description: Hantera metadata för resurser i [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: d22d6690196b330e7893b062fee103ffac1d6c78
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
 
-# Metadata i [!DNL Assets Essentials] {#metadata}
+# Metadata i resursvyn {#metadata}
 
 Metadata innebär data eller beskrivning av data. Dina bilder som en resurs kan t.ex. innehålla information om kameran som användaren klickade på eller copyright-information. Den här informationen är bildens metadata. Metadata är avgörande för effektiv resurshantering. Metadata är en samling av alla data som är tillgängliga för en tillgång, men de kanske inte nödvändigtvis finns i den tillgången.
 
@@ -37,11 +37,11 @@ Grundläggande metadata som titel, beskrivning och överföringsdatum finns i [!
 
 ## Uppdatera metadata {#update-metadata}
 
-Du kan uppdatera några metadatafält manuellt. Fälten innehåller [!UICONTROL Title], [!UICONTROL Description], [!UICONTROL Author]och [!UICONTROL Keywords].
+När administratören har konfigurerat metadataformuläret kan andra fält uppdateras manuellt. Du kanske vill ändra detta eftersom det bara läses baserat på metadataformuläret som finns i rutan.
 
-## Taggar {#tags}
+## Smarta taggar {#smart-tags}
 
-[!DNL Assets Essentials] använder artificiell intelligens från [Adobe Sensei](https://www.adobe.com/sensei.html) för att automatiskt lägga till relevanta taggar i alla dina överförda resurser. Dessa taggar, som kallas smarta taggar, ökar innehållshastigheten i dina projekt genom att hjälpa dig att snabbt hitta relevanta resurser. De smarta taggarna är ett exempel på metadata som inte finns i bilden.
+[!DNL Experience Manager Assets] använder artificiell intelligens från [Adobe Sensei](https://www.adobe.com/sensei.html) för att automatiskt lägga till relevanta taggar i alla dina överförda resurser. Dessa taggar, som kallas smarta taggar, ökar innehållshastigheten i dina projekt genom att hjälpa dig att snabbt hitta relevanta resurser. De smarta taggarna är ett exempel på metadata som inte finns i bilden.
 
 De smarta taggarna används nästan i realtid och genereras baserat på bildens innehåll. När du överför en resurs visas användargränssnittet [!UICONTROL Processing] på miniatyrbilden av resursen ett tag. När bearbetningen är klar kan du [visa metadata](#view-metadata) och smarta taggar.
 
@@ -51,11 +51,15 @@ De smarta taggarna används nästan i realtid och genereras baserat på bildens 
 
 Smarta taggar innehåller också ett konfidensintervall som ett procenttal. Det anger förtroendet som är kopplat till den tillämpade taggen. Du kan moderera de automatiskt tillämpade smarta taggarna.
 
-## Lägga till eller uppdatera taggar {#manually-tag}
+## Lägga till eller uppdatera nyckelord {#manually-tag}
 
 Du kan lägga till fler taggar i dina resurser, utöver de smarta taggar som läggs till automatiskt med [!DNL Adobe Sensei] smarta tjänster. Öppna en resurs för förhandsgranskning och klicka på [!UICONTROL Tags]och skriv önskade nyckelord i [!UICONTROL Keywords] fält. Om du vill lägga till taggen trycker du på Retur. [!DNL Assets Essentials] indexerar nyckelordet i nära realtid och ditt team kan snart söka efter uppdaterade resurser med de nya nyckelorden.
 
 Du kan även ta bort taggar från [!UICONTROL Smart Tags] avsnitt som automatiskt läggs till av [!DNL Assets Essentials] till alla överförda resurser.
+
+## Taxonomihantering {#taxonomy-management}
+
+Taggar kan också kapslas i en hierarki för att stödja relationer som kategori och underkategori. Om du behöver infoga hierarkiska taggar hanteras de enkelt av administratören i [!UICONTROL Taxonomy Management] avsnitt i [!UICONTROL Settings]. Du kan skapa en styrd uppsättning namnutrymmen och taggar som alla användare kan använda när de beskriver innehållet. Det är bara administratörer som kan konfigurera tagghierarkier i [!UICONTROL Taxonomy Manager] säkerställa att värdena kontrolleras och används på ett konsekvent sätt.
 
 ## Konfigurera metadata-Forms {#metadata-forms}
 
@@ -64,7 +68,7 @@ Du kan även ta bort taggar från [!UICONTROL Smart Tags] avsnitt som automatisk
 >title="Metadata Forms"
 >abstract="[!DNL Experience Manager Assets] innehåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält på sidan Detaljer för en resurs. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser."
 
-Assets Essentials tillhandahåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält i en resurs [!UICONTROL Details] sida. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser. Du kan skapa formulär från grunden eller återanvända befintliga formulär.
+Assets Essentials tillhandahåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält i en resurs [!UICONTROL Details] sida. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser. Du kan skapa formulär från grunden eller återanvända ett befintligt formulär.
 
 Du kan konfigurera metadataformulär för olika typer av resurser (olika MIME-typer). Använd samma formulärnamn som filens MIME-typ. Assets Essentials matchar automatiskt MIME-typen för överförda resurser med namnet på formuläret och uppdaterar metadata för överförda resurser baserat på formulärfälten.
 
@@ -108,6 +112,27 @@ I den här videon visas stegsekvensen:
 När ett formulär har skapats används det automatiskt när användare överför en resurs av den matchande MIME-typen.
 
 Om du vill återanvända ett befintligt formulär och skapa ett nytt, markerar du ett metadataformulär, klickar på **[!UICONTROL Copy]** ange ett namn i verktygsfältet och klicka på **[!UICONTROL Confirm]**. Du kan redigera ett metadataformulär om du vill ändra det. När du ändrar ett formulär används det för resurser som överförts efter ändringen. De befintliga resurserna ändras inte.
+
+## Egenskapskomponenter {#property-components}
+
+Du kan anpassa metadataformuläret med någon av följande egenskapskomponenter. Dra och släpp komponenttypen i formuläret där du vill ha den och ändra komponentinställningarna.
+Nedan visas en översikt över varje egenskapstyp och hur de lagras.
+
+| Komponentnamn | Beskrivning |
+|---|---|
+| Dragspelsbehållare | Lägg till en rubrik för en lista med gemensamma komponenter och egenskaper. Den kan expanderas eller komprimeras som standard. |
+| Enkelradig text | Lägg till en enkelradig textegenskap. |
+| Flerradstext | Lägg till flera textrader eller ett stycke. Den utökas som en användartyp och innehåller allt innehåll. |
+| Text med flera värden | Lägg till en textegenskap med flera värden. |
+| Siffra | Lägg till en sifferkomponent. |
+| Kryssruta | Lägg till ett booleskt värde. Lagras som TRUE eller FALSE när ett värde har sparats. |
+| Datum | Lägg till en datumkomponent. |
+| Nedrullningsbar meny | Lägg till en nedrullningsbar lista. |
+| Läge | Lägg till egenskapen för databastillstånd (mappas till repo:state) |
+| Resursstatus | Lägg till standardegenskapen för tillgångsstatus (mappas till dam:assetStatus) |
+| Taggar | Lägg till en tagg från värden som lagras i taxonomihantering (mappas till xcm:tags). |
+| Nyckelord | Lägg till nyckelord med valfri form (mappas till dc:subject). |
+| Smarta taggar | Förbättra sökfunktionerna genom att automatiskt lägga till metadatataggar. |
 
 ## Nästa steg {#next-steps}
 
