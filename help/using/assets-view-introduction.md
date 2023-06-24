@@ -1,0 +1,47 @@
+---
+title: Introduktion till resursvyn
+description: Nyheter i resursvyn
+source-git-commit: c633c6195efc1f249b7c7568a8688409dfa7465e
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 0%
+
+---
+
+# Introduktion till resursvyn {#assets-view}
+
+I dagens snabba digitala första landskap, där det är viktigt att skapa och leverera innehåll i realtid, är en DAM-upplevelse (Digital Asset Management) som är utformad för att snabba upp marknadsföringen längre fram i kedjan oerhört viktig. Adobe, som utnyttjar sin expertis inom marknadsföring och kreativa yrkesverksamma, introducerar en ny omvälvande upplevelse i Assets View. Det här arbetsflödet i första hand revolutionerar hur företag hanterar sina dynamiska digitala resurser och ger marknadsförarna möjlighet att maximera effektiviteten när det gäller att hitta, samarbeta, personalisera och leverera resurser. Dessa smidiga arbetsflöden snabbar upp innehållets hastighet och lyfter era marknadsföringssatsningar till nya höjder.
+
+## Hur får du åtkomst till resursvyn? {#access-assets-view}
+
+Du kommer åt resursvyn på följande sätt:
+
+* **Växla i administrationsvyn**
+
+   * Logga in [!DNL Experience Manager] med Cloud Manager.
+   * Navigera till **[!UICONTROL Assets]** > **[!UICONTROL Files]**.
+   * Klicka på profilikonen i det övre högra hörnet.
+   * Klicka **[!UICONTROL Switch View]** från **[!UICONTROL Profile Settings]** -avsnitt.
+Upprepa dessa steg för att växla tillbaka till administrationsvyn.
+
+* **Produktväljare**
+   * Logga in [!DNL Experience Manager] och klicka
+   * Välj **[!UICONTROL Experience Manager Assets]** för att öppna resursvyn.
+   * Välj **[!UICONTROL Experience Manager]** för att komma åt administratörsvyn.
+
+* **Snabblänkar**
+   * Logga in på experience.adobe.com.
+   * Klicka **[!UICONTROL Experience Manager Assets]** för att öppna resursvyn.
+   * Klicka **[!UICONTROL Experience Manager Assets]** för att öppna resursvyn.
+
+
+## Kontrollpanelen Min arbetsyta för att skapa effektiva upplevelser
+
+Säg hej till en Digital Asset Management-lösning som förstår de olika behoven i olika organisationsroller. Den nya smidiga Assets View prioriterar användarvänlighet och snabbhet och följer marknadsförarnas önskemål om visuella tilltalande och rena arbetsytor. Med en anpassningsbar användarspecifik kontrollpanel för Min arbetsyta kan marknadsförarna snabbt hitta, förhandsgranska, redigera, hantera och leverera resurser med enastående effektivitet. Anlita en oändlig tid på att leta efter specifika resurser och välkomna en smidig upplevelse som ger dig allt du behöver nära till hands.
+
+![Distribuera Assets Essentials](assets/my-workspace1.gif)
+
+[![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](my-workspace.md)
+
+
+
