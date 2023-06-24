@@ -1,9 +1,9 @@
 ---
 title: Introduktion till resursvyn
 description: Nyheter i resursvyn
-source-git-commit: d725a3525c7f451b6dd3377ff267adb50df72280
+source-git-commit: 839c85efa1ba91db5644c7463ff269b6b06f69a1
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -46,5 +46,10 @@ Säg hej till en Digital Asset Management-lösning som förstår de olika behove
 
 [![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](my-workspace.md)
 
+## Sökning i första rummet för ökad effektivitet
+
+Utnyttja potentialen i organisationens digitala resursbibliotek med kraftfulla sökfunktioner. Du kan lägga ett bra bud om du vill gå igenom en mängd olika filer och mappar manuellt. Alla användare kan direkt hitta den perfekta bild, video eller det dokument ni behöver för att skapa fantastiska marknadsföringskampanjer, fängslande presentationer och engagerande innehåll. Med vår första sökmotor kan du enkelt navigera bland resurstyper, metadata, smarta taggar och till och med själva innehållet utan att kunna det exakta nyckelordet. Ge liv åt DAM:s framtid med Search-First och utnyttja hela potentialen i ert digitala resursbibliotek.
+
+![Distribuera Assets Essentials](assets/search-first.gif)
 
 
