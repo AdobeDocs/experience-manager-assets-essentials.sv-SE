@@ -1,14 +1,17 @@
 ---
 title: Introduktion till resursvyn
 description: Nyheter i resursvyn
-source-git-commit: faa88352204ffa607f669e90fce0fb25320f3de8
+source-git-commit: d725a3525c7f451b6dd3377ff267adb50df72280
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
 
+
 # Introduktion till resursvyn {#assets-view}
+
+![Distribuera Assets Essentials](assets/banner-image.jpg)
 
 I dagens snabba digitala första landskap, där det är viktigt att skapa och leverera innehåll i realtid, är en DAM-upplevelse (Digital Asset Management) som är utformad för att snabba upp marknadsföringen längre fram i kedjan oerhört viktig. Adobe, som utnyttjar sin expertis inom marknadsföring och kreativa yrkesverksamma, introducerar en ny omvälvande upplevelse i Assets View. Det här arbetsflödet i första hand revolutionerar hur företag hanterar sina dynamiska digitala resurser och ger marknadsförarna möjlighet att maximera effektiviteten när det gäller att hitta, samarbeta, personalisera och leverera resurser. Dessa smidiga arbetsflöden snabbar upp innehållets hastighet och lyfter era marknadsföringssatsningar till nya höjder.
 
