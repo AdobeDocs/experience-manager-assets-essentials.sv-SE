@@ -1,7 +1,7 @@
 ---
 title: Introduktion till resursvyn
 description: Nyheter i resursvyn
-source-git-commit: 9d14827d10d2bae34b19a318aac1cc0820e81f35
+source-git-commit: faa88352204ffa607f669e90fce0fb25320f3de8
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Upprepa dessa steg för att växla tillbaka till administrationsvyn.
 
 Säg hej till en Digital Asset Management-lösning som förstår de olika behoven i olika organisationsroller. Den nya smidiga Assets View prioriterar användarvänlighet och snabbhet och följer marknadsförarnas önskemål om visuella tilltalande och rena arbetsytor. Med en anpassningsbar användarspecifik kontrollpanel för Min arbetsyta kan marknadsförarna snabbt hitta, förhandsgranska, redigera, hantera och leverera resurser med enastående effektivitet. Anlita en oändlig tid på att leta efter specifika resurser och välkomna en smidig upplevelse som ger dig allt du behöver nära till hands.
 
-![Distribuera Assets Essentials](assets/workspace.gif)
+![Distribuera Assets Essentials](assets/experiment.gif)
 
 [![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](my-workspace.md)
 
