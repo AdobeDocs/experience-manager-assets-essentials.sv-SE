@@ -3,9 +3,9 @@ title: Introduktion till resursvyn
 description: Nyheter i resursvyn
 hidefromtoc: true
 hide: true
-source-git-commit: b26a7698152998cc6353924eb7d2698315c9da16
+source-git-commit: 1a7bb00371ae51159b8712156d852b5e107a3be6
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Introduktion till resursvyn {#assets-view}
 
-![Distribuera Assets Essentials](assets/banner-image.jpg)
+![Distribuera Assets Essentials](assets/banner-image1.png)
 
 I dagens snabba digitala första landskap, där det är viktigt att skapa och leverera innehåll i realtid, är en DAM-upplevelse (Digital Asset Management) som är utformad för att snabba upp marknadsföringen längre fram i kedjan oerhört viktig. Adobe, som utnyttjar sin expertis inom marknadsföring och kreativa yrkesverksamma, introducerar en ny omvälvande upplevelse i Assets View. Det här arbetsflödet i första hand revolutionerar hur företag hanterar sina dynamiska digitala resurser och ger marknadsförarna möjlighet att maximera effektiviteten när det gäller att hitta, samarbeta, personalisera och leverera resurser. Dessa smidiga arbetsflöden snabbar upp innehållets hastighet och lyfter era marknadsföringssatsningar till nya höjder.
 
@@ -53,5 +53,13 @@ Säg hej till en Digital Asset Management-lösning som förstår de olika behove
 Utnyttja potentialen i organisationens digitala resursbibliotek med kraftfulla sökfunktioner. Du kan lägga ett bra bud om du vill gå igenom en mängd olika filer och mappar manuellt. Alla användare kan direkt hitta den perfekta bild, video eller det dokument ni behöver för att skapa fantastiska marknadsföringskampanjer, fängslande presentationer och engagerande innehåll. Med vår första sökmotor kan du enkelt navigera bland resurstyper, metadata, smarta taggar och till och med själva innehållet utan att kunna det exakta nyckelordet. Ge liv åt DAM:s framtid med Search-First och utnyttja hela potentialen i ert digitala resursbibliotek.
 
 ![Distribuera Assets Essentials](assets/search-first.gif)
+
+## Insikter för att fatta datadrivna beslut {#insights-data}
+
+För att hålla jämna steg med innehållets hastighet är användbara insikter viktiga. Den nya resursvyn ger avancerade insikter på arbetsytan Min arbetsyta och ger värdefulla data om resursprestanda, målgruppsanvändning och engagemang. Marknadsförarna kan fatta datadrivna beslut, optimera innehållsstrategier och förfina leveransen i efterföljande led för att få optimala resultat. Med tillgång till meningsfulla insikter kan företag ligga steget före konkurrenterna och få exceptionella resultat.
+
+![Distribuera Assets Essentials](assets/insights-overview.gif)
+
+[![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
 
