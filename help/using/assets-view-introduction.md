@@ -3,7 +3,7 @@ title: Introduktion till resursvyn
 description: Nyheter i resursvyn
 hidefromtoc: true
 hide: true
-source-git-commit: 836f4524bde739614cca0595e7aace5f7674a954
+source-git-commit: 1ff1ced0910f1b2ca18e9130b07a399da1ccf27f
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%
@@ -65,6 +65,8 @@ För att hålla jämna steg med innehållets hastighet är användbara insikter 
 ## Snabbare samarbete {#accelerate-collaboration}
 
 Den nya upplevelsen innehåller en robust uppsättning samarbetsfunktioner, inklusive redigering i realtid med inbyggda Adobe Photoshop-funktioner, versionskontroller och anteckningsverktyg. Detta möjliggör smidigt samarbete mellan design-, design-, varumärkes- och marknadsföringsteam, så att de kan övervinna flaskhalsar och snabba upp processen för marknadsföringsåtgärder. Nu har marknadsförarna kraftfulla verktyg till sitt förfogande för att snabba upp projektleveransen och öka produktiviteten.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420922)
 
 
 
