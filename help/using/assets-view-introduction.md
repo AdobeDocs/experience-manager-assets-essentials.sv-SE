@@ -3,9 +3,9 @@ title: Introduktion till resursvyn
 description: Nyheter i resursvyn
 hidefromtoc: true
 hide: true
-source-git-commit: dd6734b4e43eef875515e48704757a4f53a1a185
+source-git-commit: 547dd9dab9a2b176f9fb7bed62289d60f96243dc
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ För att hålla jämna steg med innehållets hastighet är användbara insikter 
 
 [![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
-## Snabbare samarbete med Adobe Photoshop Express-integrering {#accelerate-collaboration}
+## Adobe Photoshop Express-integration snabbar upp samarbetet {#accelerate-collaboration}
 
 Den nya upplevelsen innehåller en robust uppsättning samarbetsfunktioner, inklusive redigering i realtid med inbyggda Adobe Photoshop-funktioner, versionskontroller och anteckningsverktyg. Detta möjliggör smidigt samarbete mellan design-, design-, varumärkes- och marknadsföringsteam, så att de kan övervinna flaskhalsar och snabba upp processen för marknadsföringsåtgärder. Nu har marknadsförarna kraftfulla verktyg till sitt förfogande för att snabba upp projektleveransen och öka produktiviteten.
 
@@ -70,13 +70,21 @@ Den nya upplevelsen innehåller en robust uppsättning samarbetsfunktioner, inkl
 
 [![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](edit-images.md)
 
-## Snabb hierarkisk strukturinställning med mappöverföringar {#folder-uploads}
+## Mappöverföringar för att konfigurera hierarkisk struktur för din organisation {#folder-uploads}
 
 Konfigurera snabbt en mappstruktur för organisationen med resursvyn genom att överföra mappar som finns i det lokala filsystemet. Du behöver inte skapa mappar under rotmappen och sedan överföra resurser till dessa mappar manuellt för att behålla den logiska hierarkiska strukturen. Alla mappar och resurser under rotmappen överförs automatiskt till Experience Manager Assets.
 
-![Distribuera Assets Essentials](assets/folder-uploads.gif)
+![Överför mappar](assets/folder-uploads.gif)
 
 [![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
+
+## Prenumerera på innehåll för att få meddelanden
+
+I resursvyn kan du övervaka åtgärder som utförs på de resurser, mappar eller samlingar som är tillgängliga i databasen. Du måste välja och prenumerera på det innehåll som meddelandena skickas till dig för. Du kan också konfigurera händelsetyperna, till exempel borttagning av det innehåll du prenumererar på, ändringar av det innehåll du prenumererar på och så vidare. Meddelandena skickas sedan bara till dig för de händelsetyperna.
+
+![Ta emot meddelanden](assets/notifications.gif)
+
+[![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-notifications.md)
 
 
 
