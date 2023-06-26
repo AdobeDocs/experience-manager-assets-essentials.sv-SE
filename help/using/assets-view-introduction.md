@@ -3,9 +3,9 @@ title: Introduktion till resursvyn
 description: Nyheter i resursvyn
 hidefromtoc: true
 hide: true
-source-git-commit: cd99934326eab5f7701e691a7f98329c57f8d2c4
+source-git-commit: f370e2e3e1c7fc5798e6873bd37098e5c22b8e5a
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,16 @@ I papperskorgen som är tillgänglig i resursvyn visas de resurser som tagits bo
 ![Mjuk borttagning](assets/soft-delete.gif)
 
 [![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](navigate-view.md)
+
+Förutom dessa funktioner kan du även använda resursvyn för att utföra följande funktioner som inte är tillgängliga i administrationsvyn:
+
+* Överför en ny version av en resurs med ett annat namn från det lokala filsystemet till resurskatalogen. Den överförda resursen är tillgänglig som en ny version med samma namn som den ursprungliga resursen.
+
+* Byt namn på resurser och mappar som är tillgängliga i databasen.
+
+## Slutsats {#conclusion}
+
+Det är dags att omvandla våra marknadsföringsverktyg för att stödja det föränderliga affärslandskapet. Den nya vyn Adobe Experience Manager Assets Assets View är skräddarsydd för att effektivisera arbetsflöden, främja samarbete och snabba upp materialleveranserna. Genom att anamma innehållets snabbhet kan marknadsförarna utnyttja hela potentialen i sitt digitala material och frigöra kreativiteten som aldrig förr. Gör er redo att utnyttja kraften i Adobe nya Assets Visa upplevelsen och få exceptionella resultat i era marknadsföringskampanjer. Det är dags att ta till sig framtiden för DAM och driva verksamheten framåt.
 
 
 
