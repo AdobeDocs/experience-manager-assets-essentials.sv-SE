@@ -3,9 +3,9 @@ title: Introduktion till resursvyn
 description: Nyheter i resursvyn
 hidefromtoc: true
 hide: true
-source-git-commit: f370e2e3e1c7fc5798e6873bd37098e5c22b8e5a
+source-git-commit: 9ce744b0a920dc553a41e631d0f1be1d8f26bb93
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,8 @@ För att hålla jämna steg med innehållets hastighet är användbara insikter 
 ## Adobe Photoshop Express-integration snabbar upp samarbetet {#accelerate-collaboration}
 
 Den nya upplevelsen innehåller en robust uppsättning samarbetsfunktioner, inklusive redigering i realtid med inbyggda Adobe Photoshop-funktioner, versionskontroller och anteckningsverktyg. Detta möjliggör smidigt samarbete mellan design-, design-, varumärkes- och marknadsföringsteam, så att de kan övervinna flaskhalsar och snabba upp processen för marknadsföringsåtgärder. Nu har marknadsförarna kraftfulla verktyg till sitt förfogande för att snabba upp projektleveransen och öka produktiviteten.
+
+I den här videon ser du hur väl Assets-vyn har integrerats med Adobe Photoshop Express:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420922)
 
