@@ -3,9 +3,9 @@ title: Introduktion till resursvyn
 description: Nyheter i resursvyn
 hidefromtoc: true
 hide: true
-source-git-commit: 7a1d9c01ed19015f8552b088142122b354c6074b
+source-git-commit: dd6734b4e43eef875515e48704757a4f53a1a185
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ Den nya upplevelsen innehåller en robust uppsättning samarbetsfunktioner, inkl
 ## Snabb hierarkisk strukturinställning med mappöverföringar {#folder-uploads}
 
 Konfigurera snabbt en mappstruktur för organisationen med resursvyn genom att överföra mappar som finns i det lokala filsystemet. Du behöver inte skapa mappar under rotmappen och sedan överföra resurser till dessa mappar manuellt för att behålla den logiska hierarkiska strukturen. Alla mappar och resurser under rotmappen överförs automatiskt till Experience Manager Assets.
+
+![Distribuera Assets Essentials](assets/folder-uploads.gif)
+
+[![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
 
 
 
