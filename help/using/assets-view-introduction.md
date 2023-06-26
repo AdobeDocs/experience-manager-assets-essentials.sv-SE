@@ -3,9 +3,9 @@ title: Introduktion till resursvyn
 description: Nyheter i resursvyn
 hidefromtoc: true
 hide: true
-source-git-commit: 547dd9dab9a2b176f9fb7bed62289d60f96243dc
+source-git-commit: cd99934326eab5f7701e691a7f98329c57f8d2c4
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -78,13 +78,21 @@ Konfigurera snabbt en mappstruktur för organisationen med resursvyn genom att �
 
 [![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](add-delete.md)
 
-## Prenumerera på innehåll för att få meddelanden
+## Prenumerera på databasinnehåll för effektiv resurshantering
 
 I resursvyn kan du övervaka åtgärder som utförs på de resurser, mappar eller samlingar som är tillgängliga i databasen. Du måste välja och prenumerera på det innehåll som meddelandena skickas till dig för. Du kan också konfigurera händelsetyperna, till exempel borttagning av det innehåll du prenumererar på, ändringar av det innehåll du prenumererar på och så vidare. Meddelandena skickas sedan bara till dig för de händelsetyperna.
 
 ![Ta emot meddelanden](assets/notifications.gif)
 
 [![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-notifications.md)
+
+## Mjuk borttagning av resurser för bättre kontroll till administratörer {#soft-delete-assets}
+
+I papperskorgen som är tillgänglig i resursvyn visas de resurser som tagits bort från rotresursmappen. Du kan välja en resurs i papperskorgen om du vill återställa den till den ursprungliga platsen eller ta bort den permanent. Du kan också ange ett nyckelord eller använda standardfilter eller anpassade filter för att söka efter lämpliga resurser i papperskorgen.
+
+![Mjuk borttagning](assets/soft-delete.gif)
+
+[![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](navigate-view.md)
 
 
 
