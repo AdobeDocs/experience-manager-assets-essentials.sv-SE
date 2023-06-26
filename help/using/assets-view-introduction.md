@@ -3,9 +3,9 @@ title: Introduktion till resursvyn
 description: Nyheter i resursvyn
 hidefromtoc: true
 hide: true
-source-git-commit: 1ff1ced0910f1b2ca18e9130b07a399da1ccf27f
+source-git-commit: 7a1d9c01ed19015f8552b088142122b354c6074b
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -62,11 +62,17 @@ För att hålla jämna steg med innehållets hastighet är användbara insikter 
 
 [![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](manage-reports.md#view-live-statistics)
 
-## Snabbare samarbete {#accelerate-collaboration}
+## Snabbare samarbete med Adobe Photoshop Express-integrering {#accelerate-collaboration}
 
 Den nya upplevelsen innehåller en robust uppsättning samarbetsfunktioner, inklusive redigering i realtid med inbyggda Adobe Photoshop-funktioner, versionskontroller och anteckningsverktyg. Detta möjliggör smidigt samarbete mellan design-, design-, varumärkes- och marknadsföringsteam, så att de kan övervinna flaskhalsar och snabba upp processen för marknadsföringsåtgärder. Nu har marknadsförarna kraftfulla verktyg till sitt förfogande för att snabba upp projektleveransen och öka produktiviteten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420922)
+
+[![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](edit-images.md)
+
+## Snabb hierarkisk strukturinställning med mappöverföringar {#folder-uploads}
+
+Konfigurera snabbt en mappstruktur för organisationen med resursvyn genom att överföra mappar som finns i det lokala filsystemet. Du behöver inte skapa mappar under rotmappen och sedan överföra resurser till dessa mappar manuellt för att behålla den logiska hierarkiska strukturen. Alla mappar och resurser under rotmappen överförs automatiskt till Experience Manager Assets.
 
 
 
