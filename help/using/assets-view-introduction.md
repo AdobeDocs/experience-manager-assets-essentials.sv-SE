@@ -4,9 +4,9 @@ description: Nyheter i resursvyn
 mini-toc-levels: 3
 hidefromtoc: true
 hide: true
-source-git-commit: 138e8eaa8e4c0ff83c46e2b6a62e92740c87f366
+source-git-commit: 52ec2263e237e6c3b47dc967eb5cc3e6acbe814f
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -22,23 +22,29 @@ I dagens snabba digitala första landskap, där det är viktigt att skapa och le
 
 Du kommer åt resursvyn på följande sätt:
 
-* **Växla i administrationsvyn**
+![Min arbetsyta - översikt](assets/assets-view.png)
 
-   * Logga in [!DNL Experience Manager] med Cloud Manager.
-   * Navigera till **[!UICONTROL Assets]** > **[!UICONTROL Files]**.
-   * Klicka på profilikonen i det övre högra hörnet.
-   * Klicka **[!UICONTROL Switch View]** från **[!UICONTROL Profile Settings]** -avsnitt.
-Upprepa dessa steg för att växla tillbaka till administrationsvyn.
+<!--
 
-* **Produktväljare**
-   * Logga in [!DNL Experience Manager] och klicka
-   * Välj **[!UICONTROL Experience Manager Assets]** för att öppna resursvyn.
-   * Välj **[!UICONTROL Experience Manager]** för att komma åt administratörsvyn.
+* **Toggle in Admin view**
 
-* **Snabblänkar**
-   * Logga in på experience.adobe.com.
-   * Klicka **[!UICONTROL Experience Manager Assets]** för att öppna resursvyn.
-   * Klicka **[!UICONTROL Experience Manager Assets]** för att öppna resursvyn.
+    * Log into [!DNL Experience Manager] using Cloud Manager.
+    * Navigate to **[!UICONTROL Assets]** > **[!UICONTROL Files]**.
+    * Click the profile icon on the top right corner.
+    * Click **[!UICONTROL Switch View]** from the **[!UICONTROL Profile Settings]** section.
+    Repeat these steps to switch back to the Admin view.
+
+* **Product Switcher**
+    * Log into [!DNL Experience Manager] and click ![Product selector](assets/waffle-icon.svg).
+    * Select **[!UICONTROL Experience Manager Assets]** to access the Assets view.
+    * Select **[!UICONTROL Experience Manager]** to access the Admin view.
+
+* **Quick Links** 
+    * Log into experience.adobe.com.
+    * Click **[!UICONTROL Experience Manager Assets]** to access the Assets view.
+    * Click **[!UICONTROL Experience Manager Assets]** to access the Assets view.
+
+    -->
 
 ## Varför vyn Resurser?
 
