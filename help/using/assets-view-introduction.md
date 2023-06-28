@@ -4,9 +4,9 @@ description: Nyheter i resursvyn
 mini-toc-levels: 3
 hidefromtoc: true
 hide: true
-source-git-commit: 256d42b06e66e9f152823f507412de360474b3b7
+source-git-commit: 2ef7fb0d0671a9dfe054608f068c64623f6b488a
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ![Distribuera Assets Essentials](assets/banner-image.jpg)
 
-I dagens snabba digitala första landskap, där det är viktigt att skapa och leverera innehåll i realtid, är en DAM-upplevelse (Digital Asset Management) som är utformad för att snabba upp marknadsföringen längre fram i kedjan oerhört viktig. Adobe, som utnyttjar sin expertis inom marknadsföring och kreativa yrkesverksamma, introducerar en ny omvälvande upplevelse i Assets View. Det här arbetsflödet i första hand revolutionerar hur företag hanterar sina dynamiska digitala resurser och ger marknadsförarna möjlighet att maximera effektiviteten när det gäller att hitta, samarbeta, personalisera och leverera resurser. Dessa smidiga arbetsflöden snabbar upp innehållets hastighet och lyfter era marknadsföringssatsningar till nya höjder.
+I dagens snabba digitala första landskap, där det är viktigt att skapa och leverera innehåll i realtid, är en DAM-upplevelse (Digital Asset Management) som är utformad för att snabba upp marknadsföringen längre fram i kedjan oerhört viktig. Adobe, som utnyttjar sin expertis inom marknadsföring och kreativa yrkesutövare, introducerar en ny omvälvande användarupplevelse. Det här arbetsflödet i första hand revolutionerar hur företag hanterar sina dynamiska digitala resurser och ger marknadsförarna möjlighet att maximera effektiviteten när det gäller att hitta, samarbeta, personalisera och leverera resurser. Dessa smidiga arbetsflöden snabbar upp innehållets hastighet och lyfter era marknadsföringssatsningar till nya höjder.
 
 ## Hur får du åtkomst till resursvyn? {#access-assets-view}
 
@@ -59,7 +59,7 @@ Resursvyn innehåller följande viktiga fördelar som inte är tillgängliga i a
 
 ### Kontrollpanelen Min arbetsyta för att skapa effektiva upplevelser {#my-workspace-for-streamlined-experience}
 
-Säg hej till en Digital Asset Management-lösning som förstår de olika behoven i olika organisationsroller. Den nya smidiga Assets View prioriterar användarvänlighet och snabbhet och följer marknadsförarnas önskemål om visuella tilltalande och rena arbetsytor. Med en anpassningsbar användarspecifik kontrollpanel för Min arbetsyta kan marknadsförarna snabbt hitta, förhandsgranska, redigera, hantera och leverera resurser med enastående effektivitet. Anlita en oändlig tid på att leta efter specifika resurser och välkomna en smidig upplevelse som ger dig allt du behöver nära till hands.
+Säg hej till en Digital Asset Management-lösning som förstår de olika behoven i olika organisationsroller. I den nya smidiga vyn Resurser prioriteras användarvänlighet och snabbhet, vilket passar marknadsförarna bäst när det gäller visuella tilltalande och rena arbetsytor. Med en anpassningsbar användarspecifik kontrollpanel för Min arbetsyta kan marknadsförarna snabbt hitta, förhandsgranska, redigera, hantera och leverera resurser med enastående effektivitet. Anlita en oändlig tid på att leta efter specifika resurser och välkomna en smidig upplevelse som ger dig allt du behöver nära till hands.
 
 ![Min arbetsyta - översikt](assets/my-workspace-demo.gif)
 
@@ -67,7 +67,7 @@ Säg hej till en Digital Asset Management-lösning som förstår de olika behove
 
 ### Insikter för att fatta datadrivna beslut {#insights-data}
 
-För att hålla jämna steg med innehållets hastighet är användbara insikter viktiga. Den nya resursvyn ger avancerade insikter på arbetsytan Min arbetsyta och ger värdefulla data om resursprestanda, målgruppsanvändning och engagemang. Marknadsförarna kan fatta datadrivna beslut, optimera innehållsstrategier och förfina leveransen i efterföljande led för att få optimala resultat. Med tillgång till meningsfulla insikter kan företag ligga steget före konkurrenterna och få exceptionella resultat.
+För att hålla jämna steg med innehållets hastighet är användbara insikter viktiga. Den nya resursvyn ger avancerade insikter på arbetsytan My Workspace, som ger värdefulla data om resursprestanda, målgruppsanvändning och engagemang. Marknadsförarna kan fatta datadrivna beslut, optimera innehållsstrategier och förfina leveransen i efterföljande led för att få optimala resultat. Med tillgång till meningsfulla insikter kan företag ligga steget före konkurrenterna och få exceptionella resultat.
 
 ![Insikter - översikt](assets/insights-overview.gif)
 
@@ -123,7 +123,7 @@ Förutom dessa funktioner kan du även använda resursvyn för att utföra följ
 
 ## Slutsats {#conclusion}
 
-Det är dags att omvandla våra marknadsföringsverktyg för att stödja det föränderliga affärslandskapet. Den nya vyn Adobe Experience Manager Assets Assets View är skräddarsydd för att effektivisera arbetsflöden, främja samarbete och snabba upp materialleveranserna. Genom att anamma innehållets snabbhet kan marknadsförarna utnyttja hela potentialen i sitt digitala material och frigöra kreativiteten som aldrig förr. Gör er redo att utnyttja kraften i Adobe nya Assets Visa upplevelsen och få exceptionella resultat i era marknadsföringskampanjer. Det är dags att ta till sig framtiden för DAM och driva verksamheten framåt.
+Det är dags att omvandla våra marknadsföringsverktyg för att stödja det föränderliga affärslandskapet. Den nya vyn Adobe Experience Manager Assets är skräddarsydd för att effektivisera arbetsflöden, främja samarbete och snabba upp materialleveranserna. Genom att anamma innehållets snabbhet kan marknadsförarna utnyttja hela potentialen i sitt digitala material och frigöra kreativiteten som aldrig förr. Gör er redo att utnyttja kraften i Adobe nya Assets för att visa upplevelsen och få exceptionella resultat i era marknadsföringskampanjer. Det är dags att ta till sig framtiden för DAM och driva verksamheten framåt.
 
 
 
