@@ -3,9 +3,9 @@ title: Sök efter och hitta resurser i [!DNL Assets Essentials]
 description: Sök efter och hitta resurser i [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 839ec4e2dcd324c481d9b4b5aba2210ec95203ba
+source-git-commit: 99f843be67ca6ca9dc1afe4887937b0fbcbfcf8e
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -141,6 +141,34 @@ What about temporarily hiding an asset (suspending search on it) from the search
 
 When userA is searching and userB add an asset that matches search results, will the asset display in search as soon as userA refreshes the page? Assuming indexing is near real-time. May not be so for bulk uploads.
 -->
+
+## Arbeta med sökresultat {#work-with-search-results}
+
+Du kan markera de resurser som visas i sökresultaten och göra följande:
+
+* **Detaljer**: Visa och redigera resursegenskaper.
+
+* **Lägg till i samling**: Lägg till den valda resursen i en samling.
+
+* **Hämta**: Hämta en resurs.
+
+* **Ta bort**: Ta bort en resurs.
+
+* **Kopiera**: Kopiera en resurs till en annan mapplats.
+
+* **Flytta**: Flytta en resurs till en annan mapplats.
+
+* **Byt namn**: Byt namn på en resurs.
+
+* **Tilldela uppgifter**: Tilldela användare uppgifter för en resurs.
+
+* **Dela länk**: [Dela länkar](share-links-for-assets.md) för en resurs med andra användare så att de kan komma åt och hämta den.
+
+* **Titta**: [Övervaka åtgärderna](manage-notifications.md) som utförs på en tillgång.
+
+* **Visa filplats**: Navigera till resursmappens plats.
+
+* **Fäst i snabbåtkomst**: [Fäst en resurs](my-workspace.md) för snabbare åtkomst när du behöver det senare. Alla fästa objekt visas i **Snabb åtkomst** i Min arbetsyta.
 
 ## Nästa steg {#next-steps}
 
