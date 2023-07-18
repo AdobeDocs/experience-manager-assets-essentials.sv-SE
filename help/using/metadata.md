@@ -4,9 +4,9 @@ description: Hantera metadata för resurser i [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: e5c76d08c2a9cd35a0efb05743a3069d0efd3f62
+source-git-commit: 5b9e3297c37bca0e5badc2073f8c6467e012ccde
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Taggar kan också kapslas i en hierarki för att stödja relationer som kategori
 >id="assets_metadata_forms"
 >title="Metadata Forms"
 >abstract="[!DNL Experience Manager Assets] innehåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält på sidan Detaljer för en resurs. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser."
->additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4" text="Se hur funktionen fungerar i praktiken"
+>additional-url="https://images-tv.adobe.com/mpcv3/4477/ac1b52fa-823e-447f-8e96-e880b33fe12e_1687708758.854x480at800_h264.mp4" text="Se hur funktionen fungerar i praktiken"
 
 Assets Essentials tillhandahåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält i en resurs [!UICONTROL Details] sida. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser. Du kan skapa formulär från grunden eller återanvända ett befintligt formulär.
 
