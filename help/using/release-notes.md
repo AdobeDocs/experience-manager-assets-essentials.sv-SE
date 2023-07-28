@@ -4,19 +4,68 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 84b830af6225242aa8cb851ac6458a66394a281a
+source-git-commit: c61a22ad3c44b26762a8afbb93422197a5cf92ca
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2148'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den aktuella versionen av Assets Essentials släpps den 22 juni 2023.
+Den aktuella versionen av Assets Essentials släpps den 27 juli 2023.
 
 Listan med funktioner i utgåvan är:
 
+<!--
+
+**Assign metadata form to a folder**
+
+You can now assign metadata form to a specific folder within your Assets Essentials deployment. All assets in the folder, including assets in the sub-folders, then display properties defined in the assigned metadata form.
+
+![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
+
+-->
+
+**Förbättrat ramverk för artificiell intelligens för smarta taggar i bilder**
+
+Experience Manager Assets använder nu ett förbättrat ramverk för artificiell intelligens för smarta taggar i bilder. Den här innehållsintelligensen ger bättre relevans och precision för smarta taggar som är tillgängliga för alla bildresurser vid förtäring.
+
+**Konfigurera visning av kolumner för resurslista-vyn**
+
+Nu kan du i Assets Essentials välja vilka kolumner som ska visas i resurslista, till exempel Status, Format, Dimensioner, Storlek.
+
+![Konfigurera kolumner](/help/using/assets/configure-columns.png)
+
+**Sortera sökresultat baserat på relevans**
+
+Assets Essentials sorterar nu sökresultaten baserat på relevans som standard. Du kan sortera de sökda resurserna i stigande eller fallande ordning efter `Name`, `Relevance`, `Size`, `Modified`och `Created`.
+
+**Förbättringar baserade på kundfeedback**
+
+Förbättringar och felkorrigeringar som bygger på kundfeedback.
+
+
+## Kända fel {#known-issues}
+
+Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* Privata samlingar är tillgängliga för den som skapat dem och för användare med administratörsbehörighet. Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
+
+* Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
+
+Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
+
+## Tidigare versioner {#past-releases}
+
+### Juniversion {#june2023-release}
 
 **Hierarkisk taggning av resurser för snabbare sökupplevelse**
 
@@ -49,30 +98,6 @@ Assets Essentials har nu stöd för att visa de vanligaste söktermerna i din As
 **Förbättringar av metadataformulär**
 
 Nu kan du lägga till text med flera värden och nedrullningsbara listegenskapskomponenter i metadataformulären.
-
-
-**Förbättringar baserade på kundfeedback**
-
-Förbättringar och felkorrigeringar som bygger på kundfeedback.
-
-## Kända fel {#known-issues}
-
-Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* Privata samlingar är tillgängliga för den som skapat dem och för användare med administratörsbehörighet. Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
-
-* Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
-
-Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
-
-## Tidigare versioner {#past-releases}
 
 ### Flera versioner under 2023 {#multiple-releases-2023}
 
@@ -117,7 +142,7 @@ Den här versionen innehåller:
 
 **Förhandsgranska dokument med Document Cloud Viewer**
 
-Med Assets Essentials kan du nu överföra dokument i andra format som stöds och förhandsgranska dem med det medföljande visningsprogrammet för Document Cloud. De formattyper som stöds är TXT, RTF, DOC, DOCX, PPT, PPTX, XLS och XLSX.
+Med Assets Essentials kan du nu överföra dokument i andra format som stöds och förhandsgranska dem med det medföljande visningsprogrammet för Document Cloud. De format som stöds är TXT, RTF, DOC, DOCX, PPT, PPTX, XLS och XLSX.
 
 <!--
 
@@ -138,7 +163,7 @@ You can easily synchronize the user groups available on the external identity ma
 
 **Alternativet Spara metadata**
 
-Det nya alternativet Spara metadata finns nu i Assets Essentials användargränssnitt för bättre metadatastyrning.
+Ett nytt Spara metadata-alternativ finns nu i Assets Essentials användargränssnitt för bättre metadatastyrning.
 
 **Förbättringar baserade på kundfeedback**
 
@@ -162,7 +187,7 @@ Den här versionen innehåller:
 
 **Meddelanden för samlingar**
 
-Med Assets Essentials-meddelanden kan du nu övervaka de åtgärder som utförs på de samlingar som finns i databasen. Du måste välja och prenumerera på de samlingar som meddelandena skickas till dig för. Du kan också konfigurera åtgärder som meddelanden skickas för, till exempel borttagning, delning av länk, flytt, namnbyte och uppdatering av samlingar.
+Med Assets Essentials-meddelanden kan du nu övervaka de åtgärder som utförs på de samlingar som finns i databasen. Du måste välja och prenumerera på de samlingar som du får meddelanden om. Du kan också konfigurera åtgärder som meddelanden skickas för, till exempel borttagning, delning av länk, flytt, namnbyte och uppdatering av samlingar.
 
 **Redigera smarta samlingar**
 
@@ -208,13 +233,13 @@ Den här versionen innehåller:
 
 **Förbättringar av resursstatus**
 
-* Assets Essentials ger dig nu möjlighet att [ange ett förfallodatum för en tillgång](manage-organize.md#set-asset-status). Dessutom kan du [filterresurser](search.md#refine-search-results) baserat på `Expired` tillgångsstatus och ett förfallodatumintervall.
+* Nu kan du med Assets Essentials [ange ett förfallodatum för en tillgång](manage-organize.md#set-asset-status). Dessutom kan du [filterresurser](search.md#refine-search-results) baserat på `Expired` tillgångsstatus och ett förfallodatumintervall.
 
 * Nu kan du visa statusindikatorn för alla resurser som är tillgängliga i Papperskorgen. Därför kan du välja att återställa en resurs baserat på dess status.
 
-**Förbättrade sökfilter**
+**Förbättringar av sökfilter**
 
-* Assets Essentials ger dig nu möjlighet att [filterresurser](search.md#refine-search-results) med `No Status` tillgångsstatus.
+* Nu kan du med Assets Essentials [filterresurser](search.md#refine-search-results) med `No Status` status.
 
 <!--
 
@@ -230,7 +255,7 @@ Den här versionen innehåller:
 
 -->
 
-* Assets Essentials har nu stöd för [hämta en samling](manage-collections.md).
+* Assets Essentials har nu stöd [hämta en samling](manage-collections.md).
 
 * Nu kan du redigera metadatafältet Beskrivning för en samling.
 
@@ -246,7 +271,7 @@ Den här versionen innehåller:
 
 Den aktuella versionen av [!DNL Assets Essentials] släpps den 12 maj 2022. Den här versionen innehåller:
 
-* [!DNL Assets Essentials] nu har stöd för [skapa samlingar](manage-collections.md). En samling är en uppsättning resurser i Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare. Till skillnad från mappar kan en samling innehålla resurser från olika platser.
+* [!DNL Assets Essentials] nu stöder [skapa samlingar](manage-collections.md). En samling är en uppsättning resurser i Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare. Till skillnad från mappar kan en samling innehålla resurser från olika platser.
 
 * Nu kan Assets Essentials även [lägga till egna filter](search.md#custom-filters) till användargränssnittet. Du kan sedan använda dessa anpassade filter utöver standardfiltren för att förfina sökresultaten.
 
@@ -301,12 +326,12 @@ Dessutom [!DNL Adobe Asset Link] för Creative Cloud (Photoshop, Illustrator och
 
 [!DNL Assets Essentials] 2021.7.0 släpps den 29 juli 2021, med följande uppdateringar:
 
-* Du kan skapa och hantera anpassade metadataformulär som ska användas för att visa metadataegenskaper för användare på resursinformationsskärmen i [!UICONTROL Metadata Forms] option under [!DNL Settings]. Se [metadataformulär](metadata.md#metadata-forms).
+* Du kan skapa och hantera anpassade metadataformulär som ska användas för att visa metadataegenskaper för användare på resursinformationsskärmen i [!UICONTROL Metadata Forms] option under [!DNL Settings]. Se [metadata](metadata.md#metadata-forms).
 * Olika felkorrigeringar och produktförbättringar, inklusive bättre prestanda vid överföring av en kapslad mapp med många undermappar.
 
 ### 2021.6.0-utgåvan {#june2021}
 
-Den första versionen av [!DNL Assets Essentials], som släpptes den 21 juni 2021, erbjuder lättviktiga funktioner för resurshantering. Det har stöd för följande huvudfunktioner och CRUD-åtgärder (Create, Read, Update och Delete):
+Den första utgåvan av [!DNL Assets Essentials], som släpptes den 21 juni 2021, erbjuder lättviktiga funktioner för resurshantering. Det har stöd för följande huvudfunktioner och CRUD-åtgärder (Create, Read, Update och Delete):
 
 * Överför och lägg till resurser, inklusive kapslade mappar. Förhandsgranska resurserna och versionerna.
 * Fulltextsökning, nyansrika sökfilter och sparade sökningar för snabb resursidentifiering.

@@ -3,9 +3,9 @@ title: "[!DNL Assets Essentials] användargränssnitt"
 description: Förstå användargränssnittet för och navigering i [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: b2ec3dde3d231cdb772833dfa7c9de01b7c3dd38
+source-git-commit: 4f3141fe95a0c33b22042da4f234dd2a921cbac6
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ När du loggar in [!DNL Assets Essentials]visas följande gränssnitt.
 ![[!DNL Assets Essentials] användargränssnitt](assets/essentials-interface.png)
 
     *S: Vänster sidofält för att bläddra i databasen och ger tillgång till några andra alternativ*
-    *B: Visa eller dölj det vänstra sidofältet för att öka resursens visningsområde*
+    *B: Visa eller komprimera vänster sidospalt för att öka resursens visningsområde*
     *C: Filtrera sökresultat*
     *D: Markera allt innehåll i den markerade mappen*
     *E: Alternativ för att sortera resurser*
@@ -40,14 +40,14 @@ När du loggar in [!DNL Assets Essentials]visas följande gränssnitt.
 
 Du kan bläddra bland mapparna från huvudanvändargränssnittet eller från vänster sidofält. När du bläddrar kan du använda gränssnittet för att visa miniatyrbilder av resurser för att visuellt bläddra i databasen eller visa resursinformation för att snabbt hitta den resurs du vill ha. De alternativ som är tillgängliga i den vänstra sidlisten är:
 
-* [Min arbetsyta](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): Resurserna innehåller nu en anpassningsbar arbetsyta med widgetar som du kan använda för att enkelt få tillgång till viktiga delar av användargränssnittet och den information som är mest relevant för dig. Den här sidan är en helhetslösning som ger en översikt över dina arbetsobjekt och ger snabb åtkomst till viktiga arbetsflöden. Mer lättåtkomlig åtkomst till dessa alternativ ökar effektiviteten och ökar innehållets hastighet.
-* [Uppgifter](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): Du kan visa de uppgifter som du har tilldelats under **Mina uppgifter** -fliken. De uppgifter som du har skapat kan visas under **Tilldelade uppgifter** -fliken. Dessutom finns de uppgifter som du har slutfört under **Slutförda uppgifter** -fliken.
+* [Min arbetsyta](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): Resurserna innehåller nu en anpassningsbar arbetsyta med widgetar för smidig åtkomst till viktiga delar av användargränssnittet och den information som är mest relevant för dig. Den här sidan är en helhetslösning som ger en översikt över dina arbetsobjekt och ger snabb åtkomst till viktiga arbetsflöden. Mer lättåtkomlig åtkomst till dessa alternativ ökar effektiviteten och ökar innehållets hastighet.
+* [Uppgifter](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): Du kan visa de uppgifter som du har tilldelats under **Mina uppgifter** -fliken. De uppgifter som du har skapat kan visas under **Tilldelade uppgifter** -fliken. Dessutom finns de uppgifter du utför under **Slutförda uppgifter** -fliken.
 * [Resurser](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en): Lista över alla mappar i en trädvy som du har åtkomst till.
-* **Senast visade**: Lista över resurser som du nyligen har förhandsgranskat. [!DNL Assets Essentials] visar bara de resurser som du förhandsgranskar. Det visar inte de resurser som du bläddrar förbi när du bläddrar bland databasfilerna eller databasmapparna.
+* **Nyligen visade**: Lista med resurser som du nyligen förhandsvisade. [!DNL Assets Essentials] visar bara de resurser som du förhandsgranskar. Det visar inte de resurser som du bläddrar förbi när du bläddrar bland databasfilerna eller databasmapparna.
 * [Samlingar](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=en): En samling är en uppsättning resurser, mappar eller andra samlingar i Adobe Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare. Till skillnad från mappar kan en samling innehålla resurser från olika platser. Du kan dela flera samlingar med en användare. Varje samling innehåller referenser till resurser. Resursernas referensintegritet bevaras i alla samlingar.
 
 * [Insikter](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=en#view-live-statistics): I [!DNL Assets Essentials]kan du visa realtidsinsikter på din instrumentpanel. Med Assets Essentials kan du visa realtidsdata för din Assets Essentials-miljö med Insikter-instrumentpanelen. Du kan visa händelsemått i realtid under de senaste 30 dagarna eller under de senaste 12 månaderna.
-* **Papperskorgen**: Lista över resurser som tagits bort från roten **[!UICONTROL Assets]** mapp. Du kan markera en resurs i papperskorgen och antingen återställa den till den ursprungliga platsen eller ta bort den permanent. Du kan också ange ett nyckelord eller använda standardfilter eller anpassade filter för att söka efter lämpliga resurser i papperskorgen. Mer information om hur du använder standardfilter och anpassade filter finns i [Söka efter resurser i Assets Essentials](search.md).
+* **Papperskorgen**: Lista de resurser som tagits bort från roten **[!UICONTROL Assets]** mapp. Du kan markera en resurs i papperskorgen och antingen återställa den till den ursprungliga platsen eller ta bort den permanent. Du kan också ange ett nyckelord eller använda standardfilter eller anpassade filter för att söka efter lämpliga resurser i papperskorgen. Mer information om hur du använder standardfilter och anpassade filter finns i [Söka efter resurser i Assets Essentials](search.md).
 * **Inställningar**: Du kan konfigurera olika alternativ för Assets Essentials med **Inställningar**, t.ex. Metadataformulär, rapporter och taxonomihantering.
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
@@ -72,7 +72,7 @@ Om du vill navigera till en mapp dubbelklickar du på mappens miniatyrbilder ell
 
 ![Bläddra bland mappar](assets/browsing-folders.png)
 
-*Bild: Om du vill bläddra i hierarkin använder du de synliga kolumnerna högst upp eller det vänstra sidofältet.*
+*Bild: Om du vill bläddra i hierarkin använder du vägbeskrivningarna högst upp eller till vänster.*
 
 ## Förhandsgranska resurser {#preview-assets}
 
@@ -82,7 +82,7 @@ Om du vill förhandsgranska en resurs markerar du den och klickar på [!UICONTRO
 
 ![Förhandsgranska en resurs](assets/preview-asset-2.png)
 
-*S: Återgå till aktuell mapp eller aktuellt sökresultat i databasen*
+*A: Återgå till aktuell mapp eller aktuellt sökresultat i databasen*
 *B: Namn och format för filen som du förhandsgranskar*
 *C: Tilldela uppgifter*
 *D: Hämta resurs*
@@ -97,7 +97,7 @@ Om du vill förhandsgranska en resurs markerar du den och klickar på [!UICONTRO
 *K: Grundläggande metadata*
 *L: Avancerade metadata*
 *M: Nyckelord och smarta taggar*
-*N: Förhandsgranska mer ingående. Zooma, helskärm och andra alternativ*
+*N: Förhandsgranska närmare. Zooma, helskärm och andra alternativ*
 *O: Gå till föregående eller nästa resurs i den aktuella mappen utan att gå tillbaka till mappen*
 
 Du kan också förhandsgranska videoklipp.
@@ -111,6 +111,16 @@ Om du förhandsgranskar en resurs explicit [!DNL Assets Essentials] visar det so
 Explicitly previewed assets are displayed as recently viewed assets. Give screenshot of this.
 Other use cases after previewing.
 -->
+
+## Konfigurera visning av kolumner för resurslista-vyn {#configure-columns-list-view}
+
+Du kan markera de kolumner som visas i resurslista, t.ex. Status, Format, Dimensioner, Storlek och så vidare:
+
+1. Välj **[!UICONTROL Assets]** i det vänstra navigeringsfönstret växlar du till resurslista-vyn och klickar på ![inställningsikon](assets/settings-icon.svg).
+
+1. Markera de kolumner som du vill visa i listvyn och klicka på **[!UICONTROL Confirm]**.
+
+   ![Konfigurera kolumner](/help/using/assets/configure-columns.png)
 
 ## Nästa steg {#next-steps}
 

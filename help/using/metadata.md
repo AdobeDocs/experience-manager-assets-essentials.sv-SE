@@ -4,7 +4,7 @@ description: Hantera metadata för resurser i [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 5b9e3297c37bca0e5badc2073f8c6467e012ccde
+source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 0%
@@ -98,9 +98,9 @@ Så här skapar du ett metadataformulär:
 
    ![metadataformulär, alternativ i sidofältet till vänster](assets/metadata-form-new.png)
 
-   *Bild: Gränssnitt för att skapa metadata med alternativ för att lägga till komponenter och möjlighet att förhandsgranska formuläret.*
+   *Bild: Gränssnitt för att skapa metadataformulär med alternativ för att lägga till komponenter och möjlighet att förhandsgranska formuläret.*
 
-1. För varje komponent anger du ett namn i **[!UICONTROL Settings]** Ange en mappning med de egenskaper som stöds i den högra listen.
+1. Ange ett namn i **[!UICONTROL Settings]** Ange en mappning med de egenskaper som stöds i den högra listen.
 1. Om du vill kan du markera **[!UICONTROL Required]** för att göra metadatafältet obligatoriskt och markera **[!UICONTROL Read-Only]** för att göra fältet icke-redigerbart i resursen [!UICONTROL Details] sida.
 1. Om du vill kan du klicka **[!UICONTROL Preview]** om du vill förhandsgranska formuläret som du skapar.
 1. Du kan också lägga till fler flikar och de nödvändiga komponenterna på varje flik.
@@ -114,7 +114,7 @@ När ett formulär har skapats används det automatiskt när användare överfö
 
 Om du vill återanvända ett befintligt formulär och skapa ett nytt, markerar du ett metadataformulär, klickar på **[!UICONTROL Copy]** ange ett namn i verktygsfältet och klicka på **[!UICONTROL Confirm]**. Du kan redigera ett metadataformulär om du vill ändra det. När du ändrar ett formulär används det för resurser som överförts efter ändringen. De befintliga resurserna ändras inte.
 
-## Egenskapskomponenter {#property-components}
+### Egenskapskomponenter {#property-components}
 
 Du kan anpassa metadataformuläret med någon av följande egenskapskomponenter. Dra och släpp komponenttypen i formuläret där du vill ha den och ändra komponentinställningarna.
 Nedan visas en översikt över varje egenskapstyp och hur de lagras.
@@ -128,12 +128,30 @@ Nedan visas en översikt över varje egenskapstyp och hur de lagras.
 | Siffra | Lägg till en sifferkomponent. |
 | Kryssruta | Lägg till ett booleskt värde. Lagras som TRUE eller FALSE när ett värde har sparats. |
 | Datum | Lägg till en datumkomponent. |
-| Nedrullningsbar meny | Lägg till en nedrullningsbar lista. |
+| Nedrullningsbar meny | Lägg till en listruta. |
 | Läge | Lägg till egenskapen för databastillstånd (mappas till repo:state) |
 | Resursstatus | Lägg till standardegenskapen för tillgångsstatus (mappas till dam:assetStatus) |
 | Taggar | Lägg till en tagg från värden som lagras i taxonomihantering (mappas till xcm:tags). |
 | Nyckelord | Lägg till nyckelord med valfri form (mappas till dc:subject). |
 | Smarta taggar | Förbättra sökfunktionerna genom att automatiskt lägga till metadatataggar. |
+
+<!--
+
+### Assign metadata form to a folder {#assign-metadata-form-folder}
+
+You can also assign a metadata form to a folder within your Assets Essentials deployment. The metadata form assigned to a folder as per the MIME type is overwritten when you apply a metadata form to a folder manually. All assets in the folder, including assets in the sub-folders, then display properties defined in the metadata form.
+
+To assign a metadata form to a folder:
+
+1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL Metadata Forms]** and select a metadata form.
+
+2. Click **[!UICONTROL Assign to Folder]**.
+
+3. Select the folder and click **[!UICONTROL Assign]**.
+
+   ![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
+
+-->
 
 ## Nästa steg {#next-steps}
 

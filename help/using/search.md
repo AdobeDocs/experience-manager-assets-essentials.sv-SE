@@ -3,14 +3,14 @@ title: Sök efter och hitta resurser i [!DNL Assets Essentials]
 description: Sök efter och hitta resurser i [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 99f843be67ca6ca9dc1afe4887937b0fbcbfcf8e
+source-git-commit: 5942762ec76b25cc89168015edfbe3fce4c4368f
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
 
-# Sök resurser i [!DNL Assets Essentials] {#search-assets}
+# Sök efter resurser i [!DNL Assets Essentials] {#search-assets}
 
 >[!CONTEXTUALHELP]
 >id="assets_search"
@@ -38,19 +38,19 @@ Du kan filtrera sökresultaten baserat på följande parametrar.
 
 *Bild: Filtrera sökningar efter resurser baserat på olika parametrar.*
 
-* Resursstatus: Filtrera sökresultaten med en `Approved`, `Rejected`, eller `No Status` tillgångsstatus.
+* Resursstatus: Filtrera sökresultaten med en `Approved`, `Rejected`, eller `No Status` status.
 
 * Filtyp: Filtrera sökresultaten efter de filtyper som stöds, det vill säga `Images`, `Documents`och `Videos`.
-* MIME-typ: Filtrera efter ett eller flera filformat som stöds. <!-- TBD:  [supported file formats](/help/using/supported-file-formats.md). -->
-* Bildstorlek: Ange en eller flera av de minsta och högsta måtten för att filtrera bilder. Storleken anges i pixeldimensioner och är inte bildens filstorlek.
-* Skapad: Skapandedatumet för resursen enligt metadatan. Standarddatumformatet som används är `yyyy-mm-dd`.
-* Ändringsdatum: Senaste ändringsdatum för resurserna. Standarddatumformatet som används är `yyyy-mm-dd`.
+* MIME-typ: Filtrera efter ett eller flera av de filformat som stöds. <!-- TBD:  [supported file formats](/help/using/supported-file-formats.md). -->
+* Bildstorlek: Ange en av flera av de minsta och högsta måtten för att filtrera bilder. Storleken anges i pixeldimensioner och är inte bildens filstorlek.
+* Skapad: Datum när resursen skapades enligt metadatan. Standarddatumformatet som används är `yyyy-mm-dd`.
+* Ändrad: Senaste ändringsdatum för resurserna. Standarddatumformatet som används är `yyyy-mm-dd`.
 
-* Förfallodatum: Filtrera sökresultaten baserat på en `Expired` tillgångsstatus. Du kan dessutom ange ett förfallodatumintervall för resurser för att ytterligare filtrera sökresultaten.
+* Förfallodatum: Filtrera sökresultaten baserat på en `Expired` status. Du kan dessutom ange ett förfallodatumintervall för resurser för att ytterligare filtrera sökresultaten.
 
 * Egna filter: [Lägga till egna filter](#custom-filters) till Assets Essentials användargränssnitt. Använd de anpassade filtren utöver standardfiltren för att förfina sökresultaten.
 
-Du kan sortera de sökda resurserna i stigande eller fallande ordning efter `Name`, `Relevancy`, `Size`, `Modified`och `Created`.
+Du kan sortera de sökda resurserna i stigande eller fallande ordning efter `Name`, `Relevance`, `Size`, `Modified`och `Created`. De sökda resurserna sorteras baserat på `Relevance`, som standard.
 
 ## Hantera anpassade filter {#custom-filters}
 
@@ -146,11 +146,11 @@ When userA is searching and userB add an asset that matches search results, will
 
 Du kan markera de resurser som visas i sökresultaten och göra följande:
 
-* **Detaljer**: Visa och redigera resursegenskaper.
+* **Information**: Visa och redigera resursegenskaper.
 
 * **Lägg till i samling**: Lägg till den valda resursen i en samling.
 
-* **Hämta**: Hämta en resurs.
+* **Ladda ned**: Hämta en resurs.
 
 * **Ta bort**: Ta bort en resurs.
 
