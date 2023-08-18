@@ -4,9 +4,9 @@ description: Hantera metadata för resurser i [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 6a9bc34907f9eb8c7d18a8fbb139e27244538256
+source-git-commit: 50b9ba30eac2d99fe72a8cfacf4b0361b8955a87
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -58,11 +58,6 @@ Du kan lägga till fler taggar i dina resurser, utöver de smarta taggar som lä
 Du kan även ta bort taggar från [!UICONTROL Smart Tags] avsnitt som automatiskt läggs till av [!DNL Assets Essentials] till alla överförda resurser.
 
 ## Taxonomihantering {#taxonomy-management}
-
->[!CONTEXTUALHELP]
->id="assets_express_integration"
->title="Integrering av Adobe Expresser"
->abstract="[!DNL Experience Manager Assets] innehåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält på sidan Detaljer för en resurs. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser."
 
 Taggar kan också kapslas i en hierarki för att stödja relationer som kategori och underkategori. Om du behöver infoga hierarkiska taggar hanteras de enkelt av administratören i [!UICONTROL Taxonomy Management] avsnitt i [!UICONTROL Settings]. Du kan skapa en styrd uppsättning namnutrymmen och taggar som alla användare kan använda när de beskriver innehållet. Det är bara administratörer som kan konfigurera tagghierarkier i [!UICONTROL Taxonomy Manager] säkerställa att värdena kontrolleras och används på ett konsekvent sätt.
 

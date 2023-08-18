@@ -1,17 +1,17 @@
 ---
 title: Hantera meddelanden
-description: Övervaka åtgärderna som utförs på de resurser eller mappar som är tillgängliga i databasen med Assets Essentials-meddelanden.
+description: Övervaka åtgärderna som utförs på de resurser eller mappar som är tillgängliga i databasen med hjälp av Assets Essentials-meddelanden.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: 07457e86a37b5d39a6c843c2c2cf8750a6acb354
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
 
 # Titta på resurser, mappar och samlingar {#watch-assets-folders}
 
-Med Assets Essentials-meddelanden kan du övervaka åtgärder som utförs på de resurser, mappar och samlingar som finns i databasen. Du måste välja och prenumerera på det innehåll som meddelandena skickas till dig för. Du kan också konfigurera de kategorier som meddelanden skickas till dig för.
+Med Assets Essentials-meddelanden kan du övervaka åtgärder som utförs på de resurser, mappar eller samlingar som finns i databasen. Du måste välja och prenumerera på det innehåll som meddelandena skickas till dig för. Du kan också konfigurera de kategorier som meddelanden skickas till dig för.
 
 ## Prenumerera på meddelandekategorier {#subscribe-to-notification-categories}
 
@@ -60,7 +60,7 @@ Du kan välja och prenumerera från en lista med kategorier för att få meddela
 
 Så här prenumererar du på meddelandekategorierna:
 
-1. Klicka ![klockikon](assets/bell-icon.svg) till höger på menyraden i Assets Essentials användargränssnitt.
+1. Klicka ![klockikon](assets/bell-icon.svg) till höger i menyraden i användargränssnittet för Assets Essentials.
 
 1. Klicka ![inställningsikon](assets/settings-icon.svg) för att visa [!UICONTROL Experience Cloud preferences] sida.
 
@@ -73,7 +73,7 @@ Så här prenumererar du på meddelandekategorierna:
 1. Klicka **[!UICONTROL Customize]** för att visa meddelandekategorierna.
    ![Meddelanden i Assets Essentials](assets/enable-notification-categories.png)
 
-1. Välj de meddelandekategorier för vilka du måste meddelas.
+1. Välj de meddelandekategorier för vilka du måste få meddelanden.
 
 ## Titta på och ta bort bevakade mappar, resurser och samlingar {#watch-unwatch-assets}
 
@@ -86,18 +86,23 @@ Efter [prenumerera på meddelandekategorierna](#subscribe-to-notification-catego
 
 Om du vill prenumerera på innehållet väljer du den mapp, resurs eller samling som du vill prenumerera på och klickar på **[!UICONTROL Watch]**.
 
-Assets Essentials visar ett meddelande om att åtgärden lyckades. Du kan klicka **[!UICONTROL Go to notification preferences]** finns i meddelandet om att åtgärden lyckades redigera [prenumeration på meddelandekategorier](#subscribe-to-notification-categories).
+Assets Essentials visar ett meddelande om att åtgärden lyckades. Klicka **[!UICONTROL Go to notification preferences]** finns i meddelandet om att åtgärden lyckades redigera [prenumeration på meddelandekategorier](#subscribe-to-notification-categories).
 
 ![Meddelanden i Assets Essentials](assets/watch-assets.png)
 
-Assets Essentials skickar nu meddelanden om de prenumerationskategorier som används. Du kan också markera flera resurser, mappar eller samlingar och klicka på **[!UICONTROL Watch]** för att spara tid. Om du väljer flera enheter som några av dem redan prenumererat på, kan du **[!UICONTROL Watch]** alternativet visas inte.
+Assets Essentials skickar nu meddelanden för de prenumerationskategorier som du abonnerar på. Du kan också markera flera resurser, mappar eller samlingar och klicka på **[!UICONTROL Watch]** för att spara tid. Om du väljer flera enheter som några av dem redan prenumererat på, kan du **[!UICONTROL Watch]** alternativet visas inte.
 
 Om du vill avbryta prenumerationen markerar du resursen, mappen eller samlingen som du prenumererar på och klickar på **[!UICONTROL Unwatch]**.
 
 ## Visa meddelanden {#view-notifications}
 
-Meddelandena visas i den högra änden av menyraden i Assets Essentials användargränssnitt.
+>[!CONTEXTUALHELP]
+>id="assets_express_integration"
+>title="Integrering av Adobe Expresser"
+>abstract="[!DNL Experience Manager Assets] innehåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält på sidan Detaljer för en resurs. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser."
+
+Meddelandena visas i den högra änden av menyraden i användargränssnittet i Assets Essentials.
 
 ![Meddelanden i Assets Essentials](assets/notifications-assets-essentials.png)
 
-När du klickar på ett meddelande navigerar Assets Essentials till rätt resurs eller mapp som det hänvisas till i meddelandet.
+När du klickar på ett meddelande navigerar Assets Essentials till rätt resurs eller mapp som refereras till i meddelandet.
