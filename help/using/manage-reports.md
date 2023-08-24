@@ -2,9 +2,9 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
+source-git-commit: 7bda2024fd9e9d2ad05ccffccf76a51b16a113fa
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '806'
 ht-degree: 1%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="assets_reports"
 >title="Rapporter"
->abstract="Resursrapportering ger administratörer insyn i Adobe Experience Manager Assets Essentials-miljöns aktivitet. Dessa data ger användbar information om hur användarna interagerar med innehållet och produkten. Alla användare som har tilldelats administratörens produktprofil kan komma åt Insikter-instrumentpanelen eller skapa användardefinierade rapporter."
+>abstract="Resursrapportering ger administratörer insyn i Adobe Experience Manager Assets Essentials-miljöns aktivitet. Dessa data ger användbar information om hur användarna interagerar med innehållet och produkten. Alla användare har tillgång till Insikter-kontrollpanelen och de som har tilldelats administratörens produktprofil kan skapa användardefinierade rapporter."
 
-Resursrapportering ger administratörer insyn i Adobe Experience Manager Assets Essentials-miljöns aktivitet. Dessa data ger användbar information om hur användarna interagerar med innehållet och produkten.
+Resursrapportering ger administratörer insyn i Adobe Experience Manager Assets Essentials-miljöns aktivitet. Dessa data ger användbar information om hur användarna interagerar med innehållet och produkten. Alla användare har tillgång till Insikter-kontrollpanelen och de som har tilldelats administratörens produktprofil kan skapa användardefinierade rapporter.
 
 ## Åtkomstrapporter {#access-reports}
 
-Alla användare som är tilldelade till [Assets Essentials Administrators produktprofil](deploy-administer.md) kan komma åt Insikter-instrumentpanelen eller skapa användardefinierade rapporter i Assets Essentials.
+Alla användare som är tilldelade till [Produktprofil för Assets Essentials-administratörer](deploy-administer.md) kan komma åt Insikter-instrumentpanelen eller skapa användardefinierade rapporter i Assets Essentials.
 
 ## Visa insikter {#view-live-statistics}
 
@@ -30,11 +30,11 @@ Med Assets Essentials kan du visa realtidsdata för din Assets Essentials-miljö
 
 Klicka **[!UICONTROL Insights]** som finns i det vänstra navigeringsfönstret för att visa följande automatiskt genererade diagram:
 
-* **Nedladdningar**: Antalet resurser som laddats ned från Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
+* **Nedladdningar**: Antalet resurser som hämtats från Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
 
 * **Överföringar**: Antalet resurser som har överförts till Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
 
-* **Vanliga sökningar**: Se de mest sökbara termerna tillsammans med hur många gånger de har sökts igenom i Assets Essentials under de senaste 30 dagarna eller 12 månaderna i tabellformat.
+* **Vanliga sökningar**: Visa de mest sökbara termerna tillsammans med det antal gånger de har sökts igenom i din Assets Essentials-miljö under de senaste 30 dagarna eller 12 månaderna i tabellformat.
 
 <!--
 
@@ -48,13 +48,14 @@ Så här skapar du en hämtningsrapport:
 
 1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Reports]** och klicka **[!UICONTROL Create Report]**.
 
-1. I [!UICONTROL Configuration] -fliken, ange rapporttypen som **[!UICONTROL Download]**.
+1. I [!UICONTROL Configuration] -flik anger du rapporttypen som **[!UICONTROL Download]**.
 
 1. Ange en rubrik och en valfri beskrivning för rapporten.
 
 1. Välj mappsökvägen, som omfattar de resurser som rapporten ska köras på, med hjälp av **[!UICONTROL Select Folder Path]** fält.
 
 1. Välj datumintervall för rapporten.
+
    >[!NOTE]
    >
    > Assets Essentials konverterar alla lokala tidszoner till UTC (Coordinated Universal Time).
@@ -63,7 +64,7 @@ Så här skapar du en hämtningsrapport:
 
 1. Klicka på **[!UICONTROL Create]**.
 
-   ![Hämta rapport](assets/download-reports-config.png)
+   ![Ladda ned rapport](assets/download-reports-config.png)
 
 I följande tabell förklaras användningen av alla kolumner som du kan lägga till i rapporten:
 
@@ -95,7 +96,7 @@ I följande tabell förklaras användningen av alla kolumner som du kan lägga t
      </tr>
      <tr>
       <td>Hämtningsdatum</td>
-      <td>Det datum då hämtningsåtgärden för resursen utförs.</td>
+      <td>Datumet då hämtningsåtgärden för resursen utförs.</td>
      </tr>
      <tr>
       <td>Författare</td>
@@ -103,7 +104,7 @@ I följande tabell förklaras användningen av alla kolumner som du kan lägga t
      </tr>
      <tr>
       <td>Skapad den</td>
-      <td>Det datum då resursen överförs till Assets Essentials.</td>
+      <td>Det datum då tillgången överförs till Assets Essentials.</td>
      </tr>
      <tr>
       <td>Ändringsdatum</td>
@@ -126,7 +127,7 @@ Så här skapar du en överföringsrapport:
 
 1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Reports]** och klicka **[!UICONTROL Create Report]**.
 
-1. I [!UICONTROL Configuration] -fliken, ange rapporttypen som **[!UICONTROL Upload]**.
+1. I [!UICONTROL Configuration] -flik anger du rapporttypen som **[!UICONTROL Upload]**.
 
 1. Ange en rubrik och en valfri beskrivning för rapporten.
 
@@ -170,7 +171,7 @@ I följande tabell förklaras användningen av alla kolumner som du kan lägga t
      </tr>
      <tr>
       <td>Skapad den</td>
-      <td>Det datum då resursen överförs till Assets Essentials.</td>
+      <td>Det datum då tillgången överförs till Assets Essentials.</td>
      </tr>
      <tr>
       <td>Ändringsdatum</td>
@@ -208,7 +209,7 @@ Den valda rapporten hämtas i CSV-format. Kolumnerna som visas i CSV-rapporten b
 
 ## Ta bort en rapport {#delete-report}
 
-Så här tar du bort en rapport:
+Ta bort en rapport:
 
 1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Reports]**.
 
