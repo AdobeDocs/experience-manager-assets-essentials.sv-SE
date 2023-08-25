@@ -2,9 +2,9 @@
 title: Hantera meddelanden
 description: Övervaka åtgärderna som utförs på de resurser eller mappar som är tillgängliga i databasen med hjälp av Assets Essentials-meddelanden.
 exl-id: 5c0039a2-caa2-4b55-b963-0e7e9e542c47
-source-git-commit: 07457e86a37b5d39a6c843c2c2cf8750a6acb354
+source-git-commit: c34fa28a698523dee00f972ede0781305aee6e60
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,6 @@ Assets Essentials skickar nu meddelanden för de prenumerationskategorier som du
 Om du vill avbryta prenumerationen markerar du resursen, mappen eller samlingen som du prenumererar på och klickar på **[!UICONTROL Unwatch]**.
 
 ## Visa meddelanden {#view-notifications}
-
->[!CONTEXTUALHELP]
->id="assets_express_integration"
->title="Integrering av Adobe Expresser"
->abstract="[!DNL Experience Manager Assets] innehåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält på sidan Detaljer för en resurs. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser."
 
 Meddelandena visas i den högra änden av menyraden i användargränssnittet i Assets Essentials.
 

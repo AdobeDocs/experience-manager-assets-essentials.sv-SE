@@ -3,9 +3,9 @@ title: Redigera bilder
 description: Redigera bilder med [!DNL Adobe Photoshop Express] och spara uppdaterade bilder som versioner.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 10709417b2656ab15a3bade94bea701f50ec5ae3
+source-git-commit: c34fa28a698523dee00f972ede0781305aee6e60
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,12 @@ När du har redigerat en bild kan du spara den nya bilden som en ny version. Ver
 
 <!--The editing actions that are available are Spot healing, Crop and straighten, Resize image, and Adjust image.-->
 
-## Redigera bilder med [!DNL Adobe Express] {#edit-using-express}
+## Redigera bilder med Adobe Express {#edit-using-express}
+
+>[!CONTEXTUALHELP]
+>id="assets_express_integration"
+>title="Integrering av Adobe Expresser"
+>abstract="De enkla och intuitiva bildredigeringsverktygen som bygger på Adobe Express är tillgängliga direkt i AEM Assets för att öka återanvändningen av innehåll och snabba upp hastigheten."
 
 ### Ändra bildstorlek {#resize-image-using-express}
 
