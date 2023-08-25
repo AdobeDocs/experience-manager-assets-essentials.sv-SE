@@ -2,9 +2,9 @@
 title: Min arbetsyta för resurser
 description: Min arbetsyta är en sida med anpassningsbara visuella moduler som ger smidig åtkomst till viktiga delar av Assets-användargränssnittet och information som är mest relevant för användaren.
 exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
-source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
+source-git-commit: 1db631a927e806d4b8ed83b1e0fc4a1e4f5bef71
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Du kommer åt Min arbetsyta genom att klicka **[!UICONTROL My Workspace]** från
 
 >[!NOTE]
 >
->Widgeten Insights är bara synlig för administratörer.
+>Widgeten Insights visas bara för administratörer.
 
 <!--
 
@@ -40,15 +40,23 @@ Highlights upcoming features for Assets.
 
 Fäst filer, mappar och samlingar för snabbare åtkomst till dessa objekt när du behöver dem senare. Alla fästa objekt visas i **Snabb åtkomst** i Min arbetsyta. Du kan komma åt dem med Min arbetsyta i stället för att navigera till den plats där de sparas i databasen.
 
-Om du vill fästa en resurs, en mapp eller en samling markerar du objektet och klickar på **[!UICONTROL Pin to Quick Access]**.
+Så här fäster du en resurs, en mapp eller en samling:
 
-![Uppgifter på arbetsytan](assets/quick-access.png)
+1. Markera objektet och klicka på **[!UICONTROL Pin to Quick Access]**.
+
+1. Välj om du behöver fästa objektet bara för dig, för hela organisationen eller för valda grupper. Om du väljer **[!UICONTROL For groups]** definierar du gruppnamnen i **[!UICONTROL Pin for groups]** fält.
+
+   ![Fäst objekt för grupper](assets/pin-items-for-groups.png)
+1. Klicka på **[!UICONTROL Pin]**.
+
+   Det markerade objektet visas i **[!UICONTROL Quick Access]** i Min arbetsyta.
+   ![Uppgifter på arbetsytan](assets/quick-access.png)
 
 **Insikter**
 
-Administratörer kan visa en sammanfattning av antalet hämtningar och överföringar som har gjorts i Assets-miljön under de senaste 30 dagarna. Du kan klicka **[!UICONTROL View all]** för att snabbt navigera till Insights-sidan för mer detaljerade instrumentpaneler.
+Administratörer kan visa en sammanfattning av antalet hämtningar och överföringar som har gjorts i Assets-miljön under de senaste 30 dagarna. Klicka **[!UICONTROL View all]** för att snabbt navigera till Insights-sidan för mer detaljerade instrumentpaneler.
 
-Du kan även visa de mest sökbara termerna tillsammans med det antal gånger som de söks igenom i din Assets Essentials-distribution med **Insikter** i Min arbetsyta. Du kan även navigera till detaljerade insikter för att visa de vanligaste sökningarna under de senaste 30 dagarna eller 12 månaderna.
+Du kan också visa de mest sökbara termerna tillsammans med det antal gånger som de söks igenom i din Assets Essentials-distribution med **Insikter** i Min arbetsyta. Du kan även navigera till detaljerade insikter för att visa de vanligaste sökningarna under de senaste 30 dagarna eller 12 månaderna.
 
 ![Insikter i arbetsytan](assets/insights.png)
 
@@ -66,7 +74,7 @@ Visar en lista över uppgifter som för närvarande är tilldelade dig i **[!UIC
 
 Visar utvalda vyer av resurser, inklusive en lista över resurser som du nyligen har visat. Du kan välja att visa resurser i widgeten i en listvy, stödrastervy, gallerivy eller vattenfallsvy och sortera resurserna efter namn, storlek och ändringsdatum. Du kan också välja en resurs om du vill visa resursinformationen eller ta bort den från listan över nyligen visade resurser.
 
-The **[!UICONTROL Top Downloads]** I visas de tio viktigaste resurserna som du har hämtat i din Assets Essentials-miljö. Du kan välja att visa resurser i listvyn eller stödrastervyn. Båda vyerna visar formattyp och antal hämtningar för varje resurs. Du kan också välja en resurs och klicka på **[!UICONTROL Details]** för att visa dess egenskaper.
+The **[!UICONTROL Top Downloads]** På -fliken visas de tio mest hämtade resurserna som finns i Assets Essentials-miljön. Du kan välja att visa resurser i listvyn eller stödrastervyn. Båda vyerna visar formattyp och antal hämtningar för varje resurs. Du kan också välja en resurs och klicka på **[!UICONTROL Details]** för att visa dess egenskaper.
 
 ![Innehållswidgeten i arbetsytan](assets/workspace-content.png)
 

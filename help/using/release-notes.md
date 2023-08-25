@@ -4,16 +4,16 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: c61a22ad3c44b26762a8afbb93422197a5cf92ca
+source-git-commit: de90b6958e4db44e8706d4a74558006702c3057c
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2292'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den aktuella versionen av Assets Essentials släpps den 27 juli 2023.
+Den nuvarande releasen av Assets Essentials släpptes den 24 augusti 2023.
 
 Listan med funktioner i utgåvan är:
 
@@ -27,19 +27,23 @@ You can now assign metadata form to a specific folder within your Assets Essenti
 
 -->
 
-**Förbättrat ramverk för artificiell intelligens för smarta taggar i bilder**
+**Massimportera resurser från datakällor**
 
-Experience Manager Assets använder nu ett förbättrat ramverk för artificiell intelligens för smarta taggar i bilder. Den här innehållsintelligensen ger bättre relevans och precision för smarta taggar som är tillgängliga för alla bildresurser vid förtäring.
+Administratörer kan nu importera ett stort antal resurser från en datakälla till AEM Assets. Administratörerna behöver inte längre överföra enskilda resurser eller mappar till AEM Assets. De datakällor som stöds för bulkimport är bland annat Azure, AWS, Google Cloud och Dropbox.
 
-**Konfigurera visning av kolumner för resurslista-vyn**
+![Massimportera resurser från en datakälla](/help/using/assets/bulk-import.png)
 
-Nu kan du i Assets Essentials välja vilka kolumner som ska visas i resurslista, till exempel Status, Format, Dimensioner, Storlek.
+**Bildredigeringsverktyg som bygger på Adobe Express**
 
-![Konfigurera kolumner](/help/using/assets/configure-columns.png)
+De enkla och intuitiva bildredigeringsverktygen som bygger på Adobe Express är tillgängliga direkt i AEM Assets för att öka återanvändningen av innehåll och snabba upp hastigheten.
 
-**Sortera sökresultat baserat på relevans**
+![Bildredigering med Adobe Express](/help/using/assets/edit-adobe-express.png)
 
-Assets Essentials sorterar nu sökresultaten baserat på relevans som standard. Du kan sortera de sökda resurserna i stigande eller fallande ordning efter `Name`, `Relevance`, `Size`, `Modified`och `Created`.
+**Flexibilitet vid fästning av objekt för snabb åtkomst till arbetsytan**
+
+Möjlighet att markera och fästa objekt åt dig, för hela organisationen eller för en lista med grupper så att de visas i snabbåtkomstavsnittet på Min arbetsyta baserat på ditt val.
+
+![Fäst objekt för grupper](assets/pin-items-for-groups.png)
 
 **Förbättringar baserade på kundfeedback**
 
@@ -65,11 +69,27 @@ Om du stöter på några problem eller till och med förbättringsförfrågninga
 
 ## Tidigare versioner {#past-releases}
 
-### Juniversion {#june2023-release}
+### juliversion 2023 {#july2023-release}
+
+**Förbättrat ramverk för artificiell intelligens för smarta taggar i bilder**
+
+Experience Manager Assets använder nu ett förbättrat ramverk för artificiell intelligens för smarta taggar i bilder. Den här innehållsintelligensen ger bättre relevans och precision för smarta taggar som är tillgängliga för alla bildresurser vid förtäring.
+
+**Konfigurera visning av kolumner för resurslista-vyn**
+
+Assets Essentials kan nu välja vilka kolumner som ska visas i resurslista, till exempel Status, Format, Dimensioner, Storlek och så vidare.
+
+![Konfigurera kolumner](/help/using/assets/configure-columns.png)
+
+**Sortera sökresultat baserat på relevans**
+
+Assets Essentials sorterar nu sökresultaten baserat på relevans som standard. Du kan sortera de sökda resurserna i stigande eller fallande ordning efter `Name`, `Relevance`, `Size`, `Modified`och `Created`.
+
+### Juniversion 2023 {#june2023-release}
 
 **Hierarkisk taggning av resurser för snabbare sökupplevelse**
 
-Platta listor med kontrollerade vokabulärer blir ohanterliga över tid. Assets Essentials har nu stöd för hierarkisk taggningsstruktur som gör det enklare att använda relevanta metadata, kategorisera resurser, söka, återanvända taggar, förbättra upptäckbarheten och så vidare.
+Platta listor med kontrollerade vokabulärer blir ohanterliga över tid. Assets Essentials har nu stöd för hierarkisk taggningsstruktur, som gör det enklare att använda relevanta metadata, kategorisera resurser, söka, återanvända taggar, förbättra upptäckbarheten och så vidare.
 
 ![Tagghantering](assets/tags-hierarchy.png)
 
@@ -85,7 +105,7 @@ Med Assets Essentials kan du nu filtrera resurser som finns i papperskorgen. Du 
 
 **Miniatyrförhandsvisningar för 3D-resurser**
 
-Assets Essentials genererar nu miniatyrförhandsvisningar för vanliga 3D-filformat som gLB, USDz, FBX, 3DS, OBJ och SBSAR. När dessa filer överförs till Assets Essentials genereras miniatyrbilder automatiskt av systemet som standard.
+Assets Essentials genererar nu miniatyrbilder för vanliga 3D-filformat som gLB, USDz, FBX, 3DS, OBJ och SBSAR. När dessa filer överförs till Assets Essentials skapas miniatyrbilder automatiskt av systemet som standard.
 
 ![Uppgifter på arbetsytan](assets/3d-preview.png)
 
@@ -97,7 +117,7 @@ Assets Essentials har nu stöd för att visa de vanligaste söktermerna i din As
 
 **Förbättringar av metadataformulär**
 
-Nu kan du lägga till text med flera värden och nedrullningsbara listegenskapskomponenter i metadataformulären.
+Med Assets Essentials kan du nu lägga till text med flera värden och nedrullningsbara listegenskapskomponenter i metadataformulären.
 
 ### Flera versioner under 2023 {#multiple-releases-2023}
 
@@ -105,7 +125,7 @@ Listan över nyligen tillagda funktioner innehåller:
 
 **De vanligaste hämtade resurserna**
 
-Min arbetsyta visar nu de tio viktigaste hämtade resurserna för din Assets Essentials-miljö i [!UICONTROL Content] -avsnitt. Du kan också visa formattyp och antal hämtningar för varje listad resurs.
+På arbetsytan i Mitt program visas nu de tio vanligaste resurserna för din Assets Essentials-miljö [!UICONTROL Content] -avsnitt. Du kan också visa formattyp och antal hämtningar för varje listad resurs.
 
 **Massuppdateringar av metadata för resurser**
 
@@ -125,7 +145,7 @@ Med Assets Essentials kan du nu hantera listan över uppgifter som för närvara
 
 **Automatiskt genererade länkar för att dela resurser**
 
-Assets Essentials genererar nu en länk automatiskt så snart du väljer att dela en resurs med Assets Essentials användargränssnitt. Den genererade länken fortsätter att gälla även om du ändrar förfallodatumet.
+Assets Essentials skapar nu en länk automatiskt så snart du väljer att dela en resurs med användargränssnittet i Assets Essentials. Den genererade länken fortsätter att gälla även om du ändrar förfallodatumet.
 
 ![Uppgifter på arbetsytan](assets/share-asset.png)
 
@@ -142,7 +162,7 @@ Den här versionen innehåller:
 
 **Förhandsgranska dokument med Document Cloud Viewer**
 
-Med Assets Essentials kan du nu överföra dokument i andra format som stöds och förhandsgranska dem med det medföljande visningsprogrammet för Document Cloud. De format som stöds är TXT, RTF, DOC, DOCX, PPT, PPTX, XLS och XLSX.
+I Assets Essentials kan du nu överföra dokument i andra format som stöds och förhandsgranska dem med det medföljande visningsprogrammet för Document Cloud. De format som stöds är TXT, RTF, DOC, DOCX, PPT, PPTX, XLS och XLSX.
 
 <!--
 
@@ -163,7 +183,7 @@ You can easily synchronize the user groups available on the external identity ma
 
 **Alternativet Spara metadata**
 
-Ett nytt Spara metadata-alternativ finns nu i Assets Essentials användargränssnitt för bättre metadatastyrning.
+Ett nytt Spara metadata-alternativ finns nu i användargränssnittet i Assets Essentials för bättre metadatastyrning.
 
 **Förbättringar baserade på kundfeedback**
 
@@ -187,19 +207,19 @@ Den här versionen innehåller:
 
 **Meddelanden för samlingar**
 
-Med Assets Essentials-meddelanden kan du nu övervaka de åtgärder som utförs på de samlingar som finns i databasen. Du måste välja och prenumerera på de samlingar som du får meddelanden om. Du kan också konfigurera åtgärder som meddelanden skickas för, till exempel borttagning, delning av länk, flytt, namnbyte och uppdatering av samlingar.
+Med Assets Essentials-meddelanden kan du nu övervaka de åtgärder som utförs på de samlingar som är tillgängliga i databasen. Du måste välja och prenumerera på de samlingar som du får meddelanden om. Du kan också konfigurera åtgärder som meddelanden skickas för, till exempel borttagning, delning av länk, flytt, namnbyte och uppdatering av samlingar.
 
 **Redigera smarta samlingar**
 
-Nu kan Assets Essentials även redigera sökvillkoren som används när en smart samling skapas.  Spara de nya sökvillkoren för att uppdatera samlingens innehåll dynamiskt.
+Assets Essentials kan nu även redigera de sökvillkor som används när en smart samling skapas.  Spara de nya sökvillkoren för att uppdatera samlingens innehåll dynamiskt.
 
 **Visa Live-statistik för lagringskonto**
 
-Med Assets Essentials kan du nu även visa kontodata i realtid för din Assets Essentials-miljö med kontrollpanelen Live Statistics. Du kan visa händelsemått i realtid de senaste 30 dagarna eller de senaste 12 månaderna.
+Med Assets Essentials kan du nu även visa kontodata i realtid för din Assets Essentials-miljö med kontrollpanelen Live-statistik. Du kan visa händelsemått i realtid de senaste 30 dagarna eller de senaste 12 månaderna.
 
 **Visa överföringsrapporter**
 
-Resursrapporteringen ger nu administratörer insyn i resurser som överförts till Adobe Experience Manager Assets Essentials-distributionen. Administratörer har redan möjlighet att skapa rapporter för de resurser som hämtas från Assets Essentials-distributionen. Dessa data ger användbar information om hur användarna interagerar med innehållet och produkten.
+Resursrapporteringen ger nu administratörer insyn i resurser som överförts till Adobe Experience Manager Assets Essentials-distributionen. Administratörer har redan möjlighet att skapa rapporter för de resurser som hämtas från distributionen av Assets Essentials. Dessa data ger användbar information om hur användarna interagerar med innehållet och produkten.
 
 **Förbättringar baserade på kundfeedback**
 
@@ -233,13 +253,13 @@ Den här versionen innehåller:
 
 **Förbättringar av resursstatus**
 
-* Nu kan du med Assets Essentials [ange ett förfallodatum för en tillgång](manage-organize.md#set-asset-status). Dessutom kan du [filterresurser](search.md#refine-search-results) baserat på `Expired` tillgångsstatus och ett förfallodatumintervall.
+* Assets Essentials kan nu [ange ett förfallodatum för en tillgång](manage-organize.md#set-asset-status). Dessutom kan du [filterresurser](search.md#refine-search-results) baserat på `Expired` tillgångsstatus och ett förfallodatumintervall.
 
 * Nu kan du visa statusindikatorn för alla resurser som är tillgängliga i Papperskorgen. Därför kan du välja att återställa en resurs baserat på dess status.
 
 **Förbättringar av sökfilter**
 
-* Nu kan du med Assets Essentials [filterresurser](search.md#refine-search-results) med `No Status` status.
+* Assets Essentials kan nu [filterresurser](search.md#refine-search-results) med `No Status` status.
 
 <!--
 
@@ -255,13 +275,13 @@ Den här versionen innehåller:
 
 -->
 
-* Assets Essentials har nu stöd [hämta en samling](manage-collections.md).
+* Assets Essentials har nu stöd för [hämta en samling](manage-collections.md).
 
 * Nu kan du redigera metadatafältet Beskrivning för en samling.
 
 **Förbättrad dokumentation**
 
-* En ny version av [Översiktsdokumentation för Assets Essentials](introduction.md) är nu tillgängligt.
+* En ny version av [Översikt över Assets Essentials](introduction.md) är nu tillgängligt.
 
 **Förbättringar baserade på kundfeedback**
 
@@ -273,15 +293,15 @@ Den aktuella versionen av [!DNL Assets Essentials] släpps den 12 maj 2022. Den 
 
 * [!DNL Assets Essentials] nu stöder [skapa samlingar](manage-collections.md). En samling är en uppsättning resurser i Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare. Till skillnad från mappar kan en samling innehålla resurser från olika platser.
 
-* Nu kan Assets Essentials även [lägga till egna filter](search.md#custom-filters) till användargränssnittet. Du kan sedan använda dessa anpassade filter utöver standardfiltren för att förfina sökresultaten.
+* Assets Essentials kan nu även [lägga till egna filter](search.md#custom-filters) till användargränssnittet. Du kan sedan använda dessa anpassade filter utöver standardfiltren för att förfina sökresultaten.
 
-* Nu kan du [ange status](manage-organize.md#set-asset-status) på resurser som är tillgängliga i databasen. Ange en resursstatus som bättre styr och hanterar nedströmsanvändningen av digitala resurser.
+* Assets Essentials kan nu [ange status](manage-organize.md#set-asset-status) på resurser som är tillgängliga i databasen. Ange en resursstatus som bättre styr och hanterar nedströmsanvändningen av digitala resurser.
 
 * Förbättringar och felkorrigeringar som bygger på kundfeedback.
 
 #### Inkognitoläge i Chrome {#incognito-mode}
 
-I den här versionen optimerar vi prestanda för gränssnittsleverans och specifika funktioner i Assets Essentials - som kommenterar resurser och bildredigering - beroende på att webblagring och tredjepartskcookies är aktiverade. Inkognitoläget i webbläsaren Chrome blockerar cookies från tredje part som standard - användarna har ett antal alternativ för att fortsätta få tillgång till alla funktioner:
+I den här versionen optimerar vi prestanda för gränssnittsleverans och specifika funktioner i Assets Essentials - som kommenterar resurser och bildredigering - beroende på att webblagring och cookies från tredje part är aktiverade. Inkognitoläget i webbläsaren Chrome blockerar cookies från tredje part som standard - användarna har ett antal alternativ för att fortsätta få tillgång till alla funktioner:
 
 * Använd Chrome-profiler i stället för Incognito-läge när användaren behöver separata webbläsarsessioner
 
@@ -312,8 +332,8 @@ Dessutom [!DNL Adobe Asset Link] för Creative Cloud (Photoshop, Illustrator och
 
 [!DNL Assets Essentials] släpps den 16 december 2021, med följande uppdateringar:
 
-* Adobe distribuerar Assets Essentials automatiskt när provisioneringsprocessen är slutförd. Administratörerna behöver inte utföra ytterligare steg för att distribuera Assets Essentials med [!DNL Cloud Manager] användargränssnitt. Den här automatiska distributionen kommer att vara tillgänglig för miljöer som etablerats efter den 6 januari 2022.
-* Nya versioner av Creative Cloud-plugin-program som fungerar med Assets Essentials finns på Adobe Exchange - [Adobe Asset Link for Adobe XD v 2.1.0](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9) och [Adobe Asset Link for Photoshop / InDesign / Illustrator v 3.1.65](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html).
+* Adobe distribuerar Assets Essentials automatiskt efter att provisioneringsprocessen har slutförts. Administratörerna behöver inte utföra ytterligare åtgärder för att distribuera Assets Essentials med [!DNL Cloud Manager] användargränssnitt. Den här automatiska distributionen kommer att vara tillgänglig för miljöer som etablerats efter den 6 januari 2022.
+* Nya versioner av plugin-program för Creative Cloud som arbetar med Assets Essentials finns på Adobe Exchange - [Adobe Asset Link for Adobe XD v 2.1.0](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9) och [Adobe Asset Link for Photoshop / InDesign / Illustrator v 3.1.65](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html).
 * Olika felkorrigeringar och produktförbättringar, inklusive tidigare kända fel (mapparna visas nu korrekt i det vänstra navigeringsträdet efter överföringen<!-- CQ-4337638 -->kan användaren välja antingen aktuell mapp eller en undermapp när den släpps för överföring genom att dra och släppa<!-- CQ-4327753 -->).
 
 ### 2021.8.0-utgåvan {#august2021}
