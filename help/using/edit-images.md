@@ -3,7 +3,7 @@ title: Redigera bilder
 description: Redigera bilder med [!DNL Adobe Photoshop Express] och spara uppdaterade bilder som versioner.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: c34fa28a698523dee00f972ede0781305aee6e60
+source-git-commit: 701da4ddf9dcadb9e8ad3070877788344d0210fc
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -34,10 +34,10 @@ När du har redigerat en bild kan du spara den nya bilden som en ny version. Ver
 Att ändra storlek på en bild till en viss storlek är ett vanligt användningsexempel. [!DNL Assets Essentials] Med kan du snabbt ändra storlek på bilden så att den passar de vanliga fotostorlekarna genom att tillhandahålla förberäknade nya upplösningar för specifika fotostorlekar. Ändra storlek på bilden med [!DNL Assets Essentials]följer du stegen nedan:
 
 1. Markera en bild och klicka på **Redigera**.
-2. Klicka **[!DNL Resize Image]** från de snabbåtgärder som är tillgängliga i den vänstra rutan.
+2. Klicka **[!UICONTROL Resize Image]** från de snabbåtgärder som är tillgängliga i den vänstra rutan.
 3. Välj lämplig plattform för sociala medier från **[!UICONTROL Resize for]** och välj bildstorlek bland de alternativ som visas.
 4. Skalförändra bilden, om det behövs, med **[!UICONTROL Image Scale]** fält.
-5. Klicka **[!DNL Apply]** för att tillämpa ändringarna.
+5. Klicka **[!UICONTROL Apply]** för att tillämpa ändringarna.
    ![Bildredigering med Adobe Express](/help/using/assets/adobe-express-resize-image.png)
 
    Den redigerade bilden kan hämtas. Du kan antingen spara den redigerade resursen som en ny version av samma resurs eller spara den som en ny resurs.
@@ -48,8 +48,8 @@ Att ändra storlek på en bild till en viss storlek är ett vanligt användnings
 Du kan ta bort bakgrunden från en bild med några enkla steg enligt nedan:
 
 1. Markera en bild och klicka på **Redigera**.
-2. Klicka **[!DNL Remove Background]** från de snabbåtgärder som är tillgängliga i den vänstra rutan. Experience Manager Assets visar bilden utan bakgrund.
-3. Klicka **[!DNL Apply]** för att tillämpa ändringarna.
+2. Klicka **[!UICONTROL Remove Background]** från de snabbåtgärder som är tillgängliga i den vänstra rutan. Experience Manager Assets visar bilden utan bakgrund.
+3. Klicka **[!UICONTROL Apply]** för att tillämpa ändringarna.
    ![Spara bild med Adobe Express](/help/using/assets/adobe-express-remove-background.png)
 
    Den redigerade bilden kan hämtas. Du kan antingen spara den redigerade resursen som en ny version av samma resurs eller spara den som en ny resurs.
@@ -59,9 +59,9 @@ Du kan ta bort bakgrunden från en bild med några enkla steg enligt nedan:
 Det är enkelt att omvandla en bild till en perfekt storlek med hjälp av inbäddade [!DNL Adobe Express] snabba åtgärder.
 
 1. Markera en bild och klicka på **Redigera**.
-2. Klicka **[!DNL Crop Image]** från de snabbåtgärder som är tillgängliga i den vänstra rutan.
+2. Klicka **[!UICONTROL Crop Image]** från de snabbåtgärder som är tillgängliga i den vänstra rutan.
 3. Dra handtagen i hörnen av bilden för att skapa den önskade beskärningen.
-4. Klicka på **[!DNL Apply]**.
+4. Klicka på **[!UICONTROL Apply]**.
    ![Spara bild med Adobe Express](/help/using/assets/adobe-express-crop-image.png)
 Den beskurna bilden kan hämtas. Du kan antingen spara den redigerade resursen som en ny version av samma resurs eller spara den som en ny resurs.
 
@@ -70,7 +70,7 @@ Den beskurna bilden kan hämtas. Du kan antingen spara den redigerade resursen s
 Du kan snabbt konvertera en JPEG-bild till ett PNG-format med Adobe Express. Utför följande steg:
 
 1. Markera en bild och klicka på **Redigera**.
-2. Klicka **[!DNL JPEG to PNG]** från de snabbåtgärder som är tillgängliga i den vänstra rutan.
+2. Klicka **[!UICONTROL JPEG to PNG]** från de snabbåtgärder som är tillgängliga i den vänstra rutan.
    ![Konvertera till PNG med Adobe Express](/help/using/assets/adobe-express-convert-image.png)
 3. Klicka på **[!UICONTROL Download]**.
 
