@@ -4,28 +4,24 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: de90b6958e4db44e8706d4a74558006702c3057c
+source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
 workflow-type: tm+mt
-source-wordcount: '2292'
+source-wordcount: '2336'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den nuvarande releasen av Assets Essentials släpptes den 24 augusti 2023.
+Den nuvarande releasen av Assets Essentials släpptes 21 september 2023.
 
-Listan med funktioner i utgåvan är:
+Listan över nyligen tillagda funktioner innehåller:
 
-<!--
+**Tilldela metadataformulär till en mapp**
 
-**Assign metadata form to a folder**
+Nu kan du tilldela metadataformulär till en viss mapp i din Assets Essentials-distribution. Alla resurser i mappen, inklusive resurser i undermapparna, visar sedan egenskaper som definierats i det tilldelade metadataformuläret.
 
-You can now assign metadata form to a specific folder within your Assets Essentials deployment. All assets in the folder, including assets in the sub-folders, then display properties defined in the assigned metadata form.
-
-![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
-
--->
+![tilldela metadataformulär till en mapp](/help/using/assets/assign-to-folder.png)
 
 **Massimportera resurser från datakällor**
 

@@ -4,9 +4,9 @@ description: Hantera metadata för resurser i [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 1897989934b12b0f88b56461c76833273ca04447
+source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -135,25 +135,21 @@ Nedan visas en översikt över varje egenskapstyp och hur de lagras.
 | Nyckelord | Lägg till nyckelord med valfri form (mappas till dc:subject). |
 | Smarta taggar | Förbättra sökfunktionerna genom att automatiskt lägga till metadatataggar. |
 
-<!--
+### Tilldela metadataformulär till en mapp {#assign-metadata-form-folder}
 
-### Assign metadata form to a folder {#assign-metadata-form-folder}
+Du kan också tilldela ett metadataformulär till en mapp i din Assets Essentials-distribution. Metadataformuläret som tilldelats en mapp enligt MIME-typen skrivs över när du tillämpar ett metadataformulär manuellt på en mapp. Alla resurser i mappen, inklusive resurser i undermapparna, visar sedan egenskaper som definierats i metadataformuläret.
 
-You can also assign a metadata form to a folder within your Assets Essentials deployment. The metadata form assigned to a folder as per the MIME type is overwritten when you apply a metadata form to a folder manually. All assets in the folder, including assets in the sub-folders, then display properties defined in the metadata form.
+Så här tilldelar du ett metadataformulär till en mapp:
 
-To assign a metadata form to a folder:
+1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Metadata Forms]** och välj ett metadataformulär.
 
-1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL Metadata Forms]** and select a metadata form.
+2. Klicka på **[!UICONTROL Assign to Folder]**.
 
-2. Click **[!UICONTROL Assign to Folder]**.
+3. Markera mappen och klicka på **[!UICONTROL Assign]**.
 
-3. Select the folder and click **[!UICONTROL Assign]**.
+   ![tilldela metadataformulär till en mapp](/help/using/assets/assign-to-folder.png)
 
-   ![assign metadata form to a folder](/help/using/assets/assign-to-folder.png)
-
-   You can also navigate to the folder details page and select a metadata form from the folder properties available in the right pane to assign the metadata form to the folder.
-
--->
+   Du kan också navigera till mappinformationssidan och välja ett metadataformulär från mappegenskaperna som är tillgängliga i den högra rutan för att tilldela metadataformuläret till mappen.
 
 ## Nästa steg {#next-steps}
 
