@@ -1,25 +1,25 @@
 ---
-title: Importera resurser gruppvis med hjälp av resursvyn
-description: Lär dig hur du importerar resurser i grupp med det nya resursgränssnittet (resursvyn). Det ger administratörer möjlighet att importera ett stort antal resurser från en datakälla till AEM Assets.
-source-git-commit: 946dc5ea27c61eb5f2dc74054ebdd65cdbdb71a8
+title: Massimportera resurser med Assets Essentials
+description: Lär dig hur du kan massimportera resurser med det nya resursgränssnittet (Assets Essentials). Det ger administratörer möjlighet att importera ett stort antal resurser från en datakälla till AEM Assets.
+source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
 
-# Importera resurser gruppvis med hjälp av resursvyn  {#bulk-import-assets-view}
+# Massimportera resurser med Assets Essentials  {#bulk-import-essentials}
 
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="Massimportera resurser"
->abstract="Administratörer kan nu importera ett stort antal resurser från en datakälla till Experience Manager Assets med hjälp av resursvyn. Administratörerna behöver inte längre överföra enskilda resurser eller mappar till Experience Manager Assets. De molnlagringsleverantörer som stöds för bulkimport är bland annat Azure, AWS, Google Cloud och Dropbox."
+>abstract="Nu kan administratörer importera ett stort antal resurser från en datakälla till Experience Manager Assets med hjälp av Assets Essentials. Administratörerna behöver inte längre överföra enskilda resurser eller mappar till Experience Manager Assets. De molnlagringsleverantörer som stöds för bulkimport är bland annat Azure, AWS, Google Cloud och Dropbox."
 
-Vyn Importera satsvis i AEM Assets ger administratörer möjlighet att importera ett stort antal resurser från en datakälla till AEM Assets. Administratörerna behöver inte längre överföra enskilda resurser eller mappar till AEM Assets.
+Med massimport i AEM Assets Essentials kan administratörer importera ett stort antal resurser från en datakälla till AEM Assets. Administratörerna behöver inte längre överföra enskilda resurser eller mappar till AEM Assets.
 
 >[!NOTE]
 >
->Massimporteraren i resursvyn använder samma serverdel som bulkimporteraren i administratörsvyn. Det erbjuder dock fler datakällor att importera från och en smidigare användarupplevelse.
+>Assets Essentials-bulkimporteraren använder samma serverdel som Assets as a Cloud Service bulk-importeraren. Assets Essentials har dock fler datakällor att importera från och en smidigare användarupplevelse.
 
 Du kan importera resurser från följande datakällor:
 
@@ -74,7 +74,7 @@ När du importerar resurser eller mappar i grupp, [!DNL Experience Manager Asset
 
 Vid bulkimport, [!DNL Experience Manager] leta efter de befintliga mapparna för att undvika att importera om resurserna och mapparna, och verifierar även rensningsreglerna som tillämpas i den överordnade mappen där importen sker. Om saneringsreglerna tillämpas i den överordnade mappen, tillämpas samma regler på importkällan. För ny import används följande saneringsregler för att hantera filnamnen på resurser och mappar.
 
-Mer information om otillåtna namn, hantering av resursnamn och hantering av mappnamn vid bulkimport finns i [Hantera filnamn vid bulkimport i administratörsvyn](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
+Mer information om otillåtna namn, hantering av resursnamn och hantering av mappnamn vid bulkimport finns i [Hantera filnamn vid bulkimport](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
 
 ## Visa befintliga bulkimportkonfigurationer {#view-import-configuration}
 

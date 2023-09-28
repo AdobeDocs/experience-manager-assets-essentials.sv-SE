@@ -1,14 +1,14 @@
 ---
-title: Hur hanterar jag taggar i resursvyn?
-description: Lär dig hur du hanterar taggar i resursvyn. Taggar hjälper dig att kategorisera resurser som kan bläddras och sökas effektivare.
-source-git-commit: 22786c182ac959739396f694f0a63d84efa28ae5
+title: Hur hanterar jag taggar i Assets Essentials?
+description: Lär dig hur du hanterar taggar i Assets Essentials. Taggar hjälper dig att kategorisera resurser som kan bläddras och sökas effektivare.
+source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
 
-# Hantera taggar i resursvyn {#view-assets-and-details}
+# Hantera taggar i Assets Essentials {#view-assets-and-details}
 
 
 >[!CONTEXTUALHELP]
@@ -32,7 +32,7 @@ Taggning ger många fördelar, till exempel:
 
 * Taggar kan utvecklas över tid när ett organisatoriska språk ändras.
 
-* Taggar som hanteras i administrationsvyn förblir synkroniserade med taggar som hanteras i resursvyn, vilket garanterar metadatastyrning och integritet.
+* Taggar som hanteras i as a Cloud Service Resurser är synkroniserade med taggar som hanteras i Assets Essentials, vilket garanterar metadatastyrning och integritet.
 
 Om du vill kunna använda taggar på resurser måste du först skapa ett namnutrymme och sedan skapa och lägga till taggar i det. Du kan också skapa taggar och lägga till dem i ett befintligt namnutrymme. Alla taggar som du skapar på rotnivå läggs automatiskt till i namnutrymmet Standardtaggar. Du kan sedan lägga till fältet Taggar i metadataformuläret så att det visas på sidan Resursinformation. När du har konfigurerat de här inställningarna kan du börja använda taggar på resurser.
 
@@ -42,7 +42,7 @@ Om du vill kunna använda taggar på resurser måste du först skapa ett namnutr
 
 ![Tagghantering](assets/tagging-taxonomy-management.png)
 
-Ytterligare funktioner utöver det som nämns i den här artikeln, inklusive taggar för att sammanfoga, byta namn, lokalisera och publicera, finns tillgängliga i administrationsvyn.
+Ytterligare funktioner utöver det som nämns i den här artikeln, inklusive taggar för att sammanfoga, byta namn, lokalisera och publicera, finns i Assets as a Cloud Service.
 
 ## Skapa ett namnutrymme {#creating-a-namespace}
 
@@ -92,7 +92,7 @@ Om du vill skapa en standardtagg klickar du på `Create Tag` på rotnivå. Ange 
 
 >[!NOTE]
 >
->Om du tar bort `Standard Tags` namnutrymme som använder administratörsvyn visas inte de taggar som skapas på rotnivå i listan med tillgängliga taggar.
+>Om du tar bort `Standard Tags` I namnutrymmen där Assets as a Cloud Service används visas inte de taggar som skapas på rotnivå i listan med tillgängliga taggar.
 
 ## Flytta taggar {#moving-tags}
 
@@ -115,7 +115,7 @@ Om du vill redigera taggens titel markerar du taggen och klickar på `Edit`. Ang
 >[!NOTE]
 >
 >* The `Name` av en tagg kan inte uppdateras. Rotsökvägen för en tagg baseras också på taggens namn. Sökvägen förblir densamma även om du uppdaterar `Title` fält.
->* Ytterligare åtgärder som sammanfogning, lokalisering och publicering är tillgängliga i administratörsvyn.
+>* Ytterligare åtgärder som sammanfogning, lokalisering och publicering är tillgängliga i Assets as a Cloud Service.
 
 ## Ta bort taggar {#deleting-tags}
 
@@ -134,7 +134,7 @@ Så här tar du bort taggar:
 
 ## Lägga till taggar i metadataformuläret {#adding-tags-to-metadata-form}
 
-Taggkomponenten läggs till i `default` metadataformulär automatiskt. Du kan skapa en [Metadataformulär](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=en#metadata-forms) antingen med en mall eller från början. Om du inte använder någon befintlig metadatamall kan du ändra metadataformuläret och lägga till taggkomponenten. Mappningen av metadataegenskaper fylls i automatiskt och kan inte ändras just nu. Användare i administratörsvyn kan uppdatera mappningen för att lagra taggvärden med anpassade namnutrymmen och endast visa deluppsättningar av hierarkier med hjälp av rotsökvägar.
+Taggkomponenten läggs till i `default` metadataformulär automatiskt. Du kan skapa en [Metadataformulär](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/metadata.html?lang=en#metadata-forms) antingen med en mall eller från början. Om du inte använder någon befintlig metadatamall kan du ändra metadataformuläret och lägga till taggkomponenten. Mappningen av metadataegenskaper fylls i automatiskt och kan inte ändras just nu. Resurser as a Cloud Service användare kan uppdatera mappningen för att lagra taggvärden med anpassade namnutrymmen och endast visa deluppsättningar av hierarkier med hjälp av rotsökvägar.
 
 I den här snabbvideon ser du hur du lägger till taggkomponenten i metadataformuläret:
 
@@ -149,17 +149,7 @@ I den här snabbvideon ser du hur du lägger till taggkomponenten i metadataform
    ![Taggning-assets](assets/adding-tags-to-assets.png)
 
 1. Markera en eller flera taggar. Undertaggen markeras automatiskt tillsammans med den överordnade taggen eller namnutrymmet.
-Taggar som ändras i resursvyn används även i administrationsvyn.
-
-## Begränsningar {#limitations}
-
-Följande avancerade taxonomifunktioner är för närvarande inte tillgängliga i resursvyn och är bara tillgängliga via administratörsvyn:
-
-* **Lokalisering:** Lokalisering måste ske i administrationsvyn.
-* **Rotsökväg:** Rotsökvägar kan inte konfigureras. Alla namnutrymmen som lagras i taxonomihantering visas på egenskapen Taggar i resursvyn.
-* **Standardtaggar:** De standardtaggar som används i administrationsvyn visas i resursvyn. Du kan inte lägga till nya standardtaggar i resursvyn på sidan Resursinformation. De befintliga värdena som lagras i standardtaggar används på sidan Resursinformation.
-* **Egna namnutrymmen:** Det går inte att mappa taggar till anpassade namnutrymmen.
-* **Visningsreferenser:** Administratörer kan se tagganvändningen i resursvyn. Detta avser alla resurser som aktivt använder en tagg. Administratörer kan dock inte se enskilda resurser med taggen i referenser.
+Taggar som ändras i Assets Essentials används även i Assets as a Cloud Service.
 
 <!--
 *   Overview
