@@ -1,9 +1,10 @@
 ---
 title: Massimportera resurser med Assets Essentials
 description: Lär dig hur du kan massimportera resurser med det nya resursgränssnittet (Assets Essentials). Det ger administratörer möjlighet att importera ett stort antal resurser från en datakälla till AEM Assets.
-source-git-commit: 8708a9140b283ab2f45db7d466c069e53fb28b2a
+exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
+source-git-commit: db664a94a8e0c8bddcd415477518ab9d354faee0
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -14,6 +15,7 @@ ht-degree: 0%
 >id="assets_bulk_import"
 >title="Massimportera resurser"
 >abstract="Nu kan administratörer importera ett stort antal resurser från en datakälla till Experience Manager Assets med hjälp av Assets Essentials. Administratörerna behöver inte längre överföra enskilda resurser eller mappar till Experience Manager Assets. De molnlagringsleverantörer som stöds för bulkimport är bland annat Azure, AWS, Google Cloud och Dropbox."
+>additional-url="https://images-tv.adobe.com/mpcv3/4477/513abbee-d037-44dc-bc3a-47a91d4b0078_1696935015.854x480at800_h264.mp4" text="Se hur funktionen fungerar i praktiken"
 
 Med massimport i AEM Assets Essentials kan administratörer importera ett stort antal resurser från en datakälla till AEM Assets. Administratörerna behöver inte längre överföra enskilda resurser eller mappar till AEM Assets.
 
@@ -138,4 +140,3 @@ Klicka på ... som motsvarar konfigurationsnamnet som finns i **[!UICONTROL Exec
 ## Navigera till resurser när du har utfört bulkimport {#view-assets-after-bulk-import}
 
 Om du vill visa målplatsen för resurserna där resurserna importeras efter att du har kört massimportjobbet klickar du på ... som motsvarar konfigurationsnamnet och klickar sedan på **[!UICONTROL View Assets]**.
-
