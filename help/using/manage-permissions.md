@@ -24,11 +24,11 @@ I följande dataflödesdiagram visas de åtgärder som du utför för att konfig
 
 ## Innan du hanterar behörigheter för mappar {#before-managing-permissions}
 
-Innan du börjar hantera behörigheter för mappar i din Assets Essentials-databas måste du utföra vissa uppgifter, som att lägga till administratörer som kan skapa en logisk mappstruktur, skapa användargrupper och hantera mappbehörigheter för olika användargrupper.
+Innan du börjar hantera behörigheter för Assets Essentials i din mappdatabas måste du utföra vissa åtgärder, till exempel lägga till administratörer som kan skapa en logisk mappstruktur, skapa användargrupper och hantera mappbehörigheter för olika användargrupper.
 
 ### Lägg till administratörer {#add-admin-users}
 
-Lägg till administratörer för Assets Essentials-programmet så att de kan hantera mappbehörigheter för andra användargrupper.
+Lägg till administratörer för programmet Assets Essentials så att de kan hantera mappbehörigheter för andra användargrupper.
 
 Så här lägger du till administratörer:
 
@@ -50,7 +50,7 @@ Skapa användargrupper och tilldela behörigheter till dessa grupper för att ha
 
 ![Lägga till användare i grupper och produktprofiler](assets/user-groups-product-profiles.svg)
 
-Du kan lägga till användare i användargrupper (1) och [användare till Assets Essentials produktprofiler (2)](#add-admin-users). Du kan dock inte lägga till användargrupper direkt i Assets Essentials produktprofiler (3).
+Du kan lägga till användare i användargrupper (1) och [användare till produktprofiler för Assets Essentials (2)](#add-admin-users). Du kan dock inte lägga till användargrupper direkt i Assets Essentials produktprofiler (3).
 
 Mer information om hur du hanterar användargrupper finns i `Create user groups` och `Edit user groups` finns på [Hantera användargrupper](https://helpx.adobe.com/enterprise/using/user-groups.html).
 
@@ -59,7 +59,7 @@ Mer information om hur du hanterar användargrupper finns i `Create user groups`
 >Om Admin Console är konfigurerat för att utnyttja ett externt system för att hantera användare/grupper-tilldelningar, till exempel Azure- eller Google-anslutningar, användarsynkroniseringsverktyg eller API för användarhanteringsmål, konfigureras dina grupper och användartilldelningar automatiskt. Mer information finns i [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/users.html).
 
 
-### Lägg till användare i grupper {#add-users-to-uesr-groups}
+### Lägga till användare i grupper {#add-users-to-uesr-groups}
 
 När du har skapat användargrupper kan du börja lägga till användare i användargrupper.
 
@@ -67,13 +67,13 @@ Mer information om hur du hanterar tillägg av användare i användargrupper fin
 
 ### Skapa mappstruktur {#create-folder-structure}
 
-Du kan använda följande metoder för att skapa en mappstruktur i Assets Essentials-databasen:
+Du kan använda följande metoder för att skapa en mappstruktur i Assets Essentials databas:
 
 * Klicka på **[!UICONTROL Create Folder]** som finns i verktygsfältet för att skapa en tom mapp.
 
 * Klicka **[!UICONTROL Add Assets]** i verktygsfältet till [ladda upp en mappstruktur som är tillgänglig på din lokala dator](add-delete.md).
 
-Skapa en mappstruktur som fungerar bra med organisationens affärsmål. Om du överför en befintlig mappstruktur till Assets Essentials-databasen bör du granska strukturen. Mer information finns i [Effektiv behörighetshantering](permission-management-best-practices.md).
+Skapa en mappstruktur som fungerar bra med organisationens affärsmål. Om du överför en befintlig mappstruktur till Assets Essentials databas bör du granska strukturen. Mer information finns i [Effektiv behörighetshantering](permission-management-best-practices.md).
 
 ## Hantera behörigheter för mappar {#manage-permissions-on-folders}
 
@@ -88,7 +88,7 @@ Du kan tilldela följande behörigheter till användargrupperna eller användarn
 
 **Standardbehörigheter**
 
-Alla användare som är autentiserade och kan logga in i Assets Essentials har `Can Edit` behörighet till Assets Essentials-databasen från början. Administratören kan ändra standardbehörigheterna med [redigera behörigheter för hela Assets Essentials-databasen](#edit-permissions-entire-repository).
+Alla användare som är autentiserade och kan logga in på Assets Essentials har `Can Edit` behörighet till Assets Essentials databas från början. Administratören kan ändra standardbehörigheterna med [redigera behörigheter för hela Assets Essentials-databasen](#edit-permissions-entire-repository).
 
 **Sekvens att tilldela mappbehörigheter till användargrupper**
 
@@ -102,13 +102,13 @@ Om du behöver ange redigeringsbehörigheter för `Marketing` mapp endast till d
 
 **Tillståndsarv**
 
-I Assets Essentials används behörighetsarv, vilket gör att du kan ärva behörighetsuppsättningen för den överordnade mappen i den underordnade mappen. Om den överordnade mappen till exempel har `Can View` behörigheter för `All Authenticated Users` gruppen och den underordnade mappen har `Can Edit` behörigheter för `Marketing` användargrupp, aktiverar det för alla autentiserade användare att ha visningsbehörighet för den underordnade mappen och `Marketing` användargrupp som ska ha redigeringsbehörighet för den underordnade mappen. The `Marketing` användargruppen har redigeringsbehörighet för ytterligare mappnivåer under den underordnade mappen (Marketing).
+Assets Essentials använder behörighetsarv, vilket gör att du kan ärva behörighetsuppsättningen för den överordnade mappen i den underordnade mappen. Om den överordnade mappen till exempel har `Can View` behörigheter för `All Authenticated Users` gruppen och den underordnade mappen har `Can Edit` behörigheter för `Marketing` användargrupp, aktiverar det för alla autentiserade användare att ha visningsbehörighet för den underordnade mappen och `Marketing` användargrupp som ska ha redigeringsbehörighet för den underordnade mappen. The `Marketing` användargruppen har redigeringsbehörighet för ytterligare mappnivåer under den underordnade mappen (Marketing).
 
 ![Tilldela behörigheter](assets/permissions-inheritance.svg)
 
 >[!NOTE]
 >
-> Ställa in en `Deny Access` behörigheter för en grupp på en mapp på högre nivå och sedan återställa åtkomsten (`Can view`, `Can edit` eller `Owner`) för den gruppen eller dess medlem stöds inte. Använd `Deny Access` sparsamt.
+> Ange en `Deny Access` behörigheter för en grupp på en mapp på högre nivå och sedan återställa åtkomsten (`Can view`, `Can edit` eller `Owner`) för den gruppen eller dess medlem stöds inte. Använd `Deny Access` sparsamt.
 
 ### Lägga till behörigheter i användargrupper {#add-permissions}
 
@@ -152,7 +152,7 @@ Så här redigerar du behörigheter som tilldelats användargrupper i mappar:
 
 ### Redigera behörigheter för hela Assets Essentials-databasen {#edit-permissions-entire-repository}
 
-En programadministratör kan redigera behörigheter för hela Assets Essentials-databasen från en standarddatabas `Can Edit` till någon annan åtkomstnivå.
+En programadministratör kan redigera behörigheter för hela Assets Essentials-databasen från en standardkatalog `Can Edit` till någon annan åtkomstnivå.
 
 Så här redigerar du behörigheter för hela Assets Essentials-databasen:
 
@@ -164,7 +164,7 @@ Så här redigerar du behörigheter för hela Assets Essentials-databasen:
 
 >[!NOTE]
 >
->En administratör kan inte välja `Deny Access` behörighetsnivån för hela Assets Essentials-databasen för att säkerställa att användarna åtminstone har läsbehörighet till programmet. På samma sätt `All Authenticated Users` har minst läsbehörighet till databasen, även om administratören uttryckligen tar bort `Can Edit` behörigheter för [!UICONTROL Manage Permissions] -dialogrutan.
+>En administratör kan inte välja `Deny Access` behörighetsnivå för hela Assets Essentials-databasen för att säkerställa att användare åtminstone har läsbehörighet för programmet. På samma sätt `All Authenticated Users` har minst läsbehörighet till databasen, även om administratören uttryckligen tar bort `Can Edit` behörigheter för [!UICONTROL Manage Permissions] -dialogrutan.
 
 
 ## Exempel på effektiv behörighetshantering {#example-permission-management}
@@ -194,9 +194,9 @@ Följande åtkomstnivåer gäller för alla användargrupper i mapphierarkin:
 
 * /Alla resurser: Administratören ändrar behörigheterna på rotnivån från standardvärdet `Can Edit` till `Can View`. Alla användare kan visa mappar och resurser, men de kan inte redigera dem.
 
-* /marketing: Alla användare kan visa mapparna och undermapparna baserat på behörighetsarv, men gruppen som använder Marketing Team har redigeringsbehörigheter för mappen.
+* /marketing: Alla användare kan visa mapparna och undermapparna baserat på behörighetsarv, men användargruppen för Marketing Team har redigeringsbehörigheter för mappen.
 
-* /brand: Alla användare kan visa mapparna och undermapparna baserat på behörighetsarv, men användargruppen för godkännande av varumärken har redigeringsbehörigheter för mappen.
+* /brand: Alla användare kan visa mapparna och undermapparna baserat på behörighetsarv, men gruppen för godkännande av varumärken har redigeringsbehörigheter för mappen.
 
 * /projects: Alla användare kan visa mapparna och undermapparna baserat på behörighetsarv. Användargruppen Projektledare har:
 
@@ -206,13 +206,13 @@ Följande åtkomstnivåer gäller för alla användargrupper i mapphierarkin:
 
 * /projects/project-x: Alla användare kan visa mapparna och dess undermappar. Användargruppen Projektledare i teamet har redigeringsbehörigheter och kan hantera behörigheter för en mapp och dess undermappar (ägarbehörigheter). Användargruppen Project X Team har redigeringsbehörighet.
 
-* /legal: Ingen användare har åtkomst till mappen baserat på `Deny Access` behörigheter för `All Authenticated Users` grupp. Användargruppen Legal Team har redigeringsbehörighet.
+* /legal: Ingen av användarna har åtkomst till mappen baserat på `Deny Access` behörigheter för `All Authenticated Users` grupp. Användargruppen Legal Team har redigeringsbehörighet.
 
 ## Nästa steg {#next-steps}
 
-* [Se en video om hur du hanterar behörigheter i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html)
+* [Titta på en video om hur du hanterar behörigheter i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html)
 
-* Ge produktfeedback med [!UICONTROL Feedback] finns i Assets Essentials användargränssnitt
+* Ge produktfeedback med [!UICONTROL Feedback] finns i användargränssnittet i Assets Essentials
 
 * Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
 

@@ -48,7 +48,7 @@ Du kan filtrera sökresultaten baserat på följande parametrar.
 
 * Förfallodatum: Filtrera sökresultaten baserat på en `Expired` status. Du kan dessutom ange ett förfallodatumintervall för resurser för att ytterligare filtrera sökresultaten.
 
-* Egna filter: [Lägga till egna filter](#custom-filters) till Assets Essentials användargränssnitt. Använd de anpassade filtren utöver standardfiltren för att förfina sökresultaten.
+* Egna filter: [Lägga till egna filter](#custom-filters) till användargränssnittet i Assets Essentials. Använd de anpassade filtren utöver standardfiltren för att förfina sökresultaten.
 
 Du kan sortera de sökda resurserna i stigande eller fallande ordning efter `Name`, `Relevance`, `Size`, `Modified`och `Created`. De sökda resurserna sorteras baserat på `Relevance`, som standard.
 
@@ -174,7 +174,7 @@ Du kan markera de resurser som visas i sökresultaten och göra följande:
 
 * [Titta på en video där du kan söka efter resurser i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
 
-* Ge produktfeedback med [!UICONTROL Feedback] finns i Assets Essentials användargränssnitt
+* Ge produktfeedback med [!UICONTROL Feedback] finns i användargränssnittet i Assets Essentials
 
 * Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
 
