@@ -4,18 +4,54 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 1df4ab7705b5478c86531a5b4cae57b09ef5a0d5
+source-git-commit: 347ec8c64daa46f603b41dd3845503863a1ccedd
 workflow-type: tm+mt
-source-wordcount: '2336'
+source-wordcount: '2429'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den nuvarande releasen av Assets Essentials släpptes 21 september 2023.
+Den nuvarande releasen av Assets Essentials släpps den 26 oktober 2023.
 
-Listan över nyligen tillagda funktioner innehåller:
+De nya funktionerna är:
+
+**Massimportera resurser från OneDrive-datakällan**
+
+Administratörer kan nu [importera ett stort antal resurser från OneDrive till AEM Assets](/help/using/bulk-import-assets-view.md). Den uppdaterade listan över datakällor som stöds för bulkimport innehåller Azure, AWS, Google Cloud, Dropbox och OneDrive.
+
+![tilldela metadataformulär till en mapp](/help/using/assets/bulk-import-source-details.png)
+
+**Stöd för olika sorters tillstånd för bibliotek**
+
+Nu kan du konfigurera åtkomst till Creative Cloud-bibliotek i en annan IMS-organisation med Experience Manager Assets. Det ger enklare åtkomst till de senaste produktövergripande arbetsflödena mellan Creative Cloud och Experience Manager och minskar tiden och arbetet för kreatörerna.
+
+**Förbättringar baserade på kundfeedback**
+
+Förbättringar och felkorrigeringar som bygger på kundfeedback.
+
+
+## Kända fel {#known-issues}
+
+Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* Privata samlingar är tillgängliga för den som skapat dem och för användare med administratörsbehörighet. Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
+
+* Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
+
+Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
+
+## Tidigare versioner {#past-releases}
+
+### September 2023-utgåvan {#september2023-release}
 
 **Tilldela metadataformulär till en mapp**
 
@@ -41,29 +77,6 @@ Möjlighet att markera och fästa objekt åt dig, för hela organisationen eller
 
 ![Fäst objekt för grupper](assets/pin-items-for-groups.png)
 
-**Förbättringar baserade på kundfeedback**
-
-Förbättringar och felkorrigeringar som bygger på kundfeedback.
-
-
-## Kända fel {#known-issues}
-
-Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* Privata samlingar är tillgängliga för den som skapat dem och för användare med administratörsbehörighet. Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
-
-* Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
-
-Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
-
-## Tidigare versioner {#past-releases}
 
 ### juliversion 2023 {#july2023-release}
 

@@ -2,9 +2,9 @@
 title: Massimportera resurser med Assets Essentials
 description: Lär dig hur du kan massimportera resurser med det nya resursgränssnittet (Assets Essentials). Det ger administratörer möjlighet att importera ett stort antal resurser från en datakälla till AEM Assets.
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
-source-git-commit: 73721e8ee5c130ccad2ef2bdccba2e8412e031f2
+source-git-commit: d7e239008c5235cc423f0a2d168f37c315a0118e
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1629'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,7 @@ Du kan importera resurser från följande datakällor:
 * AWS
 * Google Cloud
 * Dropbox
+* OneDrive
 
 ## Förutsättningar {#prerequisites}
 
@@ -37,8 +38,80 @@ Du kan importera resurser från följande datakällor:
 | AWS | <ul> <li>AWS </li> <li> AWS Bucket <li> AWS Access Key </li><li> AWS Access Secret </li></ul> |
 | Google Cloud | <ul> <li>GCP Bucket </li> <li> E-postadress för GCP-tjänstkonto <li> Privat nyckel för GCP-tjänstkonto</li></ul> |
 | Dropbox | <ul> <li>Klient-ID för Dropbox </li> <li> Dropbox Client Secret</li></ul> |
+| OneDrive | <ul> <li>Klient-ID för OneDrive  </li> <li> OneDrive-klient-ID</li><li> OneDrive-klienthemlighet</li></ul> |
 
 Förutom dessa krav som baseras på datakällan måste du vara medveten om källmappsnamnet som finns i datakällan och som innehåller alla resurser som behöver importeras till AEM Assets.
+
+## Konfigurera utvecklarprogrammet Dropbox {#dropbox-developer-application}
+
+Skapa och konfigurera utvecklarprogrammet för Dropbox innan du importerar resurser från ditt Dropbox-konto till AEM Assets.
+
+Utför följande steg:
+
+1. Logga in på [Dropbox](https://www.dropbox.com/developers) och klicka **[!UICONTROL Create apps]**.
+
+1. I **[!UICONTROL Choose an API]** markerar du den enda tillgängliga alternativknappen.
+
+1. I **[!UICONTROL Choose the type of access you need]** väljer du något av följande alternativ:
+
+   * Välj **[!UICONTROL App folder]**, om du behöver åtkomst till en enda mapp som skapats i programmet på ditt Dropbox-konto.
+
+   * Välj **[!UICONTROL Full Dropbox]**, om du behöver åtkomst till alla filer och mappar på ditt Dropbox-konto.
+
+1. Ange ett namn för programmet och klicka på **[!UICONTROL Create app]**.
+
+1. I **[!UICONTROL Settings]** Lägg till följande på fliken **[!UICONTROL Redirect URIs]** avsnitt:
+
+   * https://exc-unifiedcontent.experience.adobe.net
+
+   * https://exc-unifiedcontent.experience-stage.adobe.net (endast för scenmiljöer)
+
+1. Kopiera värdena för **[!UICONTROL App key]** och **[!UICONTROL App secret]** fält. Värdena krävs när verktyget för bulkimport konfigureras i AEM Assets.
+
+1. På **[!UICONTROL Permissions]** lägger du till följande behörigheter i **[!UICONTROL Individual scopes]** -avsnitt.
+
+   * account_info.read
+
+   * files.metadata.read
+
+   * files.content.read
+
+   * files.content.write
+
+1. Klicka **[!UICONTROL Submit]** för att spara ändringarna.
+
+## Konfigurera OneDrive-utvecklarprogrammet {#onedrive-developer-application}
+
+Skapa och konfigurera OneDrive-utvecklarprogrammet innan du importerar resurser från ditt OneDrive-konto till AEM Assets.
+
+Utför följande steg:
+
+1. Logga in på [OneDrive-konto](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) och klicka **[!UICONTROL New registration]**.
+
+1. Ange ett namn för programmet, välj **[!UICONTROL Accounts in this organizational directory only (Adobe only - Single tenant)]** från **[!UICONTROL Supported account types]** och klicka **[!UICONTROL Register]**. Programmet har skapats.
+
+1. Kopiera värdena för fälten för programmets klient-ID och klientorganisations-ID. Värdena krävs när verktyget för bulkimport konfigureras i AEM Assets.
+
+1. Gör så här för att lägga till ett certifikat:
+   1. På sidan Programöversikt klickar du på **[!UICONTROL Add a certificate or secret]** och sedan klicka **[!UICONTROL New client secret]**.
+   1. Ange beskrivning och förfallodatum för klienthemlighet och klicka på **[!UICONTROL Add]**.
+   1. När du har skapat klienthemligheten kopierar du **[!UICONTROL Value]** fält (kopiera inte fältet för hemligt ID). Det krävs när bulkimport konfigureras i AEM Assets.
+
+1. Utför följande steg för att lägga till omdirigerings-URI:er:
+   1. På sidan Programöversikt klickar du på **[!UICONTROL Add a Redirect URI]** > **[!UICONTROL Add a platform]** > **[!UICONTROL Web]**.
+   1. Lägg till följande i **[!UICONTROL Redirect URIs]** avsnitt:
+
+      * https://exc-unifiedcontent.experience.adobe.net
+
+      * https://exc-unifiedcontent.experience-stage.adobe.net (endast för scenmiljöer)
+
+      Lägg till den första URI:n och klicka **[!UICONTROL Configure]** för att lägga till den. Du kan lägga till fler genom att klicka **[!UICONTROL Add URI]** som finns i **[!UICONTROL Web]** i **[!UICONTROL Authentication]** sida.
+
+1. Utför följande steg för att lägga till API-behörigheter för programmet:
+   1. Klicka **[!UICONTROL API permissions]** i den vänstra rutan och klicka **[!UICONTROL Add a permission]**.
+   1. Klicka på **[!UICONTROL Microsoft Graph]** > **[!UICONTROL Delegated permissions]**. The **[!UICONTROL Select Permission]** visas de tillgängliga behörigheterna.
+   1. Välj `offline_access` behörighet från `OpenId permissions` och `Files.ReadWrite.All` behörighet från `Files`.
+   1. Klicka **[!UICONTROL Add permissions]** för att spara uppdateringarna.
 
 ## Skapa bulkimportkonfiguration {#create-bulk-import-configuration}
 
@@ -49,6 +122,13 @@ Så här skapar du en bulkimportkonfiguration:
 1. Ange ett namn för bulkimportkonfigurationen i dialogrutan **[!UICONTROL Name]** fält.
 1. Ange de specifika autentiseringsuppgifterna för datakällan, som anges i [Förutsättningar](#prerequisites).
 1. Ange namnet på rotmappen som innehåller resurser i datakällan i **[!UICONTROL Source Folder]** fält.
+
+   >[!NOTE]
+   >
+   >Om du använder Dropbox som datakälla anger du källmappens sökväg baserat på följande regler:
+   >* Om du väljer **Full Dropbox** när du skapade programmet Dropbox och den mapp som innehåller resurserna finns på `https://www.dropbox.com/home/bulkimport-assets`och ange `bulkimport-assets` i **[!UICONTROL Source Folder]** fält.
+   >* Om du väljer **App-mapp** när du skapade programmet Dropbox och den mapp som innehåller resurserna finns på `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets`och ange `bulkimport-assets` i **[!UICONTROL Source Folder]** fält, var `BulkImportAppFolderScope` refererar till programmets namn. `Apps` läggs till automatiskt efter `home` i detta fall.
+
 1. (Valfritt) Välj **[!UICONTROL Delete source file after import]** om du vill ta bort originalfilerna från källdatalagret när filerna har importerats till Experience Manager Assets.
 1. Välj **[!UICONTROL Import Mode]**. Välj **[!UICONTROL Skip]**, **[!UICONTROL Replace]**, eller **[!UICONTROL Create Version]**. Hoppa över är standardläget och i det här läget hoppar användaren över att importera en resurs om den redan finns.
    ![Importera källinformation](assets/bulk-import-source-details.png)
