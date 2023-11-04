@@ -2,9 +2,9 @@
 title: Massimportera resurser med Assets Essentials
 description: Lär dig hur du kan massimportera resurser med det nya resursgränssnittet (Assets Essentials). Det ger administratörer möjlighet att importera ett stort antal resurser från en datakälla till AEM Assets.
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
-source-git-commit: cadb29953741e80fdd5d70810923ed9baa8e0f24
+source-git-commit: 8a52d79ecd1ce8fdafd181e0f9b166e8d827c665
 workflow-type: tm+mt
-source-wordcount: '1645'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
