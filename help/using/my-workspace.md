@@ -2,7 +2,7 @@
 title: Min arbetsyta för resurser
 description: Min arbetsyta är en sida med anpassningsbara visuella moduler som ger smidig åtkomst till viktiga delar av Assets-användargränssnittet och information som är mest relevant för användaren.
 exl-id: 402dd3a6-44e5-4d13-97d8-1d7fa26a99e4
-source-git-commit: 55418ab5b6346785bcc14bf32322a2e69738895d
+source-git-commit: 21db2f77de3245f6fa40964b64ec8ac2c45d13e9
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="assets_my_workspace"
 >title="Min arbetsyta"
->abstract="Resurserna innehåller en anpassningsbar arbetsyta med widgetar som du kan använda för att enkelt få tillgång till viktiga delar av användargränssnittet och den information som är mest relevant för dig. Den här sidan är en helhetslösning som ger en översikt över dina arbetsobjekt och som underlättar snabb åtkomst till viktiga arbetsflöden."
+>abstract="Resurserna innehåller en anpassningsbar arbetsyta med widgetar som du kan använda för att enkelt få tillgång till viktiga delar av användargränssnittet och den information som är mest relevant för dig. Den här sidan är en helhetslösning som ger en översikt över dina arbetsobjekt och ger snabb åtkomst till viktiga arbetsflöden."
 
 Resurserna innehåller nu en anpassningsbar arbetsyta med widgetar som du kan använda för att enkelt få tillgång till viktiga delar av användargränssnittet och den information som är mest relevant för dig. Den här sidan är en helhetslösning som ger en översikt över dina arbetsobjekt och ger snabb åtkomst till viktiga arbetsflöden. Mer lättåtkomlig åtkomst till dessa alternativ ökar effektiviteten och ökar innehållets hastighet.
 
