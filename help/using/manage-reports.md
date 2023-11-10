@@ -2,19 +2,14 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 7bda2024fd9e9d2ad05ccffccf76a51b16a113fa
+source-git-commit: 43ecb9862b6553ffd34cf1e116eb018505eff28e
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '794'
 ht-degree: 1%
 
 ---
 
 # Hantera rapporter {#manage-reports}
-
->[!CONTEXTUALHELP]
->id="assets_reports"
->title="Rapporter"
->abstract="Resursrapportering ger administratörer insyn i Adobe Experience Manager Assets Essentials-miljöns aktivitet. Dessa data ger användbar information om hur användarna interagerar med innehållet och produkten. Alla användare har tillgång till Insikter-kontrollpanelen och de som har tilldelats administratörens produktprofil kan skapa användardefinierade rapporter."
 
 Resursrapportering ger administratörer insyn i Adobe Experience Manager Assets Essentials-miljöns aktivitet. Dessa data ger användbar information om hur användarna interagerar med innehållet och produkten. Alla användare har tillgång till Insikter-kontrollpanelen och de som har tilldelats administratörens produktprofil kan skapa användardefinierade rapporter.
 
@@ -23,6 +18,11 @@ Resursrapportering ger administratörer insyn i Adobe Experience Manager Assets 
 Alla användare som är tilldelade till [Produktprofil för Assets Essentials-administratörer](deploy-administer.md) kan komma åt Insikter-instrumentpanelen eller skapa användardefinierade rapporter i Assets Essentials.
 
 ## Visa insikter {#view-live-statistics}
+
+>[!CONTEXTUALHELP]
+>id="assets_reports"
+>title="Rapporter"
+>abstract="På Insikter-kontrollpanelen kan du visa händelsemått i realtid för din Experience Manager Assets-miljö under de senaste 30 dagarna eller under de senaste 12 månaderna. Listan med händelser innehåller antalet nedladdningar, uppladdningar, de vanligaste sökningarna osv."
 
 Med Assets Essentials kan du visa realtidsdata för din Assets Essentials-miljö med Insikter-instrumentpanelen. Du kan visa händelsemått i realtid under de senaste 30 dagarna eller under de senaste 12 månaderna.
 
