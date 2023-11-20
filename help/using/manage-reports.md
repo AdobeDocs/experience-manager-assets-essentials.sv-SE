@@ -2,9 +2,9 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 43ecb9862b6553ffd34cf1e116eb018505eff28e
+source-git-commit: aee57f5a83bfa5a292e9c0c50e2cb00499dbb08c
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '881'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,20 @@ Resursrapportering ger administratörer insyn i Adobe Experience Manager Assets 
 ## Åtkomstrapporter {#access-reports}
 
 Alla användare som är tilldelade till [Produktprofil för Assets Essentials-administratörer](deploy-administer.md) kan komma åt Insikter-instrumentpanelen eller skapa användardefinierade rapporter i Assets Essentials.
+
+Om du vill få åtkomst till rapporter går du till **[!UICONTROL Reports]** under **[!UICONTROL Settings]**.
+
+![Rapporter](assets/reports.png)
+<!--
+In the **[!UICONTROL Reports]** screen, various components are shown in the tabular format which includes the following:
+
+* **Title**: Title of the report
+* **Type**: Determines whether the report is uploaded or downloaded to the repository
+* **Description**: Provide details of the report that was given during uploading/downloading the report
+* **Status**: Determines whether the report is completed, under progress, or deleted.
+* **Author**: Provides email of the author who has uploaded/downloaded the report.
+* **Created**: Gives information of the date when the report was generated.
+-->
 
 ## Visa insikter {#view-live-statistics}
 
@@ -34,13 +48,18 @@ Klicka **[!UICONTROL Insights]** som finns i det vänstra navigeringsfönstret f
 
 * **Överföringar**: Antalet resurser som har överförts till Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
 
+* **Antal tillgångar efter storlek**: Uppdelningen av antalet resurser baserat på deras intervall av olika storlekar från 0 MB till 100 GB.
+
+* **Lagringsanvändning**: Lagringsanvändningen, i byte, för Assets Essentials-miljön som representeras med ett stapeldiagram, beroende på användbarheten.
+
+  ![Lagring](assets/storage.png)
+
+
+* **Leverans**: I diagrammet visas antalet mediefiler som leveransdatum.
+
+* **Antal tillgångar efter tillgångstyp**: Representerar antalet olika MIME-typer av tillgängliga resurser. Exempel: application/zip, image/png, video/mp4, application/postscripte.
+
 * **Vanliga sökningar**: Visa de mest sökbara termerna tillsammans med det antal gånger de har sökts igenom i din Assets Essentials-miljö under de senaste 30 dagarna eller 12 månaderna i tabellformat.
-
-<!--
-
-* **Storage usage**: The storage usage, in gigabytes (GB), for the Assets Essentials environment, for the last 30 days or 12 months represented using a bar chart.
-
--->
 
 ## Skapa en nedladdningsrapport {#create-download-report}
 
