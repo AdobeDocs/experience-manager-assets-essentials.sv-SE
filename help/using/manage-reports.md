@@ -2,9 +2,9 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: aee57f5a83bfa5a292e9c0c50e2cb00499dbb08c
+source-git-commit: 37a0692c47d4fa14e9c2582a34000ec8bf975692
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '875'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ In the **[!UICONTROL Reports]** screen, various components are shown in the tabu
 
 Med Assets Essentials kan du visa realtidsdata för din Assets Essentials-miljö med Insikter-instrumentpanelen. Du kan visa händelsemått i realtid under de senaste 30 dagarna eller under de senaste 12 månaderna.
 
-![Alternativ i verktygsfältet när du väljer en resurs](assets/assets-essentials-live-statistics.png)
+<!--![Toolbar options when you select an asset](assets/assets-essentials-live-statistics.png)-->
 
 Klicka **[!UICONTROL Insights]** som finns i det vänstra navigeringsfönstret för att visa följande automatiskt genererade diagram:
 
@@ -52,7 +52,7 @@ Klicka **[!UICONTROL Insights]** som finns i det vänstra navigeringsfönstret f
 
 * **Lagringsanvändning**: Lagringsanvändningen, i byte, för Assets Essentials-miljön som representeras med ett stapeldiagram, beroende på användbarheten.
 
-  ![Lagring](assets/storage.png)
+  <!--![Storage](assets/storage.png)-->
 
 
 * **Leverans**: I diagrammet visas antalet mediefiler som leveransdatum.
@@ -60,6 +60,9 @@ Klicka **[!UICONTROL Insights]** som finns i det vänstra navigeringsfönstret f
 * **Antal tillgångar efter tillgångstyp**: Representerar antalet olika MIME-typer av tillgängliga resurser. Exempel: application/zip, image/png, video/mp4, application/postscripte.
 
 * **Vanliga sökningar**: Visa de mest sökbara termerna tillsammans med det antal gånger de har sökts igenom i din Assets Essentials-miljö under de senaste 30 dagarna eller 12 månaderna i tabellformat.
+
+  ![Insikter](assets/insights1.png)
+  ![Insikter](assets/insights2.png)
 
 ## Skapa en nedladdningsrapport {#create-download-report}
 
