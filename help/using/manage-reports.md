@@ -2,9 +2,9 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 37a0692c47d4fa14e9c2582a34000ec8bf975692
+source-git-commit: b065a56bbd0ce86bc9dd6ac568364de30d77be4e
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '815'
 ht-degree: 1%
 
 ---
@@ -48,21 +48,23 @@ Klicka **[!UICONTROL Insights]** som finns i det vänstra navigeringsfönstret f
 
 * **Överföringar**: Antalet resurser som har överförts till Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
 
-* **Antal tillgångar efter storlek**: Uppdelningen av antalet resurser baserat på deras intervall av olika storlekar från 0 MB till 100 GB.
+<!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
 * **Lagringsanvändning**: Lagringsanvändningen, i byte, för Assets Essentials-miljön som representeras med ett stapeldiagram, beroende på användbarheten.
 
   <!--![Storage](assets/storage.png)-->
 
 
-* **Leverans**: I diagrammet visas antalet mediefiler som leveransdatum.
+<!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
-* **Antal tillgångar efter tillgångstyp**: Representerar antalet olika MIME-typer av tillgängliga resurser. Exempel: application/zip, image/png, video/mp4, application/postscripte.
+<!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **Vanliga sökningar**: Visa de mest sökbara termerna tillsammans med det antal gånger de har sökts igenom i din Assets Essentials-miljö under de senaste 30 dagarna eller 12 månaderna i tabellformat.
 
-  ![Insikter](assets/insights1.png)
-  ![Insikter](assets/insights2.png)
+  <!--
+   ![Insights](assets/insights1.png)
+   ![Insights](assets/insights2.png)
+   -->
 
 ## Skapa en nedladdningsrapport {#create-download-report}
 
