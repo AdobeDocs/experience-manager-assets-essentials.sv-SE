@@ -2,10 +2,10 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: b065a56bbd0ce86bc9dd6ac568364de30d77be4e
+source-git-commit: cf5cba28d20d1633566881a7f651da6bcaa48c7b
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,16 +52,15 @@ Klicka **[!UICONTROL Insights]** som finns i det vänstra navigeringsfönstret f
 
 * **Lagringsanvändning**: Lagringsanvändningen, i byte, för Assets Essentials-miljön som representeras med ett stapeldiagram, beroende på användbarheten.
 
-  <!--![Storage](assets/storage.png)-->
-
-
 <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **Vanliga sökningar**: Visa de mest sökbara termerna tillsammans med det antal gånger de har sökts igenom i din Assets Essentials-miljö under de senaste 30 dagarna eller 12 månaderna i tabellformat.
 
-  <!--
+![Insikter](assets/insights.png)
+
+<!--
    ![Insights](assets/insights1.png)
    ![Insights](assets/insights2.png)
    -->
