@@ -2,9 +2,9 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 7ceeeda677e845cc7cb31964edaa687c806f3afe
+source-git-commit: b24113299b5f8d32b3c4aef453923b23dc775228
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '812'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Klicka **[!UICONTROL Insights]** som finns i det vänstra navigeringsfönstret f
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
-* **Lagringsanvändning**: Lagringsanvändningen, i byte, för Assets Essentials-miljön som representeras med ett stapeldiagram, beroende på användbarheten.
+* **Lagringsanvändning**: Lagringsanvändningen, i byte, för Assets Essentials-miljön som representeras av ett stapeldiagram.
 
 <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
