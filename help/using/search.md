@@ -3,9 +3,9 @@ title: Sök efter och hitta resurser i [!DNL Assets Essentials]
 description: Sök efter och hitta resurser i [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 8a52d79ecd1ce8fdafd181e0f9b166e8d827c665
+source-git-commit: 2a885eb87d29be19f2e1206fe44e592137e43fe2
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
@@ -169,6 +169,39 @@ Du kan markera de resurser som visas i sökresultaten och göra följande:
 * **Visa filplats**: Navigera till resursmappens plats.
 
 * **Fäst i snabbåtkomst**: [Fäst en resurs](my-workspace.md) för snabbare åtkomst när du behöver det senare. Alla fästa objekt visas i **Snabb åtkomst** i Min arbetsyta.
+
+## Konfigurera första sökhemsida {#configuring-search-first-homepage}
+
+På den första startsidan kan du navigera i olika filer och mappar direkt. Du kan enkelt navigera bland resurstyper, metadata, smarta taggar och till och med själva innehållet utan att kunna det exakta nyckelordet. [!DNL Assets Essentials] låter dig konfigurera din hemsida genom att styra vad som ska visas när du loggar in på [!DNL Assets Essentials].
+
+Så här konfigurerar du den första startsidan för sökningen:
+
+1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL General Settings]**.
+1. Välj **[!UICONTROL Search first]**. Sökningen öppnas sedan i den första relaterade konfigurationen. Du kan ange [justering](#setting-alignment-search-bar) eller [ange bakgrund och logotypbild](#setting-background-image-and-logo) på din hemsida.
+
+### Ange justering för sökfältet {#setting-alignment-search-bar}
+
+[!DNL Assets Essentials] använder du för att ändra justeringen i sökfältet. Du kan ange att sökfältet ska visas antingen i mitten eller högst upp. Välj lämplig justering och klicka på **[!UICONTROL Save]**.
+
+![Sök efter justering av första startsida](assets/search-first-alignment.png)
+
+### Ställa in bakgrunds- och logotypbild för hemsidan {#setting-background-image-and-logo}
+
+Du kan lägga till logotyp och bakgrundsbild på din första söksida. Utför följande steg:
+
+1. Navigera till **[!UICONTROL Background and Logo image]** avsnitt under **[!UICONTROL Homepage]**.
+1. Klicka **[!UICONTROL Replace]** om du vill bläddra bland bilder från befintliga resurslager.
+1. Klicka på **[!UICONTROL Save]**. [Förhandsgranska](#preview-configured-homepage) de ändringar som ska göras.
+
+### Förgranska konfigurerad startsida {#preview-configured-homepage}
+
+Du kan förhandsgranska om du vill kontrollera layout och formatering för den första söksidan. Använda **[!UICONTROL Preview]** kan du korrigera layouten eller göra ändringar efter behov. Om du vill förhandsgranska den konfigurerade startsidan följer du stegen nedan:
+
+1. Klicka på **[!UICONTROL General Settings]** och välj **[!UICONTROL Search first]**.
+1. Navigera till **[!UICONTROL Customize search first homepage]** och klicka **[!UICONTROL Preview]**. Växla mellan **[!UICONTROL Dark theme]** för att förhandsgranska hemsidan i mörkt eller ljust tema.
+1. Klicka **[!UICONTROL Close]** för att stänga förhandsvisningsskärmen.
+
+   ![Förhandsgranska den första startsidan](assets/search-first-preview.gif)
 
 ## Nästa steg {#next-steps}
 
