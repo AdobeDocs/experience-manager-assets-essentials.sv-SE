@@ -4,28 +4,48 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 347ec8c64daa46f603b41dd3845503863a1ccedd
+source-git-commit: 7a34bf9aa740c647530306c3edde6e493f80790a
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2542'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den nuvarande releasen av Assets Essentials släpps den 26 oktober 2023.
+Den nuvarande releasen av Assets Essentials släpptes den 30 november 2023.
 
 De nya funktionerna är:
 
-**Massimportera resurser från OneDrive-datakällan**
+**Redigerare för inbäddad Adobe Express i AEM Assets**
 
-Administratörer kan nu [importera ett stort antal resurser från OneDrive till AEM Assets](/help/using/bulk-import-assets-view.md). Den uppdaterade listan över datakällor som stöds för bulkimport innehåller Azure, AWS, Google Cloud, Dropbox och OneDrive.
+Användare med tillgång till Express har nu integrerade verktyg för bildredigering och bildskapande, från Adobe Express och Adobe Firefly, tillgängliga direkt inifrån AEM Assets, för att förbättra återanvändningen av innehåll och snabba upp hastigheten på innehållet.
 
-![tilldela metadataformulär till en mapp](/help/using/assets/bulk-import-source-details.png)
+![tilldela metadataformulär till en mapp](/help/using/assets/adobe-express-aem-assets.png)
 
-**Stöd för olika sorters tillstånd för bibliotek**
+<!--
 
-Nu kan du konfigurera åtkomst till Creative Cloud-bibliotek i en annan IMS-organisation med Experience Manager Assets. Det ger enklare åtkomst till de senaste produktövergripande arbetsflödena mellan Creative Cloud och Experience Manager och minskar tiden och arbetet för kreatörerna.
+**Smart tags blocklist** 
+
+Assets Essentials now enables you to define a list of blocked tags. These tags are automatically removed from the auto-generated smart tags when you upload assets to the repository. This capability performs tags governance and saves a lot of time as you can add a tag to the block list and Assets Essentials automatically excludes it from the list of tags for any of the assets that are added to the repository.
+
+  ![storage usage insights](/help/using/assets/block-tags.png)
+
+-->
+
+**Rapporter om lagringsanvändning i insikter**:
+
+Administratörer kan nu visa användningsrapporter för lagring som ingår i Insights.
+
+![information om lagringsanvändning](/help/using/assets/storage-usage-insights.png)
+
+**Sök i den första startsidans konfiguration**
+
+Nu kan du konfigurera startsidan för din organisation med Assets Essentials. Om du väljer att söka först som startsida kan du konfigurera sökfältets justering, bakgrundsbild och logotyp för din organisation.
+
+![söka efter första konfigurationen](/help/using/assets/search-first-configuration.png)
+
+
 
 **Förbättringar baserade på kundfeedback**
 
@@ -50,6 +70,18 @@ Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och upp
 Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
 
 ## Tidigare versioner {#past-releases}
+
+### Oktober 2023-versionen {#october2023-release}
+
+**Massimportera resurser från OneDrive-datakällan**
+
+Administratörer kan nu [importera ett stort antal resurser från OneDrive till AEM Assets](/help/using/bulk-import-assets-view.md). Den uppdaterade listan över datakällor som stöds för bulkimport innehåller Azure, AWS, Google Cloud, Dropbox och OneDrive.
+
+![tilldela metadataformulär till en mapp](/help/using/assets/bulk-import-source-details.png)
+
+**Stöd för olika sorters tillstånd för bibliotek**
+
+Nu kan du konfigurera åtkomst till Creative Cloud-bibliotek i en annan IMS-organisation med Experience Manager Assets. Det ger enklare åtkomst till de senaste produktövergripande arbetsflödena mellan Creative Cloud och Experience Manager och minskar tiden och arbetet för kreatörerna.
 
 ### September 2023-utgåvan {#september2023-release}
 
