@@ -3,9 +3,9 @@ title: Sök efter och hitta resurser i [!DNL Assets Essentials]
 description: Sök efter och hitta resurser i [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 2a885eb87d29be19f2e1206fe44e592137e43fe2
+source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -172,7 +172,7 @@ Du kan markera de resurser som visas i sökresultaten och göra följande:
 
 ## Konfigurera första sökhemsida {#configuring-search-first-homepage}
 
-På den första startsidan kan du navigera i olika filer och mappar direkt. Du kan enkelt navigera bland resurstyper, metadata, smarta taggar och till och med själva innehållet utan att kunna det exakta nyckelordet. [!DNL Assets Essentials] låter dig konfigurera din hemsida genom att styra vad som ska visas när du loggar in på [!DNL Assets Essentials].
+Med Assets Essentials kan du välja standardlandningssida för din organisation. När du använder Sök först som startsida har du också möjlighet att anpassa sidans varumärke genom att konfigurera bakgrunds- och logotypbilderna så att de passar ert varumärke.
 
 Så här konfigurerar du den första startsidan för sökningen:
 
@@ -191,7 +191,7 @@ Du kan lägga till logotyp och bakgrundsbild på din första söksida. Utför f�
 
 1. Navigera till **[!UICONTROL Background and Logo image]** avsnitt under **[!UICONTROL Homepage]**.
 1. Klicka **[!UICONTROL Replace]** om du vill bläddra bland bilder från befintliga resurslager.
-1. Klicka på **[!UICONTROL Save]**. [Förhandsgranska](#preview-configured-homepage) de ändringar som ska göras.
+1. Klicka på **[!UICONTROL Save]**. [Förhandsgranska](#preview-configured-homepage) ändringarna för att granska ändringarna.
 
 ### Förgranska konfigurerad startsida {#preview-configured-homepage}
 
