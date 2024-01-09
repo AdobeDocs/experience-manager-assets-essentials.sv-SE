@@ -3,9 +3,9 @@ title: Sök efter och hitta resurser i [!DNL Assets Essentials]
 description: Sök efter och hitta resurser i [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: dee5bde4837795b800fad6307d18914ed4c90af9
+source-git-commit: 608cd11dbdee46606e898fe3c79ffbad0101cebc
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1332'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,14 @@ Om du vill söka efter resurser
    * Sök med nyckelord och ändra mapp om det behövs. Tryck på Retur.
 
    * Börja arbeta med en nyligen visad resurs genom att söka direkt efter den. Klicka i sökrutan och välj en nyligen visade resurs bland förslagen.
+
+## Söka efter resurser med Adobe Firefly
+
+Med integreringen av [!UICONTROL Adobe Firefly] och [!UICONTROL Adobe Experience Manager Assets]kan du effektivt söka efter resurser som inte finns i någon av resursmapparna. <br> Du kan till exempel söka efter en resurs med nyckelordet `Bugatti Type 57`. Vid sökning efter `Bugatti Type 57`, inga resultat hittades.
+
+Ange resursnamnet i sökfältet och klicka på **[!UICONTROL Generate]**. Exempelresurserna visas på skärmen. Du kan överföra dessa resurser till den mapp du föredrar för enkel åtkomst.
+
+![Integrering med Firefly](assets/bugatti-type-57.jpg)
 
 ## Filtrera sökresultaten {#refine-search-results}
 
@@ -146,11 +154,21 @@ When userA is searching and userB add an asset that matches search results, will
 
 Du kan markera de resurser som visas i sökresultaten och göra följande:
 
+* **Sök efter liknande bild**: Hitta liknande bildresurser i resursgränssnittet baserat på metadata och smarta taggar.
+
 * **Information**: Visa och redigera resursegenskaper.
+
+* **Ladda ned**: Hämta en resurs.
 
 * **Lägg till i samling**: Lägg till den valda resursen i en samling.
 
-* **Ladda ned**: Hämta en resurs.
+* **Fäst i snabbåtkomst**: [Fäst en resurs](my-workspace.md) för snabbare åtkomst när du behöver det senare. Alla fästa objekt visas i **Snabb åtkomst** i Min arbetsyta.
+
+* **Öppna i Adobe Express**: Redigera en bild i den integrerade Adobe Expressen från Adobe Experience Manager Assets-skärmen.
+
+* **Redigera**: Redigera bilden med Adobe Express.
+
+* **Dela länk**: [Dela länkar](share-links-for-assets.md) för en resurs med andra användare så att de kan komma åt och hämta den.
 
 * **Ta bort**: Ta bort en resurs.
 
@@ -160,15 +178,11 @@ Du kan markera de resurser som visas i sökresultaten och göra följande:
 
 * **Byt namn**: Byt namn på en resurs.
 
+* **Kopiera till bibliotek**: Lägg till en resurs i biblioteket.
+
 * **Tilldela uppgifter**: Tilldela användare uppgifter för en resurs.
 
-* **Dela länk**: [Dela länkar](share-links-for-assets.md) för en resurs med andra användare så att de kan komma åt och hämta den.
-
 * **Titta**: [Övervaka åtgärderna](manage-notifications.md) som utförs på en tillgång.
-
-* **Visa filplats**: Navigera till resursmappens plats.
-
-* **Fäst i snabbåtkomst**: [Fäst en resurs](my-workspace.md) för snabbare åtkomst när du behöver det senare. Alla fästa objekt visas i **Snabb åtkomst** i Min arbetsyta.
 
 ## Konfigurera första sökhemsida {#configuring-search-first-homepage}
 
@@ -197,7 +211,7 @@ Du kan lägga till logotyp och bakgrundsbild på din första söksida. Utför f�
 
 Du kan förhandsgranska om du vill kontrollera layout och formatering för den första söksidan. Använda **[!UICONTROL Preview]** kan du korrigera layouten eller göra ändringar efter behov. Om du vill förhandsgranska den konfigurerade startsidan följer du stegen nedan:
 
-1. Klicka på **[!UICONTROL General Settings]** och välj **[!UICONTROL Search first]**.
+1. Klicka **[!UICONTROL General Settings]** och markera **[!UICONTROL Search first]**.
 1. Navigera till **[!UICONTROL Customize search first homepage]** och klicka **[!UICONTROL Preview]**. Växla mellan **[!UICONTROL Dark theme]** för att förhandsgranska hemsidan i mörkt eller ljust tema.
 1. Klicka **[!UICONTROL Close]** för att stänga förhandsvisningsskärmen.
 

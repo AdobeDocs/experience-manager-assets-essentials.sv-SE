@@ -4,22 +4,22 @@ description: Flytta, ta bort, kopiera, byta namn på, uppdatera och version av d
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: e13e204482e480b3a66b48263e965787bd980842
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
 
 # Hantera resurser {#manage-assets}
 
-Du kan enkelt utföra olika DAM-åtgärder med det användarvänliga gränssnittet i [!DNL Assets Essentials]. När du har lagt till resurserna kan du söka efter, hämta, flytta, kopiera, byta namn på, ta bort, uppdatera och redigera dina resurser.
+Du kan enkelt utföra olika DAM-åtgärder (Digital Asset Management) med det användarvänliga gränssnittet i [!DNL Assets Essentials]. När du har lagt till resurserna kan du söka efter, hämta, flytta, kopiera, byta namn på, ta bort, uppdatera och redigera dina resurser.
 
 Använd [!DNL Assets Essentials] för att utföra följande resurshanteringsåtgärder. När du markerar en resurs visas följande alternativ i verktygsfältet högst upp.
 
 ![Alternativ i verktygsfältet när du väljer en resurs](assets/toolbar-image-selected.png)
 
-*Bild: Alternativ som är tillgängliga i verktygsfältet för en markerad bild.*
+*Bild: Alternativ i verktygsfältet för en markerad bild.*
 
 * ![avmarkera ikon](assets/do-not-localize/close-icon.png) Avmarkera markeringen.
 * ![informationsikon](assets/do-not-localize/edit-in-icon.png) Klicka för att förhandsgranska en resurs och visa detaljerade metadata. När du förhandsgranskar kan du visa versionerna och redigera en bild.
@@ -28,7 +28,7 @@ Använd [!DNL Assets Essentials] för att utföra följande resurshanteringsåtg
 * ![utcheckningsikon](assets/do-not-localize/checkout-icon.png) Checka ut den valda resursen.
 * ![kopieringsikon](assets/do-not-localize/copy-icon.png) Kopiera den markerade filen eller mappen.
 * ![flytta ikon](assets/do-not-localize/move-icon.png) Flytta den markerade resursen eller mappen till en annan plats i databashierarkin.
-* ![ikonen Byt namn](assets/do-not-localize/rename-icon.png) Byt namn på den markerade resursen eller mappen. Använd ett unikt namn, annars misslyckas namnbytet med en varning. Du kan försöka igen med ett nytt namn.
+* ![ikonen Byt namn](assets/do-not-localize/rename-icon.png) Byt namn på den markerade resursen eller mappen. Använd ett unikt namn, annars misslyckas namnbytet med en varning. Försök igen med ett nytt namn.
 * ![tilldelningsikon](assets/do-not-localize/review-delegate-icon.png) Tilldela uppgifter till andra användare för att samarbeta med en resurs.
 
 Du kan visa samma alternativ för miniatyrbilder av resurser.
@@ -39,7 +39,7 @@ Du kan visa samma alternativ för miniatyrbilder av resurser.
 
 ![Alternativ i verktygsfältet när du väljer en resurs](assets/toolbar-folder-selected.png)
 
-*Bild: Tillgängliga alternativ i verktygsfältet för en vald mapp.*
+*Bild: Alternativ i verktygsfältet för en vald mapp.*
 
 ![Alternativ i verktygsfältet när du väljer en resurs](assets/toolbar-pdf-selected.png)
 
@@ -66,7 +66,7 @@ TBD: query for engineering: How many versions are maintained. What happens when 
 
   ![Spara redigerad bild som en version](assets/edit-image2.png)
 
-  *Bild: Spara den redigerade bilden som en version.*
+  *Bild: Spara redigerad bild som en version.*
 
 * Öppna versionerna av en befintlig resurs. Klicka **[!UICONTROL New Version]** och ladda upp en nyare version av resursen i databasen.
 
@@ -111,7 +111,7 @@ Så här anger du resursstatus:
 
 ### Ange förfallodatum för tillgång {#set-asset-expiration-date}
 
-I Assets Essentials kan du också ange förfallodatum för resurser som är tillgängliga i databasen. Då kan du [filtrera sökresultaten](search.md#refine-search-results) baserat på en `Expired` tillgångsstatus. Du kan dessutom ange ett förfallodatumintervall för resurser för att ytterligare filtrera sökresultaten.
+Assets Essentials kan även ange förfallodatum för resurser som är tillgängliga i databasen. Då kan du [filtrera sökresultaten](search.md#refine-search-results) baserat på en `Expired` status. Du kan dessutom ange ett förfallodatumintervall för resurser för att ytterligare filtrera sökresultaten.
 
 Så här anger du förfallodatum för tillgång:
 
@@ -141,9 +141,9 @@ Om du vill lägga till metadatafältet Förfallodatum i formuläret drar du **[!
 
 ## Nästa steg {#next-steps}
 
-* [Se en video om hur du hanterar resurser i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html)
+* [Titta på en video om hur du hanterar resurser i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html)
 
-* Ge produktfeedback med [!UICONTROL Feedback] finns i Assets Essentials användargränssnitt
+* Ge produktfeedback med [!UICONTROL Feedback] finns i användargränssnittet i Assets Essentials
 
 * Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
 
@@ -151,4 +151,6 @@ Om du vill lägga till metadatafältet Förfallodatum i formuläret drar du **[!
 
 
 
-
+<!-- * ![find similar icon](assets/do-not-localize/find-similar-image-icon.svg) Find similar image asset in the Assets UI based on the metadata and smart tags.
+* ![Add to Collection]() Add the selected asset to a collection.
+* **Pin to Quick Access**: Pin an asset to quickly access the asset when you need it later. -->
