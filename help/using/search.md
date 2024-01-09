@@ -3,9 +3,9 @@ title: Sök efter och hitta resurser i [!DNL Assets Essentials]
 description: Sök efter och hitta resurser i [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 608cd11dbdee46606e898fe3c79ffbad0101cebc
+source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,16 @@ Om du vill söka efter resurser
 
 ## Söka efter resurser med Adobe Firefly
 
-Med integreringen av [!UICONTROL Adobe Firefly] och [!UICONTROL Adobe Experience Manager Assets]kan du effektivt söka efter resurser som inte finns i någon av resursmapparna. <br> Du kan till exempel söka efter en resurs med nyckelordet `Bugatti Type 57`. Vid sökning efter `Bugatti Type 57`, inga resultat hittades.
+Om du letar efter en resurs som inte finns i någon av resursmapparna använder du [!UICONTROL Adobe Firefly] sökfunktion för resurser i [!UICONTROL Adobe Experience Manager Assets]. Med den här funktionen kan du effektivt söka efter resurser som kanske inte lagras i de angivna mapparna.  <br> Du kan till exempel söka efter en resurs med nyckelordet `Bugatti Type 57`. Vid sökning efter `Bugatti Type 57`, inga resultat hittades. <br>
+Ange resursnamnet i sökfältet och klicka på **[!UICONTROL Generate]**.
 
-Ange resursnamnet i sökfältet och klicka på **[!UICONTROL Generate]**. Exempelresurserna visas på skärmen. Du kan överföra dessa resurser till den mapp du föredrar för enkel åtkomst.
+![Integrering med Firefly](firefly-integration.jpg)
+*Bild: Inga resultat hittades för Bugatti Type 57 i resursmappen.*
+
+Exempelresurserna visas på skärmen. Du kan överföra dessa resurser till den mapp du föredrar för enkel åtkomst.
 
 ![Integrering med Firefly](assets/bugatti-type-57.jpg)
+*Bild: Referensresurser som sökts igenom med hjälp av sökfunktionen för Adobe Firefly-resurser.*
 
 ## Filtrera sökresultaten {#refine-search-results}
 

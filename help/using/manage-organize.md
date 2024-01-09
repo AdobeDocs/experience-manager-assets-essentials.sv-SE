@@ -4,9 +4,9 @@ description: Flytta, ta bort, kopiera, byta namn på, uppdatera och version av d
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: e13e204482e480b3a66b48263e965787bd980842
+source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,43 @@ Du kan enkelt utföra olika DAM-åtgärder (Digital Asset Management) med det an
 
 Använd [!DNL Assets Essentials] för att utföra följande resurshanteringsåtgärder. När du markerar en resurs visas följande alternativ i verktygsfältet högst upp.
 
-![Alternativ i verktygsfältet när du väljer en resurs](assets/toolbar-image-selected.png)
+![Alternativ i verktygsfältet när du väljer en resurs](assets/asset-options.png)
 
 *Bild: Alternativ i verktygsfältet för en markerad bild.*
 
+Du kan markera de resurser som visas i sökresultaten och göra följande:
+
 * ![avmarkera ikon](assets/do-not-localize/close-icon.png) Avmarkera markeringen.
+
+* ![sök liknande ikon](assets/do-not-localize/find-similar.svg) Hitta liknande bildresurser i resursgränssnittet baserat på metadata och smarta taggar.
+
 * ![informationsikon](assets/do-not-localize/edit-in-icon.png) Klicka för att förhandsgranska en resurs och visa detaljerade metadata. När du förhandsgranskar kan du visa versionerna och redigera en bild.
+
 * ![hämtningsikon](assets/do-not-localize/download-icon.png) Hämta den valda resursen till ditt lokala filsystem.
+
+* ![lägg till samlingsikon](assets/do-not-localize/add-collection.svg) Lägg till den valda resursen i en samling.
+
+* ![Fäst resurser, ikon](assets/do-not-localize/pin-quick-access.svg) Fäst en resurs för snabbare åtkomst när du behöver den senare. Alla fästa objekt visas i **Snabb åtkomst** i Min arbetsyta.
+
+* ![redigera med Express-ikon](assets/do-not-localize/edit-e.svg) Redigera en bild i den integrerade Adobe Expressen i Adobe Experience Manager Assets.
+
+* ![redigera resursikon](assets/do-not-localize/edit-e.svg) Redigera bilden med Adobe Express.
+
+* ![dela resurslänkikon](assets/do-not-localize/share-link.svg) för en resurs med andra användare så att de kan komma åt och hämta den.
+
 * ![ta bort ikon](assets/do-not-localize/delete-icon.png) Ta bort den markerade resursen eller mappen.
-* ![utcheckningsikon](assets/do-not-localize/checkout-icon.png) Checka ut den valda resursen.
+
 * ![kopieringsikon](assets/do-not-localize/copy-icon.png) Kopiera den markerade filen eller mappen.
+
 * ![flytta ikon](assets/do-not-localize/move-icon.png) Flytta den markerade resursen eller mappen till en annan plats i databashierarkin.
+
 * ![ikonen Byt namn](assets/do-not-localize/rename-icon.png) Byt namn på den markerade resursen eller mappen. Använd ett unikt namn, annars misslyckas namnbytet med en varning. Försök igen med ett nytt namn.
+
+* ![kopiera biblioteksikon](assets/do-not-localize/copy-icon.png) Lägg till en resurs i biblioteket.
+
 * ![tilldelningsikon](assets/do-not-localize/review-delegate-icon.png) Tilldela uppgifter till andra användare för att samarbeta med en resurs.
+
+* ![tilldelningsikon](assets/do-not-localize/watch-asset.svg) Övervaka åtgärder som utförs på en resurs.
 
 Du kan visa samma alternativ för miniatyrbilder av resurser.
 
@@ -148,9 +172,3 @@ Om du vill lägga till metadatafältet Förfallodatum i formuläret drar du **[!
 * Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
 
 * Kontakt [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)
-
-
-
-<!-- * ![find similar icon](assets/do-not-localize/find-similar-image-icon.svg) Find similar image asset in the Assets UI based on the metadata and smart tags.
-* ![Add to Collection]() Add the selected asset to a collection.
-* **Pin to Quick Access**: Pin an asset to quickly access the asset when you need it later. -->
