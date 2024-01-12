@@ -4,18 +4,24 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 10d82a8a90e718272c9bb1c5b14db30785bb1ded
+source-git-commit: 196fa10fd6788b306aaad3c63100e5763be566b2
 workflow-type: tm+mt
-source-wordcount: '2611'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den nuvarande releasen av Assets Essentials släpptes 19 december 2023.
+Den nuvarande releasen av Assets Essentials släpps den 11 januari 2024.
 
 Några av de nyligen tillagda funktionerna:
+
+**Smarta taggar blocklist**
+
+Med Assets Essentials kan du nu definiera blockeringslista som innehåller ord som inte ska läggas till som smarta taggar för resurser när de överförs till databasen. Med den här funktionen kan ni upprätthålla varumärkets efterlevnad och minska arbetet med att moderera smarta taggar.
+
+![information om lagringsanvändning](/help/using/assets/block-tags.png)
 
 **Skapa GenAI-bilder med Adobe Firefly**
 
@@ -32,16 +38,6 @@ Nu kan du enkelt hitta innehåll genom att välja en bild och visa liknande bild
 Användare med tillgång till Express har nu integrerade verktyg för bildredigering och bildskapande, från Adobe Express och Adobe Firefly, tillgängliga direkt inifrån AEM Assets, för att förbättra återanvändningen av innehåll och snabba upp hastigheten på innehållet.
 
 ![tilldela metadataformulär till en mapp](/help/using/assets/adobe-express-aem-assets.png)
-
-<!--
-
-**Smart tags blocklist** 
-
-Assets Essentials now enables you to define a list of blocked tags. These tags are automatically removed from the auto-generated smart tags when you upload assets to the repository. This capability performs tags governance and saves a lot of time as you can add a tag to the block list and Assets Essentials automatically excludes it from the list of tags for any of the assets that are added to the repository.
-
-  ![storage usage insights](/help/using/assets/block-tags.png)
-
--->
 
 **Rapporter om lagringsanvändning i insikter**:
 
