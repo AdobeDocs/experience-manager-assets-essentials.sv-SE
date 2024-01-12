@@ -3,9 +3,9 @@ title: Sök efter och hitta resurser i [!DNL Assets Essentials]
 description: Sök efter och hitta resurser i [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 41cbb7a26d632ef24f6997ab6fe741e5d060e70a
+source-git-commit: 92cfe963d37df919b8bc29c49da7c8e9bd62638e
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -29,19 +29,6 @@ Om du vill söka efter resurser
    * Sök med nyckelord och ändra mapp om det behövs. Tryck på Retur.
 
    * Börja arbeta med en nyligen visad resurs genom att söka direkt efter den. Klicka i sökrutan och välj en nyligen visade resurs bland förslagen.
-
-## Söka efter resurser med Adobe Firefly
-
-Om du letar efter en resurs som inte finns i någon av resursmapparna använder du [!UICONTROL Adobe Firefly] sökfunktion för resurser i [!UICONTROL Adobe Experience Manager Assets]. Det gör att du effektivt kan söka efter resurser som kanske inte lagras i de angivna mapparna. Den här funktionen är för närvarande endast tillgänglig för Express-berättigade användare.  <br> Du kan till exempel söka efter en resurs med nyckelordet `Bugatti Type 57`. Vid sökning efter `Bugatti Type 57`, inga resultat hittades. <br>
-Ange resursnamnet i sökfältet och klicka på **[!UICONTROL Generate]**.
-
-![Integrering med Firefly](firefly-integration.jpg)
-*Bild: Inga resultat hittades för Bugatti Type 57 i resursmappen.*
-
-Exempelresurserna visas på skärmen. Du kan överföra dessa resurser till den mapp du föredrar för enkel åtkomst.
-
-![Integrering med Firefly](assets/bugatti-type-57.jpg)
-*Bild: Referensresurser som sökts igenom med hjälp av sökfunktionen för Adobe Firefly-resurser.*
 
 ## Filtrera sökresultaten {#refine-search-results}
 
@@ -133,6 +120,37 @@ Så här tar du bort anpassade filter:
 
 1. Klicka **[!UICONTROL Confirm]** för att ta bort filtren från användargränssnittet.
 
+## Söka efter resurser med [!DNL Adobe Firefly] {#search-firefly}
+
+Du kan söka efter en resurs som inte är tillgänglig i någon av resursmapparna genom att använda [!DNL Adobe Firefly] sökfunktion för resurser i [!DNL Experience Manager Assets]. På så sätt kan du effektivt generera resurser i realtid som inte lagras i resursmapparna.
+
+### Innan du börjar
+
+Du måste ha en aktiv [!DNL Adobe Express] prenumeration.
+
+### Generera resurser
+
+Generera nya resurser med [!DNL Adobe Firefly]:
+
+1. Navigera till [!DNL AEM Assets] arbetsyta.
+1. Ange resursnamnet i sökfältet högst upp på sidan.<br>
+Du kan till exempel söka efter en resurs med nyckelordet `Bugatti Type 57`. När du söker efter resursen hittas inga resultat eftersom resursen inte finns i någon av resursmapparna.
+1. Skriv resursnamnet i sökfältet mitt på sidan och klicka på **[!UICONTROL Generate]**.
+   ![Integrering med Firefly](firefly-integration.jpg)
+   *Bild: Inga resultat hittades för Bugatti Type 57 i resursmappen.*<br>
+De nya resurserna har genererats.
+   ![Integrering med Firefly](assets/bugatti-type-57.jpg)
+   *Bild: Referera till resurser som sökts med [!DNL Adobe Firefly] funktion för resurssökning.* <br>
+Du kan överföra dessa resurser till den mapp du föredrar för enkel åtkomst.
+
+### Överför resurser
+
+Så här överför du den genererade resursen till resurskatalogen:
+
+1. Klicka på **[!UICONTROL Upload]**.
+1. Markera resursmappen som du vill överföra resursen till och klicka på **[!UICONTROL Select Folder]**.
+   ![Överför resurs](assets/upload-asset-firefly.jpg)
+   *Bild: Välj den mapp som resursen ska överföras till.*
 
 ## Sparade sökningar {#saved-search}
 
@@ -169,7 +187,7 @@ Du kan markera de resurser som visas i sökresultaten och göra följande:
 
 * **Fäst i snabbåtkomst**: [Fäst en resurs](my-workspace.md) för snabbare åtkomst när du behöver det senare. Alla fästa objekt visas i **Snabb åtkomst** i Min arbetsyta.
 
-* **Öppna i Adobe Express**: Redigera en bild i den integrerade Adobe Expressen från Adobe Experience Manager Assets-skärmen.
+* **Öppna i Adobe Express**: Redigera en bild i den integrerade Adobe Expressen från Experience Manager Assets-skärmen.
 
 * **Redigera**: Redigera bilden med Adobe Express.
 
