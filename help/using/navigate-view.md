@@ -3,9 +3,9 @@ title: "[!DNL Assets Essentials] användargränssnitt"
 description: Förstå användargränssnittet för och navigering i [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 4f3141fe95a0c33b22042da4f234dd2a921cbac6
+source-git-commit: 7dbba95fef582cff32fa705a529f8da8b7e98124
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,9 @@ Du kan bläddra bland mapparna från huvudanvändargränssnittet eller från vä
 * [Samlingar](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=en): En samling är en uppsättning resurser, mappar eller andra samlingar i Adobe Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare. Till skillnad från mappar kan en samling innehålla resurser från olika platser. Du kan dela flera samlingar med en användare. Varje samling innehåller referenser till resurser. Resursernas referensintegritet bevaras i alla samlingar.
 
 * [Insikter](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-reports.html?lang=en#view-live-statistics): I [!DNL Assets Essentials]kan du visa realtidsinsikter på din instrumentpanel. Med Assets Essentials kan du visa realtidsdata för din Assets Essentials-miljö med Insikter-instrumentpanelen. Du kan visa händelsemått i realtid under de senaste 30 dagarna eller under de senaste 12 månaderna.
-* **Papperskorgen**: Lista de resurser som tagits bort från roten **[!UICONTROL Assets]** mapp. Du kan markera en resurs i papperskorgen och antingen återställa den till den ursprungliga platsen eller ta bort den permanent. Du kan också ange ett nyckelord eller använda standardfilter eller anpassade filter för att söka efter lämpliga resurser i papperskorgen. Mer information om hur du använder standardfilter och anpassade filter finns i [Söka efter resurser i Assets Essentials](search.md).
+
+* **Papperskorgen**: Lista de resurser som tagits bort från roten **[!UICONTROL Assets]** mapp. Du kan markera en resurs i papperskorgen och antingen återställa den till dess ursprungliga plats eller ta bort den permanent. Du kan ange ett nyckelord eller använda filter som resursstatus, filtyp, MIME-typ, bildstorlek, datum när resursen skapades, ändrades och förfallodatum samt filtrera efter resurser som tagits bort av den aktuella användaren. Du kan också använda anpassade filter för att söka efter lämpliga resurser i papperskorgen. Mer information om hur du använder standardfilter och anpassade filter finns i [sökresurser i Assets Essentials](search.md).
+
 * **Inställningar**: Du kan konfigurera olika alternativ för Assets Essentials med **Inställningar**, t.ex. Metadataformulär, rapporter och taxonomihantering.
 
 <!-- TBD: Not sure if we want to publish these right now. CC Libs are beta as per Greg.
@@ -124,7 +126,7 @@ Du kan markera de kolumner som visas i resurslista, t.ex. Status, Format, Dimens
 
 ## Nästa steg {#next-steps}
 
-* Ge produktfeedback med [!UICONTROL Feedback] finns i Assets Essentials användargränssnitt
+* Ge produktfeedback med [!UICONTROL Feedback] finns i användargränssnittet i Assets Essentials
 
 * Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
 
