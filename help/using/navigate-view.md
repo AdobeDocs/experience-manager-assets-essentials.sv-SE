@@ -3,9 +3,9 @@ title: "[!DNL Assets Essentials] användargränssnitt"
 description: Förstå användargränssnittet för och navigering i [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 028c9fbe496e2f29f0b1d46cfcc3cdc20c3d5857
+source-git-commit: 3b70810a264dac062032b07dc3d8ce169b56b4cd
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -24,15 +24,7 @@ När du loggar in [!DNL Assets Essentials]visas följande gränssnitt.
 
 ![[!DNL Assets Essentials] användargränssnitt](assets/essentials-interface.png)
 
-    *S: Vänster sidofält för att bläddra i databasen och ger tillgång till några andra alternativ*
-    *B: Visa eller komprimera vänster sidospalt för att öka resursens visningsområde*
-    *C: Filtrera sökresultat*
-    *D: Markera allt innehåll i den markerade mappen*
-    *E: Alternativ för att sortera resurser*
-    *F: Sökruta*
-    *G: Överför eller dra och släpp filer med `Add Assets` knapp*
-    *H: Skapa en ny mapp*
-    *I: Växla mellan olika vyer*
+**A**: Vänster sidofält för att bläddra i databasen och ger tillgång till några andra alternativ **B**: Visa eller dölj det vänstra sidofältet för att öka resursens visningsområde **C**: Sökresultat för filter **D**: Markera allt innehåll i den markerade mappen **E**: Alternativ för att sortera resurser **F**: Sökruta **G**: Överför eller dra och släpp filer med `Add Assets` knapp **H**: Skapa en ny mapp **I**: Växla mellan olika vyer
 
 <!-- TBD: Need an embedded video here with narration. It has to be hosted on MPC to be embeddable. -->
 
@@ -84,23 +76,7 @@ Om du vill förhandsgranska en resurs markerar du den och klickar på [!UICONTRO
 
 ![Förhandsgranska en resurs](assets/preview-asset-2.png)
 
-*A: Återgå till aktuell mapp eller aktuellt sökresultat i databasen*
-*B: Namn och format för filen som du förhandsgranskar*
-*C: Tilldela uppgifter*
-*D: Hämta resurs*
-*E: Förhandsgranska resurs och visa metadatainformation*
-*D: Avancerade metadata*
-*E: Nyckelord och smarta taggar*
-*F: Kommentera och kommentera*
-*G: Visa aktiviteter som är relaterade till den valda resursen*
-*H: Visa och hantera versioner*
-*I: Visa återgivningar av bilden*
-*J: Redigera bild*
-*K: Grundläggande metadata*
-*L: Avancerade metadata*
-*M: Nyckelord och smarta taggar*
-*N: Förhandsgranska närmare. Zooma, helskärm och andra alternativ*
-*O: Gå till föregående eller nästa resurs i den aktuella mappen utan att gå tillbaka till mappen*
+**A**: Återgå till aktuell mapp eller aktuellt sökresultat i databasen **B**: Namn och format för filen som du förhandsgranskar **C**: Tilldela uppgifter **D**: Avancerade metadata **E**: Nyckelord och smarta taggar **F**: Kommentera och kommentera **G**: Visa aktiviteter som är relaterade till den valda resursen **H**: Visa och hantera versioner **I**: Visa återgivningar av bilden **J**: Redigera bild **K**: Grundläggande metadata **L**: Avancerade metadata **M**: Nyckelord och smarta taggar **N**: Förhandsgranska mer ingående. Zooma, helskärm och andra alternativ **O**: Gå till föregående eller nästa resurs i den aktuella mappen utan att gå tillbaka till mappen
 
 Du kan också förhandsgranska videoklipp.
 
