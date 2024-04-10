@@ -2,9 +2,9 @@
 title: Hur hanterar jag behörigheter för mappar i AEM Assets Essentials?
 description: I Assets Essentials kan administratörer hantera åtkomstnivåerna för de mappar som är tillgängliga i databasen. Skapa användargrupper och tilldela behörigheter till dessa grupper för att hantera åtkomstnivåer. Som administratör kan du även delegera behörighetshanteringsbehörighet till användargrupper på mappnivå.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: a77513f925203f9ad6cad9fd517f28989385af95
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1614'
 ht-degree: 0%
 
 ---
@@ -211,8 +211,6 @@ Följande åtkomstnivåer gäller för alla användargrupper i mapphierarkin:
 ## Nästa steg {#next-steps}
 
 * [Titta på en video om hur du hanterar behörigheter i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html)
-
-* Ge produktfeedback med [!UICONTROL Feedback] finns i användargränssnittet i Assets Essentials
 
 * Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
 
