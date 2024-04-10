@@ -2,7 +2,7 @@
 title: Massimportera resurser med Assets Essentials
 description: Lär dig hur du kan massimportera resurser med det nya resursgränssnittet (Assets Essentials). Det ger administratörer möjlighet att importera ett stort antal resurser från en datakälla till AEM Assets.
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
-source-git-commit: 530880cdd7536a4370cc0315f0d485d258d40102
+source-git-commit: 4d4b239b0b75ac8a26a7c3001e5b28dcb6243f63
 workflow-type: tm+mt
 source-wordcount: '1634'
 ht-degree: 0%
@@ -25,11 +25,11 @@ Med massimport i AEM Assets Essentials kan administratörer importera ett stort 
 
 Du kan importera resurser från följande datakällor:
 
-* Azure
 * AWS
 * Google Cloud
 * Dropbox
 * OneDrive
+* Azure
 
 ## Förutsättningar {#prerequisites}
 
