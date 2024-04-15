@@ -2,10 +2,10 @@
 title: Hantera samlingar
 description: En samling är en uppsättning resurser i Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: 27ac4035863924dfda1abf2593da9278a57b02a2
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 1%
+source-wordcount: '861'
+ht-degree: 0%
 
 ---
 
@@ -48,6 +48,8 @@ Du kan utföra följande åtgärder för att hantera och använda samlingar:
 
 * [Ta bort en samling](#delete-collection)
 
+* [Hantera behörigheter till en privat samling](#manage-permissions-to-a-private-collection)
+
 ## Skapa en samling {#create-collection}
 
 Så här skapar du en samling:
@@ -60,7 +62,7 @@ Så här skapar du en samling:
 
 1. Klicka **[!UICONTROL Create]** för att skapa samlingen.
 
-![Skapa samling](assets/create-collection.png)
+   ![Skapa samling](assets/create-collection.png)
 
 <!--
    
@@ -154,7 +156,7 @@ Så här visar och redigerar du samlingens metadata:
 1. Visa samlingens metadata med **[!UICONTROL Basic]** -fliken.
 1. Ändra metadatafälten efter behov. Du kan ändra [!UICONTROL Title] och [!UICONTROL Description] fält.
 
-![Samlingsmetadata](assets/collection-metadata.png)
+   ![Samlingsmetadata](assets/collection-metadata.png)
 
 ## Dela länkar för samlingar {#share-collection-links}
 
@@ -185,6 +187,18 @@ Så här tar du bort en samling:
 1. Markera den samling som du vill ta bort.
 
 1. Klicka på **[!UICONTROL Delete]**.
+
+## Hantera behörigheter för en privat samling{#manage-permissions-private-collection}
+
+Du kan tillåta administratörer att hantera [åtkomstnivåer](/help/using/manage-permissions.md#manage-permissions-on-folders) för privata samlingar som är tillgängliga i databasen. Du kan tilldela behörigheter som `Can View` och `Can Edit` till användargrupperna eller användarna. Du kan även delegera behörighetshanteringsbehörigheter till användargrupper. De användare som skapar privata samlingar är ägare av dessa samlingar. De kan använda [!UICONTROL Manage Permissions] åtgärd för att ge åtkomst till andra användare. Administratörer kan dessutom visa och hantera behörigheter för de privata samlingarna i [!DNL Experience Manager] databas.
+
+>[!NOTE]
+>
+>Adobe rekommenderar inte att du tilldelar behörigheter till användare.
+
+Mer information om hur du tilldelar tillgängliga behörigheter till användargrupper finns i [Lägga till behörigheter i användargrupper](/help/using/manage-permissions.md#add-permissions).
+
+Mer information om hela arbetsflödet finns i [hantera behörigheter](/help/using/manage-permissions.md).
 
 ## Nästa steg {#next-steps}
 
