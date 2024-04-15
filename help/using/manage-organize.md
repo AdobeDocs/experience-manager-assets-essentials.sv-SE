@@ -4,9 +4,9 @@ description: Flytta, ta bort, kopiera, byta namn på, uppdatera och version av d
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: 638d1cef41c5cde1f4f16e231eef5852d779b7e1
+source-git-commit: a49bfcdf3dbd6601ed15ae8a3309922c0483b3d7
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,9 @@ Du kan markera de resurser som visas i sökresultaten och göra följande:
 * ![flytta ikon](assets/do-not-localize/move-icon.png) Flytta den markerade resursen eller mappen till en annan plats i databashierarkin.
 
 * ![ikonen Byt namn](assets/do-not-localize/rename-icon.png) Byt namn på den markerade resursen eller mappen. Använd ett unikt namn, annars misslyckas namnbytet med en varning. Försök igen med ett nytt namn.
+Du kan också klicka på titeln för en resurs eller en mapp för att byta namn på den. Ange den nya texten i dialogrutan **Byt namn på resurs** textruta och klicka **Spara**. Den här funktionen är tillgänglig i stödraster-, galleri-, vattenfalls- och listvyerna.
+
+* ![ikon för vattenfallsvy](assets/do-not-localize/waterfall-view.png) [!UICONTROL Waterfall View].
 
 * ![kopiera biblioteksikon](assets/do-not-localize/copy-icon.png) Lägg till en resurs i biblioteket.
 
