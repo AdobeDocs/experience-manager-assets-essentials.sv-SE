@@ -2,7 +2,7 @@
 title: Hur hanterar jag behörigheter för mappar i AEM Assets Essentials?
 description: I Assets Essentials kan administratörer hantera åtkomstnivåerna för de mappar som är tillgängliga i databasen. Skapa användargrupper och tilldela behörigheter till dessa grupper för att hantera åtkomstnivåer. Som administratör kan du även delegera behörighetshanteringsbehörighet till användargrupper på mappnivå.
 exl-id: 5ef01dbc-87c0-4013-9367-5da3774f4f20
-source-git-commit: a77513f925203f9ad6cad9fd517f28989385af95
+source-git-commit: ec723ae4222254c64e8ddc2e03f8a523203f9f8a
 workflow-type: tm+mt
 source-wordcount: '1614'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Så här tilldelar du gruppbehörigheter till mappar:
 
 1. På **[!UICONTROL Manage Permissions]** anger du namnet på gruppen eller en användare i dialogrutan **[!UICONTROL Groups & Users]** fält.
 
-1. Välj [åtkomstnivå](#manage-permissions-folders) från **[!UICONTROL Access]** listruta.
+1. Välj [åtkomstnivå](#manage-permissions-on-folders) från **[!UICONTROL Access]** listruta.
 
 1. Klicka **[!UICONTROL Add]** för att omedelbart ändra behörigheterna för användaren eller användargruppen.
 
@@ -144,7 +144,7 @@ Så här redigerar du behörigheter som tilldelats användargrupper i mappar:
 
 1. Markera mappen och klicka på **[!UICONTROL Manage Permissions]**.
 
-1. På **[!UICONTROL Manage Permissions]** dialogruta, redigera [åtkomstnivå](#manage-permissions-folders) från **[!UICONTROL Access]** listruta.
+1. På **[!UICONTROL Manage Permissions]** dialogruta, redigera [åtkomstnivå](#manage-permissions-on-folders) från **[!UICONTROL Access]** listruta.
 
 1. [Lägga till fler användargrupper eller användare](#add-permissions) befintliga behörighetsregler, om det behövs.
 

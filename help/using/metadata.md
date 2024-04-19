@@ -4,9 +4,9 @@ description: Hantera metadata för resurser i [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: b14d8533854df448e2cb7b527ef5b7e69c072380
+source-git-commit: 37beb971f1e675162eb4b8e9ab008b20a241c066
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1712'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ Nedan visas en översikt över varje egenskapstyp och hur de lagras.
 | Enkelradig text | Lägg till en enkelradig textegenskap. |
 | Flerradstext | Lägg till flera textrader eller ett stycke. Den utökas som en användartyp och innehåller allt innehåll. |
 | Text med flera värden | Lägg till en textegenskap med flera värden. |
-| Siffra | Lägg till en sifferkomponent. |
+| Nummer | Lägg till en sifferkomponent. |
 | Kryssruta | Lägg till ett booleskt värde. Lagras som TRUE eller FALSE när ett värde har sparats. |
 | Datum | Lägg till en datumkomponent. |
 | Nedrullningsbar meny | Lägg till en listruta. |
@@ -134,7 +134,7 @@ Nedan visas en översikt över varje egenskapstyp och hur de lagras.
 | Nyckelord | Lägg till nyckelord med valfri form (mappas till dc:subject). |
 | Smarta taggar | Förbättra sökfunktionerna genom att automatiskt lägga till metadatataggar. |
 
-### Tilldela metadataformulär till en mapp {#assign-metadata-form-folder}
+### Tilldela metadataformulär till mappar {#assign-metadata-form-folder}
 
 Du kan också tilldela ett metadataformulär till en mapp i din Assets Essentials-distribution. Metadataformuläret som tilldelats en mapp enligt MIME-typen skrivs över när du tillämpar ett metadataformulär manuellt på en mapp. Alla resurser i mappen, inklusive resurser i undermapparna, visar sedan egenskaper som definierats i metadataformuläret.
 
@@ -142,13 +142,29 @@ Så här tilldelar du ett metadataformulär till en mapp:
 
 1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Metadata Forms]** och välj ett metadataformulär.
 
-2. Klicka på **[!UICONTROL Assign to Folder]**.
+2. Klicka på **[!UICONTROL Assign to Folder(s)]**.
 
-3. Markera mappen och klicka på **[!UICONTROL Assign]**.
+3. Markera mappen/mapparna och klicka på **[!UICONTROL Assign]**. Du kan markera mapparna genom att klicka på mappnamnen.
 
    ![tilldela metadataformulär till en mapp](/help/using/assets/assign-to-folder.png)
 
    Du kan också navigera till mappinformationssidan och välja ett metadataformulär från mappegenskaperna som är tillgängliga i den högra rutan för att tilldela metadataformuläret till mappen.
+
+   ![egenskaper för metadatamappen](/help/using/assets/folder-properties-metadata-forms.png)
+
+### Ta bort metadataformulär från mappar {#remove-metadata-form-folder}
+
+När du har tilldelat ett metadataformulär till en eller flera mappar kan du även ta bort metadataformulär från de markerade mapparna i Experience Manager Assets.
+
+Så här tar du bort ett metadataformulär från en mapp:
+
+1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Metadata Forms]** och välj ett metadataformulär.
+
+1. Klicka på **[!UICONTROL Remove from Folder(s)]**. Listan med tilldelade mappar för metadataformulärvisningen.
+
+1. Markera mappen och klicka på **[!UICONTROL Remove]**. Du kan också välja flera mappar i listan.
+
+Du kan även navigera till sidan med mappinformation och välja **[!UICONTROL System mapped Metadata Form]** från **[!UICONTROL Metadata Forms]** fält för att ta bort det tilldelade metadataformuläret från en mapp.
 
 ## Nästa steg {#next-steps}
 
