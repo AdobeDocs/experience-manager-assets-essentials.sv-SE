@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: 9260de0c52b21d17a1c2f64c2c3da6d2a42046f0
+source-git-commit: 9c37194a04057600fe602b4de373c21e69389a16
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 23%
+source-wordcount: '138'
+ht-degree: 20%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 23%
 + [Söka efter och identifiera resurser](search.md)
 + [Resurshanteringsaktiviteter](manage-organize.md)
 + [Redigera bilder](edit-images.md)
++ [Redigera videoklipp](edit-videos.md)
 + [Hantera metadata för resurser](metadata.md)
 + [Dela resurser](share-links-for-assets.md)
 + [Hantera samlingar](manage-collections.md)
@@ -44,7 +45,7 @@ ht-degree: 23%
 + [Hantera rapporter](manage-reports.md)
 + [Hantera taggar](tagging-management.md)
 + Integration med andra lösningar {#integration-with-other-solutions}
-   + [Översikt](integration.md)
+   + [Ökning](integration.md)
    + [Integrera med Adobe Asset Link](integrate-with-creative-cloud.md)
    + [Integrera med Adobe Workfront](integrate-with-workfront.md)
 + Integration med Creative Cloud {#integration-with-creative-cloud}
