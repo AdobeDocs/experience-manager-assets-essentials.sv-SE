@@ -4,18 +4,77 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 196fa10fd6788b306aaad3c63100e5763be566b2
+source-git-commit: 8ad7c9e02e94656200b715047bb25ed79bdbf06d
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2859'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den nuvarande releasen av Assets Essentials släpps den 11 januari 2024.
+Den nuvarande releasen av Assets Essentials släpptes den 18 april 2024.
 
 Några av de nyligen tillagda funktionerna:
+
+**Sammanhangsbaserad sökning**
+
+Du kan nu även söka efter resurser som är tillgängliga i databasen genom att definiera textmeddelanden. Experience Manager Assets omvandlar automatiskt dessa textmeddelanden till sökfilter och visar sökresultaten. Du kan visa och ändra automatiska filter med hjälp av filterpanelen för att begränsa sökresultaten ytterligare.
+
+![information om lagringsanvändning](/help/using/assets/contextual-search-text-prompt1.png)
+
+<!--
+
+**Dynamic renditions**
+
+You can now view and download dynamic renditions (including smart crops) in Experience Manager Assets. Dynamic renditions are customized versions of image assets created in real-time to meet specific needs, such as resizing images based on device resolution or cropping to fit different aspect ratios. These renditions enable organizations to deliver personalized and optimized experiences to diverse audience needs.
+
+![storage usage insights](/help/using/assets/renditions-view-download.png)
+
+-->
+
+**Byt namn på plats för resurser och mappar**
+
+Experience Manager Assets erbjuder nu en förenklad användarupplevelse genom att ge möjlighet att byta namn på en resurs eller en mapp med ett enda klick.
+
+**Snabba videoåtgärder**
+
+Experience Manager Assets har nu lättanvända och intuitiva videoredigeringsverktyg som bygger på Adobe Express för att öka återanvändningen av innehåll och snabba upp hastigheten. Ljusredigering i AEM Assets kräver ingen omfattande kunskap om videoredigeringsverktyg och -koncept. Redigeringsalternativen omfattar trimning, beskärning, storleksändring av en video och även konvertering av en MP4-fil till en GIF-fil.
+
+![beskära video med Adobe Express](/help/using/assets/adobe-express-crop-video.png)
+
+**Tilldela eller ta bort metadataformulär till flera mappar**
+
+Nu kan du tilldela eller ta bort metadataformulär till flera mappar.
+
+**Hantera behörigheter för privata samlingar**
+
+Du kan tillåta administratörer att hantera åtkomstnivåer för privata samlingar som är tillgängliga i databasen. Du kan tilldela behörigheter som `Can View` och `Can Edit` till användargrupperna eller användarna. Du kan även delegera behörighetshanteringsbehörigheter till användargrupper.
+
+
+**Förbättringar baserade på kundfeedback**
+
+Förbättringar och felkorrigeringar som bygger på kundfeedback.
+
+
+## Kända fel {#known-issues}
+
+Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
+
+<!--
+
+* Assets Essentials does not support creating Private collections.
+
+-->
+
+
+* Privata samlingar är tillgängliga för den som skapat dem och för användare med administratörsbehörighet. Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
+
+Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
+
+## Tidigare versioner {#past-releases}
+
+### Januariversion 2024 {#january-2024-release}
 
 **Smarta taggar blocklist**
 
@@ -50,32 +109,6 @@ Administratörer kan nu visa användningsrapporter för lagring som ingår i Ins
 Nu kan du konfigurera startsidan för din organisation med Assets Essentials. Om du väljer att söka först som startsida kan du konfigurera sökfältets justering, bakgrundsbild och logotyp för din organisation.
 
 ![söka efter första konfigurationen](/help/using/assets/search-first-configuration.png)
-
-
-
-**Förbättringar baserade på kundfeedback**
-
-Förbättringar och felkorrigeringar som bygger på kundfeedback.
-
-
-## Kända fel {#known-issues}
-
-Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
-
-<!--
-
-* Assets Essentials does not support creating Private collections.
-
--->
-
-
-* Privata samlingar är tillgängliga för den som skapat dem och för användare med administratörsbehörighet. Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
-
-* Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
-
-Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
-
-## Tidigare versioner {#past-releases}
 
 ### Oktober 2023-versionen {#october2023-release}
 
@@ -380,7 +413,7 @@ Dessutom [!DNL Adobe Asset Link] för Creative Cloud (Photoshop, Illustrator och
 [!DNL Assets Essentials] släpps den 16 december 2021, med följande uppdateringar:
 
 * Adobe distribuerar Assets Essentials automatiskt efter att provisioneringsprocessen har slutförts. Administratörerna behöver inte utföra ytterligare åtgärder för att distribuera Assets Essentials med [!DNL Cloud Manager] användargränssnitt. Den här automatiska distributionen kommer att vara tillgänglig för miljöer som etablerats efter den 6 januari 2022.
-* Nya versioner av plugin-program för Creative Cloud som arbetar med Assets Essentials finns på Adobe Exchange - [Adobe Asset Link for Adobe XD v 2.1.0](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9) och [Adobe Asset Link for Photoshop / InDesign / Illustrator v 3.1.65](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html).
+* Nya versioner av Creative Cloud-plugin-program som arbetar med Assets Essentials finns på Adobe Exchange - [Adobe Asset Link for Adobe XD v 2.1.0](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9) och [Adobe Asset Link for Photoshop / InDesign / Illustrator v 3.1.65](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html).
 * Olika felkorrigeringar och produktförbättringar, inklusive tidigare kända fel (mapparna visas nu korrekt i det vänstra navigeringsträdet efter överföringen<!-- CQ-4337638 -->kan användaren välja antingen aktuell mapp eller en undermapp när den släpps för överföring genom att dra och släppa<!-- CQ-4327753 -->).
 
 ### 2021.8.0-utgåvan {#august2021}
