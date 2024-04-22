@@ -4,9 +4,9 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: 8ad7c9e02e94656200b715047bb25ed79bdbf06d
+source-git-commit: ae72670b4e66b79ac531f4050703951e0e7852e0
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2841'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Experience Manager Assets erbjuder nu en förenklad användarupplevelse genom at
 
 **Snabba videoåtgärder**
 
-Experience Manager Assets har nu lättanvända och intuitiva videoredigeringsverktyg som bygger på Adobe Express för att öka återanvändningen av innehåll och snabba upp hastigheten. Ljusredigering i AEM Assets kräver ingen omfattande kunskap om videoredigeringsverktyg och -koncept. Redigeringsalternativen omfattar trimning, beskärning, storleksändring av en video och även konvertering av en MP4-fil till en GIF-fil.
+Experience Manager Assets har nu lättanvända och intuitiva videoredigeringsverktyg som bygger på Adobe Express för att öka återanvändningen av innehåll och snabba upp hastigheten. Redigeringsalternativen omfattar trimning, beskärning, storleksändring av en video och även konvertering av en MP4-fil till en GIF-fil.
 
 ![beskära video med Adobe Express](/help/using/assets/adobe-express-crop-video.png)
 
