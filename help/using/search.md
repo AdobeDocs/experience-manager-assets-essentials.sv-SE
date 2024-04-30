@@ -3,9 +3,9 @@ title: Sök efter och hitta resurser i [!DNL Assets Essentials]
 description: Sök efter och hitta resurser i [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 0da570c129407b6ecaf3e41223f61ce279a308d0
+source-git-commit: 5d6cc2c27fc416d3f616a25db0e6497d9ad946c1
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1764'
 ht-degree: 0%
 
 ---
@@ -311,17 +311,19 @@ I följande video visas hela processen, från att komma åt det kontextuella sö
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428407)
 
-### Inaktivera sammanhangsbaserad sökning {#disable-contextual-search}
+<!--
+### Disable Contextual Search {#disable-contextual-search}
 
-Administratörer kan även inaktivera sammanhangsbaserad sökning för användare i din organisation. Gör så här:
+Administrators also have the option to disable Contextual Search for users in your organization. To do so, execute the following steps:
 
-1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL General Settings]**.
+1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL General Settings]**.
 
-1. I [!UICONTROL Contextual Search] -avsnittet, stänga av **[!UICONTROL Enable Contextual Search for your organization]** om du vill inaktivera funktionen för sammanhangsbaserad sökning för alla användare i organisationen.
+1. In the [!UICONTROL Contextual Search] section, turn off the **[!UICONTROL Enable Contextual Search for your organization]** toggle to disable the Contextual Search feature for all users in your organization.  
+-->
 
 ### Sammanhangsbaserad sökfeedback {#contextual-search-feedback}
 
-Om du behöver lämna feedback om funktionen Sammanhangsbaserad sökning klickar du på ![Sammanhangsbaserad sökning, ikon](assets/do-not-localize/contextual-search-icon.png)  och klicka på ikonen Feedback. Välj typ av feedback, ange ämne och beskrivning och klicka på **[!UICONTROL Submit]**.
+Om du behöver lämna feedback om funktionen Sammanhangsbaserad sökning klickar du på ![Sammanhangsbaserad sökning, ikon](assets/do-not-localize/Smock_Help_18_N.svg)  och klicka på ikonen Feedback. Välj typ av feedback, ange ämne och beskrivning och klicka på **[!UICONTROL Submit]**.
 
 ![Sammanhangsbaserad sökfeedback](/help/using/assets/contextual-search-feedback.png)
 
