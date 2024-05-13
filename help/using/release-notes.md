@@ -4,9 +4,9 @@ description: Versionsinformation och kända problem med [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: ae72670b4e66b79ac531f4050703951e0e7852e0
+source-git-commit: eac31e102b9e26241cd513b1aeb8774802120a9d
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2891'
 ht-degree: 0%
 
 ---
@@ -43,13 +43,16 @@ Experience Manager Assets har nu lättanvända och intuitiva videoredigeringsver
 
 ![beskära video med Adobe Express](/help/using/assets/adobe-express-crop-video.png)
 
+>[!NOTE]
+> Tillstånd att få åtkomst [!DNL Adobe Express] krävs och minst en miljö inom AEM Assets. Miljön kan vara någon av databaserna i [!DNL Assets as a Cloud Service] eller [!DNL Assets Essentials].
+
 **Tilldela eller ta bort metadataformulär till flera mappar**
 
-Nu kan du tilldela eller ta bort metadataformulär till flera mappar.
+Ett metadataformulär kan nu tilldelas eller tas bort från flera mappar.
 
 **Hantera behörigheter för privata samlingar**
 
-Du kan tillåta administratörer att hantera åtkomstnivåer för privata samlingar som är tillgängliga i databasen. Du kan tilldela behörigheter som `Can View` och `Can Edit` till användargrupperna eller användarna. Du kan även delegera behörighetshanteringsbehörigheter till användargrupper.
+Du kan tillåta administratörer och icke-administratörer (andra användare) att hantera åtkomstnivåer för privata samlingar som är tillgängliga i databasen. Du kan tilldela behörigheter som `Can View` och `Can Edit` till användargrupperna eller användarna. Du kan även delegera behörighetshanteringsbehörigheter till användargrupper.
 
 
 **Förbättringar baserade på kundfeedback**
@@ -59,7 +62,7 @@ Förbättringar och felkorrigeringar som bygger på kundfeedback.
 
 ## Kända fel {#known-issues}
 
-Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande:
+Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och uppdateras fortlöpande.
 
 <!--
 
@@ -68,7 +71,7 @@ Listan över kända fel i [!DNL Assets Essentials] Erbjudandet revideras och upp
 -->
 
 
-* Privata samlingar är tillgängliga för den som skapat dem och för användare med administratörsbehörighet. Som administratör kan du inte delegera behörigheterna för åtkomst till samlingen till andra användare.
+<!--* Private collections are available to creator and the users with administrator privileges. As an administrator, you cannot delegate the permissions to access the collection to other users.-->
 
 Om du stöter på några problem eller till och med förbättringsförfrågningar [ge feedback](#provide-feedback) till teamet.
 
@@ -106,7 +109,7 @@ Administratörer kan nu visa användningsrapporter för lagring som ingår i Ins
 
 **Sök i den första startsidans konfiguration**
 
-Nu kan du konfigurera startsidan för din organisation med Assets Essentials. Om du väljer att söka först som startsida kan du konfigurera sökfältets justering, bakgrundsbild och logotyp för din organisation.
+Nu kan du konfigurera startsidan för din organisation med Assets Essentials. Om du väljer att söka först som startsida kan du konfigurera sökfältets justering, bakgrundsbild och logotyp för din organisation. Välja [!UICONTROL General Settings] åsidosätter standardstartsidan. Standardlandning är till exempel [!UICONTROL My Workspace] för administratörer och [!UICONTROL Search First] för icke-administratörer gäller att om du väljer något av alternativen under Allmänna inställningar för alla användare
 
 ![söka efter första konfigurationen](/help/using/assets/search-first-configuration.png)
 
@@ -209,7 +212,7 @@ På arbetsytan i Mitt program visas nu de tio vanligaste resurserna för din Ass
 
 **Massuppdateringar av metadata för resurser**
 
-Med hjälp av satsvisa metadatauppdateringar kan du utföra vanliga metadatauppdateringar för flera resurser samtidigt. Du behöver inte uppdatera posterna individuellt och kan snabbt tillämpa egenskaper på resurser och mappar som du kommer åt via sökningen.
+Med hjälp av satsvisa metadatauppdateringar kan du utföra vanliga metadatauppdateringar för flera resurser samtidigt. Du behöver inte uppdatera posterna individuellt och kan snabbt tillämpa egenskaper på resurser och mappar som du kommer åt via sökningen. Dessutom skrivs alla befintliga värden över vid uppdatering av massmetadata, vilket innebär att befintliga nyckelord skrivs över av uppdateringen av massmetadata.
 
 **Min arbetsyta med konfigurerbara widgetar**
 

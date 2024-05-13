@@ -2,9 +2,9 @@
 title: Hur delar jag länkar till resurser?
 description: Generera en länk och dela resurser med andra som inte har tillgång till [!DNL Assets Essentials] program.
 exl-id: 6e05b06c-7436-40e3-acee-c8b1ed218f9e
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: 0ce79167583178f2b81b7ac9f91dd518455cc49f
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,11 @@ Så här skapar du en länk för en resurs eller en mapp som innehåller resurse
 1. Markera de resurser och/eller mappar som innehåller resurser och klicka på **[!UICONTROL Share Link]**.
 
 1. Om du vill justera den klickar du på kalenderikonen för att definiera ett förfallodatum för länken med hjälp av **[!UICONTROL Expiration Date]** fält. Du kan också ange ett datum direkt i dialogrutan `yyyy-mm-dd` format. Som standard är förfallodatumet för en länk inställt på två veckor från delningsdatumet.
+
+>[!NOTE]
+> Datumformatet ändras baserat på det valda språkområdet.
+> Till exempel `de-DE` använder `dd-mm-yyyy`, `ja-JA` använder `yyyy-mm-dd`, medan `en-EN` använder `mm-dd-yyyy`.
+>
 
 1. Kopiera länken från **[!UICONTROL Share Link]** fält.
 
@@ -43,10 +48,10 @@ Om du vill hämta alla resurser samtidigt växlar du till **[!UICONTROL List vie
 
 ## Nästa steg {#next-steps}
 
-* [Titta på en video där du kan dela länkar för resurser i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html)
+* [Titta på en video där du kan dela länkar för resurser i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/link-sharing.html).
 
-* Ge produktfeedback med [!UICONTROL Feedback] finns i Assets Essentials användargränssnitt
+* Ge produktfeedback med [!UICONTROL Feedback] finns i användargränssnittet i Assets Essentials.
 
-* Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
+* Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger.
 
-* Kontakt [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)
+* Kontakt [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support).
