@@ -3,7 +3,7 @@ title: Redigera bilder
 description: Redigera bilder med [!DNL Adobe Photoshop Express] och spara uppdaterade bilder som versioner.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 1f306241ef3040557661cdd79b8864916e3a4240
+source-git-commit: 745dd77210caece8ef2497e4340e55d85347546f
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -170,9 +170,9 @@ TBD: Insert a video of the available social media options.
 
 ### Nästa steg {#next-steps}
 
-* Ge produktfeedback med [!UICONTROL Feedback] finns i användargränssnittet i Assets Essentials
+* Ge produktfeedback med [!UICONTROL Feedback] finns i användargränssnittet i Assets Essentials.
 
-* Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
+* Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger.
 
 * Kontakt [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)
 
