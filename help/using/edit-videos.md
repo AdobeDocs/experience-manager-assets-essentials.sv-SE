@@ -3,7 +3,7 @@ title: Redigera videoklipp
 description: Redigera videoklipp med [!DNL Adobe Express] och spara uppdaterade videor som versioner.
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: e775f6ebeda48ff01082c471a9f997c57e0dedb3
+source-git-commit: 456ffec077617909f98b66bed711921c0b7b3925
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%
@@ -87,7 +87,7 @@ Din video finns i GIF-format för nedladdning. Du kan antingen spara den rediger
 
 * Den maximala källfilsstorlek som stöds är 200 MB.
 
-* De videofilmer som stöds är större än 46 pixlar och mindre än 3 840 pixlar på alla sidor
+* De videofilmer som stöds är större än 46 pixlar och mindre än 3 840 pixlar på alla sidor.
 
 * De webbläsare som stöds är Google Chrome, Firefox, Safari och Edge.
 
