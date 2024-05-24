@@ -3,7 +3,7 @@ title: Redigera videoklipp
 description: Redigera videoklipp med [!DNL Adobe Express] och spara uppdaterade videor som versioner.
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: eede4280258595b7c74061786a8c173afaeee058
+source-git-commit: e775f6ebeda48ff01082c471a9f997c57e0dedb3
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Din video finns i GIF-format för nedladdning. Du kan antingen spara den rediger
 
 ### Nästa steg {#next-steps}
 
-* Ge produktfeedback med [!UICONTROL Feedback] finns i användargränssnittet i Assets Essentials
+* Ge produktfeedback med [!UICONTROL Feedback] finns i användargränssnittet i Assets Essentials.
 
 * Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
 
