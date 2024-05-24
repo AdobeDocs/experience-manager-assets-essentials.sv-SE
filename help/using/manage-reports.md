@@ -2,9 +2,9 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: b24113299b5f8d32b3c4aef453923b23dc775228
+source-git-commit: eede4280258595b7c74061786a8c173afaeee058
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -44,26 +44,32 @@ Med Assets Essentials kan du visa realtidsdata för din Assets Essentials-miljö
 
 Klicka **[!UICONTROL Insights]** som finns i det vänstra navigeringsfönstret för att visa följande automatiskt genererade diagram:
 
-![Insikter](assets/insights.png)
-
 * **Nedladdningar**: Antalet resurser som hämtats från Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
+  ![nedladdningar](/help/using/assets/insights-downloads2341.svg)
 
 * **Överföringar**: Antalet resurser som har överförts till Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
+  ![överföringar](/help/using/assets/insights-uplods2.svg)
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
 * **Lagringsanvändning**: Lagringsanvändningen, i byte, för Assets Essentials-miljön som representeras av ett stapeldiagram.
-
-<!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
+  ![lagringsanvändning](/help/using/assets/insights-storage-usage1.svg)
+  <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
 * **Vanliga sökningar**: Visa de mest sökbara termerna tillsammans med det antal gånger de har sökts igenom i din Assets Essentials-miljö under de senaste 30 dagarna eller 12 månaderna i tabellformat.
+  ![lagringsanvändning](/help/using/assets/insights-top-search.svg)
 
   <!--
    ![Insights](assets/insights1.png)
    ![Insights](assets/insights2.png)
    -->
+
+* **Antal tillgångar efter storlek:** Segmenterar det totala antalet mediefiler i din Assets Essentials-miljö och markerar antalet och procentandelen mediefiler baserat på deras filtyper, som representeras av ett mundiagram.
+  ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
+* **Antal tillgångar efter tillgångstyp:** Segmenterar det totala antalet mediefiler i din Assets Essentials-miljö i olika storleksintervall. Antalet och procentandelen mediefiler i varje storleksintervall markeras med hjälp av ett mundiagram.
+  ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 
 ## Skapa en nedladdningsrapport {#create-download-report}
 
