@@ -2,9 +2,9 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: eede4280258595b7c74061786a8c173afaeee058
+source-git-commit: 8f91cd833712363e09b81a5f59b08e2f41237d90
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '827'
 ht-degree: 1%
 
 ---
@@ -65,11 +65,6 @@ Klicka **[!UICONTROL Insights]** som finns i det vänstra navigeringsfönstret f
    ![Insights](assets/insights1.png)
    ![Insights](assets/insights2.png)
    -->
-
-* **Antal tillgångar efter storlek:** Segmenterar det totala antalet mediefiler i din Assets Essentials-miljö och markerar antalet och procentandelen mediefiler baserat på deras filtyper, som representeras av ett mundiagram.
-  ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
-* **Antal tillgångar efter tillgångstyp:** Segmenterar det totala antalet mediefiler i din Assets Essentials-miljö i olika storleksintervall. Antalet och procentandelen mediefiler i varje storleksintervall markeras med hjälp av ett mundiagram.
-  ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 
 ## Skapa en nedladdningsrapport {#create-download-report}
 
