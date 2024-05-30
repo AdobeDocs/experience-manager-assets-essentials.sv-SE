@@ -2,7 +2,7 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 3f2c2cdb948a3a33c25e10588aa2bc8fa2a5a845
+source-git-commit: 9cfb01590ae8ce620cc0eed042dcddfbb8b91742
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 1%
@@ -66,10 +66,10 @@ Klicka **[!UICONTROL Insights]** som finns i det vänstra navigeringsfönstret f
    ![Insights](assets/insights2.png)
    -->
 
-* **Antal tillgångar efter storlek:** Segmenterar det totala antalet resurser i resursvymiljön i olika storleksintervall, vilket markerar antalet och procentandelen resurser i varje storleksintervall, som representeras av ett bottendiagram.
+* **Antal tillgångar efter storlek:** Segmenterar det totala antalet resurser i din miljö Resurser i olika storleksintervall, vilket markerar antalet och procentandelen resurser i varje storleksintervall, som representeras av ett mundiagram.
   ![insights-assets-count-by-size](/help/using/assets/insights-assets-count-by-size.svg)
 
-* **Antal tillgångar efter tillgångstyp:** Segmenterar det totala antalet mediefiler i resursvymiljön, och markerar antalet och procentandelen resurser baserat på deras filtyper, som representeras av bottendiagram.
+* **Antal tillgångar efter tillgångstyp:** Segmenterar det totala antalet mediefiler i miljön Resurser Grundläggande, och markerar antalet och procentandelen av mediefiler baserat på deras filtyper, som representeras av bottendiagram.
   ![insights-assets-count-by-size](/help/using/assets/insights-assest-count-by-asset-type1.svg)
 
 ## Skapa en nedladdningsrapport {#create-download-report}
