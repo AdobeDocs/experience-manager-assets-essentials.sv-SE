@@ -2,7 +2,7 @@
 title: Hantera rapporter i Assets Essentials
 description: Använd uppgifterna i rapportavsnittet i Assets Essentials för att utvärdera produkt- och funktionsanvändning och få insikter om viktiga framgångsmått.
 exl-id: c7155459-05d9-4a95-a91f-a1fa6ae9d9a4
-source-git-commit: 5b5fe779f1dd50470016706a5ba3f6f59ab46793
+source-git-commit: 71a0381f5f7c32d3da1923778b3cd7b678391cae
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 1%
@@ -86,7 +86,7 @@ Så här skapar du en hämtningsrapport:
 
 1. I [!UICONTROL Columns] markerar du de kolumnnamn du vill visa i rapporten.
 
-1. Klicka på **[!UICONTROL Create]**.
+1. Klicka **[!UICONTROL Create]**
 
    ![Ladda ned rapport](assets/download-reports-config.png)
 
