@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="assets_search"
->title="Sök resurser"
+>title="Sök i Assets"
 >abstract="Sök efter resurser genom att ange ett nyckelord i sökfältet eller genom att filtrera resurser baserat på status, filtyp, MIME-typ, storlek, skapande, ändring och förfallodatum. Du kan också använda egna filter förutom standardfiltren. Du kan spara de filtrerade resultaten som en sparad sökning eller som en smart samling."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=en#manage-smart-collection" text="Skapa smarta samlingar"
 
@@ -177,7 +177,7 @@ When userA is searching and userB add an asset that matches search results, will
 
 Du kan markera de resurser som visas i sökresultaten och göra följande:
 
-* **Sök efter liknande bild**: Hitta liknande bildresurser i resursgränssnittet baserat på metadata och smarta taggar.
+* **Sök efter liknande bild**: Hitta liknande bildresurser i Assets-gränssnittet baserat på metadata och smarta taggar.
 
 * **Information**: Visa och redigera resursegenskaper.
 
@@ -185,7 +185,7 @@ Du kan markera de resurser som visas i sökresultaten och göra följande:
 
 * **Lägg till i samling**: Lägg till den valda resursen i en samling.
 
-* **Fäst i snabbåtkomst**: [Fäst en resurs](my-workspace.md) för snabbare åtkomst när du behöver det senare. Alla fästa objekt visas i **Snabb åtkomst** i Min arbetsyta.
+* **Fäst i snabbåtkomst**: [Fäst en resurs](my-workspace.md) för snabbare åtkomst när du behöver det senare. Alla fästa objekt visas i **Snabb åtkomst** i My Workspace.
 
 * **Öppna i Adobe Express**: Redigera en bild i den integrerade Adobe Expressen från Experience Manager Assets-skärmen.
 
