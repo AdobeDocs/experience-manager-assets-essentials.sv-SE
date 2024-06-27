@@ -3,112 +3,135 @@ title: Redigera bilder
 description: Redigera bilder med [!DNL Adobe Express] och spara uppdaterade bilder som versioner.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: f65e4eb7e0877e8b8d7ba4d5dd88c64b4423f152
+source-git-commit: 35f92dfe66fa2cae6a512b6b59bfe2bacc87511c
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
 
-# Redigera bilder i [!DNL Assets Essentials] {#edit-images}
+# Redigera bilder i [!DNL Assets Essentials] {#edit-images-in-asset-essentials}
 
-[!DNL Assets Essentials] innehåller användarvänliga redigeringsalternativ som bygger på [!DNL Adobe Express]. De redigeringsåtgärder som är tillgängliga med [!DNL Adobe Express] är Ändra storlek på bild, Ta bort bakgrund, Beskär bild och Konvertera JPEG till PNG.
-
-När du har redigerat en bild kan du spara den nya bilden som en ny version. Versionshantering hjälper dig att vid behov återställa den ursprungliga resursen senare. Om du vill redigera en bild [öppna förhandsgranskningen](/help/using/navigate-view.md#preview-assets) och klicka **[!UICONTROL Edit Image]**.
+Användargränssnittet Resurser Grundläggande möjliggör grundläggande bildredigering, inklusive storleksändring, borttagning av bakgrund, beskärning och konvertering mellan JPEG och PNG-format. Dessutom möjliggör det avancerad redigering genom integrering med Adobe Express. När du har redigerat en bild kan du spara den nya bilden som en ny version. Versionshantering hjälper dig att återgå till den ursprungliga resursen senare om det behövs. Om du vill redigera en bild [öppna förhandsgranskningen](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) och klicka **Redigera bild**.
 
 >[!NOTE]
 >
->Du kan redigera bilder av filtyperna PNG och JPEG med [!DNL Adobe Express].
+>Du kan redigera bilder av filtyperna PNG och JPEG med hjälp av Adobe Express.
 
 <!--The editing actions that are available are Spot healing, Crop and straighten, Resize image, and Adjust image.-->
 
-## Redigera bilder med Adobe Express {#edit-using-express}
+## Redigera bild {#edit-images}
 
+Land on Asset Essentials UI, med länken - [Användargränssnitt för grundläggande resurser](https://experience.adobe.com/#/assets) och välja rätt databas. Kontakta organisationens administratör för att få åtkomst.
+Ytterligare referensinformation finns i [Kom igång med Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started), [förstå användargränssnittet](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view), [Användningsexempel för väsentligheter för tillgångar](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started#use-cases) och [kända problem](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/release-notes).
+<!--
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
->title="Integrering av Adobe Expresser"
->abstract="Enkla och intuitiva bildredigeringsverktyg med Adobe Express som är tillgängliga direkt i AEM Assets för att öka återanvändningen och snabba upp innehållets hastighet."
+>title="Adobe Express Integration"
+>abstract="Easy and intuitive image-editing tools powered by Adobe Express available directly within AEM Assets to increase content reuse and accelerate content velocity."-->
 
-### Ändra bildstorlek {#resize-image-using-express}
+### Redigera bild i Essentials-användargränssnittet med Adobe Express {#edit-image-on-essentials-ui-using-adobe-express}
 
-Att ändra storlek på en bild till en viss storlek är ett vanligt användningsexempel. [!DNL Assets Essentials] Med kan du snabbt ändra storlek på bilden så att den passar de vanliga fotostorlekarna genom att tillhandahålla förberäknade nya upplösningar för specifika fotostorlekar. Ändra storlek på bilden med [!DNL Assets Essentials]följer du stegen nedan:
+Efter landning på Essentials-användargränssnittet klickar du på **Assets**, markera en bild och klicka sedan på **Redigera** från den övre rälen. På den nya skärmen visas de tillgängliga redigeringsalternativen inklusive storleksändring, borttagning av bakgrund, beskärning och konvertering mellan JPEG och PNG-format.
 
-1. Markera en bild och klicka på **Redigera**.
-2. Klicka **[!UICONTROL Resize Image]** från de snabbåtgärder som är tillgängliga i den vänstra rutan.
-3. Välj lämplig plattform för sociala medier från **[!UICONTROL Resize for]** och välj bildstorlek bland de alternativ som visas.
-4. Skalförändra bilden, om det behövs, med **[!UICONTROL Image Scale]** fält.
-5. Klicka **[!UICONTROL Apply]** för att tillämpa ändringarna.
+#### Ändra bildstorlek {#resize-image-using-express}
+
+Att ändra storlek på en bild till en viss storlek är ett vanligt användningsexempel. Med Assets Essentials kan du snabbt ändra storlek på bilder så att de passar de vanliga fotostorlekarna genom att tillhandahålla förberäknade nya upplösningar för specifika fotostorlekar. Följ stegen nedan om du vill ändra storlek på bilden med Assets Essentials:
+
+1. Klicka **Ändra storlek på bild** från den vänstra rutan.
+2. Välj lämplig plattform för sociala medier i listrutan Ändra storlek och välj bildstorlek bland de alternativ som visas.
+3. Skalförändra bilden, om det behövs, med **Bildskala** fält.
+4. Klicka **Använd** för att tillämpa ändringarna.
    ![Bildredigering med Adobe Express](/help/using/assets/adobe-express-resize-image.png)
 
    Den redigerade bilden kan hämtas. Du kan antingen spara den redigerade resursen som en ny version av samma resurs eller spara den som en ny resurs.
    ![Spara bild med Adobe Express](/help/using/assets/adobe-express-resize-save.png)
 
-### Ta bort bakgrund {#remove-background-using-express}
+#### Ta bort bakgrund {#remove-background-using-express}
 
-Du kan ta bort bakgrunden från en bild med några enkla steg enligt nedan:
+Du kan ta bort bakgrunden från en bild genom att följa stegen nedan:
 
-1. Markera en bild och klicka på **Redigera**.
-2. Klicka **[!UICONTROL Remove Background]** från de snabbåtgärder som är tillgängliga i den vänstra rutan. Experience Manager Assets visar bilden utan bakgrund.
-3. Klicka **[!UICONTROL Apply]** för att tillämpa ändringarna.
+1. Klicka **Ta bort bakgrund** från den vänstra rutan. Experience Manager Assets visar bilden utan bakgrund.
+2. Klicka **[!UICONTROL Apply]** för att tillämpa ändringarna.
    ![Spara bild med Adobe Express](/help/using/assets/adobe-express-remove-background.png)
 
    Den redigerade bilden kan hämtas. Du kan antingen spara den redigerade resursen som en ny version av samma resurs eller spara den som en ny resurs.
 
-### Beskär bild {#crop-image-using-express}
+#### Beskär bild {#crop-image-using-express}
 
 Det är enkelt att omvandla en bild till en perfekt storlek med hjälp av inbäddade [!DNL Adobe Express] snabba åtgärder.
 
-1. Markera en bild och klicka på **Redigera**.
-2. Klicka **[!UICONTROL Crop Image]** från de snabbåtgärder som är tillgängliga i den vänstra rutan.
-3. Dra handtagen i hörnen av bilden för att skapa den önskade beskärningen.
-4. Klicka på **[!UICONTROL Apply]**.
+1. Klicka **[!UICONTROL Crop Image]** från den vänstra rutan.
+2. Dra handtagen i hörnen av bilden för att skapa den önskade beskärningen.
+3. Klicka på **[!UICONTROL Apply]**.
    ![Spara bild med Adobe Express](/help/using/assets/adobe-express-crop-image.png)
 Den beskurna bilden kan hämtas. Du kan antingen spara den redigerade resursen som en ny version av samma resurs eller spara den som en ny resurs.
 
-### Konvertera JPEG till PNG {#convert-jpeg-to-png-using-express}
+#### Konvertera mellan bildfiltyper {#convert-image-types-using-express}
 
-Du kan snabbt konvertera en JPEG-bild till ett PNG-format med Adobe Express. Utför följande steg:
+Du kan snabbt konvertera mellan bildformaten JPEG och PNG med Adobe Express. Utför följande steg:
 
-1. Markera en bild och klicka på **Redigera**.
-2. Klicka **[!UICONTROL JPEG to PNG]** från de snabbåtgärder som är tillgängliga i den vänstra rutan.
+1. Klicka **JPEG till PNG** eller **PNG till JPEG** från den vänstra rutan.
    ![Konvertera till PNG med Adobe Express](/help/using/assets/adobe-express-convert-image.png)
-3. Klicka på **[!UICONTROL Download]**.
+2. Klicka på **[!UICONTROL Download]**.
 
-### Begränsningar {#limitations-adobe-express}
+#### Begränsningar {#limitations-adobe-express}
 
 * Bildupplösning som stöds: Minimal - 50 pixlar, Maximal - 6 000 pixlar per dimension.
-
 * Största filstorlek som stöds: 17 MB.
 
-## Redigera bilder med Adobe Expressens inbäddade redigerare {#edit-using-embedded-editor}
+### Redigera bilder i Adobe Expressens inbäddade redigerare {#edit-images-in-adobe-express-embedded-editor}
 
-Användare med tillgång till Express har nu integrerade verktyg för bildredigering och bildskapande, från Adobe Express och Adobe Firefly, tillgängliga direkt inifrån Assets Essentials för att förbättra återanvändningen av innehåll och snabba upp hastigheten på innehållet. Du kan också använda fördefinierade element för att få dina resurser att se fantastiska ut eller utföra snabba åtgärder för att redigera bilden med bara några klick.
+Användare med Express-berättigande kan använda den inbäddade Express-redigeraren inifrån Assets Essentials för att enkelt redigera innehåll och skapa nytt innehåll med GenAI från Adobe Firefly. Detta förbättrar återanvändningen av innehåll och snabbar upp innehållets hastighet. Du kan också använda fördefinierade element för att få dina resurser att se fantastiska ut eller utföra snabba åtgärder för att redigera bilden med bara några klick.
+![uttrycka i grundläggande gränssnitt](/help/using/assets/express-in-essentials-ui.jpg)
+Följ stegen nedan om du vill redigera Adobe Expresser med hjälp av den inbäddade redigeraren:
 
-Redigera bilder med [!DNL Adobe Express] följer du stegen nedan:
+1. Gå vidare till AEM UI för tillgångar med hjälp av länken - [Gränssnitt för grundläggande AEM](https://experience.adobe.com/#/assets) och väljer rätt databas.
+1. Klicka **Assets**, anger en mapp och väljer en bild.
+1. Klicka **Öppna i Adobe Express**. Bilden öppnas på en snabbarbetsyta.
+1. Gör de ändringar du vill i bilden.
+1. Om projektet kräver att du lägger till fler sidor klickar du på **Lägg till**, väljer du Assets, anger en mapp, väljer en bild som du vill ta med på arbetsytesidan och utför sedan ändringarna i bilden.
+1. Spara bilderna genom att klicka på **Spara**. Dialogrutan Spara visas.
 
-1. Välj en bild från [!DNL Experience Manager] Resurskatalog.
-1. Klicka på **[!UICONTROL Open in Adobe Express]**.
+   >[!NOTE]
+   >
+   > **1. För en sida**
+   >
+   > **Spara som version:** Den här funktionen har bara stöd för att spara en enda resurs. Välj det här alternativet om du vill exportera bilden som en ny version (med det ursprungliga formatet) och spara den i samma mapp.
+   > **Spara som ny resurs:** Välj det här alternativet om du vill exportera resursen i ett annat format än originalformatet och spara den i en mapp som en ny resurs.
+   >  
+   > **2. För flera sidor**
+   >
+   > **Spara som version:** Den här funktionen har bara stöd för att spara en enda resurs. Om du vill spara en enstaka sida från flera sidor markerar du det här alternativet för att spara resursen i dess ursprungliga format och plats.\
+   > **Spara som ny resurs:** Med det här alternativet exporterar du antingen flera resurser eller en resurs till en mapp och sparar dem som nya resurser med deras filformat som ursprungliga eller annorlunda.
 
-   ![Adobe Expressens inbäddade redigerare](assets/embedded-editor.png)
+1. I dialogrutan Spara:
+   1. Ange ett namn för filen i dialogrutan **Spara som** fält.
+   1. Välj en målmapp.
+   1. Valfritt: Ange information som projekt- eller kampanjnamn, nyckelord, kanaler, tidsram och region.
+1. Klicka **Spara som version** eller **Spara som ny resurs** för att spara resursen/resurserna.
 
-   Du kan utnyttja funktionerna i [!DNL Adobe Express] för att utföra alla bildredigeringsrelaterade åtgärder, som [ändra storlek på bild](https://helpx.adobe.com/in/express/using/resize-image.html), [ta bort eller ändra bakgrundsfärg](https://helpx.adobe.com/in/express/using/remove-background.html), [beskära bild](https://helpx.adobe.com/in/express/using/crop-image.html)och mycket annat.
+#### Begränsningar för redigering av bilder i Express Editor {#limitations-of-editing-images-in-the-express-editor}
 
-1. När du är klar med bildredigeringen kan du hämta en resurs som en ny resurs eller spara resursen som en ny version.
+* Filtyp som stöds: JPEG eller PNG.
+* Största filstorlek som stöds: 40 MB.
+* Bredd- och höjdintervall som stöds: mellan 50 och 8 000 pixlar.
+* Läs in sidan igen för att se den senaste sparade nya resursen i källmappen.
 
-## Skapa nya resurser med Adobe Express {#create-new-embedded-editor}
+### Skapa nya resurser med Adobe Express {#create-new-assets-using-embedded-editor}
 
-[!DNL Assets Essentials] gör att du kan skapa en ny mall från grunden med [!DNL Adobe Express] inbäddad redigerare Skapa en ny resurs med [!DNL Adobe Express]utför du följande steg:
+Med Assets Essentials kan du skapa en ny mall från grunden med hjälp av den inbäddade redigeraren Adobe Express. Så här skapar du en ny resurs med Adobe Express:
 
-1. Navigera till **[!UICONTROL My Workspace]** och klicka **[!UICONTROL Create]** i den banderoll som visas ovanför Adobe Expressen [!UICONTROL Quick access] -avsnitt. [!DNL Adobe Express] tom arbetsyta visas i [!DNL Assets Essentials] användargränssnitt.
-1. Skapa innehåll med [Mallar](https://helpx.adobe.com/in/express/using/work-with-templates.html). I annat fall går du till **[!UICONTROL Your Stuff]** för att ändra befintligt innehåll.
-1. När du är klar klickar du **[!UICONTROL Save as new asset]**.
-1. Ange målsökväg för den skapade resursen och klicka på **[!UICONTROL Save]**.
+1. Navigera till **Mina Workspace** och klicka **Skapa** i den Adobe Express-banner som visas i Adobe Expressen högst upp. Adobe Express tom arbetsyta visas i användargränssnittet för Assets Essentials.
+1. Skapa innehåll med [Mallar](https://helpx.adobe.com/in/express/using/work-with-templates.html). I annat fall navigerar du till Dina saker för att ändra befintligt innehåll.
+1. När du är klar klickar du **Spara**.
+1. Ange målsökvägen för den skapade resursen och klicka på **Spara som ny resurs**.
 
->[!NOTE]
->
->* Du kan bara ändra bilder på `JPEG` och `PNG` formattyper.
->* Resursens storlek måste vara mindre än 14 MB.
->* Du kan spara en bild i `PDF`, `JPEG`, eller `PNG` format.
+#### Begränsningar {#limitations}
+
+* Du kan bara ändra bilder på `JPEG` och `PNG` formattyper.
+* Resursens storlek måste vara mindre än 40 MB.
+* Du kan spara en bild i `PDF`, `JPEG`, eller `PNG` format.
 
 <!--
 ## Edit images using [!DNL Adobe Photoshop Express] {#edit-using-photoshop-express}
@@ -170,9 +193,9 @@ TBD: Insert a video of the available social media options.
 
 ### Nästa steg {#next-steps}
 
-* Ge produktfeedback med [!UICONTROL Feedback] finns i användargränssnittet i Assets Essentials.
+* Ge produktfeedback med [!UICONTROL Feedback] finns i användargränssnittet i Assets Essentials
 
-* Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger.
+* Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
 
 * Kontakt [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)
 
