@@ -3,16 +3,16 @@ title: Redigera bilder
 description: Redigera bilder med [!DNL Adobe Express] och spara uppdaterade bilder som versioner.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 35f92dfe66fa2cae6a512b6b59bfe2bacc87511c
+source-git-commit: 5947e7db586b691f1db3bf734481de8438e5a3b5
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 0%
 
 ---
 
-# Redigera bilder i [!DNL Assets Essentials] {#edit-images-in-asset-essentials}
+# Redigera bilder i [!DNL Assets Essentials] {#edit-images-in-assets-essentials}
 
-Användargränssnittet Resurser Grundläggande möjliggör grundläggande bildredigering, inklusive storleksändring, borttagning av bakgrund, beskärning och konvertering mellan JPEG och PNG-format. Dessutom möjliggör det avancerad redigering genom integrering med Adobe Express. När du har redigerat en bild kan du spara den nya bilden som en ny version. Versionshantering hjälper dig att återgå till den ursprungliga resursen senare om det behövs. Om du vill redigera en bild [öppna förhandsgranskningen](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) och klicka **Redigera bild**.
+Assets Essentials-gränssnittet möjliggör grundläggande bildredigering, inklusive storleksändring, borttagning av bakgrund, beskärning och konvertering mellan JPEG och PNG-format. Dessutom möjliggör det avancerad redigering genom integrering med Adobe Express. När du har redigerat en bild kan du spara den nya bilden som en ny version. Versionshantering hjälper dig att återgå till den ursprungliga resursen senare om det behövs. Om du vill redigera en bild [öppna förhandsgranskningen](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) och klicka **Redigera bild**.
 
 >[!NOTE]
 >
@@ -22,8 +22,8 @@ Användargränssnittet Resurser Grundläggande möjliggör grundläggande bildre
 
 ## Redigera bild {#edit-images}
 
-Land on Asset Essentials UI, med länken - [Användargränssnitt för grundläggande resurser](https://experience.adobe.com/#/assets) och välja rätt databas. Kontakta organisationens administratör för att få åtkomst.
-Ytterligare referensinformation finns i [Kom igång med Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started), [förstå användargränssnittet](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view), [Användningsexempel för väsentligheter för tillgångar](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started#use-cases) och [kända problem](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/release-notes).
+Land på Assets Essentials användargränssnittet med hjälp av länken - [Assets Essentials användargränssnitt](https://experience.adobe.com/#/assets) och välja rätt databas. Kontakta organisationens administratör för att få åtkomst.
+Ytterligare referensinformation finns i [Kom igång med Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started), [förstå användargränssnittet](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view), [Användningsexempel för Assets Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started#use-cases) och [kända problem](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/release-notes).
 <!--
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
@@ -86,11 +86,11 @@ Användare med Express-berättigande kan använda den inbäddade Express-rediger
 ![uttrycka i grundläggande gränssnitt](/help/using/assets/express-in-essentials-ui.jpg)
 Följ stegen nedan om du vill redigera Adobe Expresser med hjälp av den inbäddade redigeraren:
 
-1. Gå vidare till AEM UI för tillgångar med hjälp av länken - [Gränssnitt för grundläggande AEM](https://experience.adobe.com/#/assets) och väljer rätt databas.
+1. Gå vidare till AEM Assets Essentials UI via länken - [AEM Assets Essentials-gränssnitt](https://experience.adobe.com/#/assets) och väljer rätt databas.
 1. Klicka **Assets**, anger en mapp och väljer en bild.
 1. Klicka **Öppna i Adobe Express**. Bilden öppnas på en snabbarbetsyta.
 1. Gör de ändringar du vill i bilden.
-1. Om projektet kräver att du lägger till fler sidor klickar du på **Lägg till**, väljer du Assets, anger en mapp, väljer en bild som du vill ta med på arbetsytesidan och utför sedan ändringarna i bilden.
+1. Om projektet kräver att du lägger till fler sidor klickar du på **Lägg till**, väljer resurser, anger en mapp, väljer en bild som du vill ta med på arbetsytesidan och utför sedan de redigeringar som krävs på bilden.
 1. Spara bilderna genom att klicka på **Spara**. Dialogrutan Spara visas.
 
    >[!NOTE]
