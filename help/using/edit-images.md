@@ -3,9 +3,9 @@ title: Redigera bilder
 description: Redigera bilder med [!DNL Adobe Express] och spara uppdaterade bilder som versioner.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 5947e7db586b691f1db3bf734481de8438e5a3b5
+source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,17 @@ Assets Essentials-gränssnittet möjliggör grundläggande bildredigering, inklu
 
 <!--The editing actions that are available are Spot healing, Crop and straighten, Resize image, and Adjust image.-->
 
-## Redigera bild {#edit-images}
+## Redigera bilder {#edit-images}
 
 Land på Assets Essentials användargränssnittet med hjälp av länken - [Assets Essentials användargränssnitt](https://experience.adobe.com/#/assets) och välja rätt databas. Kontakta organisationens administratör för att få åtkomst.
 Ytterligare referensinformation finns i [Kom igång med Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started), [förstå användargränssnittet](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view), [Användningsexempel för Assets Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started#use-cases) och [kända problem](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/release-notes).
-<!--
+
+### Redigera bilder med Adobe Express {#edit-images-using-adobe-express}
+
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
->title="Adobe Express Integration"
->abstract="Easy and intuitive image-editing tools powered by Adobe Express available directly within AEM Assets to increase content reuse and accelerate content velocity."-->
-
-### Redigera bild i Essentials-användargränssnittet med Adobe Express {#edit-image-on-essentials-ui-using-adobe-express}
+>title="Integrering av Adobe Expresser"
+>abstract="Enkla och intuitiva bildredigeringsverktyg med Adobe Express som är tillgängliga direkt i AEM Assets för att öka återanvändningen och snabba upp innehållets hastighet."
 
 Efter landning på Essentials-användargränssnittet klickar du på **Assets**, markera en bild och klicka sedan på **Redigera** från den övre rälen. På den nya skärmen visas de tillgängliga redigeringsalternativen inklusive storleksändring, borttagning av bakgrund, beskärning och konvertering mellan JPEG och PNG-format.
 

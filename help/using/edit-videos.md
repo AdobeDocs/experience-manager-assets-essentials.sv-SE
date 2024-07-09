@@ -3,16 +3,16 @@ title: Redigera videoklipp
 description: Redigera videoklipp med [!DNL Adobe Express] och spara uppdaterade videor som versioner.
 role: User
 exl-id: 8468d572-89f1-431d-be7f-01e583d06cd7
-source-git-commit: 78187929a6baa0f1ab5d8675287408a24e1ada98
+source-git-commit: a9ef92194f55da9ad5352adf4251c85e3abcdcd1
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
 
 # Redigera videoklipp i [!DNL Assets Essentials] {#edit-videos}
 
-Det är enkelt för Assets-användare att skapa variationer av videoinnehåll med den inbäddade [!DNL Adobe Express] snabbåtgärder för video. Snabbåtgärder i [!DNL Assets Essentials] som drivs av [!DNL Adobe Express] innehåller användarvänliga videoredigeringsalternativ som beskära video, ändra storlek på video, klippa bort video och konvertera video till GIF.
+Det är enkelt att skapa varianter av videoinnehåll för Assets-användare med den inbäddade [!DNL Adobe Express] snabbåtgärder för video. Snabbåtgärder i [!DNL Assets Essentials] som drivs av [!DNL Adobe Express] innehåller användarvänliga videoredigeringsalternativ som beskära video, ändra storlek på video, klippa bort video och konvertera video till GIF.
 
 Om du vill redigera en video går du till informationen i videon och klickar på [!UICONTROL Edit Video]. Du kan också markera resursen och klicka på detaljer och sedan klicka på ![sax](assets/do-not-localize/cut.svg) -ikonen i den högra rutan. När du har redigerat en video kan du spara den nya videon som en ny version eller som en ny resurs.
 
@@ -23,6 +23,11 @@ Läs mer om [förhandsgranskningsgränssnitt](/help/using/navigate-view.md#previ
 Tillstånd att få åtkomst [!DNL Adobe Express] och minst en miljö i AEM Assets. Miljön kan vara någon av databaserna i [!DNL Assets as a Cloud Service] eller [!DNL Assets Essentials].
 
 ## Redigera videofilmer med Adobe Express {#edit-video-using-express}
+
+>[!CONTEXTUALHELP]
+>id="assets_express_integration_videos"
+>title="Adobe Express Integration for Video Editing"
+>abstract="Experience Manager Assets har nu lättanvända och intuitiva videoredigeringsverktyg som bygger på Adobe Express för att öka återanvändningen av innehåll och snabba upp hastigheten. Redigeringsalternativen omfattar trimning, beskärning, storleksändring av en video och även konvertering av en MP4-fil till en GIF-fil."
 
 Det är enkelt att omvandla en video till en perfekt storlek och orientering med hjälp av inbäddade [!DNL Adobe Express] snabba åtgärder.
 
