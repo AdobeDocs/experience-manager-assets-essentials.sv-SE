@@ -1,12 +1,12 @@
 ---
-title: Kom igång med [!DNL Assets Essentials]
-description: Hur man får åtkomst till, kan logga in på, vilka användningsfall som stöds och kända problem med [!DNL Assets Essentials].
+title: Kom igång med  [!DNL Assets Essentials]
+description: Så här kommer du åt, inloggningsupplevelsen av, användningsfall som stöds och kända problem i  [!DNL Assets Essentials].
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
 source-git-commit: fedcf02b5338d6640e557dad25ca03cfbd78d7e5
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 1%
+source-wordcount: '407'
+ht-degree: 0%
 
 ---
 
@@ -14,21 +14,21 @@ ht-degree: 1%
 
 <!-- TBD: Make links for these steps. -->
 
-Hantera era digitala resurser med [!DNL Assets Essentials] kräver endast tre enkla steg:
+Hantera dina digitala resurser med [!DNL Assets Essentials] kräver endast tre enkla steg:
 
 * **Steg 1**: [Överför](/help/using/add-delete.md) och [visa](/help/using/navigate-view.md) resurser.
-* **Steg 2**: [Sök](/help/using/search.md) och [ladda ned](/help/using/manage-organize.md#download) resurser.
-* **Steg 3**: [Hantera och ordna](/help/using/manage-organize.md) tillgångarna.
+* **Steg 2**: [Sök](/help/using/search.md) och [hämta](/help/using/manage-organize.md#download) resurser.
+* **Steg 3**: [Hantera och ordna](/help/using/manage-organize.md) resurserna.
 
-Används [!DNL Assets Essentials], logga in på [https://experience.adobe.com/#/assets](https://experience.adobe.com/#/assets). När du loggar in väljer du `Company or School Account`. Kontakta organisationens administratör för att få åtkomst.
+Om du vill använda [!DNL Assets Essentials] loggar du in på [https://experience.adobe.com/#/assets](https://experience.adobe.com/#/assets). Välj `Company or School Account` när du loggar in. Kontakta organisationens administratör för att få åtkomst.
 
-Dessutom finns mer referensinformation som kan vara till hjälp [förstå användargränssnittet](/help/using/navigate-view.md), [lista över användningsfall](#use-cases), <!-- TBD: [supported file types](/help/using/supported-file-formats.md), --> och [kända problem](/help/using/release-notes.md#known-issues).
+Mer referensinformation som kan vara till hjälp är [förståelsen av användargränssnittet](/help/using/navigate-view.md), [listan över användningsfall](#use-cases), <!-- TBD: [supported file types](/help/using/supported-file-formats.md), --> och [kända problem](/help/using/release-notes.md#known-issues).
 
 ## Få åtkomst till [!DNL Assets Essentials] {#get-access}
 
-Adobe tillhandahåller lösningen och lägger till den utsedda personen från din organisation som administratör. Administratörerna kan ge åtkomst till olika användare i organisationen genom att använda [[!DNL Admin Console]](https://helpx.adobe.com/enterprise/using/admin-console.html). Kontakta organisationens administratör för frågor som rör din åtkomst.
+Adobe tillhandahåller lösningen och lägger till den utsedda personen från din organisation som administratör. Administratörerna kan ge åtkomst till olika användare i organisationen med hjälp av [[!DNL Admin Console]](https://helpx.adobe.com/enterprise/using/admin-console.html). Om du har frågor som rör din åtkomst kontaktar du organisationens administratör.
 
-När du loggar in, efter att du angett inloggningsuppgifterna, [!DNL Assets Essentials] uppmanar dig att välja ett konto. I det här fallet väljer du `Company or School Account` för att fortsätta.
+När du loggar in uppmanas du att välja ett konto efter att du har angett autentiseringsuppgifterna i [!DNL Assets Essentials]. I så fall väljer du `Company or School Account` för att fortsätta.
 
 ## Konfigurera [!DNL Assets Essentials] {#configuration}
 
@@ -36,13 +36,13 @@ Om du vill öppna inställningarna klickar du på avataren i det övre högra h�
 
 Om du är en del av olika organisationer kan du även ändra organisationen och få tillgång till dina konton i olika organisationer.
 
-Ändra [!UICONTROL Experience Cloud preferences], klicka [!UICONTROL Preferences].
+Om du vill ändra [!UICONTROL Experience Cloud preferences] klickar du på [!UICONTROL Preferences].
 
-![Inställning för växling av mörkt och ljust tema](assets/theme-change.png)
+![Inställning för att växla mörkt och ljust tema](assets/theme-change.png)
 
 ## [!DNL Assets Essentials] användningsfall {#use-cases}
 
-De olika DAM-åtgärderna (Digital Asset Management) som du kan utföra med [!DNL Assets Essentials] nedan.
+De olika DAM-aktiviteterna (Digital Asset Management) som du kan utföra med [!DNL Assets Essentials] visas nedan.
 
 | Användaruppgifter | Funktionalitet och instruktionsinformation |
 |-----|------|
@@ -50,20 +50,20 @@ De olika DAM-åtgärderna (Digital Asset Management) som du kan utföra med [!DN
 | Lägg till nya resurser | <ul> <li>[Överför nya resurser och mappar](/help/using/add-delete.md#add-assets)</li> <li>[Övervaka överföringsförloppet och hantera överföringar](/help/using/add-delete.md#upload-progress)</li> <li>[Lös dubbletter](/help/using/add-delete.md#resolve-upload-fails)</li> </ul> |
 | Uppdatera resurser eller relaterad information | <ul> <li>[Redigera bilder](/help/using/edit-images.md)</li> <li>[Skapa versioner](/help/using/manage-organize.md#create-versions) och [visa versioner](/help/using/manage-organize.md#view-versions)</li> <li>[Redigera bilder](/help/using/edit-images.md)</li> </ul> |
 | Redigera resurser | <ul> <li>[Redigeringar i webbläsaren med Adobe Photoshop Express](/help/using/edit-images.md)</li> <li>[Beskär för en profil för sociala medier](/help/using/edit-images.md#crop-straighten-images)</li> <li>[Visa och hantera versioner](/help/using/manage-organize.md#view-versions)</li> <li>[Använd [!DNL Adobe Asset Link]](/help/using/integration.md#integrations)</ul></ul> |
-| Sök efter resurser i databasen | <ul> <li>[Sök i en viss mapp](/help/using/search.md#refine-search-results)</li> <li>[Sparade sökningar](/help/using/search.md#saved-search)</li> <li>[Sök efter nyligen visade resurser](/help/using/search.md)</li> <li>[Fulltextsökning](/help/using/search.md) |
+| Sök efter resurser i databasen | <ul> <li>[Sök i en specifik mapp](/help/using/search.md#refine-search-results)</li> <li>[Sparade sökningar](/help/using/search.md#saved-search)</li> <li>[Sök efter nyligen visade resurser](/help/using/search.md)</li> <li>[Fulltextsökning](/help/using/search.md) |
 | Hämta resurser | <ul> <li> [Förhandsgranska resurs](/help/using/navigate-view.md#preview-assets) </li> <li> [Hämta resurser](/help/using/manage-organize.md#download) <li> [Hämta återgivningar](/help/using/add-delete.md#renditions) </li></ul> |
 | Metadataåtgärder | <ul> <li>[Visa detaljerade metadata](/help/using/metadata.md) </li> <li> [Uppdatera metadata](/help/using/metadata.md#update-metadata)</li> <li> [Skapa nytt metadataformulär](/help/using/metadata.md#metadata-forms) </li> </ul> |
-| Integration med andra lösningar | <ul> <li>[Använd resursväljaren i [!DNL Adobe Journey Optimizer]](/help/using/integration.md)</li> <li>[[!DNL Adobe Asset Link] for [!DNL Creative Cloud]](/help/using/integration.md)</li> <li>[Integration med [!DNL Adobe Workfront]](/help/using/integration.md)</li> </ul> |
+| Integration med andra lösningar | <ul> <li>[Använd resursväljare i [!DNL Adobe Journey Optimizer]](/help/using/integration.md)</li> <li>[[!DNL Adobe Asset Link] for [!DNL Creative Cloud]](/help/using/integration.md)</li> <li>[Integrering med [!DNL Adobe Workfront]](/help/using/integration.md)</li> </ul> |
 
 ## Nästa steg {#next-steps}
 
-* [Se en video för att komma igång med Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html)
+* [Titta på en video för att komma igång med Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html)
 
-* Ge produktfeedback med [!UICONTROL Feedback] finns i Assets Essentials användargränssnitt
+* Ge produktfeedback med alternativet [!UICONTROL Feedback] som finns i användargränssnittet för Assets Essentials
 
-* Ge feedback på dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns till höger
+* Ge feedback om dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som är tillgängligt på den högra sidopanelen
 
-* Kontakt [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)
+* Kontakta [kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)
 
 
 <!--TBD: Merge the below rows in the table when the use cases are documented/available.

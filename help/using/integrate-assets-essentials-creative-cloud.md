@@ -1,39 +1,39 @@
 ---
 title: Integrera Assets Essentials med Creative Cloud
-description: Integrera Assets Essentials med Creative Cloud-program så att du kan använda Adobe Asset-länken i appanelen för att ansluta till [!DNL Assets Essentials] databas från den databas som stöds [!DNL Adobe Creative Cloud] datorprogram.
+description: Integrera Assets Essentials med Creative Cloud-program så att du kan använda Adobe Asset-länken i appanelen för att ansluta till  [!DNL Assets Essentials] databasen inifrån de  [!DNL Adobe Creative Cloud] skrivbordsprogram som stöds.
 exl-id: 611fd958-3fd3-4c46-bee9-8b866b7dc208
 source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
 
 # Integrera Assets Essentials med Creative Cloud {#integrate-assets-essentials-creative-cloud-applications}
 
-![Inställning för växling av mörkt och ljust tema](assets/cce-creative-cloud.png)
+![Inställning för att växla mörkt och ljust tema](assets/cce-creative-cloud.png)
 
 ## Berättelsen hittills
 
-Efter [konfigurera Experience Manager Assets Essentials](adminster-aem-assets-essentials.md) i den här självstudiekursen kan du bygga vidare på upplevelsen för att integrera Creative Cloud-programmen med Assets Essentials.
+När du har [konfigurerat Experience Manager Assets Essentials](adminster-aem-assets-essentials.md) i den här självstudiekursen kan du bygga vidare på upplevelsen för att integrera Creative Cloud-programmen med Assets Essentials.
 
 ## Syfte
 
-* **Målgrupp**: Creative Cloud administratörer
+* **Målgrupp**: Creative Cloud-administratörer
 
-* **Syfte**: Integrera Assets Essentials med Creative Cloud-program så att dina kreativa användare kan använda länken Adobe Asset i appen för att ansluta till [!DNL Assets Essentials] databas från den databas som stöds [!DNL Adobe Creative Cloud] datorprogram.
+* **Mål**: Integrera Assets Essentials med Creative Cloud-program så att dina kreativa användare kan använda Adobe-resurslänk i apppanelen för att ansluta till [!DNL Assets Essentials]-databasen inifrån de [!DNL Adobe Creative Cloud]-skrivbordsprogram som stöds.
 
-## Översikt
+## Ökning
 
-[Adobe Asset Link i apppanelen](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html) ger kreatörer möjlighet att [!DNL Assets Essentials] databas från den databas som stöds [!DNL Adobe Creative Cloud] datorprogram. Panelen är tillgänglig för [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign]och [!DNL Adobe XD]. Det effektiviserar åtkomsten till resurser, vilket i sin tur hjälper till att öka innehållets hastighet.
+Med [Adobe Asset Link i apppanelen](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html) kan kreativa proffs ansluta till [!DNL Assets Essentials]-databasen inifrån de [!DNL Adobe Creative Cloud] datorprogram som stöds. Panelen är tillgänglig för [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] och [!DNL Adobe XD]. Det effektiviserar åtkomsten till resurser, vilket i sin tur hjälper till att öka innehållets hastighet.
 
 Creative Cloud-användare kan bara använda Adobe Asset Link-panelen i appen när du integrerar Creative Cloud-programmen med Experience Manager Assets Essentials-databasen.
 
-Utför följande uppgifter för att integrera Assets Essentials med Creative Cloud-program:
+Utför följande uppgifter för att integrera Assets Essentials med program i Creative Cloud:
 
 * [Skapa katalogförtroende mellan Creative Cloud och Experience Cloud Admin Console](#directory-trusting-cc-assets-essentials-consoles)
 
-* [Lägga till Creative Cloud-användare i Assets Essentials produktprofiler](#add-cc-users-assets-essentials-product-profiles)
+* [Lägga till Creative Cloud-användare i produktprofiler för Assets Essentials](#add-cc-users-assets-essentials-product-profiles)
 
 * [Installera Adobe Asset Link](#install-asset-link)
 
@@ -43,46 +43,46 @@ Utför följande uppgifter för att integrera Assets Essentials med Creative Clo
 
 Om din Creative Cloud används i en annan Adobe Admin Console än den med Assets Essentials (Experience Cloud) måste du lägga till en förtroenderelation mellan de två konsolerna.
 
-För att kunna integrera Creative Cloud- och Assets Essentials-program måste de användare som är tillgängliga i Admin Console för Creative Cloud göras tillgängliga i Admin Console för Experience Cloud. Om Creative Cloud och Assets Essentials distribueras i separata Admin Console krävs det en förtroenderelation mellan dem för att detta ska kunna göras.
+För att kunna integrera Creative Cloud och Assets Essentials måste de användare som är tillgängliga i Admin Console för Creative Cloud göras tillgängliga i Admin Console för Experience Cloud. Om Creative Cloud och Assets Essentials distribueras till separata Admin Console krävs det ett förtroendeförhållande mellan dem för att detta ska kunna göras.
 
-Klicka på Experience Cloud Admin Console **[!UICONTROL Settings]** och använder **[!UICONTROL Directories]** skapa en katalog att skapa [katalogförvaltning](https://helpx.adobe.com/enterprise/using/set-up-identity.html#directory-trusting) mellan de två Admin Console.
+Klicka på **[!UICONTROL Settings]** på Experience Cloud Admin Console och använd fliken **[!UICONTROL Directories]** för att skapa en katalog som upprättar [katalogförtroendet](https://helpx.adobe.com/enterprise/using/set-up-identity.html#directory-trusting) mellan de två Admin Console.
 
-## Lägga till Creative Cloud-användare i Assets Essentials produktprofiler {#add-cc-users-assets-essentials-product-profiles}
+## Lägga till Creative Cloud-användare i produktprofiler för Assets Essentials {#add-cc-users-assets-essentials-product-profiles}
 
-När du har upprättat ett katalogförtroende mellan Admin Console för Creative Cloud och Admin Console för Experience Cloud ska du tilldela Creative Cloud-användare till **[!DNL Assets Essentials]Användare** produktprofil under [!DNL Assets Essentials] produktkort i Experience Cloud Admin Console. Creative Cloud kommer att kunna komma åt Assets Essentials från sin plugin-panel för Adobe Asset Link, Dessutom får de tillgång till hela Assets Essentials webbanvändargränssnitt där de kan överföra, ordna, märka och söka efter digitala resurser via en webbläsare.
+När du har etablerat katalogförtroende mellan Admin Console för Creative Cloud och Admin Console för Experience Cloud, tilldelar du Creative Cloud till produktprofilen **[!DNL Assets Essentials]Users** under produktkortet [!DNL Assets Essentials] i Experience Cloud Admin Console. Creative Cloud-användare kan komma åt Assets Essentials från sin plugin-panel för Adobe Asset Link. Dessutom får de tillgång till det fullständiga användargränssnittet för Assets Essentials för att ladda upp, ordna, tagga och hitta digitala resurser via en webbläsare.
 
-Andra Assets Essentials-produktprofiler - **[!DNL Assets Essentials]Administratörer** och **[!DNL Assets Essentials]Konsumentanvändare** - används för olika användarrättigheter (programadministratörer och användare som använder Assets Essentials via Experience Cloud).
+Andra produktprofiler för Assets Essentials - **[!DNL Assets Essentials]administratörer** och **[!DNL Assets Essentials]konsumentanvändare** - används för olika användarberättiganden (programadministratörer och användare som använder Assets Essentials via Experience Cloud-integreringar).
 
-Mer information om hur du tilldelar användare till Assets Essentials produktprofiler finns i [Tilldela användare till Assets Essentials produktprofiler](adminster-aem-assets-essentials.md#add-users-to-product-profiles).
+Mer information om hur du tilldelar användare till produktprofiler för Assets Essentials finns i [Tilldela användare till produktprofiler för Assets Essentials](adminster-aem-assets-essentials.md#add-users-to-product-profiles).
 
 ## Installera Adobe Asset Link {#install-asset-link}
 
-[!DNL Adobe Asset Link] plugin-programmet kan installeras och göras tillgängligt för kreativa användare på två sätt:
+Plugin-programmet [!DNL Adobe Asset Link] kan installeras och göras tillgängligt för kreativa användare på två sätt:
 
-* Creative-användare kan installera plugin-programmet från sina [!DNL Creative Cloud Desktop] program
+* Creative-användare kan installera plugin-programmet från sina [!DNL Creative Cloud Desktop]-program
 * Creative Cloud-administratören kan lägga till plugin-programmet Asset Link i ett Creative Cloud-paket i Admin Console
 
 Valet beror på organisationens IT-policyer.
 
-**Installation med [!DNL Creative Cloud Desktop] program** beskrivs [här](https://helpx.adobe.com/creative-cloud/kb/installingextensionsandaddons.html). Det finns två tillgängliga plugin-program och de finns på [Adobe Exchange](https://exchange.adobe.com/) Marketplace, beroende på Creative Cloud:
+**Installation med [!DNL Creative Cloud Desktop] application** beskrivs [här](https://helpx.adobe.com/creative-cloud/kb/installingextensionsandaddons.html). Det finns två tillgängliga plugin-program på Marketplace i [Adobe Exchange](https://exchange.adobe.com/), beroende på vilket Creative Cloud-program som används:
 
-* För [!DNL Adobe Photoshop], [!DNL Adobe Illustrator]och [!DNL Adobe InDesign]: [Adobe Asset Link CEP](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)
-* För [!DNL Adobe XD]: [Adobe Asset Link](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9)
+* För [!DNL Adobe Photoshop], [!DNL Adobe Illustrator] och [!DNL Adobe InDesign]: [Adobe Asset Link CEP](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)
+* För [!DNL Adobe XD]: [Adobe-resurslänk](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9)
 
-**Installation med ett Creative Cloud-paket** görs av Creative Cloud-administratören i Admin Console, genom att plugin-programmet för tillgångslänk inkluderas när ett distributionspaket skapas, som senare kan distribueras till användardatorer. På den hanterade skärmen Välj plugin-program söker du efter **Adobe Asset Link** i **Aktuella företagsplugins** -avsnitt. Mer information finns i [paketera program via Admin Console](https://helpx.adobe.com/enterprise/using/package-apps-admin-console.html).
+**Installation med ett Creative Cloud-paket** görs av Creative Cloud-administratören i Admin Console genom att plugin-programmet Resurslänk inkluderas när ett distributionspaket skapas, som sedan kan distribueras till användardatorer. På den hanterade skärmen Choose Plugins (Välj plugin-program) söker du efter **Adobe Asset Link** i avsnittet **Aktuella affärs-plugin-program**. Mer information finns i [paketera program via Admin Console](https://helpx.adobe.com/enterprise/using/package-apps-admin-console.html).
 
 ## Använd Adobe-resurslänk {#use-asset-link}
 
 Kreativa användare kan nu använda Adobe Asset Link med Photoshop, Illustrator, InDesign eller XD. Om du vill öppna panelen i InDesign eller Illustrator går du till Fönster > Tillägg > Länk till Adobe-resurs. I Photoshop går du till Fönster > Tillägg (äldre) > Adobe Asset Link.
 
-Om du vill ha information om hur du konfigurerar Adobe Asset Link för Adobe XD klickar du på [här](https://helpx.adobe.com/enterprise/using/adobe-asset-link-for-xd.html).
+Klicka [här](https://helpx.adobe.com/enterprise/using/adobe-asset-link-for-xd.html) om du vill ha information om hur du konfigurerar Adobe Asset Link för Adobe XD.
 
 >[!NOTE]
 >
->När du arbetar med maskinvara från Apple Silicon/M1 måste Adobe Photoshop startas med kompatibilitetsläget Rosetta för att se till att kreativa användare har tillgång till panelen Adobe Asset Link, eftersom den byggs med CEP-tilläggstekniken. Mer information finns i [Photoshop for Apple Silicon](https://helpx.adobe.com/photoshop/kb/photoshop-for-apple-silicon.html).
+>När du arbetar med maskinvara från Apple Silicon/M1 måste Adobe Photoshop startas med kompatibilitetsläget Rosetta för att se till att kreativa användare har tillgång till panelen Adobe Asset Link, eftersom den byggs med CEP-tilläggstekniken. Mer information finns i [Photoshop för Apple Silicon](https://helpx.adobe.com/photoshop/kb/photoshop-for-apple-silicon.html).
 
 
-Använd Adobe Asset Link för att arbeta med och ändra resurser som lagras i Assets Essentials-databasen. Du kan utföra olika åtgärder, till exempel:
+Använd Adobe Asset Link för att arbeta med och ändra resurser som lagras i Assets Essentials. Du kan utföra olika åtgärder, till exempel:
 
 * Söka efter och bläddra bland resurser
 
@@ -100,4 +100,4 @@ Instruktioner om hur du utför dessa åtgärder finns i [Hantera resurser med Ad
 
 ## What&#39;s Next
 
-Nu när du har integrerat Creative Cloud-programmen med Assets Essentials [integrera Adobe Workfront med Experience Manager Assets Essentials](integrate-assets-essentials-workfront.md).
+Nu när du har integrerat Creative Cloud-programmen med Assets Essentials, [integrerar Adobe Workfront med Experience Manager Assets Essentials](integrate-assets-essentials-workfront.md).

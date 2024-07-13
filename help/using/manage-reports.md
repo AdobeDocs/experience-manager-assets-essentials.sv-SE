@@ -15,9 +15,9 @@ Resursrapportering ger administratörer insyn i Adobe Experience Manager Assets 
 
 ## Åtkomstrapporter {#access-reports}
 
-Alla användare som är tilldelade till [Produktprofil för Assets Essentials-administratörer](deploy-administer.md) kan komma åt Insikter-instrumentpanelen eller skapa användardefinierade rapporter i Assets Essentials.
+Alla användare som är tilldelade till produktprofilen [Assets Essentials Administrators](deploy-administer.md) har åtkomst till Insikter-instrumentpanelen eller kan skapa användardefinierade rapporter i Assets Essentials.
 
-Om du vill få åtkomst till rapporter går du till **[!UICONTROL Reports]** under **[!UICONTROL Settings]**.
+Navigera till **[!UICONTROL Reports]** under **[!UICONTROL Settings]** för att få åtkomst till rapporter.
 
 ![Rapporter](assets/reports.png)
 <!--
@@ -42,23 +42,23 @@ Med Assets Essentials kan du visa realtidsdata för din Assets Essentials-miljö
 
 <!--![Toolbar options when you select an asset](assets/assets-essentials-live-statistics.png)-->
 
-Klicka **[!UICONTROL Insights]** som finns i det vänstra navigeringsfönstret för att visa följande automatiskt genererade diagram:
+Klicka på **[!UICONTROL Insights]** i den vänstra navigeringsrutan för att visa följande automatiskt genererade diagram:
 
-* **Nedladdningar**: Antalet resurser som hämtats från Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
-  ![nedladdningar](/help/using/assets/insights-downloads2341.svg)
+* **Hämtningar**: Antalet resurser som hämtats från Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna representeras av ett linjediagram.
+  ![hämtningar](/help/using/assets/insights-downloads2341.svg)
 
 * **Överföringar**: Antalet resurser som har överförts till Assets Essentials-miljön under de senaste 30 dagarna eller 12 månaderna visas i ett linjediagram.
   ![överföringar](/help/using/assets/insights-uplods2.svg)
 
 <!--* **Asset Count by Size**: The division of count of assets based on their range of various sizes from 0 MB to 100 GB.-->
 
-* **Lagringsanvändning**: Lagringsanvändningen, i byte, för Assets Essentials-miljön som representeras av ett stapeldiagram.
+* **Lagringsanvändning**: Lagringsanvändningen (i byte) för Assets Essentials-miljön som representeras av ett stapeldiagram.
   ![lagringsanvändning](/help/using/assets/insights-storage-usage1.svg)
   <!--* **Delivery**: The graph depicts the count of assets as the delivery dates.-->
 
 <!--* **Asset Count by Asset Type**: Represents count of various MIME types of the available assets. For example, application/zip, image/png, video/mp4, application/postscripte.-->
 
-* **Vanliga sökningar**: Visa de mest sökbara termerna tillsammans med det antal gånger de har sökts igenom i din Assets Essentials-miljö under de senaste 30 dagarna eller 12 månaderna i tabellformat.
+* **Vanliga sökningar**: Visa de mest sökta söktermerna tillsammans med det antal gånger som de sökts igenom i din Assets Essentials-miljö under de senaste 30 dagarna eller 12 månaderna i tabellformat.
   ![lagringsanvändning](/help/using/assets/insights-top-search.svg)
 
   <!--
@@ -70,13 +70,13 @@ Klicka **[!UICONTROL Insights]** som finns i det vänstra navigeringsfönstret f
 
 Så här skapar du en hämtningsrapport:
 
-1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Reports]** och klicka **[!UICONTROL Create Report]**.
+1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Reports]** och klicka på **[!UICONTROL Create Report]**.
 
-1. I [!UICONTROL Configuration] -flik anger du rapporttypen som **[!UICONTROL Download]**.
+1. Ange rapporttypen **[!UICONTROL Download]** på fliken [!UICONTROL Configuration].
 
 1. Ange en rubrik och en valfri beskrivning för rapporten.
 
-1. Välj mappsökvägen, som omfattar de resurser som rapporten ska köras på, med hjälp av **[!UICONTROL Select Folder Path]** fält.
+1. Välj mappsökvägen, som omfattar de resurser som rapporten ska köras på, med hjälp av fältet **[!UICONTROL Select Folder Path]**.
 
 1. Välj datumintervall för rapporten.
 
@@ -84,11 +84,11 @@ Så här skapar du en hämtningsrapport:
    >
    > Assets Essentials konverterar alla lokala tidszoner till UTC (Coordinated Universal Time).
 
-1. I [!UICONTROL Columns] markerar du de kolumnnamn du vill visa i rapporten.
+1. På fliken [!UICONTROL Columns] markerar du de kolumnnamn som du vill visa i rapporten.
 
-1. Klicka **[!UICONTROL Create]**
+1. Klicka på **[!UICONTROL Create]**
 
-   ![Ladda ned rapport](assets/download-reports-config.png)
+   ![Hämta rapport](assets/download-reports-config.png)
 
 I följande tabell förklaras användningen av alla kolumner som du kan lägga till i rapporten:
 
@@ -149,17 +149,17 @@ I följande tabell förklaras användningen av alla kolumner som du kan lägga t
 
 Så här skapar du en överföringsrapport:
 
-1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Reports]** och klicka **[!UICONTROL Create Report]**.
+1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Reports]** och klicka på **[!UICONTROL Create Report]**.
 
-1. I [!UICONTROL Configuration] -flik anger du rapporttypen som **[!UICONTROL Upload]**.
+1. Ange rapporttypen **[!UICONTROL Upload]** på fliken [!UICONTROL Configuration].
 
 1. Ange en rubrik och en valfri beskrivning för rapporten.
 
-1. Välj mappsökvägen, som omfattar de resurser som rapporten ska köras på, med hjälp av **[!UICONTROL Select Folder Path]** fält.
+1. Välj mappsökvägen, som omfattar de resurser som rapporten ska köras på, med hjälp av fältet **[!UICONTROL Select Folder Path]**.
 
 1. Välj datumintervall för rapporten.
 
-1. I [!UICONTROL Columns] markerar du de kolumnnamn du vill visa i rapporten.
+1. På fliken [!UICONTROL Columns] markerar du de kolumnnamn som du vill visa i rapporten.
 
 1. Klicka på **[!UICONTROL Create]**.
 
@@ -210,15 +210,15 @@ I följande tabell förklaras användningen av alla kolumner som du kan lägga t
 
 ## Visa befintliga rapporter {#view-report-list}
 
-Efter [skapa rapporten](#create-download-report)kan du visa listan över befintliga rapporter och välja att hämta dem i CSV-format eller ta bort dem.
+När du har [skapat rapporten](#create-download-report) kan du visa listan över befintliga rapporter och välja att hämta dem i ett CSV-format eller ta bort dem.
 
-Om du vill visa en lista med rapporter går du till **[!UICONTROL Settings]** > **[!UICONTROL Reports]**.
+Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Reports]** om du vill visa listan med rapporter.
 
 För varje rapport kan du visa rapportrubrik, rapporttyp, beskrivning som anges när rapporten skapas, rapportens status, e-post-ID för den som skapade rapporten och rapportens skapandedatum.
 
-`Completed ` rapportens status visar att rapporten är klar för hämtning.
+`Completed `-status för rapporten visar att rapporten är klar för hämtning.
 
-![Förteckning över rapporter](assets/list-of-reports.png)
+![Lista över rapporter](assets/list-of-reports.png)
 
 
 ## Hämta en CSV-rapport {#download-csv-report}
@@ -229,7 +229,7 @@ Så här hämtar du en rapport i CSV-format:
 
 1. Välj en rapport och klicka på **[!UICONTROL Download CSV]**.
 
-Den valda rapporten hämtas i CSV-format. Kolumnerna som visas i CSV-rapporten beror på vilka kolumner som du markerar när [skapa rapporten](#create-download-report).
+Den valda rapporten hämtas i CSV-format. Kolumnerna som visas i CSV-rapporten beror på vilka kolumner du markerar när du [skapar rapporten](#create-download-report).
 
 ## Ta bort en rapport {#delete-report}
 
@@ -239,4 +239,4 @@ Ta bort en rapport:
 
 1. Välj en rapport och klicka på **[!UICONTROL Delete]**.
 
-1. Klicka **[!UICONTROL Delete]** igen för att bekräfta.
+1. Bekräfta genom att klicka på **[!UICONTROL Delete]** igen.

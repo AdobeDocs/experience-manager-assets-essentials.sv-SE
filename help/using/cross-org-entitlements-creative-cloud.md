@@ -1,16 +1,17 @@
 ---
 title: Korsorganisationers rättigheter i AEM Assets för integrering med Creative Cloud
 description: Lär dig hur du konfigurerar korsorganisationsberättiganden i AEM Assets för integreringar med Creative Cloud. Anslut till ett berättigande för Creative Cloud som har tilldelats en annan IMS-organisation för att enkelt kunna använda de senaste Creative Cloud-integreringarna i AEM Assets, inklusive Express och Creative Cloud Libraries.
-source-git-commit: b0e20aa3a29a6a37453da16f18d474baf67edb24
+exl-id: 5a39b640-4195-4149-9757-2733ed70e616
+source-git-commit: ebc49d5c29118cd09cf1f97e8f71f63df76b3779
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Korsorganisationsberättiganden för integreringar med Creative Cloud  {#cross-org-entitlements}
 
-Experience Manager Assets kan ansluta till ett berättigande för Creative Cloud som är etablerat i en annan IMS-organisation för att enkelt kunna använda de senaste Creative Cloud-integreringarna i AEM Assets, inklusive Express och Creative Cloud Libraries.
+Experience Manager Assets har möjlighet att ansluta till ett berättigande för Creative Cloud som tillhandahålls till en annan IMS-organisation för att enkelt kunna använda de senaste Creative Cloud-integreringarna i AEM Assets, inklusive Express och Creative Cloud Libraries.
 
 Om dina Creative Cloud-produkter och AEM Assets har tilldelats separata IMS-organisationer kan du ansluta till en annan Creative Cloud-organisation för att kunna köra integrerade arbetsflöden mellan de två lösningarna.
 
@@ -26,15 +27,14 @@ Så här ansluter du till en ny Creative Cloud-organisation:
 
 1. Navigera till **[!UICONTROL Settings]** > **[!UICONTROL Creative Cloud]**.
 
-1. Markera den nya Creative Cloud-organisationen med **[!UICONTROL Select new Creative Cloud org ID]** listruta. I listan visas alla organisationer som du har tillgång till. Markera organisationen med aktiva Creative Cloud-berättiganden.
+1. Markera den nya Creative Cloud-organisationen med hjälp av listrutan **[!UICONTROL Select new Creative Cloud org ID]**. I listan visas alla organisationer som du har tillgång till. Markera organisationen med aktiva Creative Cloud-berättiganden.
 
-1. Klicka **[!UICONTROL Switch orgs]** för att byta till den nya organisationen.
+1. Klicka på **[!UICONTROL Switch orgs]** för att växla till den nya organisationen.
 
-   ![Korsorganisation](assets/cross-org-entitlements.png)
+   ![Korsorganisationsberättiganden](assets/cross-org-entitlements.png)
 
 ## Begränsningar {#limitations}
 
 * Du kan ansluta AEM Assets till en Creative Cloud-organisation åt gången. Anslutning till flera Creative Cloud-organisationer samtidigt stöds inte.
 
 * Den Creative Cloud-organisation som du ansluter till inom AEM Assets gäller alla användare inom din organisation.
-

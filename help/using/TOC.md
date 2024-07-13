@@ -22,14 +22,14 @@ ht-degree: 20%
 + [Översikt över lösningar](introduction.md)
 + [Versionsinformation](release-notes.md)
 + [Dokumentskydd](security-overview.md)
-+ [Min arbetsyta](my-workspace.md)
++ [Mina Workspace](my-workspace.md)
 + Kom igång med Assets Essentials för administratörer {#get-started-admins}
    + [Administrera och lägga till användare](deploy-administer.md)
    + Hantera mappåtkomst{#folder-access}
       + [Hantera mappbehörigheter](manage-permissions.md)
       + [Bästa tillvägagångssätt för behörighetshantering](permission-management-best-practices.md)
-   + [Administratörsresa för Assets Essentials for Creative Cloud Pro med Work Management Solutions](assets-essentials-cc-pro-work-management-admin-journey.md)
-+ [Kom igång med [!DNL Assets Essentials]](get-started.md)
+   + [Administratörsresa för Assets Essentials för Creative Cloud Pro med Work Management Solutions](assets-essentials-cc-pro-work-management-admin-journey.md)
++ [Kom igång med  [!DNL Assets Essentials]](get-started.md)
 + [Filtyper och användningsområden som stöds](supported-file-formats.md)
 + [Visa resurser](navigate-view.md)
 + [Överför och lägg till resurser](add-delete.md)
@@ -44,10 +44,10 @@ ht-degree: 20%
 + [Titta på resurser, mappar och samlingar](manage-notifications.md)
 + [Hantera rapporter](manage-reports.md)
 + [Hantera taggar](tagging-management.md)
-+ Integration med andra lösningar {#integration-with-other-solutions}
++ Integrering med andra lösningar {#integration-with-other-solutions}
    + [Ökning](integration.md)
    + [Integrera med Adobe Asset Link](integrate-with-creative-cloud.md)
    + [Integrera med Adobe Workfront](integrate-with-workfront.md)
-+ Integration med Creative Cloud {#integration-with-creative-cloud}
++ Integrering med Creative Cloud {#integration-with-creative-cloud}
    + [Anslut AEM Assets till Creative Cloud](connect-assets-with-creative-cloud.md)
-+ [Videor](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html)
++ [Videoklipp](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html)
