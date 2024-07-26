@@ -3,9 +3,9 @@ title: "[!DNL Assets Essentials]-användargränssnitt"
 description: Förstå användargränssnittet för och navigering i  [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 8620efd0430d230338ef8005847de498a5a95a7e
+source-git-commit: c6b04d1882347a4647a690939353856844b2a27a
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,8 @@ När du loggar in på [!DNL Assets Essentials] visas följande gränssnitt.
 
 ## Bläddra bland och visa resurser och mappar {#browse-repository}
 
-Du kan bläddra bland mapparna från huvudanvändargränssnittet eller från vänster sidofält. När du bläddrar kan du använda gränssnittet för att visa miniatyrbilder av resurser för att visuellt bläddra i databasen eller visa resursinformation för att snabbt hitta den resurs du vill ha. De alternativ som är tillgängliga i den vänstra sidlisten är:
+Du kan bläddra bland mapparna från huvudanvändargränssnittet eller från vänster sidofält. Experience Manager Assets visar nu förhandsvisningar av mappinnehåll i mappminiatyrbilden när du bläddrar eller söker efter innehåll, vilket gör det enklare att hitta resurser som finns i AEM Assets-databasen. Med den här mappminiatyrbilden sparar du tid på att söka efter specifika resurser i en mapp i AEM Assets-databasen.
+När du bläddrar bland resurser i en mapp kan du använda gränssnittet för att visa miniatyrbilder av resurser för att visuellt bläddra i databasen eller visa resursinformation för att snabbt hitta den resurs du vill ha. De alternativ som är tillgängliga i den vänstra sidlisten är:
 
 * [Min Workspace](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): Assets innehåller nu en anpassningsbar arbetsyta med widgetar för smidig åtkomst till viktiga delar av Assets användargränssnitt och den information som är mest relevant för dig. Den här sidan är en helhetslösning som ger en översikt över dina arbetsobjekt och ger snabb åtkomst till viktiga arbetsflöden. Mer lättåtkomlig åtkomst till dessa alternativ ökar effektiviteten och ökar innehållets hastighet.
 * [Uppgifter](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): Du kan visa de uppgifter som du har tilldelats på fliken **Mina uppgifter**. De uppgifter du har skapat kan visas på fliken **Tilldelade uppgifter**. Dessutom finns de uppgifter du har slutfört på fliken **Slutförda uppgifter**.
@@ -63,7 +64,7 @@ I [!DNL Assets Essentials] kan du visa resurser, mappar och sökresultat i fyra 
 
 Om du vill hitta en resurs kan du sortera resurserna i stigande eller fallande ordning `Name`, `Relevancy`, `Size`, `Modified` och `Created`.
 
-Om du vill navigera till en mapp dubbelklickar du på mappens miniatyrbilder eller väljer mappen från vänster sidopanel. Om du vill visa information om en mapp markerar du den och klickar på Information i verktygsfältet högst upp. Om du vill navigera uppåt och nedåt i hierarkin använder du vänster sidospalt eller de synliga spåren högst upp.
+Om du vill navigera i en mapp dubbelklickar du på mappens miniatyrbilder eller väljer mappen från vänster sidopanel. Om du vill visa information om en mapp markerar du den och klickar på Information i verktygsfältet högst upp. Om du vill navigera uppåt och nedåt i hierarkin använder du vänster sidospalt eller de synliga spåren högst upp.
 
 ![Bläddra bland mappar](assets/browsing-folders.png)
 
