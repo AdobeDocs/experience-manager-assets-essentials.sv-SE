@@ -3,7 +3,7 @@ title: "[!DNL Assets Essentials]-användargränssnitt"
 description: Förstå användargränssnittet för och navigering i  [!DNL Assets Essentials].
 role: User
 exl-id: 534a8084-88f7-410e-b872-719e47e62b10
-source-git-commit: 8debab75bb335d4a81279c9c0e84229c3b3ca2cd
+source-git-commit: 5abb9a2ca6136c08479f9a48855522f4fd982e95
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -30,7 +30,7 @@ När du loggar in på [!DNL Assets Essentials] visas följande gränssnitt.
 
 ## Bläddra bland och visa resurser och mappar {#browse-repository}
 
-Du kan bläddra bland mapparna från huvudanvändargränssnittet eller från vänster sidofält. Experience Manager Assets visar nu förhandsvisningar av mappinnehåll i mappminiatyrbilden när du bläddrar eller söker efter innehåll, vilket gör det enklare att hitta resurser som finns i AEM Assets-databasen. Med den här mappminiatyrbilden sparar du tid på att söka efter specifika resurser i en mapp i AEM Assets-databasen.
+Du kan bläddra bland mapparna från huvudanvändargränssnittet eller från vänster sidofält. Experience Manager Assets visar nu förhandsvisningar av mappinnehåll i mappminiatyrbilden när du bläddrar eller söker efter innehåll, vilket gör det enklare att hitta resurser som finns i AEM Assets-databasen. Med den här mappminiatyrbilden sparar du tid på att söka efter specifika resurser i en mapp i AEM Assets Repository.
 När du bläddrar bland resurser i en mapp kan du använda gränssnittet för att visa miniatyrbilder av resurser för att visuellt bläddra i databasen eller visa resursinformation för att snabbt hitta den resurs du vill ha. De alternativ som är tillgängliga i den vänstra sidlisten är:
 
 * [Min Workspace](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/my-workspace.html?lang=en): Assets innehåller nu en anpassningsbar arbetsyta med widgetar för smidig åtkomst till viktiga delar av Assets användargränssnitt och den information som är mest relevant för dig. Den här sidan är en helhetslösning som ger en översikt över dina arbetsobjekt och ger snabb åtkomst till viktiga arbetsflöden. Mer lättåtkomlig åtkomst till dessa alternativ ökar effektiviteten och ökar innehållets hastighet.
