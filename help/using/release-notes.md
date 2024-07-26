@@ -4,18 +4,28 @@ description: Versionsinformation och kända problem med  [!DNL Assets Essentials
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AK
 exl-id: a0e29eb6-336a-4f78-b7bd-ec1338c86775
-source-git-commit: eac31e102b9e26241cd513b1aeb8774802120a9d
+source-git-commit: 323e1ebd3ee81dfae0d15dc4120997ae3c4798b9
 workflow-type: tm+mt
-source-wordcount: '2891'
+source-wordcount: '2964'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om [!DNL Assets Essentials] {#release-notes}
 
-Den nuvarande releasen av Assets Essentials släpptes den 18 april 2024.
+Den nuvarande releasen av Assets Essentials släpptes den 25 juli 2024.
 
 Några av de nyligen tillagda funktionerna:
+
+**Integrering av**
+
+Experience Manager Assets har nu stöd för  för bildformat som stöds. Detta ger information om resursens innehåll och hur den skapades, inklusive om den ändrades med hjälp av GenAI.
+
+![](/help/using/assets/content-credentials.png)
+
+**Visuella förhandsvisningar av mappinnehåll**
+
+Experience Manager Assets visar nu förhandsvisningar av mappinnehåll i mappminiatyrbilden när du bläddrar eller söker efter innehåll, vilket gör det enklare att hitta resurser som finns i AEM Assets-databasen.
 
 **Sammanhangsbaserad sökning**
 
