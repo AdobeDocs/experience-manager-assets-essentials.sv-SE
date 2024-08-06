@@ -3,7 +3,7 @@ title: Redigera bilder
 description: Redigera bilder med  [!DNL Adobe Express] aktiverade alternativ och spara uppdaterade bilder som versioner.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 56a2af8467f3e44855f26bd86a394c76e9f7ccf3
+source-git-commit: 53f638e0dc934f2a4134acb89713b5d4828c8d1f
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -85,6 +85,7 @@ Du kan snabbt konvertera mellan bildformaten JPEG och PNG med Adobe Express. Utf
 ### Redigera bilder i Adobe Expressens inbäddade redigerare {#edit-images-in-adobe-express-embedded-editor}
 
 Användare med Express-berättigande kan använda den inbäddade Express-redigeraren inifrån Assets Essentials för att redigera innehållet och enkelt skapa nytt innehåll med GenAI från Adobe Firefly. Den här funktionen förbättrar återanvändning av innehåll och snabbar upp innehållets hastighet. Du kan också använda fördefinierade element för att få dina resurser att se fantastiska ut eller utföra snabba åtgärder för att redigera bilden med bara några klick.
+
 ![express i grundläggande gränssnitt](/help/using/assets/express-in-essentials-ui.jpg)
 Följ stegen nedan om du vill redigera Adobe Expresser i den inbäddade redigeraren:
 
