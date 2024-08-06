@@ -3,7 +3,7 @@ title: Redigera bilder
 description: Redigera bilder med  [!DNL Adobe Express] aktiverade alternativ och spara uppdaterade bilder som versioner.
 role: User
 exl-id: fc21a6ee-bf23-4dbf-86b0-74695a315b2a
-source-git-commit: 65e9f9414fe71d9e9add9b794856d77f87aed086
+source-git-commit: 56a2af8467f3e44855f26bd86a394c76e9f7ccf3
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Ytterligare referensinformation finns i - [Kom igång med Adobe Experience Manag
 >title="Integrering av Adobe Expresser"
 >abstract="Enkla och intuitiva bildredigeringsverktyg med Adobe Express som är tillgängliga direkt i AEM Assets för att öka återanvändningen och snabba upp innehållets hastighet."
 
-När du har landat i Essentials-användargränssnittet klickar du på **Assets**, markerar en bild och klickar sedan på **Redigera** i den övre listen. På den nya skärmen visas de tillgängliga redigeringsalternativen som bygger på Adobe Express, bland annat storleksändring, borttagning av bakgrund, beskärning och konvertering mellan JPEG och PNG-format.
+När du har navigerat till gränssnittet Grundläggande klickar du på **Assets**, markerar en bild och sedan på **Redigera** i den övre listen. På den nya skärmen visas de tillgängliga redigeringsalternativen som bygger på Adobe Express, bland annat storleksändring, borttagning av bakgrund, beskärning och konvertering mellan JPEG och PNG-format.
 
 #### Ändra bildstorlek {#resize-image-using-express}
 
