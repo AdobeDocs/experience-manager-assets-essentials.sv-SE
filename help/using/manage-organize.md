@@ -4,9 +4,9 @@ description: Flytta, ta bort, kopiera, byta namn på, uppdatera och version av d
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: a49bfcdf3dbd6601ed15ae8a3309922c0483b3d7
+source-git-commit: ce92eb58ede5d1ebbe88a98bfa7629532396f3be
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -132,6 +132,7 @@ Så här anger du resursstatus:
 1. Markera resursen och klicka på **[!UICONTROL Details]** i verktygsfältet.
 
 1. Välj resursstatus i listrutan **[!UICONTROL Status]** på fliken **[!UICONTROL Basic]**. Möjliga värden är Godkänd, Avvisat och Ingen status (standard).
+Om du har Dynamic Media med OpenAPI-funktioner tilldelade för din miljö, genererar Experience Manager Assets en offentlig URL så fort du markerar resursen som `Approved`.
 
    >[!VIDEO](https://video.tv.adobe.com/v/342495)
 
