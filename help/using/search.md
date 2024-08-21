@@ -3,7 +3,7 @@ title: Sök efter och identifiera resurser i  [!DNL Assets Essentials]
 description: Sök efter och identifiera resurser i  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: a471074ec0eee8487222cc344046715ed5d90d0b
+source-git-commit: 6b6f898f2232a03c69a517c3d315d565253b37b7
 workflow-type: tm+mt
 source-wordcount: '1809'
 ht-degree: 0%
@@ -254,7 +254,7 @@ Så här kommer du åt sammanhangsbaserad sökning i Experience Manager Assets:
 
 1. Definiera textprompten i söktextrutan och klicka på **[!UICONTROL Contextual Search]**.
 
-   ![Sammanhangsberoende textfråga för sökning](/help/using/assets/contextual-search-text-prompt.png)
+   ![Sammanhangsberoende textfråga för sökning](/help/using/assets/wknd-contextual-search.png)
 
    [!DNL Experience Manager Assets] visar sökresultaten.
 
