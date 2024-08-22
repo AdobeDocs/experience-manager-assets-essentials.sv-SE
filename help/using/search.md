@@ -3,7 +3,7 @@ title: Sök efter och identifiera resurser i  [!DNL Assets Essentials]
 description: Sök efter och identifiera resurser i  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 6b6f898f2232a03c69a517c3d315d565253b37b7
+source-git-commit: ebd019640ddb984e0600fb4fb99b0f2d0afdba7d
 workflow-type: tm+mt
 source-wordcount: '1809'
 ht-degree: 0%
@@ -335,3 +335,4 @@ Om du behöver ge feedback på funktionen för sammanhangsbaserad sökning klick
 * Ge feedback genom att [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som är tillgängligt på den högra sidopanelen.
 
 * Kontakta [kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)
+
