@@ -3,7 +3,7 @@ title: Sök efter och identifiera resurser i  [!DNL Assets Essentials]
 description: Sök efter och identifiera resurser i  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 332a4842f6ae017b802fbd0edd75e74d6f2e8c97
+source-git-commit: 84695c5a2b6423b0a5863b088ac8507f0de0e80d
 workflow-type: tm+mt
 source-wordcount: '1883'
 ht-degree: 0%
