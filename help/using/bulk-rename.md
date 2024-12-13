@@ -2,7 +2,8 @@
 title: Byt namn på och gruppera resurser om namn i  [!DNL Assets Essentials]
 description: Lär dig hur du byter namn på resurser gruppvis med det nya användargränssnittet i Assets (Assets Essentials). Det gör det möjligt att byta namn på flera resurser samtidigt.
 role: User
-source-git-commit: 9232f1ccb1d71057c909330d7e4861d048310b7b
+exl-id: 5d18950f-1863-46c0-83d7-079ae95a6320
+source-git-commit: 0526340ed0491d33a5084ea3538fa872ec2899e5
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%
@@ -67,3 +68,4 @@ Nedan följer några exempel på hur du kan använda AI för att byta namn på r
 * Ge feedback om dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som är tillgängligt på den högra sidopanelen
 
 * Kontakta [kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)
+
