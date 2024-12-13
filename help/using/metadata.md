@@ -4,9 +4,9 @@ description: Hantera metadata för resurser i  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 37beb971f1e675162eb4b8e9ab008b20a241c066
+source-git-commit: 09040ef6dc777aa631b00bb37108f86b83bdf583
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1818'
 ht-degree: 0%
 
 ---
@@ -130,9 +130,11 @@ Nedan visas en översikt över varje egenskapstyp och hur de lagras.
 | Nedrullningsbar meny | Lägg till en listruta. |
 | Läge | Lägg till egenskapen för databastillstånd (mappas till repo:state) |
 | Resursstatus | Lägg till standardegenskapen för tillgångsstatus (mappas till dam:assetStatus) |
+| Godkänd för | |
 | Taggar | Lägg till en tagg från värden som lagras i taxonomihantering (mappas till xcm:tags). |
 | Nyckelord | Lägg till nyckelord med valfri form (mappas till dc:subject). |
 | Smarta taggar | Förbättra sökfunktionerna genom att automatiskt lägga till metadatataggar. |
+| Länk | Lägg till för att aktivera externa URL:er. |
 
 ### Tilldela metadataformulär till mappar {#assign-metadata-form-folder}
 
@@ -165,6 +167,19 @@ Så här tar du bort ett metadataformulär från en mapp:
 1. Markera mappen och klicka på **[!UICONTROL Remove]**. Du kan också välja flera mappar i listan.
 
 Du kan också navigera till sidan med mappinformation och välja **[!UICONTROL System mapped Metadata Form]** i fältet **[!UICONTROL Metadata Forms]** för att ta bort det tilldelade metadataformuläret från en mapp.
+
+### Arbeta med komponenten Länk i metadataformulär {#link-component-metadata-form}
+
+Länkkomponenten används för att aktivera externa URL-adresser som lagringslänkar, copyrightinformation, kontaktformulär och så vidare. Om du vill använda länkkomponenten i metadataformulär måste du [konfigurera metadataformuläret](#metadata-forms).
+
+Följ stegen nedan för att använda länkkomponenten i metadataformuläret:
+
+1. Gå till sidan med resursinformation och navigera till **[!UICONTROL Link URL]**.
+1. Lägg till en URL som du vill använda för att omdirigera den valda resursen.
+1. Klicka på **[!UICONTROL Add link]**. Utför någon av följande åtgärder:
+   * Klicka på ikonen ![kopiera](assets/do-not-localize/copy.svg) för att kopiera URL:en.
+   * Klicka på ![redigeringsikonen](assets/do-not-localize/edit.svg) om du vill redigera URL-adressen.
+1. Klicka på **[!UICONTROL Save]** om du vill spara ändringarna.
 
 ## Nästa steg {#next-steps}
 
