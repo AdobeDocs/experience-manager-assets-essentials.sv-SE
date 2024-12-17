@@ -4,9 +4,9 @@ description: Hantera metadata för resurser i  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 0526340ed0491d33a5084ea3538fa872ec2899e5
+source-git-commit: f922e9191cc3bf6beef66665dec49fd3876bf33b
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -130,11 +130,10 @@ Nedan visas en översikt över varje egenskapstyp och hur de lagras.
 | Nedrullningsbar meny | Lägg till en listruta. |
 | Läge | Lägg till egenskapen för databastillstånd (mappas till repo:state) |
 | Resursstatus | Lägg till standardegenskapen för tillgångsstatus (mappas till dam:assetStatus) |
-| Godkänd för | |
 | Taggar | Lägg till en tagg från värden som lagras i taxonomihantering (mappas till xcm:tags). |
 | Nyckelord | Lägg till nyckelord med valfri form (mappas till dc:subject). |
 | Smarta taggar | Förbättra sökfunktionerna genom att automatiskt lägga till metadatataggar. |
-| Länk | Lägg till för att aktivera externa URL:er. |
+| Länk | Lägg till för att aktivera externa URL:er. När URL-komponenten har konfigurerats på metadataformuläret kan den mappas till en viss metadataegenskap på sidan för metadataredigeraren. Det här [metadataformuläret kan tilldelas mappar ](#assign-metadata-form-folder). |
 
 ### Tilldela metadataformulär till mappar {#assign-metadata-form-folder}
 
@@ -170,9 +169,9 @@ Du kan också navigera till sidan med mappinformation och välja **[!UICONTROL S
 
 ### Arbeta med komponenten Länk i metadataformulär {#link-component-metadata-form}
 
-Länkkomponenten används för att aktivera externa URL-adresser som lagringslänkar, copyrightinformation, kontaktformulär och så vidare. Om du vill använda länkkomponenten i metadataformulär måste du [konfigurera metadataformuläret](#metadata-forms).
+Länkkomponenten används för att aktivera externa URL-adresser som lagringslänkar, copyrightinformation, kontaktformulär och så vidare. Om du vill använda länkkomponenten i metadataformulär måste du [konfigurera metadataformuläret](#metadata-forms). URL-komponenten kan mappas till en viss metadataegenskap på sidan för metadataredigeraren, som fungerar på samma sätt som andra metadatakomponenter. Det här metadataformuläret kan tilldelas mappar. På detaljsidan för den tilldelade mappresursens kan du se metadatavärdet för resurslänkar.
 
-Följ stegen nedan för att använda länkkomponenten i metadataformuläret:
+Följ stegen nedan för att använda länkkomponenten på sidan med resursinformation:
 
 1. Gå till sidan med resursinformation och navigera till **[!UICONTROL Link URL]**.
 1. Lägg till en URL som du vill använda för att omdirigera den valda resursen.
