@@ -3,7 +3,7 @@ title: Byt namn på och gruppera resurser om namn i  [!DNL Assets Essentials]
 description: Lär dig hur du byter namn på resurser gruppvis med det nya användargränssnittet i Assets (Assets Essentials). Det gör det möjligt att byta namn på flera resurser samtidigt.
 role: User
 exl-id: 5d18950f-1863-46c0-83d7-079ae95a6320
-source-git-commit: 0526340ed0491d33a5084ea3538fa872ec2899e5
+source-git-commit: 631156a70271b6f480264e2c604314f09a820fc9
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Nedan följer några exempel på hur du kan använda AI för att byta namn på r
 * Ta bort prefixet och suffixet, behåll bara den mellersta delen av namnet.
 * Lägg till 001, 002 osv. som prefix för filerna. och översätt till engelska.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440975)
+>[!VIDEO](https://video.tv.adobe.com/v/3440975)
 
 >[!NOTE]
 >
