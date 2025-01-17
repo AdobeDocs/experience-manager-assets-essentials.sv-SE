@@ -9,9 +9,9 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: e6a83309f974736d30ee40de5b6bf857f8e7fde1
+source-git-commit: c6298614d6085deca8618112d1d1533b4b980f54
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '146'
 ht-degree: 19%
 
 ---
@@ -24,10 +24,10 @@ ht-degree: 19%
 + [Dokumentskydd](security-overview.md)
 + [My Workspace](my-workspace.md)
 + Kom igång med Assets Essentials för administratörer {#get-started-admins}
-   + [Administer and add users](deploy-administer.md)
+   + [Administrera och lägga till användare](deploy-administer.md)
    + Hantera mappåtkomst{#folder-access}
-      + [Manage folder permissions](manage-permissions.md)
-      + [Best practices for permissions management](permission-management-best-practices.md)
+      + [Hantera mappbehörigheter](manage-permissions.md)
+      + [Bästa praxis för behörighetshantering](permission-management-best-practices.md)
    + [Administratörsresa för Assets Essentials för Creative Cloud Pro med Work Management Solutions](assets-essentials-cc-pro-work-management-admin-journey.md)
 + [Kom igång med  [!DNL Assets Essentials]](get-started.md)
 + [Supported file types and use cases](supported-file-formats.md)
@@ -43,12 +43,13 @@ ht-degree: 19%
 + [Redigera massmetadata](/help/using/bulk-metadata-edit.md)
 + [Share assets](share-links-for-assets.md)
 + [Manage collections](manage-collections.md)
-+ [Watch assets, folders, and collections](manage-notifications.md)
-+ [Manage reports](manage-reports.md)
-+ [Manage tags](tagging-management.md)
++ [Titta på resurser, mappar och samlingar](manage-notifications.md)
++ [Hantera rapporter](manage-reports.md)
++ [Reprocessing](reprocessing.md)
++ [Hantera taggar](tagging-management.md)
 + [Content Credentials](/help/using/content-credentials.md)
 + Integrering med andra lösningar {#integration-with-other-solutions}
-   + [Overview](integration.md)
+   + [Ökning](integration.md)
    + [Integrera med Adobe Asset Link](integrate-with-creative-cloud.md)
    + [Integrera med Adobe Workfront](integrate-with-workfront.md)
 + Integrering med Creative Cloud {#integration-with-creative-cloud}
