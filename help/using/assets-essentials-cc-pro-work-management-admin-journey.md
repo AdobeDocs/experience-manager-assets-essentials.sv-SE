@@ -2,9 +2,9 @@
 title: Konfigurera Assets Essentials för Creative Cloud Pro med Work Management Solutions
 description: I den här självstudiekursen introduceras en administratörsresa som gör det möjligt för Assets Essentials att integrera-program med Creative Cloud-datorprogram och Adobe Workfront-program. Creative Cloud-programmen omfattar Adobe Photoshop, Adobe Illustrator, Adobe InDesign och Adobe XD.
 exl-id: a5e9e0c3-35ec-41de-9656-f4f0f88946c7
-source-git-commit: 65200f73a954e4ebf4fbd6dc3a819acc6e0beda4
+source-git-commit: b1ae487b4b4e9a88e0d9c39889d3893d92a766c9
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ När du har hanterat användarberättiganden i Admin Console kan administratöre
 
 * Konfigurera metadataformulär
 
-[![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](deploy-administer.md)
+[![Se guiden](assets/see-the-guide-sm.png)](deploy-administer.md)
 
 Nu när du har konfigurerat och hanterat Assets Essentials-programmet kan [integrera Creative Cloud-program med Experience Manager Assets Essentials-programmet](integrate-with-creative-cloud.md).
 
@@ -99,7 +99,7 @@ Mål:
 
 * Använd Adobe-resurslänk
 
-[![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-creative-cloud.md)
+[![Se guiden](assets/see-the-guide-sm.png)](integrate-with-creative-cloud.md)
 
 Nu när du har integrerat Creative Cloud-programmen med Assets Essentials, [integrerar Adobe Workfront med Experience Manager Assets Essentials](integrate-with-workfront.md).
 
@@ -119,4 +119,4 @@ Mål:
 
 * Konfigurera integrering med Experience Manager Assets Essentials
 
-[![Se guiden](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](integrate-with-workfront.md)
+[![Se guiden](assets/see-the-guide-sm.png)](integrate-with-workfront.md)
