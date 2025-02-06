@@ -4,9 +4,9 @@ description: Lär dig hur du skapar Dynamic Media-mallar med en mallredigerare i
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: a06bdadcd2194e1ffce23c672e605cfb95f14bcf
+source-git-commit: 85b8fc64c6bb0243803df3d8e18c00d1b17b1868
 workflow-type: tm+mt
-source-wordcount: '2695'
+source-wordcount: '2653'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,6 @@ Om du vill [ skapa en mapp ](/help/assets/add-delete-assets-view.md) under **[!U
 **Menyalternativ i den vänstra rutan:** Använd dessa alternativ för vanliga redigeringsåtgärder som anges nedan.
 
 * ![DM-mallar](/help/using/assets/layer-selector.svg): Välj ett lager.
-* ![mallar som stöder anpassning](/help/using/assets/bring-forward.svg): Klicka för att föra ett markerat lager framåt eller tryck på **Ctrl** + **]** (Windows) eller **Cmd** + **]** (Mac).
-* ![Så här skapar du en mall som enkelt kan anpassas](/help/using/assets/send-backward.svg): Klicka för att skicka ett markerat lager bakåt eller tryck på **Ctrl** + **[** (Windows) eller **Cmd** + **[** (Mac).
 * ![skapa en mall som kan anpassas direkt](/help/using/assets/undo.svg): Klicka för att ångra den senaste åtgärden eller tryck på **Ctrl** + **Z** (Windows) eller **Cmd** + **Z** (Mac).
 * ![mall för att skapa banners snabbt](/help/using/assets/redo.svg): Klicka för att göra om den senaste åtgärden eller tryck på **Ctrl** + **Y** (Windows) eller **Cmd** + **Y** (Mac).
 * ![mall för att snabbt skapa flygblad](/help/using/assets/zoomin.svg): Klicka för att zooma in arbetsytan eller tryck på **Ctrl** + **+** (Windows) eller Cmd + **+** (Mac).
