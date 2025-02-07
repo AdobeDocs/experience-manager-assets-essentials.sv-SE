@@ -4,16 +4,16 @@ description: Lär dig hur du skapar Dynamic Media-mallar med en mallredigerare i
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 85b8fc64c6bb0243803df3d8e18c00d1b17b1868
+source-git-commit: e09573fb64567b2975d5e7e08c2cf2db62b72202
 workflow-type: tm+mt
-source-wordcount: '2653'
+source-wordcount: '2661'
 ht-degree: 0%
 
 ---
 
 # Dynamic Media-mallar{#dynamic-media-templates}
 
-| [Sök efter bästa praxis](/help/assets/search-best-practices.md) | [Metadata - bästa praxis](/help/assets/metadata-best-practices.md) | [Content Hub](/help/assets/product-overview.md) | [AEM Assets-dokumentation för utvecklare](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
+| [Sök efter bästa praxis](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [Metadata - bästa praxis](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [AEM Assets-dokumentation för utvecklare](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
 | ------------- | --------------------------- |---------|-----|
 
 Skapa Dynamic Media-mallar med en WYSIWYG malleditor och ta med flera bilder och textlager för att snabbt skapa banners och flygblad och använda dem i program längre fram i kedjan. Du kan också lägga till parametrar i bilder och textlager som ingår i mallen och använda [Dynamic Media URL:er](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media) för att uppdatera värdena för dessa lager i realtid.
@@ -44,10 +44,10 @@ Några av fördelarna med Dynamic Media-mallar:
 Om du vill skapa en Dynamic Media-mall måste du ha:
 
 1. Tillgång till Dynamic Media.
-1. [De bilder som är tillgängliga i din AEM Assets-instans har synkroniserats med Dynamic Media för att de ska kunna användas för att skapa mallen](/help/assets/dynamic-media/config-dm.md).
+1. [De bilder som är tillgängliga i din AEM Assets-instans har synkroniserats med Dynamic Media för att de ska kunna användas för att skapa mallen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 1. har verifierat följande i Touch-gränssnittet:
-   * **[!UICONTROL Dynamic Media sync mode]** som är inställd på **[!UICONTROL Disabled by default]** på **[!UICONTROL Edit Dynamic Media Configuration page]** används inte på alla AEM mappar (**[!UICONTROL Sync all content]** är avmarkerad). Mer information finns i [Konfigurera Dynamic Media Cloud Service](/help/assets/dynamic-media/config-dm.md).
-   * **[!UICONTROL Dynamic Media sync mode]** är inställt på **[!UICONTROL Enable for subfolders]** för målmappen eller undermappen där du vill spara mallen när den har skapats. Mer information finns i [Konfigurera Dynamic Media Cloud Service](/help/assets/dynamic-media/config-dm.md).
+   * **[!UICONTROL Dynamic Media sync mode]** som är inställd på **[!UICONTROL Disabled by default]** på **[!UICONTROL Edit Dynamic Media Configuration page]** används inte på alla AEM mappar (**[!UICONTROL Sync all content]** är avmarkerad). Mer information finns i [Konfigurera Dynamic Media Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
+   * **[!UICONTROL Dynamic Media sync mode]** är inställt på **[!UICONTROL Enable for subfolders]** för målmappen eller undermappen där du vill spara mallen när den har skapats. Mer information finns i [Konfigurera Dynamic Media Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 
 ## Skapa Dynamic Media WYSIWYG-mall{#how-to-create-dynamic-media-wysiwyg-template}
 
@@ -69,7 +69,7 @@ Så här skapar du en tom arbetsyta:
 
 1. Klicka på **[!UICONTROL Create Template]** om du vill spara mallen under Dynamic Media Assets eller navigera till en mapp och klicka på **[!UICONTROL Create Template]** om du vill spara mallen i den mappen. Dialogrutan **[!UICONTROL New Template]** visas.
    ![Så här skapar du dynamiska mallar som kan anpassas i realtid](/help/using/assets/new-template.png)
-Om du vill [ skapa en mapp ](/help/assets/add-delete-assets-view.md) under **[!UICONTROL Dynamic Media Assets]** skapar du en mapp under **[!UICONTROL Assets]** . Mappträdet under **[!UICONTROL Assets]** replikeras under **[!UICONTROL Dynamic Media Assets]**.
+Om du vill [ skapa en mapp ](/help/using/add-delete.md) under **[!UICONTROL Dynamic Media Assets]** skapar du en mapp under **[!UICONTROL Assets]** . Mappträdet under **[!UICONTROL Assets]** replikeras under **[!UICONTROL Dynamic Media Assets]**.
 1. Ange ett mallnamn, definiera arbetsytans bredd och höjd och klicka på **[!UICONTROL Create]**. En tom arbetsyta visas med menyalternativ på båda sidor som du kan använda för att skapa mallen. Håll muspekaren över menyalternativen för att se deras verktygstips.
    ![anpassningsbar mall i realtid](/help/using/assets/blank-canvas-page.png)
 
@@ -89,7 +89,7 @@ Om du vill [ skapa en mapp ](/help/assets/add-delete-assets-view.md) under **[!U
 * ![skapa en mall som kan anpassas direkt](/help/using/assets/undo.svg): Klicka för att ångra den senaste åtgärden eller tryck på **Ctrl** + **Z** (Windows) eller **Cmd** + **Z** (Mac).
 * ![mall för att skapa banners snabbt](/help/using/assets/redo.svg): Klicka för att göra om den senaste åtgärden eller tryck på **Ctrl** + **Y** (Windows) eller **Cmd** + **Y** (Mac).
 * ![mall för att snabbt skapa flygblad](/help/using/assets/zoomin.svg): Klicka för att zooma in arbetsytan eller tryck på **Ctrl** + **+** (Windows) eller Cmd + **+** (Mac).
-* ![mall för att skapa banners snabbt](/help/using/assets/zoomout.svg): Klicka för att zooma ut arbetsytan eller tryck på **Ctrl** + **-** (Windows) eller **Cmd** + **-** (Mac).
+* ![mall för att skapa banners snabbt](/help/using/assets/ZoomOut-1.svg): Klicka för att zooma ut arbetsytan eller tryck på **Ctrl** + **-** (Windows) eller **Cmd** + **-** (Mac).
 * Tryck på **Backsteg** eller **delete** för att ta bort det markerade lagret om ingen text eller egenskap redigeras.
 
 Klicka på mallen ![om du vill skapa flygblad snabbt](/help/using/assets/show-layers-list.svg) **>** fler alternativ (![](/help/using/assets/three-dots.svg)) på lagret Canvas om du vill redigera arbetsytans dimensioner när du skapar mallen.
@@ -121,7 +121,7 @@ Se [**[!UICONTROL Properties Panel]**](#reposition-resize-delete-a-layer) för a
 
 >[!NOTE]
 >
-> Om du vill använda ett annat teckensnitt än standardteckensnittsfamiljen Adobe Sans F2 måste du överföra och publicera teckensnittsfilen till AEM Assets och Dynamic Media. Om du har några gamla teckensnitt i din instans måste du [bearbeta om](/help/assets/reprocessing-assets-view.md) för att kunna visa dem i mallredigeraren.
+> Om du vill använda ett annat teckensnitt än standardteckensnittsfamiljen Adobe Sans F2 måste du överföra och publicera teckensnittsfilen till AEM Assets och Dynamic Media. Om du har några gamla teckensnitt i din instans måste du [bearbeta om](/help/using/reprocessing.md) för att kunna visa dem i mallredigeraren.
 
 ### Redigera eller ta bort ett lager {#edit-or-delete-a-layer}
 
@@ -281,5 +281,5 @@ Redigera mallen genom att följa de här stegen:
 
 ## Se även
 
-1. Utforska [Dynamic Media och dess funktioner](/help/assets/dynamic-media/dynamic-media.md)
-1. Utforska [Dynamic Media med OpenAPI-funktioner](/help/assets/dynamic-media-open-apis-overview.md)
+1. Utforska [Dynamic Media och dess funktioner](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+1. Utforska [Dynamic Media med OpenAPI-funktioner](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)

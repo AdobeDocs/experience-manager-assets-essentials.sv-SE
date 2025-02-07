@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Assets Essentials
 role: User,Leader
 solution: Experience Manager
-source-git-commit: c6298614d6085deca8618112d1d1533b4b980f54
+source-git-commit: dec81fe265f907775addee640ff307ab142e15d8
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 19%
+source-wordcount: '149'
+ht-degree: 18%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 19%
 + [Dokumentskydd](security-overview.md)
 + [My Workspace](my-workspace.md)
 + Kom igång med Assets Essentials för administratörer {#get-started-admins}
-   + [Administrera och lägga till användare](deploy-administer.md)
+   + [Administer and add users](deploy-administer.md)
    + Hantera mappåtkomst{#folder-access}
-      + [Hantera mappbehörigheter](manage-permissions.md)
-      + [Bästa praxis för behörighetshantering](permission-management-best-practices.md)
+      + [Manage folder permissions](manage-permissions.md)
+      + [Bästa tillvägagångssätt för behörighetshantering](permission-management-best-practices.md)
    + [Administratörsresa för Assets Essentials för Creative Cloud Pro med Work Management Solutions](assets-essentials-cc-pro-work-management-admin-journey.md)
 + [Kom igång med  [!DNL Assets Essentials]](get-started.md)
 + [Supported file types and use cases](supported-file-formats.md)
@@ -43,10 +43,10 @@ ht-degree: 19%
 + [Redigera massmetadata](/help/using/bulk-metadata-edit.md)
 + [Share assets](share-links-for-assets.md)
 + [Manage collections](manage-collections.md)
-+ [Titta på resurser, mappar och samlingar](manage-notifications.md)
-+ [Hantera rapporter](manage-reports.md)
++ [Watch assets, folders, and collections](manage-notifications.md)
++ [Manage reports](manage-reports.md)
 + [Reprocessing](reprocessing.md)
-+ [Hantera taggar](tagging-management.md)
++ [Manage tags](tagging-management.md)
 + [Content Credentials](/help/using/content-credentials.md)
 + Integrering med andra lösningar {#integration-with-other-solutions}
    + [Ökning](integration.md)
@@ -55,4 +55,5 @@ ht-degree: 19%
 + Integrering med Creative Cloud {#integration-with-creative-cloud}
    + [Connect AEM Assets to Creative Cloud](connect-assets-with-creative-cloud.md)
 + [Videor](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html)
++ [Dynamic Media templates](dynamic-media-templates.md)
 
