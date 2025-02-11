@@ -1,28 +1,34 @@
 ---
-title: Hur hanterar man Dynamic Media-mallar?
-description: Lär dig hur du skapar Dynamic Media-mallar med en mallredigerare i WYSIWYG och lägger in flera bilder och textlager för att snabbt skapa banners och flygblad och använda dem i program som ligger längre fram i kedjan.
+title: Hur hanterar jag dynamiska mediamallar?
+description: Lär dig hur du skapar dynamiska mediamallar med hjälp av en WYSIWYG mallredigerare och hur du inkluderar flera bilder och textlager för att snabbt skapa banners och flygblad och använda dem i program längre fram i kedjan.
 hide: true
 role: User
 exl-id: 07de648e-4ae2-4524-8e05-3cf10bb6006d
-source-git-commit: 64123ef9b8f669da24b296a5c1ea6bd514778c32
+source-git-commit: 8bf4babf2fefb8735b14eb4d4cb08205c54a77bb
 workflow-type: tm+mt
-source-wordcount: '2661'
+source-wordcount: '2705'
 ht-degree: 0%
 
 ---
 
-# Dynamic Media-mallar{#dynamic-media-templates}
+# Dynamiska mediamallar{#dynamic-media-templates}
 
 | [Sök efter bästa praxis](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [Metadata - bästa praxis](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [AEM Assets-dokumentation för utvecklare](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
 | ------------- | --------------------------- |---------|-----|
 
-Skapa Dynamic Media-mallar med en WYSIWYG malleditor och ta med flera bilder och textlager för att snabbt skapa banners och flygblad och använda dem i program längre fram i kedjan. Du kan också lägga till parametrar i bilder och textlager som ingår i mallen och använda [Dynamic Media URL:er](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media) för att uppdatera värdena för dessa lager i realtid.
+>[!CONTEXTUALHELP]
+>id="assets_dm_templates"
+>title="Hantera dynamiska mediamallar"
+>abstract="Skapa och personalisera bild- och textbanners direkt, med ett lättanvänt WYSIWYG-gränssnitt, och bädda in Dynamic Media-URL:en i valfritt program från första eller tredje part för att skapa engagerande upplevelser. Gör ett försök!"
+>additional-url="https://images-tv.adobe.com/mpcv3/4477/b74738ca-888c-4a37-9a9e-14fabd68ee45_1738206841.854x480at800_h264.mp4" text="Titta på videon"
+
+Skapa dynamiska mediamallar med en WYSIWYG malleditor och lägg in flera bilder och textlager för att snabbt skapa banners och flygblad och använda dem i program längre fram i kedjan. Du kan också lägga till parametrar till de bilder och textlager som ingår i mallen och använda [dynamiska medie-URL:er](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media) för att uppdatera värdena för dessa lager i realtid.
 
 Några av de viktigaste funktionerna:
 
-* **Dynamic Media WYSIWYG mallredigerare:** Skapa anpassningsbara banners med bild- och textlager.
+* **Dynamic Media WYSIWYG Template Editor:** Skapa anpassningsbara banners med bild- och textlager.
 * **Lagerparameterisering:** Definiera dynamiska nyckelvärdepar för lager för att aktivera realtidsuppdateringar.
-* **Dynamic Media URL-stöd:** Använd Dynamic Media URL:er för mallar och integrera personaliserade värden från första eller tredje parts program.
+* **Stöd för dynamiska medie-URL:er:** Använd dynamiska medie-URL:er för mallar och integrera personaliserade värden från första eller tredje parts program.
 * **Kontroll av lagersynlighet:** Dölj eller visa lager dynamiskt efter behov.
 * **Smart storleksändring av text:** Justera automatiskt textstorleken så att den passar de angivna områdena.
 
@@ -37,16 +43,16 @@ Några av fördelarna med Dynamic Media-mallar:
 
 >[!NOTE]
 >
->Kunder som prenumererar på Enhanced Security SKU kan inte använda några Dynamic Media-funktioner, inklusive Dynamic Media Templates, i det Cloud Servicen.
+>Kunder som prenumererar på Enhanced Security SKU kan inte använda några Dynamic Media-funktioner, inklusive Dynamic Media Templates, i det Cloud Services-programmet.
 
 ## Innan du börjar{#prerequisites-for-dynamic-media-wysiwyg-template}
 
-Om du vill skapa en Dynamic Media-mall måste du ha:
+Om du vill skapa en mall för dynamiska media måste du ha:
 
 1. Tillgång till Dynamic Media.
-1. [De bilder som är tillgängliga i din AEM Assets-instans har synkroniserats med Dynamic Media för att de ska kunna användas för att skapa mallen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
+1. [Synkroniserade bilderna som är tillgängliga i din AEM Assets-instans med Dynamic Media för att använda dem för att skapa mallen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 1. har verifierat följande i Touch-gränssnittet:
-   * **[!UICONTROL Dynamic Media sync mode]** som är inställd på **[!UICONTROL Disabled by default]** på **[!UICONTROL Edit Dynamic Media Configuration page]** används inte på alla AEM mappar (**[!UICONTROL Sync all content]** är avmarkerad). Mer information finns i [Konfigurera Dynamic Media Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
+   * **[!UICONTROL Dynamic Media sync mode]** som är inställd på **[!UICONTROL Disabled by default]** på **[!UICONTROL Edit Dynamic Media Configuration page]** används inte på alla AEM-mappar (**[!UICONTROL Sync all content]** är avmarkerad). Mer information finns i [Konfigurera Dynamic Media Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
    * **[!UICONTROL Dynamic Media sync mode]** är inställt på **[!UICONTROL Enable for subfolders]** för målmappen eller undermappen där du vill spara mallen när den har skapats. Mer information finns i [Konfigurera Dynamic Media Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 
 ## Skapa Dynamic Media WYSIWYG-mall{#how-to-create-dynamic-media-wysiwyg-template}
@@ -63,9 +69,9 @@ Så här skapar du en DM-mall:
 
 Så här skapar du en tom arbetsyta:
 
-1. Navigera till Assets Essentials och klicka på **[!UICONTROL Dynamic Media Assets]** i den vänstra panelen.
+1. Navigera till Resurser Essentials och klicka på **[!UICONTROL Dynamic Media Assets]** i den vänstra panelen.
 
-   ![Dynamic Media-mallar](/help/using/assets/DM-Assets1.png)
+   ![Dynamiska mediamallar](/help/using/assets/DM-Assets1.png)
 
 1. Klicka på **[!UICONTROL Create Template]** om du vill spara mallen under Dynamic Media Assets eller navigera till en mapp och klicka på **[!UICONTROL Create Template]** om du vill spara mallen i den mappen. Dialogrutan **[!UICONTROL New Template]** visas.
    ![Så här skapar du dynamiska mallar som kan anpassas i realtid](/help/using/assets/new-template.png)
@@ -229,7 +235,7 @@ Utför dessa steg för att förhandsgranska och publicera mallen och kopiera lev
    ![skapar innehåll i farten](/help/using/assets/dm-templates-publish-status.png)
 Du kan också växla **[!UICONTROL Include all parameters]** för att redigera alla parametervärden som visas och se uppdateringarna i mallförhandsvisningen.
    <br>
-1. Om du vill publicera mallen på förhandsgranskningssidan klickar du på **[!UICONTROL Publish]** och bekräftar att du vill publicera. Meddelandet Publish Complete visas och publiceringsstatusen uppdateras till Publicerad.
+1. Om du vill publicera mallen på förhandsgranskningssidan klickar du på **[!UICONTROL Publish]** och bekräftar att du vill publicera. Meddelandet Publicera färdigt visas och publiceringsstatusen uppdateras till Publicerat.
 
 >[!NOTE]
 >
@@ -242,10 +248,10 @@ De valda parametrarna på sidan **[!UICONTROL Preview]** blir URL-parametrar i m
 Så här kopierar du URL:en för den publicerade mallen som visas i förhandsgranskningen:
 
 1. Klicka på **[!UICONTROL Copy URL]**. Dialogrutan **[!UICONTROL Copy URL]** visas. Markera och kopiera den URL som visas. Observera att den första parametern i URL:en börjar efter frågetecknet **(?)** och ett nyckelvärdepar börjar med **$** och slutar med **&amp;**. Nyckeln och värdet avgränsas med ett likhetstecken **(=)**, med tangenten till vänster och värdet till höger.
-1. Klistra in den här URL-adressen på webbläsarfliken och se den aktiva mallen. Anpassa mallen i realtid genom att uppdatera den obligatoriska parameterns värde (Key-värdet) i URL:en direkt, vilket visas i [steg 2](#preview-and-publish-template-and-copy-template-deliver-url) i **Preview- och Publish** -avsnittet.
+1. Klistra in den här URL-adressen på webbläsarfliken och se den aktiva mallen. Anpassa mallen i realtid genom att uppdatera den obligatoriska parameterns värde (Key-värdet) i URL:en direkt, vilket visas i [steg 2](#preview-and-publish-template-and-copy-template-deliver-url) i avsnittet **Förhandsgranska och publicera** .
 1. Använd den här URL:en för snabb försäljning av produkter och tjänster. Du kan dela den här URL:en med dina kunder eller integrera den på din webbplats eller i ett tredjepartsprogram för att visa banderollen och göra uppdateringar i realtid för den så att den speglar de pågående erbjudandena.
 
-Lär dig skapa en Dynamic Media-mall steg för steg i den här videon.
+Lär dig skapa en mall för dynamiska media steg för steg i den här videon.
 >[!VIDEO](https://video.tv.adobe.com/v/3443281)
 
 ## Uppdatera mallen i realtid från URL:en{#update-the-template-from-the-url}
@@ -265,7 +271,7 @@ Klistra in den uppdaterade URL-adressen i webbläsaren för att visa ändringarn
 
 Redigera mallen genom att följa de här stegen:
 
-1. Klicka på **[!UICONTROL Dynamic Media Assets]** på Assets Essentials.
+1. Klicka på **[!UICONTROL Dynamic Media Assets]** i Resurser Essentials.
 2. Navigera till mallplatsen.
 3. Markera mallen.
 4. Klicka på **[!UICONTROL Edit Template]**. Mallens arbetsyta visar mallen och listan över alla dess lager på panelen Lager. Börja redigera mallen efter dina behov.
@@ -274,12 +280,12 @@ Redigera mallen genom att följa de här stegen:
 
 * När du har skapat en mall med parametriserade bildlager för dynamiska uppdateringar måste du se till att de bilder som är avsedda för framtida uppdateringar har samma dimensioner som de parametriserade bilderna. Detta garanterar att bilderna passar perfekt i lagren utan att de flödar över eller lämnar tomma utrymmen. Mallen stöder för närvarande inte automatiska dimensionsjusteringar för att passa in bilder i lagren.
 * Det finns inget stöd för delsträngar i ett textlager. Användaren kan inte använda olika teckensnittsegenskaper på delsträngar i ett textlager.
-* Stöd för flera Dynamic Media-företag finns för närvarande inte i Dynamic Media-mallar.
-* Om du kopierar eller flyttar, visar målväljaren alla mappar (inklusive icke-Dynamic Media-synkroniserade mappar). För närvarande visas inte Dynamic Media-mallresurserna (båda är begränsningar för målväljaren).
-* Alla uppdateringsåtgärder för en mapp (till exempel Publish eller Delete) från Assets-avsnittet påverkar Dynamic Media-mallarna som finns i den mappen.
-* Det går inte att använda papperskorgen för Dynamic Media-mallar. Om en resurs flyttas till papperskorgen och sedan återställs, återställs resursen i AEM men inte i Dynamic Media. Samma sak gäller för Dynamic Media-mallar.
+* Stöd för flera Dynamic Media-företag finns för närvarande inte med Dynamic Media Templates.
+* Om du kopierar eller flyttar, visar målväljaren alla mappar (inklusive icke-dynamiska mediasynkroniserade mappar). För närvarande visas inte heller resurserna för dynamiska mediamallar (båda är begränsningar för målväljaren).
+* Alla uppdateringsåtgärder för en mapp (till exempel Publicera eller Ta bort) från Assets-avsnittet påverkar de dynamiska mediamallar som finns i den mappen.
+* Det går inte att använda papperskorgen för dynamiska mediamallar. Om en resurs flyttas till papperskorgen och sedan återställs, återställs resursen i AEM men inte i Dynamic Media. Samma sak gäller för dynamiska mediamallar.
 
 ## Se även
 
-1. Utforska [Dynamic Media och dess funktioner](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
-1. Utforska [Dynamic Media med OpenAPI-funktioner](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
+1. Utforska [Dynamiska media och dess funktioner](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+1. Utforska [Dynamiska media med OpenAPI-funktioner](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
