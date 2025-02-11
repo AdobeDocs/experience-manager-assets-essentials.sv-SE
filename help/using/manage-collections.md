@@ -14,7 +14,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="assets_collections"
 >title="Hantera samlingar"
->abstract="En samling är en uppsättning resurser, mappar eller andra samlingar i Assets Essentials. Använd samlingar för att dela resurser mellan användare. Till skillnad från mappar kan en samling innehålla resurser från olika platser. Du kan dela flera samlingar med en användare. Varje samling innehåller referenser till resurser. Resursernas referensintegritet bevaras i alla samlingar."
+>abstract="En samling är en uppsättning resurser, mappar eller andra samlingar i Resurser Essentials. Använd samlingar för att dela resurser mellan användare. Till skillnad från mappar kan en samling innehålla resurser från olika platser. Du kan dela flera samlingar med en användare. Varje samling innehåller referenser till resurser. Resursernas referensintegritet bevaras i alla samlingar."
 
 En samling är en uppsättning resurser, mappar eller andra samlingar i Adobe Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare.
 
@@ -94,7 +94,7 @@ Så här tar du bort resurser från en samling:
 
 ## Hantera en smart samling {#manage-smart-collection}
 
-Spara sökresultaten som en smart samling för att dynamiskt uppdatera samlingens innehåll. Om det finns resurser som läggs till i Assets Essentials-databasen och som passar sökvillkoren som definieras när du skapar den smarta samlingen, uppdateras innehållet i den smarta samlingen automatiskt när du öppnar en smart samling.
+Spara sökresultaten som en smart samling för att dynamiskt uppdatera samlingens innehåll. Om det finns resurser som läggs till i databasen Resurser Essentials som passar de sökvillkor som definierats när du skapar den smarta samlingen, uppdateras innehållet i den smarta samlingen automatiskt när du öppnar en smart samling.
 
 ### Skapa en smart samling {#create-smart-collection}
 
@@ -202,7 +202,7 @@ Mer information om arbetsflödet från början till slut finns i [Hantera behör
 
 ## Nästa steg {#next-steps}
 
-* Ge produktfeedback med alternativet [!UICONTROL Feedback] som finns i användargränssnittet för Assets Essentials
+* Ge produktfeedback med alternativet [!UICONTROL Feedback] som finns i användargränssnittet Assets Essentials
 
 * Ge feedback om dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som är tillgängligt på den högra sidopanelen
 

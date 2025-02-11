@@ -1,5 +1,5 @@
 ---
-title: Massimportera resurser med Assets Essentials
+title: Massimportera resurser med hjälp av Resurser Essentials
 description: Lär dig hur du kan massimportera resurser med det nya användargränssnittet i Assets (Assets Essentials). Det ger administratörer möjlighet att importera ett stort antal resurser från en datakälla till AEM Assets.
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
 source-git-commit: 4d4b239b0b75ac8a26a7c3001e5b28dcb6243f63
@@ -9,19 +9,19 @@ ht-degree: 0%
 
 ---
 
-# Massimportera resurser med Assets Essentials   {#bulk-import-essentials}
+# Massimportera resurser med hjälp av Resurser Essentials   {#bulk-import-essentials}
 
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="Massimportera resurser"
->abstract="Administratörer kan importera ett stort antal resurser från en datakälla till Experience Manager Assets med Assets Essentials. Administratörerna behöver inte längre överföra enskilda resurser eller mappar till Experience Manager Assets. De molnlagringsleverantörer som stöds för bulkimport är bland annat Azure, AWS, Google Cloud och Dropbox."
+>abstract="Administratörer kan importera ett stort antal resurser från en datakälla till Experience Manager Assets med Assets Essentials. Administratörerna behöver inte längre överföra enskilda resurser eller mappar till Experience Manager Assets. De molnlagringsleverantörer som stöds för bulkimport är Azure, AWS, Google Cloud och Dropbox."
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/98bce651-721c-442e-98b8-c43e7708e44c_1698834577.854x480at800_h264.mp4" text="Titta på videon"
 
 Med massimport i AEM Assets Essentials kan administratörer importera ett stort antal resurser från en datakälla till AEM Assets. Administratörerna behöver inte längre överföra enskilda resurser eller mappar till AEM Assets.
 
 >[!NOTE]
 >
->Assets Essentials bulkimportör använder samma serverdel som Assets as a Cloud Service bulkimportör. Assets Essentials har dock fler datakällor att importera från och en smidigare användarupplevelse.
+>Massimporteraren Assets Essentials använder samma serverdel som bulkimporteraren i Assets as a Cloud Service. Assets Essentials erbjuder dock fler datakällor att importera från och en smidigare användarupplevelse.
 
 Du kan importera resurser från följande datakällor:
 
@@ -38,14 +38,14 @@ Du kan importera resurser från följande datakällor:
 | Azure | <ul> <li>Azure Storage-konto </li> <li> Azure Blob Container <li> Azure Access Key eller SAS-token baserat på autentiseringsläge </li></ul> |
 | AWS | <ul> <li>AWS </li> <li> AWS Bucket <li> AWS Access Key </li><li> AWS Access Secret </li></ul> |
 | Google Cloud | <ul> <li>GCP Bucket </li> <li> E-postadress för GCP-tjänstkonto <li> Privat nyckel för GCP-tjänstkonto</li></ul> |
-| Dropbox | <ul> <li>Klient-ID för Dropbox </li> <li> Dropbox Client Secret</li></ul> |
+| Dropbox | <ul> <li>Dropbox Klient-ID </li> <li> Dropbox Client Secret</li></ul> |
 | OneDrive | <ul> <li>Klient-ID för OneDrive </li> <li> OneDrive-klient-ID</li><li> OneDrive-klienthemlighet</li></ul> |
 
 Förutom dessa krav som baseras på datakällan måste du vara medveten om källmappsnamnet som finns i datakällan och som innehåller alla resurser som behöver importeras till AEM Assets.
 
-## Konfigurera utvecklarprogrammet Dropbox {#dropbox-developer-application}
+## Konfigurera Dropbox utvecklarprogram {#dropbox-developer-application}
 
-Skapa och konfigurera utvecklarprogrammet för Dropbox innan du importerar resurser från ditt Dropbox-konto till AEM Assets.
+Skapa och konfigurera Dropbox-utvecklarprogrammet innan du importerar resurser från ditt Dropbox-konto till AEM Assets.
 
 Utför följande steg:
 
@@ -55,7 +55,7 @@ Utför följande steg:
 
 1. Välj något av följande alternativ i avsnittet **[!UICONTROL Choose the type of access you need]**:
 
-   * Välj **[!UICONTROL App folder]** om du behöver åtkomst till en enda mapp som skapats i programmet i ditt Dropbox-konto.
+   * Välj **[!UICONTROL App folder]** om du behöver åtkomst till en enda mapp som skapats i ditt program i ditt Dropbox-konto.
 
    * Välj **[!UICONTROL Full Dropbox]** om du behöver åtkomst till alla filer och mappar på ditt Dropbox-konto.
 
@@ -128,8 +128,8 @@ Utför följande steg för att skapa en bulkimportkonfiguration i [!DNL Experien
    >[!NOTE]
    >
    >Om du använder Dropbox som datakälla anger du källmappens sökväg baserat på följande regler:
-   >* Om du väljer **Fullt Dropbox** när du skapar programmet Dropbox och den mapp som innehåller resurserna finns på `https://www.dropbox.com/home/bulkimport-assets` anger du `bulkimport-assets` i fältet **[!UICONTROL Source Folder]**.
-   >* Om du väljer **App-mapp** när du skapar programmet Dropbox och den mapp som innehåller resurserna finns på `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets` anger du `bulkimport-assets` i fältet **[!UICONTROL Source Folder]** där `BulkImportAppFolderScope` refererar till programmets namn. `Apps` läggs automatiskt till efter `home` i det här fallet.
+   >* Om du väljer **Fullständig Dropbox** när du skapar Dropbox-programmet och den mapp som innehåller resurserna finns på `https://www.dropbox.com/home/bulkimport-assets` anger du `bulkimport-assets` i fältet **[!UICONTROL Source Folder]**.
+   >* Om du väljer **App-mapp** när du skapar Dropbox-programmet och den mapp som innehåller resurserna finns på `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets` anger du `bulkimport-assets` i fältet **[!UICONTROL Source Folder]** där `BulkImportAppFolderScope` refererar till programmets namn. `Apps` läggs automatiskt till efter `home` i det här fallet.
 
 1. (Valfritt) Välj alternativet **[!UICONTROL Delete source file after import]** om du vill ta bort originalfilerna från källdatalagret när filerna har importerats till [!DNL Experience Manager Assets].
 1. Välj **[!UICONTROL Import Mode]**. Välj **[!UICONTROL Skip]**, **[!UICONTROL Replace]** eller **[!UICONTROL Create Version]**. Hoppa över är standardläget och i det här läget hoppar användaren över att importera en resurs om den redan finns.
@@ -227,6 +227,6 @@ Klicka på ikonen ![Mer](assets/do-not-localize/more-icon.svg) som motsvarar kon
 
 Om du vill visa Assets-målplatsen där resurserna importeras efter att du har kört massimportjobbet klickar du på ![Mer ikon](assets/do-not-localize/more-icon.svg) som motsvarar konfigurationsnamnet och sedan på **[!UICONTROL View Assets]**.
 
-## Video: Importera resurser satsvis med Assets Essentials
+## Video: Massimportera resurser med Assets Essentials
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428012)

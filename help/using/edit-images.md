@@ -12,35 +12,35 @@ ht-degree: 0%
 
 # Redigera bilder i [!DNL Assets Essentials] {#edit-images-in-assets-essentials}
 
-Assets Essentials användargränssnittet möjliggör grundläggande bildredigering som bygger på Adobe Express och är integrerad i användargränssnittet. Den här redigeringen inkluderar storleksändring, borttagning av bakgrund, beskärning och konvertering mellan JPEG och PNG-format. Dessutom går det att redigera i Adobe Expressens gränssnitt som är inbäddat i gränssnittet Essentials.
+Användargränssnittet Assets Essentials möjliggör grundläggande bildredigering som bygger på Adobe Express och är integrerad i användargränssnittet. Den här redigeringen inkluderar storleksändring, borttagning av bakgrund, beskärning och konvertering mellan JPEG- och PNG-format. Dessutom möjliggör det avancerad redigering via Adobe Express-gränssnittet Embedded i Essentials-gränssnittet.
 
 När du har redigerat en bild kan du spara den nya bilden som en ny version. Versionshantering hjälper dig att återgå till den ursprungliga resursen senare om det behövs. Om du vill redigera en bild [öppnar du förhandsvisningen](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) och klickar på **Redigera bild**.
 
 >[!NOTE]
 >
->Du kan redigera bilder av filtyperna PNG och JPEG med hjälp av Adobe Express.
+>Du kan redigera bilder av filtyperna PNG och JPEG med Adobe Express.
 
 <!--The editing actions that are available are Spot healing, Crop and straighten, Resize image, and Adjust image.-->
 
 ## Redigera bilder {#edit-images}
 
-Gå till användargränssnittet för Assets Essentials, med länken [användargränssnittet för Assets Essentials](https://experience.adobe.com/#/assets) och välj rätt databas. Kontakta organisationens administratör för att få åtkomst.
-Ytterligare referensinformation finns i - [Kom igång med Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started), [förstå användargränssnittet](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view), [Assets Essentials ](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started#use-cases) och [kända fel](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/release-notes).
+Gå till gränssnittet Resurser Essentials med länken [Resurser Essentials UI](https://experience.adobe.com/#/assets) och välj rätt databas. Kontakta organisationens administratör för att få åtkomst.
+Ytterligare referensinformation finns i - [Kom igång med att använda Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started), [förstå användargränssnittet](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view), [användningsexempel för Assets Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started#use-cases) och [kända fel](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/release-notes).
 
-### Redigera bild i Essentials-användargränssnittet med Adobe Express{#edit-images-using-adobe-express}
+### Redigera bild i användargränssnittet Essentials med Adobe Express{#edit-images-using-adobe-express}
 
 >[!CONTEXTUALHELP]
 >id="assets_express_integration"
->title="Integrering av Adobe Expresser"
->abstract="Enkla och intuitiva bildredigeringsverktyg med Adobe Express som är tillgängliga direkt i AEM Assets för att öka återanvändningen och snabba upp innehållets hastighet."
+>title="Adobe Express Integration"
+>abstract="De enkla och intuitiva bildredigeringsverktygen från Adobe Express finns tillgängliga direkt i AEM Assets för att öka återanvändningen och snabba upp innehållets hastighet."
 
-När du har navigerat till gränssnittet Grundläggande klickar du på **Assets**, markerar en bild och sedan på **Redigera** i den övre listen. På den nya skärmen visas de tillgängliga redigeringsalternativen som bygger på Adobe Express, bland annat storleksändring, borttagning av bakgrund, beskärning och konvertering mellan JPEG och PNG-format.
+När du har navigerat till gränssnittet Grundläggande klickar du på **Assets**, markerar en bild och sedan på **Redigera** i den övre listen. På den nya skärmen visas de tillgängliga redigeringsalternativen som bygger på Adobe Express, bland annat storleksändring, borttagning av bakgrund, beskärning och konvertering mellan JPEG- och PNG-format.
 
 #### Ändra bildstorlek {#resize-image-using-express}
 
-Att ändra storlek på en bild till en viss storlek är ett vanligt användningsexempel. Med Assets Essentials kan du snabbt ändra storlek på bilder så att de passar de vanliga fotostorlekarna genom att tillhandahålla förberäknade nya upplösningar för specifika fotostorlekar. Följ stegen nedan om du vill ändra storlek på bilden i Assets Essentials:
+Att ändra storlek på en bild till en viss storlek är ett vanligt användningsexempel. Med Assets Essentials kan du snabbt ändra storlek på bilder så att de passar de vanliga fotostorlekarna genom att tillhandahålla förberäknade nya upplösningar för specifika fotostorlekar. Följ stegen nedan för att ändra storlek på bilden i gränssnittet Resurser Essentials:
 
-1. Klicka på **Ändra storlek på bild** i den vänstra rutan. I en dialogruta visas hur du ändrar storlek på bilder baserat på Adobe Express.
+1. Klicka på **Ändra storlek på bild** i den vänstra rutan. I en dialogruta visas hur du ändrar storlek på bilder med Adobe Express.
 2. Välj lämplig plattform för sociala medier i listrutan Ändra storlek och välj bildstorlek bland de alternativ som visas.
 3. Skala bilden, om det behövs, med fältet **Bildskala**.
 4. Klicka på **Använd** för att tillämpa ändringarna.
@@ -71,7 +71,7 @@ Den beskurna bilden kan hämtas. Du kan antingen spara den redigerade resursen s
 
 #### Konvertera JPEG till PNG {#Convert-JPEG-to-PNG}
 
-Du kan snabbt konvertera mellan bildformaten JPEG och PNG med Adobe Express. Utför följande steg:
+Du kan snabbt konvertera mellan JPEG- och PNG-bildformat med Adobe Express. Utför följande steg:
 
 1. Klicka på **JPEG till PNG** eller **PNG till JPEG** i den vänstra rutan.
    ![Konvertera till PNG med Adobe Express](/help/using/assets/adobe-express-convert-image.png)
@@ -82,12 +82,12 @@ Du kan snabbt konvertera mellan bildformaten JPEG och PNG med Adobe Express. Utf
 * Bildupplösning som stöds: Minimal - 50 pixlar, Maximal - 6 000 pixlar per dimension.
 * Största filstorlek som stöds: 17 MB.
 
-### Redigera bilder i Adobe Expressens inbäddade redigerare {#edit-images-in-adobe-express-embedded-editor}
+### Redigera bilder i Adobe Express inbäddade redigerare {#edit-images-in-adobe-express-embedded-editor}
 
-Användare med Express-berättigande kan använda den inbäddade Express-redigeraren inifrån Assets Essentials för att redigera innehållet och enkelt skapa nytt innehåll med GenAI från Adobe Firefly. Den här funktionen förbättrar återanvändning av innehåll och snabbar upp innehållets hastighet. Du kan också använda fördefinierade element för att få dina resurser att se fantastiska ut eller utföra snabba åtgärder för att redigera bilden med bara några klick.
+Användare med Express-berättigande kan använda den inbäddade Express-redigeraren inifrån Assets Essentials-gränssnittet för att enkelt redigera innehållet och skapa nytt innehåll med GenAI från Adobe Firefly. Den här funktionen förbättrar återanvändning av innehåll och snabbar upp innehållets hastighet. Du kan också använda fördefinierade element för att få dina resurser att se fantastiska ut eller utföra snabba åtgärder för att redigera bilden med bara några klick.
 
 ![express i grundläggande gränssnitt](/help/using/assets/express-in-essentials-ui.jpg)
-Följ stegen nedan om du vill redigera Adobe Expresser i den inbäddade redigeraren:
+Följ stegen nedan om du vill redigera bilder i Adobe Express inbäddade redigerare:
 
 1. Gå till användargränssnittet för AEM Assets Essentials med länken - [användargränssnittet för AEM Assets Essentials](https://experience.adobe.com/#/assets) och välj rätt databas.
 1. Klicka på **Assets**, ange en mapp och markera en bild.
@@ -118,9 +118,9 @@ Följ stegen nedan om du vill redigera Adobe Expresser i den inbäddade redigera
 
 ### Skapa nya resurser med Adobe Express {#create-new-assets-using-embedded-editor}
 
-Med Assets Essentials kan du skapa en ny mall från grunden med den inbäddade redigeraren för Adobe Express. Så här skapar du en ny resurs med Adobe Express:
+Med Assets Essentials kan du skapa en ny mall från grunden med den inbäddade Adobe Express-redigeraren. Så här skapar du en ny resurs med Adobe Express:
 
-1. Navigera till **Min Workspace** och klicka på **Skapa** i den banderoll som visas i Adobe Expressen längst upp. Adobe Express tom arbetsyta visas i användargränssnittet för Assets Essentials.
+1. Navigera till **My Workspace** och klicka på **Create** i den Adobe Express-banderoll som visas i Adobe Express överst. Adobe Express tomma arbetsyta visas i gränssnittet Resurser Essentials.
 1. Skapa ditt innehåll med [Mallar](https://helpx.adobe.com/in/express/using/work-with-templates.html). I annat fall navigerar du till Dina saker för att ändra befintligt innehåll.
 1. Klicka på **Spara** när du är klar med redigeringen.
 1. Ange målsökvägen för den skapade resursen och klicka på **Spara som ny resurs**.
@@ -191,7 +191,7 @@ TBD: Insert a video of the available social media options.
 
 ### Nästa steg {#next-steps}
 
-* Ge produktfeedback med alternativet [!UICONTROL Feedback] som finns i användargränssnittet för Assets Essentials
+* Ge produktfeedback med alternativet [!UICONTROL Feedback] som finns i användargränssnittet Assets Essentials
 
 * Ge feedback om dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som är tillgängligt på den högra sidopanelen
 

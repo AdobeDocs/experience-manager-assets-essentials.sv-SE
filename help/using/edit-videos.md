@@ -27,7 +27,7 @@ Tillstånd att komma åt [!DNL Adobe Express] och minst en miljö i AEM Assets. 
 >[!CONTEXTUALHELP]
 >id="assets_express_integration_videos"
 >title="Adobe Express Integration for Video Editing"
->abstract="Experience Manager Assets har nu lättanvända och intuitiva videoredigeringsverktyg som bygger på Adobe Express för att öka återanvändningen av innehåll och snabba upp hastigheten. Redigeringsalternativen omfattar trimning, beskärning, storleksändring av en video och även konvertering av en MP4-fil till en GIF-fil."
+>abstract="Experience Manager Assets innehåller nu enkla och intuitiva videoredigeringsverktyg som drivs av Adobe Express för att öka återanvändningen av innehåll och snabba upp innehållets hastighet. Redigeringsalternativen inkluderar beskärning, beskärning, storleksändring av en video och även konvertering av en MP4-fil till en GIF-fil."
 
 Det är enkelt att omvandla en video till en perfekt storlek och orientering med hjälp av inbäddade [!DNL Adobe Express] snabbåtgärder.
 
@@ -100,7 +100,7 @@ Din video finns i GIF-format för nedladdning. Du kan antingen spara den rediger
 
 ### Nästa steg {#next-steps}
 
-* Ge produktfeedback med alternativet [!UICONTROL Feedback] som finns i användargränssnittet för Assets Essentials.
+* Ge produktfeedback med alternativet [!UICONTROL Feedback] som finns i användargränssnittet Assets Essentials.
 
 * Ge feedback genom att [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som är tillgängligt på den högra sidopanelen.
 
@@ -108,5 +108,5 @@ Din video finns i GIF-format för nedladdning. Du kan antingen spara den rediger
 
 >[!MORELIKETHIS]
 >
->* [Redigera bilder i Assets Essentials](/help/using/edit-images.md)
+>* [Redigera bilder i Resurser Essentials](/help/using/edit-images.md)
 >* [Förhandsvisning av en resurs](/help/using/navigate-view.md#preview-assets)
