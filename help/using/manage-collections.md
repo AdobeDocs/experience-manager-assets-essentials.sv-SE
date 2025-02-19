@@ -2,7 +2,7 @@
 title: Hantera samlingar
 description: En samling är en uppsättning resurser i Experience Manager Assets Essentials. Använd samlingar för att dela resurser mellan användare.
 exl-id: 33c889f5-c989-4772-9591-db62f50e5c80
-source-git-commit: d0884f7c5a50d89cb8ce4166dc038814bd7fd07d
+source-git-commit: 441136b23281185b82a5767aefc2c382512501a7
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Du kan utföra följande åtgärder för att hantera och använda samlingar:
 
 * [Ta bort en samling](#delete-collection)
 
-* [Hantera behörigheter till en privat samling](#manage-permissions-to-a-private-collection)
+* [Hantera behörigheter till en privat samling](#manage-permissions-private-collection)
 
 ## Skapa en samling {#create-collection}
 
