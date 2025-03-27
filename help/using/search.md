@@ -3,12 +3,55 @@ title: Sök efter och identifiera resurser i  [!DNL Assets Essentials]
 description: Sök efter och identifiera resurser i  [!DNL Assets Essentials].
 role: User
 exl-id: be9597a3-056c-436c-a09e-15a03567c85a
-source-git-commit: 84695c5a2b6423b0a5863b088ac8507f0de0e80d
+source-git-commit: 461773235cb2d27d334b5ceb23f959dc9a848716
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
+
+
+<table>
+    <tr>
+        <td>
+            <img src="assets/new.gif" width="20px" height="25px" alt="new">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b> Dynamic Media Prime och Ultimate </b></a>
+        </td>
+        <td>
+            <img src="assets/new.gif" width="20px" height="25px" alt="new">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b> AEM Assets Ultimate </b></a>
+        </td>
+        <td>
+            <img src="assets/new.gif" width="20px" height="25px" alt="new">
+            <a href="http://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b> AEM Assets-integrering med Edge Delivery Services </b></a>
+        </td>
+        <td>
+            <img src="assets/new.gif" width="20px" height="25px" alt="new">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b> UI-utökningsbarhet </b></a>
+        </td>
+          <td>
+            <img src="assets/new.gif" width="20px" height="25px" alt="new">
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/custom-search-filters"><b> Egna sökfilter </b></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices"><b>Sök efter bästa praxis</b></a>
+        </td>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices"><b>Metadata - bästa praxis</b></a>
+        </td>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview"><b>Content Hub</b></a>
+        </td>
+        <td>
+            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview"><b>Dynamiska media med OpenAPI-funktioner</b></a>
+        </td>
+        <td>
+            <a href="https://developer.adobe.com/experience-cloud/experience-manager-apis/"><b>AEM Assets-dokumentation för utvecklare</b></a>
+        </td>
+    </tr>
+</table>
 
 # Sök efter resurser i [!DNL Assets Essentials] {#search-assets}
 
@@ -46,7 +89,7 @@ Du kan filtrera sökresultaten baserat på följande parametrar.
 
 * Förfallodatum: Filtrera sökresultaten baserat på en `Expired`-resursstatus. Du kan dessutom ange ett förfallodatumintervall för resurser för att ytterligare filtrera sökresultaten.
 
-* Egna filter: [Lägg till anpassade filter](#custom-filters) i användargränssnittet för Assets Essentials. Använd de anpassade filtren utöver standardfiltren för att förfina sökresultaten.
+* Egna filter: [Lägg till anpassade filter](#custom-filters) i gränssnittet Resurser Essentials. Använd de anpassade filtren utöver standardfiltren för att förfina sökresultaten.
 
 Du kan sortera de sökda resurserna i stigande eller fallande ordning `Name`, `Relevance`, `Size`, `Modified` och `Created`. De sökda resurserna sorteras som standard baserat på `Relevance`.
 
@@ -54,9 +97,9 @@ Du kan sortera de sökda resurserna i stigande eller fallande ordning `Name`, `R
 
 **Behörigheter krävs:** `Can Edit`, `Owner` eller administratör.
 
-Med Assets Essentials kan du också lägga till egna filter i användargränssnittet. Du kan sedan använda dessa anpassade filter utöver [standardfiltren](#refine-search-results) för att förfina sökresultaten.
+Med Resurser Essentials kan du även lägga till anpassade filter i användargränssnittet. Du kan sedan använda dessa anpassade filter utöver [standardfiltren](#refine-search-results) för att förfina sökresultaten.
 
-Assets Essentials har följande anpassade filter:
+Assets Essentials innehåller följande anpassade filter:
 
 <table>
     <tbody>
@@ -195,7 +238,7 @@ Du kan markera de resurser som visas i sökresultaten och göra följande:
 
 * **Fäst i snabbåtkomst**: [Fäst en resurs](my-workspace.md) för snabbare åtkomst när du behöver den senare. Alla fästa objekt visas i avsnittet **Snabbåtkomst** i Min Workspace.
 
-* **Öppna i Adobe Express**: Redigera en bild i den integrerade Adobe Expressen från Experience Manager Assets-skärmen.
+* **Öppna i Adobe Express**: Redigera en bild i den integrerade Adobe Express-bilden från Experience Manager Assets-skärmen.
 
 * **Redigera**: Redigera bilden med Adobe Express.
 
@@ -217,7 +260,7 @@ Du kan markera de resurser som visas i sökresultaten och göra följande:
 
 ## Konfigurera den första startsidan för sökning {#configuring-search-first-homepage}
 
-Med Assets Essentials kan du välja standardlandningssida för din organisation. När du använder Sök först som startsida har du också möjlighet att anpassa sidans varumärke genom att konfigurera bakgrunds- och logotypbilderna så att de passar ert varumärke.
+Med Assets Essentials kan du välja standardstartsida för din organisation. När du använder Sök först som startsida har du också möjlighet att anpassa sidans varumärke genom att konfigurera bakgrunds- och logotypbilderna så att de passar ert varumärke.
 
 Så här konfigurerar du den första startsidan för sökningen:
 
@@ -336,9 +379,9 @@ Om du behöver ge feedback på funktionen för sammanhangsbaserad sökning klick
 
 ## Nästa steg {#next-steps}
 
-* [Titta på en video för att söka efter resurser i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
+* [Titta på en video för att söka efter resurser i Resurser Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
 
-* Ge produktfeedback med alternativet [!UICONTROL Feedback] som finns i användargränssnittet för Assets Essentials
+* Ge produktfeedback med alternativet [!UICONTROL Feedback] som finns i användargränssnittet Assets Essentials
 
 * Ge feedback genom att [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som är tillgängligt på den högra sidopanelen.
 
