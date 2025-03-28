@@ -4,9 +4,9 @@ description: Hantera metadata för resurser i  [!DNL Assets Essentials]
 role: User,Leader,Admin,Architect,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: f922e9191cc3bf6beef66665dec49fd3876bf33b
+source-git-commit: 1cda73b6ddc573d2736fdaa45b582198420ed5b1
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -68,17 +68,17 @@ Taggar kan också kapslas i en hierarki för att stödja relationer som kategori
 >title="Metadata Forms"
 >abstract="[!DNL Experience Manager Assets] innehåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält på sidan Detaljer för en resurs. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser."
 
-Assets Essentials tillhandahåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält på sidan [!UICONTROL Details] för en resurs. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser. Du kan skapa formulär från grunden eller återanvända ett befintligt formulär.
+Assets Essentials innehåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält på sidan [!UICONTROL Details] för en resurs. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser. Du kan skapa formulär från grunden eller återanvända ett befintligt formulär.
 
-Du kan konfigurera metadataformulär för olika typer av resurser (olika MIME-typer). Använd samma formulärnamn som filens MIME-typ. Assets Essentials matchar automatiskt MIME-typen för överförda resurser med formulärets namn och uppdaterar metadata för överförda resurser baserat på formulärfälten.
+Du kan konfigurera metadataformulär för olika typer av resurser (olika MIME-typer). Använd samma formulärnamn som filens MIME-typ. Resurser Essentials matchar automatiskt MIME-typen för överförda resurser med namnet på formuläret och uppdaterar metadata för de överförda resurserna baserat på formulärfälten.
 
 Om det till exempel finns ett metadataformulär med namnet `PDF` eller `pdf` innehåller de överförda PDF-dokumenten metadatafält som definierats i formuläret.
 
-Assets Essentials använder följande sekvens för att söka efter befintliga metadataformulärnamn för att tillämpa metadatafälten på de överförda resurserna av en viss typ:
+Resurser Essentials använder följande sekvens för att söka efter befintliga metadataformulärnamn för att tillämpa metadatafälten på de överförda resurserna av en viss typ:
 
 MIME-undertyp > MIME-typ > `default`-formulär > Formulär som inte finns i kartongen
 
-Om det till exempel finns ett metadataformulär med namnet `PDF` eller `pdf` innehåller de överförda PDF-dokumenten metadatafält som definierats i formuläret. Om det inte finns något metadataformulär med namnet `PDF` eller `pdf` matchar Assets Essentials om det finns ett metadataformulär med namnet `application`. Om det finns ett metadataformulär med namnet `application` innehåller de överförda PDF-dokumenten metadatafält som definierats i formuläret. Om Assets Essentials fortfarande inte hittar något matchande metadataformulär söker programmet efter metadataformuläret `default` för att tillämpa metadatafält som definierats i formuläret på de överförda PDF-dokumenten. Om inget av dessa steg fungerar använder Assets Essentials metadatafält som är definierade i det färdiga formuläret för alla överförda PDF-dokument.
+Om det till exempel finns ett metadataformulär med namnet `PDF` eller `pdf` innehåller de överförda PDF-dokumenten metadatafält som definierats i formuläret. Om det inte finns något metadataformulär med namnet `PDF` eller `pdf` matchar Resurser Essentials om det finns ett metadataformulär med namnet `application`. Om det finns ett metadataformulär med namnet `application` innehåller de överförda PDF-dokumenten metadatafält som definierats i formuläret. Om Assets Essentials fortfarande inte hittar något matchande metadataformulär söker programmet efter metadataformuläret `default` för att tillämpa metadatafält som definierats i formuläret på de överförda PDF-dokumenten. Om inget av dessa steg fungerar använder Assets Essentials metadatafält som är definierade i det färdiga formuläret för alla överförda PDF-dokument.
 
 >[!IMPORTANT]
 >
@@ -169,7 +169,7 @@ Du kan också navigera till sidan med mappinformation och välja **[!UICONTROL S
 
 ### Arbeta med komponenten Länk i metadataformulär {#link-component-metadata-form}
 
-Länkkomponenten används för att aktivera externa URL-adresser som lagringslänkar, copyrightinformation, kontaktformulär och så vidare. Om du vill använda länkkomponenten i metadataformulär måste du [konfigurera metadataformuläret](#metadata-forms). URL-komponenten kan mappas till en viss metadataegenskap på sidan för metadataredigeraren, som fungerar på samma sätt som andra metadatakomponenter. Det här metadataformuläret kan tilldelas mappar. På detaljsidan för den tilldelade mappresursens kan du se metadatavärdet för resurslänkar.
+Länkkomponenten används för att aktivera externa URL-adresser som lagringslänkar, copyrightinformation, kontaktformulär och så vidare. Om du vill använda länkkomponenten i metadataformulär måste du [konfigurera metadataformuläret](#metadata-forms). URL-komponenten kan mappas till en viss metadataegenskap på sidan för metadataredigeraren, som fungerar på samma sätt som andra metadatakomponenter. Det här metadataformuläret kan tilldelas mappar. På detaljsidan för den tilldelade mappresursen kan du se metadatavärdet för resurslänkar.
 
 Följ stegen nedan för att använda länkkomponenten på sidan med resursinformation:
 
@@ -180,11 +180,42 @@ Följ stegen nedan för att använda länkkomponenten på sidan med resursinform
    * Klicka på ![redigeringsikonen](assets/do-not-localize/edit.svg) om du vill redigera URL-adressen.
 1. Klicka på **[!UICONTROL Save]** om du vill spara ändringarna.
 
+### Arbeta med taggkomponenten i metadataformulär {#tag-component-metadata-form}
+
+Rotelementet representerar trädstrukturen för de taggar som du kan associera med resurserna, vilket hjälper till att identifiera resursen baserat på taggen som tilldelats den. Dessutom kan du begränsa åtkomsten till en viss taxonomi när du konfigurerar metadataformuläret i metadataredigeraren.
+
+#### Konfiguration av taggkomponent {#tags-component-configuration}
+
+Konfigurera taggkomponenten genom att utföra följande steg:
+
+1. Gå till metadataredigeraren och navigera till **[!UICONTROL Tags]** och placera den på arbetsytan.
+1. Byt namn på komponenten på arbetsytan. Det gör du genom att gå till **[!UICONTROL Label]** under [!UICONTROL Metadata property] på inställningspanelen och lägga till texten för identifieringen.
+1. Under [!UICONTROL Metadata property] på inställningspanelen söker du efter metadataegenskapen som du vill tilldela komponenten.
+1. Klicka på **[!UICONTROL Restrict to specific taxonomy]** om du vill begränsa taxonomins rotsökväg. Det gör du genom att bläddra bland taggarna och välja taxonomin till den specifika sökvägen.
+1. Klicka på **[!UICONTROL Save]** om du vill spara ändringarna.
+
+   ![Konfiguration av rottaggar](assets/root-tag-config.png)
+1. [Tilldela metadata till mappar](#assign-metadata-form-folder).
+
+<!--
+#### Mapping between assets and taxonomy {#asset-taxonomy-mapping}
+
+See [Assign metadata form to folders](#assign-metadata-form-folder). Follow the steps below to perform mapping between folder and taxonomy:
+
+1. Go back to the Settings and click **[!UICONTROL Metadata forms]**.
+1. Select a Metadata form that needs mapping. 
+1. Click **[!UICONTROL Assign to folder(s)]**. **[!UICONTROL Select Folder(s)]** screen appears. 
+1. Navigate to the folder that you want to assign to the metadata form. You can select multiple folders.
+1. Click **[!UICONTROL Assign]**.
+-->
+
+Om du vill visa de konfigurerade rottaggarna går du till objektets informationssida där mappningen mellan metadataformuläret och rottaggarna utförs.
+
 ## Nästa steg {#next-steps}
 
-* [Titta på en video för att hantera metadataformulär i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html)
+* [Titta på en video för att hantera metadataformulär i Resurser Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html)
 
-* Ge produktfeedback med alternativet [!UICONTROL Feedback] som finns i användargränssnittet för Assets Essentials
+* Ge produktfeedback med alternativet [!UICONTROL Feedback] som finns i användargränssnittet Assets Essentials
 
 * Ge feedback om dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som är tillgängligt på den högra sidopanelen
 
