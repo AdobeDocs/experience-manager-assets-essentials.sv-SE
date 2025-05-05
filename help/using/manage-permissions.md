@@ -52,11 +52,11 @@ Skapa användargrupper och tilldela behörigheter till dessa grupper för att ha
 
 Du kan lägga till användare i användargrupper (1) och [användare i produktprofiler för Assets Essentials (2)](#add-admin-users). Du kan dock inte lägga till användargrupper direkt i Assets Essentials produktprofiler (3).
 
-Mer information om hur du hanterar användargrupper finns i `Create user groups` och `Edit user groups` på [Hantera användargrupper](https://helpx.adobe.com/enterprise/using/user-groups.html).
+Mer information om hur du hanterar användargrupper finns i `Create user groups` och `Edit user groups` på [Hantera användargrupper](https://helpx.adobe.com/se/enterprise/using/user-groups.html).
 
 >[!NOTE]
 >
->Om Admin Console är konfigurerat för att utnyttja ett externt system för att hantera användare/grupper-tilldelningar, till exempel Azure- eller Google-anslutningar, användarsynkroniseringsverktyg eller API för användarhanteringsmål, konfigureras dina grupper och användartilldelningar automatiskt. Mer information finns i [Adobe Admin Console-användare](https://helpx.adobe.com/enterprise/using/users.html).
+>Om Admin Console är konfigurerat för att utnyttja ett externt system för att hantera användare/grupper-tilldelningar, till exempel Azure- eller Google-anslutningar, användarsynkroniseringsverktyg eller API för användarhanteringsmål, konfigureras dina grupper och användartilldelningar automatiskt. Mer information finns i [Adobe Admin Console-användare](https://helpx.adobe.com/se/enterprise/using/users.html).
 
 
 ### Lägga till användare i grupper {#add-users-to-uesr-groups}
@@ -210,8 +210,8 @@ Följande åtkomstnivåer gäller för alla användargrupper i mapphierarkin:
 
 ## Nästa steg {#next-steps}
 
-* [Titta på en video om hur du hanterar behörigheter i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html)
+* [Titta på en video om hur du hanterar behörigheter i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/permissions-management.html?lang=sv-SE)
 
 * Ge feedback om dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som är tillgängligt på den högra sidopanelen
 
-* Kontakta [kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)
+* Kontakta [kundtjänst](https://experienceleague.adobe.com/sv?support-solution=General#support)

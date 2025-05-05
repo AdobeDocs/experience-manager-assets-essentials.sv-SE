@@ -81,7 +81,7 @@ Med hjälp av molninfrastrukturen i Adobe kan Assets Essentials fokusera på att
 
 Kom igång snabbt med Assets Essentials för att dra nytta av de viktigaste funktionerna för hantering av digitala resurser i olika team.
 
-När ditt företag behöver en ökning och du behöver stöd för avancerade krav på digital resurshantering, som exempelvis anpassningar, utökningsmöjligheter och integreringar, automatisering, Dynamic Media och Brand Portal, erbjuder Adobe också [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=en).
+När ditt företag behöver en ökning och du behöver stöd för avancerade krav på digital resurshantering, som exempelvis anpassningar, utökningsmöjligheter och integreringar, automatisering, Dynamic Media och Brand Portal, erbjuder Adobe också [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=sv-SE).
 
 
 ## Nästa steg {#next-steps}
@@ -90,9 +90,9 @@ När ditt företag behöver en ökning och du behöver stöd för avancerade kra
 
 * Ge feedback om dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som är tillgängligt på den högra sidopanelen
 
-* Kontakta [kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)
+* Kontakta [kundtjänst](https://experienceleague.adobe.com/sv?support-solution=General#support)
 
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Assets Essentials] sida med självstudiekurser](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=en)
+>* [[!DNL Assets Essentials] sida med självstudiekurser](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/overview.html?lang=sv-SE)

@@ -33,9 +33,9 @@ Vid driftsättning i två Admin Console krävs ytterligare ett konfigurationsste
 
 * Creative Cloud-tjänster och program (Creative Cloud for enterprise Pro och valfria moduler) hanteras i [Adobe Admin Console för din Creative Cloud-distribution](https://chl-author-preview.corp.adobe.com/content/help/en/enterprise/admin-guide.html).
 
-* Adobe Workfront och Adobe Experience Manager Assets Essentials hanteras i [Adobe Admin Console för Experience Cloud-lösningar](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html).
+* Adobe Workfront och Adobe Experience Manager Assets Essentials hanteras i [Adobe Admin Console för Experience Cloud-lösningar](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=sv-SE).
 
-För att kunna integrera Creative Cloud och Assets Essentials måste de användare som är tillgängliga i Admin Console för Creative Cloud göras tillgängliga i Admin Console för Experience Cloud. Om du vill göra användarna tillgängliga i Experience Cloud Admin Console skapar du en katalog som upprättar [katalogförtroendet](https://helpx.adobe.com/enterprise/using/set-up-identity.html#directory-trusting) mellan de två administratörskonsolerna.
+För att kunna integrera Creative Cloud och Assets Essentials måste de användare som är tillgängliga i Admin Console för Creative Cloud göras tillgängliga i Admin Console för Experience Cloud. Om du vill göra användarna tillgängliga i Experience Cloud Admin Console skapar du en katalog som upprättar [katalogförtroendet](https://helpx.adobe.com/se/enterprise/using/set-up-identity.html#directory-trusting) mellan de två administratörskonsolerna.
 
 ![Creative Cloud-användare](assets/creative-cloud-users.svg)
 
@@ -49,9 +49,9 @@ Dokumentation Journeys bygger på principer för god praxis, grundade på Adobe 
 
 ## Förutsättningar
 
-* [Åtkomst till Adobe Admin Console för Experience Cloud-lösningar](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)
+* [Åtkomst till Adobe Admin Console för Experience Cloud-lösningar](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=sv-SE)
 
-* [Åtkomst till Adobe Admin Console för Creative Cloud för företagsdistribution](https://helpx.adobe.com/enterprise/admin-guide.html)
+* [Åtkomst till Adobe Admin Console för Creative Cloud för företagsdistribution](https://helpx.adobe.com/se/enterprise/admin-guide.html)
 
 ## Administrera Experience Manager Assets Essentials {#administer-assets-essentials}
 

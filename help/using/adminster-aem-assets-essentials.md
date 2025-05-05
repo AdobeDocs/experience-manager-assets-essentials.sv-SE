@@ -32,7 +32,7 @@ I följande dataflödesdiagram visas de åtgärder som en administratör måste 
 
 När Assets Essentials har etablerats får administratören ett e-postmeddelande från Adobe. E-postmeddelandet innehåller ett välkomstmeddelande och en länk för att komma igång. Dessutom startar Adobe processen att distribuera Assets Essentials automatiskt. Distributionsprocessen tar en timme att slutföra.
 
-Från länken i e-postmeddelandet kan du komma åt och logga in på [Admin Console](https://adminconsole.adobe.com). Om du har administratörsåtkomst till mer än ett organisationskonto väljer du lämplig organisation eller växlar till den med [organisationsväljaren](https://helpx.adobe.com/enterprise/using/admin-console.html). När den automatiska distributionsprocessen är slutförd visas produktkortet för [!DNL AEM Assets Essentials] i [!DNL Admin Console].
+Från länken i e-postmeddelandet kan du komma åt och logga in på [Admin Console](https://adminconsole.adobe.com). Om du har administratörsåtkomst till mer än ett organisationskonto väljer du lämplig organisation eller växlar till den med [organisationsväljaren](https://helpx.adobe.com/se/enterprise/using/admin-console.html). När den automatiska distributionsprocessen är slutförd visas produktkortet för [!DNL AEM Assets Essentials] i [!DNL Admin Console].
 
 ![Distribution av Assets Essentials](assets/admin-console-cards.png)
 
@@ -83,11 +83,11 @@ Du kan lägga till användare i användargrupper (1) och [användare i produktpr
 
 ![Lägg till användare i grupper och produktprofiler](assets/user-groups-product-profiles.svg)
 
-Mer information om hur du hanterar användargrupper finns i `Create user groups` och `Edit user groups` på [Hantera användargrupper](https://helpx.adobe.com/enterprise/using/user-groups.html).
+Mer information om hur du hanterar användargrupper finns i `Create user groups` och `Edit user groups` på [Hantera användargrupper](https://helpx.adobe.com/se/enterprise/using/user-groups.html).
 
 >[!NOTE]
 >
->Om Admin Console är konfigurerat för att utnyttja ett externt system för att hantera användare/grupper-tilldelningar, till exempel Azure- eller Google-anslutningar, användarsynkroniseringsverktyg eller API för användarhanteringsmål, konfigureras dina grupper och användartilldelningar automatiskt. Mer information finns i [Adobe Admin Console-användare](https://helpx.adobe.com/enterprise/using/users.html).
+>Om Admin Console är konfigurerat för att utnyttja ett externt system för att hantera användare/grupper-tilldelningar, till exempel Azure- eller Google-anslutningar, användarsynkroniseringsverktyg eller API för användarhanteringsmål, konfigureras dina grupper och användartilldelningar automatiskt. Mer information finns i [Adobe Admin Console-användare](https://helpx.adobe.com/se/enterprise/using/users.html).
 
 
 ### Lägga till användare i grupper {#add-users-to-user-groups}

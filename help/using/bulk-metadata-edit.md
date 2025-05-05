@@ -14,37 +14,37 @@ ht-degree: 0%
     <tr>
         <td>
             <img src="assets/new2.gif" width="20px" height="25px" alt="new">
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b> Dynamic Media Prime och Ultimate </b></a>
+            <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b> Dynamic Media Prime och Ultimate </b></a>
         </td>
         <td>
             <img src="assets/new2.gif" width="20px" height="25px" alt="new">
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b> AEM Assets Ultimate </b></a>
+            <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b> AEM Assets Ultimate </b></a>
         </td>
         <td>
             <img src="assets/new2.gif" width="20px" height="25px" alt="new">
-            <a href="http://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b> AEM Assets-integrering med Edge Delivery Services </b></a>
+            <a href="http://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b> AEM Assets-integrering med Edge Delivery Services </b></a>
         </td>
         <td>
             <img src="assets/new2.gif" width="20px" height="25px" alt="new">
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b> UI-utökningsbarhet </b></a>
+            <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b> UI-utökningsbarhet </b></a>
         </td>
           <td>
             <img src="assets/new2.gif" width="20px" height="25px" alt="new">
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/custom-search-filters"><b> Egna sökfilter </b></a>
+            <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-assets-essentials/help/custom-search-filters"><b> Egna sökfilter </b></a>
         </td>
     </tr>
     <tr>
         <td>
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices"><b>Sök efter bästa praxis</b></a>
+            <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices"><b>Sök efter bästa praxis</b></a>
         </td>
         <td>
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices"><b>Metadata - bästa praxis</b></a>
+            <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices"><b>Metadata - bästa praxis</b></a>
         </td>
         <td>
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview"><b>Content Hub</b></a>
+            <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview"><b>Content Hub</b></a>
         </td>
         <td>
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview"><b>Dynamiska media med OpenAPI-funktioner</b></a>
+            <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview"><b>Dynamiska media med OpenAPI-funktioner</b></a>
         </td>
         <td>
             <a href="https://developer.adobe.com/experience-cloud/experience-manager-apis/"><b>AEM Assets-dokumentation för utvecklare</b></a>

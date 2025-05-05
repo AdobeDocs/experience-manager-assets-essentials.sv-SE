@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Användargränssnittet Assets Essentials möjliggör grundläggande bildredigering som bygger på Adobe Express och är integrerad i användargränssnittet. Den här redigeringen inkluderar storleksändring, borttagning av bakgrund, beskärning och konvertering mellan JPEG- och PNG-format. Dessutom möjliggör det avancerad redigering via Adobe Express-gränssnittet Embedded i Essentials-gränssnittet.
 
-När du har redigerat en bild kan du spara den nya bilden som en ny version. Versionshantering hjälper dig att återgå till den ursprungliga resursen senare om det behövs. Om du vill redigera en bild [öppnar du förhandsvisningen](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) och klickar på **Redigera bild**.
+När du har redigerat en bild kan du spara den nya bilden som en ny version. Versionshantering hjälper dig att återgå till den ursprungliga resursen senare om det behövs. Om du vill redigera en bild [öppnar du förhandsvisningen](https://experienceleague.adobe.com/sv/docs/experience-manager-assets-essentials/help/navigate-view#preview-assets) och klickar på **Redigera bild**.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ När du har redigerat en bild kan du spara den nya bilden som en ny version. Ver
 ## Redigera bilder {#edit-images}
 
 Gå till gränssnittet Resurser Essentials med länken [Resurser Essentials UI](https://experience.adobe.com/#/assets) och välj rätt databas. Kontakta organisationens administratör för att få åtkomst.
-Ytterligare referensinformation finns i - [Kom igång med att använda Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started), [förstå användargränssnittet](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/navigate-view), [användningsexempel för Assets Essentials](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/get-started#use-cases) och [kända fel](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/release-notes).
+Ytterligare referensinformation finns i - [Kom igång med att använda Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/sv/docs/experience-manager-assets-essentials/help/get-started), [förstå användargränssnittet](https://experienceleague.adobe.com/sv/docs/experience-manager-assets-essentials/help/navigate-view), [användningsexempel för Assets Essentials](https://experienceleague.adobe.com/sv/docs/experience-manager-assets-essentials/help/get-started#use-cases) och [kända fel](https://experienceleague.adobe.com/sv/docs/experience-manager-assets-essentials/help/release-notes).
 
 ### Redigera bild i användargränssnittet Essentials med Adobe Express{#edit-images-using-adobe-express}
 
@@ -152,7 +152,7 @@ The brush samples the retouched area and makes the repaired pixels blend seamles
 
 <!-- 
 TBD: See if we should give backlinks to PS docs for these concepts.
-For more information about how Spot Healing works in Photoshop, see [retouching and repairing photos](https://helpx.adobe.com/photoshop/using/retouching-repairing-images.html). 
+For more information about how Spot Healing works in Photoshop, see [retouching and repairing photos](https://helpx.adobe.com/se/photoshop/using/retouching-repairing-images.html). 
 -->
 <!--
 ### Crop and straighten images {#crop-straighten-images-using-photoshop-express}
@@ -195,7 +195,7 @@ TBD: Insert a video of the available social media options.
 
 * Ge feedback om dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som är tillgängligt på den högra sidopanelen
 
-* Kontakta [kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)
+* Kontakta [kundtjänst](https://experienceleague.adobe.com/sv?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >

@@ -31,7 +31,7 @@ Om din Creative Cloud används i en annan Adobe Admin Console än den med Assets
 
 För att kunna integrera Creative Cloud och Assets Essentials måste de användare som är tillgängliga i Admin Console för Creative Cloud göras tillgängliga i Admin Console för Experience Cloud. Om Creative Cloud och Assets Essentials distribueras till separata Admin Console krävs det ett förtroendeförhållande mellan dem för att detta ska kunna göras.
 
-Klicka på **[!UICONTROL Settings]** på Experience Cloud Admin Console och använd fliken **[!UICONTROL Directories]** för att skapa en katalog som upprättar [katalogförtroendet](https://helpx.adobe.com/enterprise/using/set-up-identity.html#directory-trusting) mellan de två Admin Console.
+Klicka på **[!UICONTROL Settings]** på Experience Cloud Admin Console och använd fliken **[!UICONTROL Directories]** för att skapa en katalog som upprättar [katalogförtroendet](https://helpx.adobe.com/se/enterprise/using/set-up-identity.html#directory-trusting) mellan de två Admin Console.
 
 ## Lägga till Creative Cloud-användare i produktprofiler för Assets Essentials {#add-cc-users-assets-essentials-product-profiles}
 
@@ -50,22 +50,22 @@ Plugin-programmet [!DNL Adobe Asset Link] kan installeras och göras tillgängli
 
 Valet beror på organisationens IT-policyer.
 
-**Installation med [!DNL Creative Cloud Desktop] application** beskrivs [här](https://helpx.adobe.com/creative-cloud/kb/installingextensionsandaddons.html). Det finns två tillgängliga plugin-program på Marketplace i [Adobe Exchange](https://exchange.adobe.com/), beroende på vilket Creative Cloud-program som används:
+**Installation med [!DNL Creative Cloud Desktop] application** beskrivs [här](https://helpx.adobe.com/se/creative-cloud/kb/installingextensionsandaddons.html). Det finns två tillgängliga plugin-program på Marketplace i [Adobe Exchange](https://exchange.adobe.com/), beroende på vilket Creative Cloud-program som används:
 
 * För [!DNL Adobe Photoshop], [!DNL Adobe Illustrator] och [!DNL Adobe InDesign]: [Adobe Asset Link CEP](https://exchange.adobe.com/creativecloud.details.106875.adobe-asset-link-cep.html)
 * För [!DNL Adobe XD]: [Adobe-resurslänk](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/61d229b9)
 
-**Installation med ett Creative Cloud-paket** görs av Creative Cloud-administratören i Admin Console genom att plugin-programmet Resurslänk inkluderas när ett distributionspaket skapas, som sedan kan distribueras till användardatorer. På den hanterade skärmen Choose Plugins (Välj plugin-program) söker du efter **Adobe Asset Link** i avsnittet **Aktuella affärs-plugin-program**. Mer information finns i [paketera program via Admin Console](https://helpx.adobe.com/enterprise/using/package-apps-admin-console.html).
+**Installation med ett Creative Cloud-paket** görs av Creative Cloud-administratören i Admin Console genom att plugin-programmet Resurslänk inkluderas när ett distributionspaket skapas, som sedan kan distribueras till användardatorer. På den hanterade skärmen Choose Plugins (Välj plugin-program) söker du efter **Adobe Asset Link** i avsnittet **Aktuella affärs-plugin-program**. Mer information finns i [paketera program via Admin Console](https://helpx.adobe.com/se/enterprise/using/package-apps-admin-console.html).
 
 ## Använd Adobe-resurslänk {#use-asset-link}
 
 Kreativa användare kan nu använda Adobe Asset Link med Photoshop, Illustrator, InDesign eller XD. Om du vill öppna panelen i InDesign eller Illustrator går du till Fönster > Tillägg > Länk till Adobe-resurs. I Photoshop går du till Fönster > Tillägg (äldre) > Adobe Asset Link.
 
-Klicka [här](https://helpx.adobe.com/enterprise/using/adobe-asset-link-for-xd.html) om du vill ha information om hur du konfigurerar Adobe Asset Link för Adobe XD.
+Klicka [här](https://helpx.adobe.com/se/enterprise/using/adobe-asset-link-for-xd.html) om du vill ha information om hur du konfigurerar Adobe Asset Link för Adobe XD.
 
 >[!NOTE]
 >
->När du arbetar med maskinvara från Apple Silicon/M1 måste Adobe Photoshop startas i Rosetta-kompatibilitetsläge för att se till att kreativa användare har tillgång till panelen Adobe Asset Link, eftersom den är byggd med CEP-tilläggstekniken. Mer information finns i [Photoshop för Apple Silicon](https://helpx.adobe.com/photoshop/kb/photoshop-for-apple-silicon.html).
+>När du arbetar med maskinvara från Apple Silicon/M1 måste Adobe Photoshop startas i Rosetta-kompatibilitetsläge för att se till att kreativa användare har tillgång till panelen Adobe Asset Link, eftersom den är byggd med CEP-tilläggstekniken. Mer information finns i [Photoshop för Apple Silicon](https://helpx.adobe.com/se/photoshop/kb/photoshop-for-apple-silicon.html).
 
 
 Använd Adobe Asset Link för att arbeta med och ändra resurser som lagras i Assets Essentials. Du kan utföra olika åtgärder, till exempel:

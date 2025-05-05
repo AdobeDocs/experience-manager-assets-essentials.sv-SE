@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Dynamiska mediamallar{#dynamic-media-templates}
 
-| [Sök efter bästa praxis](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [Metadata - bästa praxis](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [AEM Assets-dokumentation för utvecklare](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
+| [Sök efter bästa praxis](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices) | [Metadata - bästa praxis](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices) | [Content Hub](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) | [AEM Assets-dokumentation för utvecklare](https://developer.adobe.com/experience-cloud/experience-manager-apis/) |
 | ------------- | --------------------------- |---------|-----|
 
 >[!CONTEXTUALHELP]
@@ -22,7 +22,7 @@ ht-degree: 0%
 >abstract="Skapa och personalisera bild- och textbanners direkt, med ett lättanvänt WYSIWYG-gränssnitt, och bädda in Dynamic Media-URL:en i valfritt program från första eller tredje part för att skapa engagerande upplevelser. Gör ett försök!"
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/b74738ca-888c-4a37-9a9e-14fabd68ee45_1738206841.854x480at800_h264.mp4" text="Titta på videon"
 
-Skapa dynamiska mediamallar med en WYSIWYG malleditor och lägg in flera bilder och textlager för att snabbt skapa banners och flygblad och använda dem i program längre fram i kedjan. Du kan också lägga till parametrar till de bilder och textlager som ingår i mallen och använda [dynamiska medie-URL:er](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media) för att uppdatera värdena för dessa lager i realtid.
+Skapa dynamiska mediamallar med en WYSIWYG malleditor och lägg in flera bilder och textlager för att snabbt skapa banners och flygblad och använda dem i program längre fram i kedjan. Du kan också lägga till parametrar till de bilder och textlager som ingår i mallen och använda [dynamiska medie-URL:er](https://experienceleague.adobe.com/sv/docs/commerce-admin/content-design/wysiwyg/storage/catalog-urls-dynamic-media) för att uppdatera värdena för dessa lager i realtid.
 
 Några av de viktigaste funktionerna:
 
@@ -50,10 +50,10 @@ Några av fördelarna med Dynamic Media-mallar:
 Om du vill skapa en mall för dynamiska media måste du ha:
 
 1. Tillgång till Dynamic Media.
-1. [Synkroniserade bilderna som är tillgängliga i din AEM Assets-instans med Dynamic Media för att använda dem för att skapa mallen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
+1. [Synkroniserade bilderna som är tillgängliga i din AEM Assets-instans med Dynamic Media för att använda dem för att skapa mallen](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 1. har verifierat följande i Touch-gränssnittet:
-   * **[!UICONTROL Dynamic Media sync mode]** som är inställd på **[!UICONTROL Disabled by default]** på **[!UICONTROL Edit Dynamic Media Configuration page]** används inte på alla AEM-mappar (**[!UICONTROL Sync all content]** är avmarkerad). Mer information finns i [Konfigurera Dynamic Media Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
-   * **[!UICONTROL Dynamic Media sync mode]** är inställt på **[!UICONTROL Enable for subfolders]** för målmappen eller undermappen där du vill spara mallen när den har skapats. Mer information finns i [Konfigurera Dynamic Media Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
+   * **[!UICONTROL Dynamic Media sync mode]** som är inställd på **[!UICONTROL Disabled by default]** på **[!UICONTROL Edit Dynamic Media Configuration page]** används inte på alla AEM-mappar (**[!UICONTROL Sync all content]** är avmarkerad). Mer information finns i [Konfigurera Dynamic Media Cloud Service](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
+   * **[!UICONTROL Dynamic Media sync mode]** är inställt på **[!UICONTROL Enable for subfolders]** för målmappen eller undermappen där du vill spara mallen när den har skapats. Mer information finns i [Konfigurera Dynamic Media Cloud Service](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/dynamicmedia/config-dm).
 
 ## Skapa Dynamic Media WYSIWYG-mall{#how-to-create-dynamic-media-wysiwyg-template}
 
@@ -109,7 +109,7 @@ Klicka på mallen ![om du vill skapa flygblad snabbt](/help/using/assets/show-la
 
 Gör så här för att lägga till bilder på arbetsytan:
 
-1. Klicka på ![skapa en banderoll på nolltid](/help/using/assets/add-image.svg) för att visa panelen [Resursväljare](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector). På panelen visas de bilder i din AEM Assets-instans som synkroniseras med Dynamic Media.
+1. Klicka på ![skapa en banderoll på nolltid](/help/using/assets/add-image.svg) för att visa panelen [Resursväljare](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector). På panelen visas de bilder i din AEM Assets-instans som synkroniseras med Dynamic Media.
 1. Bläddra i panelen eller använd nyckelord i sökfältet för att hitta en viss bild.
 1. Dra och släpp en bild på arbetsytan för att använda den. Se [**[!UICONTROL Properties Panel]**](#reposition-resize-delete-a-layer) för att ändra storlek på eller flytta ett lager på arbetsytan.
    ![skapa en banderoll inom några sekunder](/help/using/assets/add-image-to-canvas.png)
@@ -166,7 +166,7 @@ Se de här vanliga redigeringsåtgärderna för lager när du vill redigera text
 
 Formatera texten till önskat teckensnitt, önskad storlek, färg, stil, justering (i lagret) genom att ändra deras värden i respektive fält under **[!UICONTROL Text]**-delen av panelen.
 
-**[!UICONTROL Smart Text Resize]** Se till att inkludera **[!UICONTROL Smart Text Resize]** ([Textpassning](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/text-formatting/r-copy-fitting)) så att all text i det avsedda området passar optimalt genom att justera teckensnittsstorleken och längden smart. Den här funktionen förhindrar att texten flödar över eller minimerar extra blanksteg längst ned i texten.
+**[!UICONTROL Smart Text Resize]** Se till att inkludera **[!UICONTROL Smart Text Resize]** ([Textpassning](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/text-formatting/r-copy-fitting)) så att all text i det avsedda området passar optimalt genom att justera teckensnittsstorleken och längden smart. Den här funktionen förhindrar att texten flödar över eller minimerar extra blanksteg längst ned i texten.
 ![Skapa innehåll på nolltid](/help/using/assets/smart-text-resize.png)
 
 ### Parameterlager {#parameterise-a-layer}
@@ -287,5 +287,5 @@ Redigera mallen genom att följa de här stegen:
 
 ## Se även
 
-1. Utforska [Dynamiska media och dess funktioner](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
-1. Utforska [Dynamiska media med OpenAPI-funktioner](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
+1. Utforska [Dynamiska media och dess funktioner](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)
+1. Utforska [Dynamiska media med OpenAPI-funktioner](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)

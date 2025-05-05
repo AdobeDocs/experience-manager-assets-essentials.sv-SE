@@ -48,7 +48,7 @@ Med den här funktionen kan du dela en lågupplöst PDF- eller JPG-fil med lever
 
 Det är också praktiskt att skapa käll-/härledda relationer mellan resurser med hjälp av funktionen för relaterade resurser i översättningsarbetsflöden. När du kör ett översättningsarbetsflöde på en härledd resurs hämtar [!DNL Experience Manager Assets] automatiskt alla resurser som källfilen refererar till och inkluderar dem för översättning. På så sätt översätts den resurs som källresursen refererar till tillsammans med källresursen och de härledda resurserna. Om källfilen är relaterad till en annan resurs hämtar [!DNL Experience Manager Assets] den refererade resursen och inkluderar den för översättning.
 
-Se [Översätta resurser i AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/translate-assets).
+Se [Översätta resurser i AEM](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/admin/translate-assets).
 
 ## Nästa steg {#next-steps}
 
@@ -56,10 +56,10 @@ Se [Översätta resurser i AEM](https://experienceleague.adobe.com/en/docs/exper
 
 * Ge feedback om dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som är tillgängligt på den högra sidopanelen
 
-* Kontakta [kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)
+* Kontakta [kundtjänst](https://experienceleague.adobe.com/sv?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >
 >* [Visa versioner av en resurs](manage-organize.md#view-versions)
->* [Översätt resurser i AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/translate-assets)
+>* [Översätt resurser i AEM](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/admin/translate-assets)
 >* [Filformat som stöds i Assets View](supported-file-formats.md).

@@ -15,37 +15,37 @@ ht-degree: 0%
     <tr>
         <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="new">
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b> Dynamic Media Prime och Ultimate </b></a>
+            <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-prime-ultimate"><b> Dynamic Media Prime och Ultimate </b></a>
         </td>
         <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="new">
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b> AEM Assets Ultimate </b></a>
+            <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview"><b> AEM Assets Ultimate </b></a>
         </td>
         <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="new">
-            <a href="http://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b> AEM Assets-integrering med Edge Delivery Services </b></a>
+            <a href="http://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrate-aem-assets-edge-delivery-services"><b> AEM Assets-integrering med Edge Delivery Services </b></a>
         </td>
         <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="new">
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b> UI-utökningsbarhet </b></a>
+            <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/assets-view/aem-assets-view-ui-extensibility"><b> UI-utökningsbarhet </b></a>
         </td>
           <td>
             <img src="assets/new.gif" width="20px" height="25px" alt="new">
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/custom-search-filters"><b> Egna sökfilter </b></a>
+            <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-assets-essentials/help/custom-search-filters"><b> Egna sökfilter </b></a>
         </td>
     </tr>
     <tr>
         <td>
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices"><b>Sök efter bästa praxis</b></a>
+            <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/best-practices/search-best-practices"><b>Sök efter bästa praxis</b></a>
         </td>
         <td>
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices"><b>Metadata - bästa praxis</b></a>
+            <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/best-practices/metadata-best-practices"><b>Metadata - bästa praxis</b></a>
         </td>
         <td>
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview"><b>Content Hub</b></a>
+            <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview"><b>Content Hub</b></a>
         </td>
         <td>
-            <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview"><b>Dynamiska media med OpenAPI-funktioner</b></a>
+            <a href="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview"><b>Dynamiska media med OpenAPI-funktioner</b></a>
         </td>
         <td>
             <a href="https://developer.adobe.com/experience-cloud/experience-manager-apis/"><b>AEM Assets-dokumentation för utvecklare</b></a>
@@ -59,7 +59,7 @@ ht-degree: 0%
 >id="assets_search"
 >title="Sök i Assets"
 >abstract="Sök efter resurser genom att ange ett nyckelord i sökfältet eller genom att filtrera resurser baserat på status, filtyp, MIME-typ, storlek, skapande, ändring och förfallodatum. Du kan också använda egna filter förutom standardfiltren. Du kan spara de filtrerade resultaten som en sparad sökning eller som en smart samling."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=en#manage-smart-collection" text="Skapa smarta samlingar"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-collections.html?lang=sv-SE#manage-smart-collection" text="Skapa smarta samlingar"
 
 [!DNL Assets Essentials] innehåller en effektiv sökning som bara fungerar som standard. Sökningen är omfattande eftersom den är en fulltextsökning. Med de kraftfulla sökfunktionerna kan du snabbt hitta rätt resurs och hjälpa dig att förbättra innehållets hastighet. [!DNL Assets Essentials] innehåller fulltextsökning och även sökningar via metadata som smarta taggar, titel, skapad den och copyright.
 
@@ -256,7 +256,7 @@ Du kan markera de resurser som visas i sökresultaten och göra följande:
 
 * **Tilldela uppgifter**: Tilldela uppgifter till användare för en resurs.
 
-* **Titta**: [Övervaka de åtgärder](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/search-assets) som utförs på en resurs.
+* **Titta**: [Övervaka de åtgärder](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/search-assets) som utförs på en resurs.
 
 ## Konfigurera den första startsidan för sökning {#configuring-search-first-homepage}
 
@@ -379,11 +379,11 @@ Om du behöver ge feedback på funktionen för sammanhangsbaserad sökning klick
 
 ## Nästa steg {#next-steps}
 
-* [Titta på en video för att söka efter resurser i Resurser Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html)
+* [Titta på en video för att söka efter resurser i Resurser Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/using.html?lang=sv-SE)
 
 * Ge produktfeedback med alternativet [!UICONTROL Feedback] som finns i användargränssnittet Assets Essentials
 
 * Ge feedback genom att [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som är tillgängligt på den högra sidopanelen.
 
-* Kontakta [kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)
+* Kontakta [kundtjänst](https://experienceleague.adobe.com/sv?support-solution=General#support)
 

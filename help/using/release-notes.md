@@ -284,7 +284,7 @@ Förbättringar och felkorrigeringar som bygger på kundfeedback.
 
 **Adobe Asset Link version 3.3**
 
-[Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html) version 3.3 släpptes 13 december 2022 med följande funktioner:
+[Adobe Asset Link](https://helpx.adobe.com/se/enterprise/using/adobe-asset-link.html) version 3.3 släpptes 13 december 2022 med följande funktioner:
 
 * Stöd för [Creative Cloud för team](https://www.adobe.com/creativecloud/business/teams.html) förutom stöd för [Creative Cloud för företag](https://www.adobe.com/creativecloud/business/enterprise.html) tidigare.
 

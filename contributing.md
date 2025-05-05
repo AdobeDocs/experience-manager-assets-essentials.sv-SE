@@ -56,4 +56,4 @@ Om du är anställd i Adobe och har ett bidrag begär vi att du använder organi
 
 ## Om Adobe GitHub-redigeringsplattformen och Markdown
 
-Mer information om hur du använder GitHub-redigeringsplattformen finns i [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Mer information om hur du använder GitHub-redigeringsplattformen finns i [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=sv-SE).
