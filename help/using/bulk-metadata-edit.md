@@ -71,6 +71,7 @@ Utför de här stegen för att massredigera metadata för flera resurser samtidi
    * **Nyckelord:** Lägg till specifika termer eller textsträngar som ger högnivåinformation om resurserna för att förbättra deras upptäckbarhet. Lägg till ett nyckelord och tryck på Enter eller Retur för att lägga till ett annat nyckelord i listan.
    * **Taggar:** Klicka på ![taggikonen](/help/using/assets/tags-icon.svg) för att välja taggar bland de tillgängliga alternativen. Taggar ger mer specifik information om resurserna och gör det lättare att hitta dem. Taggar som redan används för de markerade resurserna visas på panelen **Egenskaper**. Om du inte kan hitta de relevanta taggarna skapar du dem och tilldelar till de valda resurserna. Mer information om hur du skapar och tilldelar taggar till resurser finns i [Hantera taggar i Resurser Grundläggande](/help/using/tagging-management.md).
    * Klicka på **Spara** för att använda metadatauppdateringarna ovan på de markerade resurserna. När nyckelord och taggar har sparats läggs de till medan den uppdaterade informationen för Status, Förfallodatum och Författare åsidosätter den befintliga informationen.
+
      ![save-bulk-metadata-edit-properties](/help/using/assets/save-bulk-metadata-edit-properties2.png)
 
      >[!NOTE]

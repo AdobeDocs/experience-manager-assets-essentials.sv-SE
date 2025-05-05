@@ -37,8 +37,11 @@ Adobe Experience Manager Assets har nu stöd för  vilket gör att användare ka
 1. Klicka på **Information** och välj `Cr pin` i rutan längst till höger. På fliken  visas följande information om resursen.
    1. **Genererad bild:** Datum och tid då  tillämpades.
    1. **Innehållssammanfattning:** Anger om resursen har genererats delvis eller helt av AI, eller hur den har redigerats.
+
       ![innehållssammanfattning](/help/using/assets/content-credentials1.png)
    1. **Process:** Visar information om programmet, enheten och AI-verktyget (t.ex. Adobe Firefly) som användes för att generera resursen, samt ändringar som gjordes senare.
+
       ![process](/help/using/assets/CR-Process.png)
    1. **Om den här :** Namn på utfärdaren tillsammans med datum och tidpunkt för utfärdande.
+
       ![utfärdare](/help/using/assets/CR-issuer.png)
