@@ -133,7 +133,7 @@ Nedan visas en översikt över varje egenskapstyp och hur de lagras.
 | Taggar | Lägg till en tagg från värden som lagras i taxonomihantering (mappas till xcm:tags). |
 | Nyckelord | Lägg till nyckelord med valfri form (mappas till dc:subject). |
 | Smarta taggar | Förbättra sökfunktionerna genom att automatiskt lägga till metadatataggar. |
-| Länk | Lägg till för att aktivera externa URL:er. När URL-komponenten har konfigurerats på metadataformuläret kan den mappas till en viss metadataegenskap på sidan för metadataredigeraren. Det här [metadataformuläret kan tilldelas mappar ](#assign-metadata-form-folder). |
+| Länk | Lägg till för att aktivera externa URL:er. När URL-komponenten har konfigurerats på metadataformuläret kan den mappas till en viss metadataegenskap på sidan för metadataredigeraren. Det här [metadataformuläret kan tilldelas mappar &#x200B;](#assign-metadata-form-folder). |
 
 ### Tilldela metadataformulär till mappar {#assign-metadata-form-folder}
 

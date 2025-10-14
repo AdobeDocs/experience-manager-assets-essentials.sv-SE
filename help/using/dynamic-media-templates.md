@@ -75,7 +75,7 @@ Så här skapar du en tom arbetsyta:
 
 1. Klicka på **[!UICONTROL Create Template]** om du vill spara mallen under Dynamic Media Assets eller navigera till en mapp och klicka på **[!UICONTROL Create Template]** om du vill spara mallen i den mappen. Dialogrutan **[!UICONTROL New Template]** visas.
    ![Så här skapar du dynamiska mallar som kan anpassas i realtid](/help/using/assets/new-template.png)
-Om du vill [ skapa en mapp ](/help/using/add-delete.md) under **[!UICONTROL Dynamic Media Assets]** skapar du en mapp under **[!UICONTROL Assets]** . Mappträdet under **[!UICONTROL Assets]** replikeras under **[!UICONTROL Dynamic Media Assets]**.
+Om du vill [&#x200B; skapa en mapp &#x200B;](/help/using/add-delete.md) under **[!UICONTROL Dynamic Media Assets]** skapar du en mapp under **[!UICONTROL Assets]** . Mappträdet under **[!UICONTROL Assets]** replikeras under **[!UICONTROL Dynamic Media Assets]**.
 1. Ange ett mallnamn, definiera arbetsytans bredd och höjd och klicka på **[!UICONTROL Create]**. En tom arbetsyta visas med menyalternativ på båda sidor som du kan använda för att skapa mallen. Håll muspekaren över menyalternativen för att se deras verktygstips.
    ![anpassningsbar mall i realtid](/help/using/assets/blank-canvas-page.png)
 

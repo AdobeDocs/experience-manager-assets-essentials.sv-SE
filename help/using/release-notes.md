@@ -374,7 +374,7 @@ Den här versionen innehåller:
 
 **Dokumentationsförbättringar**
 
-* En ny version av översiktsdokumentationen för [Assets Essentials ](introduction.md) finns nu tillgänglig.
+* En ny version av översiktsdokumentationen för [Assets Essentials &#x200B;](introduction.md) finns nu tillgänglig.
 
 **Förbättringar baserade på kundfeedback**
 

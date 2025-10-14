@@ -65,7 +65,7 @@ Kom ihåg att läsare av [!DNL Experience Manager]-dokumentation finns i hela v�
 
 #### Följ Microsoft formathandbok
 
-[Microsoft Manual of ](https://docs.microsoft.com/en-us/style-guide/welcome/) Style är en kostnadsfri handbok för dokumentationsformat som fokuserar på programvarudokumentation och - [!DNL Experience Manager] dokumentation. Handboken följer den när det är möjligt.
+[Microsoft Manual of &#x200B;](https://docs.microsoft.com/en-us/style-guide/welcome/) Style är en kostnadsfri handbok för dokumentationsformat som fokuserar på programvarudokumentation och - [!DNL Experience Manager] dokumentation. Handboken följer den när det är möjligt.
 
 ### Formatering
 
