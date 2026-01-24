@@ -37,7 +37,7 @@ Undantag från den här regeln gäller versionsinformationen där kända problem
 
 Alla idéer du kan behöva förbättra [!DNL Experience Manager]-dokumentationen är välkomna som bidrag. Kommentarer, utgåvor och pull-begäranden är dock endast avsedda för *bidrag*. De är inte avsedda att användas för att besvara dina frågor om hur du använder [!DNL Experience Manager], implementerar ditt [!DNL Experience Manager]-projekt eller löser tekniska problem.
 
-Frågor om hur du använder [!DNL Experience Manager] eller tekniska fel som du kan ha gjort ska rapporteras via den normala supportprocessen via [[!DNL Experience Manager] supportportalen](https://experienceleague.adobe.com/sv?support-solution=Experience+Manager#support) eller diskuteras i [Experience Manager-communityn](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
+Frågor om hur du använder [!DNL Experience Manager] eller tekniska fel som du kan ha gjort ska rapporteras via den normala supportprocessen via [[!DNL Experience Manager] supportportalen](https://experienceleague.adobe.com/sv?support-solution=Experience+Manager#support) eller diskuteras i [Experience Manager-communityn](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=sv).
 
 ***[!DNL Experience Manager]Dokumentationsbidragen ersätter inte Adobe Customer*** Support och eventuella bidrag som söker svar på supportrelaterade frågor kommer att refuseras.
 
