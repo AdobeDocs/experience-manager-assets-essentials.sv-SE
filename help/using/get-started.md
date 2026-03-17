@@ -3,9 +3,9 @@ title: Kom igång med  [!DNL Assets Essentials]
 description: Så här kommer du åt, inloggningsupplevelsen av, användningsfall som stöds och kända problem i  [!DNL Assets Essentials].
 role: User, Leader
 exl-id: 7917b2a0-8340-4d94-aa6f-30ce986fa752
-source-git-commit: fedcf02b5338d6640e557dad25ca03cfbd78d7e5
+source-git-commit: b3c726122425c9a89a5d6c0ac35b652d20d8e0b9
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Mer referensinformation som kan vara till hjälp är [förståelsen av användar
 
 ## Få åtkomst till [!DNL Assets Essentials] {#get-access}
 
-Adobe tillhandahåller lösningen och lägger till den utsedda personen från din organisation som administratör. Administratörerna kan ge åtkomst till olika användare i organisationen med hjälp av [[!DNL Admin Console]](https://helpx.adobe.com/se/enterprise/using/admin-console.html). Om du har frågor som rör din åtkomst kontaktar du organisationens administratör.
+Adobe tillhandahåller lösningen och lägger till den person som är utsedd av din organisation som administratör. Administratörerna kan ge åtkomst till olika användare i organisationen med hjälp av [[!DNL Admin Console]](https://helpx.adobe.com/enterprise/using/admin-console.html). Om du har frågor som rör din åtkomst kontaktar du organisationens administratör.
 
 När du loggar in uppmanas du att välja ett konto efter att du har angett autentiseringsuppgifterna i [!DNL Assets Essentials]. I så fall väljer du `Company or School Account` för att fortsätta.
 
@@ -50,28 +50,28 @@ De olika DAM-aktiviteterna (Digital Asset Management) som du kan utföra med [!D
 | Lägg till nya resurser | <ul> <li>[Överför nya resurser och mappar](/help/using/add-delete.md#add-assets)</li> <li>[Övervaka överföringsförloppet och hantera överföringar](/help/using/add-delete.md#upload-progress)</li> <li>[Lös dubbletter](/help/using/add-delete.md#resolve-upload-fails)</li> </ul> |
 | Uppdatera resurser eller relaterad information | <ul> <li>[Redigera bilder](/help/using/edit-images.md)</li> <li>[Skapa versioner](/help/using/manage-organize.md#create-versions) och [visa versioner](/help/using/manage-organize.md#view-versions)</li> <li>[Redigera bilder](/help/using/edit-images.md)</li> </ul> |
 | Redigera resurser | <ul> <li>[Redigeringar i webbläsaren med Adobe Photoshop Express](/help/using/edit-images.md)</li> <li>[Beskär för en profil för sociala medier](/help/using/edit-images.md#crop-straighten-images)</li> <li>[Visa och hantera versioner](/help/using/manage-organize.md#view-versions)</li> <li>[Använd [!DNL Adobe Asset Link]](/help/using/integration.md#integrations)</ul></ul> |
-| Sök efter resurser i databasen | <ul> <li>[Sök i en specifik mapp](/help/using/search.md#refine-search-results)</li> <li>[Sparade sökningar](/help/using/search.md#saved-search)</li> <li>[Sök efter nyligen visade resurser](/help/using/search.md)</li> <li>[Fulltextsökning](/help/using/search.md) |
-| Hämta resurser | <ul> <li> [Förhandsgranska resurs](/help/using/navigate-view.md#preview-assets) </li> <li> [Hämta resurser](/help/using/manage-organize.md#download) <li> [Hämta återgivningar](/help/using/add-delete.md#renditions) </li></ul> |
-| Metadataåtgärder | <ul> <li>[Visa detaljerade metadata](/help/using/metadata.md) </li> <li> [Uppdatera metadata](/help/using/metadata.md#update-metadata)</li> <li> [Skapa nytt metadataformulär](/help/using/metadata.md#metadata-forms) </li> </ul> |
-| Integration med andra lösningar | <ul> <li>[Använd resursväljare i [!DNL Adobe Journey Optimizer]](/help/using/integration.md)</li> <li>[[!DNL Adobe Asset Link] for [!DNL Creative Cloud]](/help/using/integration.md)</li> <li>[Integrering med [!DNL Adobe Workfront]](/help/using/integration.md)</li> </ul> |
+| Sök efter resurser i databasen | <ul> <li>[Sök i en specifik mapp](/help/using/search.md#refine-search-results)</li> <li>[Sparade sökningar](/help/using/search.md#saved-search)</li> <li>[Sök efter resurser som visats nyligen](/help/using/search.md)</li> <li>[Fulltextsökning](/help/using/search.md) |
+| Hämta resurser | <ul> <li> [Förhandsgranska resurs](/help/using/navigate-view.md#preview-assets) </li> <li> [Hämta mediefiler](/help/using/manage-organize.md#download) <li> [Hämta återgivningar](/help/using/add-delete.md#renditions) </li></ul> |
+| Metadataåtgärder | <ul> <li>[Visa detaljerade metadata](/help/using/metadata.md) </li> <li> [Uppdatera metadata](/help/using/metadata.md#update-metadata)</li> <li> [Skapa ett nytt metadataformulär](/help/using/metadata.md#metadata-forms) </li> </ul> |
+| Integrering med andra lösningar | <ul> <li>[Använd resursväljare i [!DNL Adobe Journey Optimizer]](/help/using/integration.md)</li> <li>[[!DNL Adobe Asset Link] för [!DNL Creative Cloud]](/help/using/integration.md)</li> <li>[Integrering med [!DNL Adobe Workfront]](/help/using/integration.md)</li> </ul> |
 
 ## Nästa steg {#next-steps}
 
-* [Titta på en video för att komma igång med Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html?lang=sv-SE)
+* [Titta på en video för att komma igång med Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/getting-started.html)
 
-* Ge produktfeedback med alternativet [!UICONTROL Feedback] som finns i användargränssnittet för Assets Essentials
+* Ge produktfeedback med hjälp av alternativet [!UICONTROL Feedback] som är tillgängligt i Assets Essentials-användargränssnittet
 
-* Ge feedback om dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som är tillgängligt på den högra sidopanelen
+* Ge dokumentationsfeedback med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns på sidopanelen till höger
 
-* Kontakta [kundtjänst](https://experienceleague.adobe.com/sv?support-solution=General#support)
+* Kontakta [kundtjänsten](https://experienceleague.adobe.com/?support-solution=General#support)
 
 
-<!--TBD: Merge the below rows in the table when the use cases are documented/available.
+<!--
+TBD: Merge the below rows in the table when the use cases are documented/available.
 
 | How do I delete assets? | <ul> <li>[Delete assets](/help/using/manage-organize.md)</li> <li>Recover deleted assets</li> <li>Permanently delete assets</li> </ul> |
 | How do I share assets or find shared assets? | <ul> <li>Shared by me</li> <li>Shared with me</li> <li>Share for comments and review</li> <li>Unshare assets</li> </ul> |
 | How do I collaborate with others and get my assets reviewed | <ul> <li>Share for review</li> <li>Provide comments. Resolve and filter comments</li> <li>Annotations on images</li> <li>Assign tasks to specific users and prioritize</li> </ul> |
-
 -->
 
 <!-- 
@@ -94,6 +94,7 @@ To provide feedback for documentation, click [!UICONTROL Edit this page] ![edit 
 >* [Förstå användargränssnittet](/help/using/navigate-view.md).
 >* [Versionsinformation och kända fel](/help/using/release-notes.md).
 
-<!-- TBD: 
+<!-- 
+TBD: 
 >* [Supported file types](/help/using/supported-file-formats.md).
 -->

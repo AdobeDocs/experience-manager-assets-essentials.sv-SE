@@ -1,27 +1,27 @@
 ---
-title: Massimportera resurser med hjälp av Resurser Essentials
-description: Lär dig hur du kan massimportera resurser med det nya användargränssnittet i Assets (Assets Essentials). Det ger administratörer möjlighet att importera ett stort antal resurser från en datakälla till AEM Assets.
+title: Importera resurser satsvis med Assets Essentials
+description: Lär dig hur du massimporterar resurser med det nya resursgränssnittet (Assets Essentials). Det ger administratörer möjlighet att importera ett stort antal resurser från en datakälla till AEM Assets.
 exl-id: 5f5fc15e-959b-48b6-834a-42b213512b49
-source-git-commit: 4d4b239b0b75ac8a26a7c3001e5b28dcb6243f63
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1671'
 ht-degree: 0%
 
 ---
 
-# Massimportera resurser med hjälp av Resurser Essentials   {#bulk-import-essentials}
+# Importera resurser satsvis med Assets Essentials   {#bulk-import-essentials}
 
 >[!CONTEXTUALHELP]
 >id="assets_bulk_import"
 >title="Massimportera resurser"
->abstract="Administratörer kan importera ett stort antal resurser från en datakälla till Experience Manager Assets med Assets Essentials. Administratörerna behöver inte längre överföra enskilda resurser eller mappar till Experience Manager Assets. De molnlagringsleverantörer som stöds för bulkimport är Azure, AWS, Google Cloud och Dropbox."
+>abstract="Administratörer kan importera ett stort antal resurser från en datakälla till Experience Manager Assets via Assets Essentials. Administratörerna behöver inte längre överföra enskilda mediefiler eller mappar till Experience Manager Assets. De molnlagringsleverantörer som stöds för massimport är Azure, AWS, Google Cloud och Dropbox."
 >additional-url="https://images-tv.adobe.com/mpcv3/4477/98bce651-721c-442e-98b8-c43e7708e44c_1698834577.854x480at800_h264.mp4" text="Titta på videon"
 
-Med massimport i AEM Assets Essentials kan administratörer importera ett stort antal resurser från en datakälla till AEM Assets. Administratörerna behöver inte längre överföra enskilda resurser eller mappar till AEM Assets.
+Massimport i AEM Assets Essentials ger administratörer möjlighet att importera ett stort antal resurser från en datakälla till AEM Assets. Administratörerna behöver inte längre överföra enskilda mediefiler eller mappar till AEM Assets.
 
 >[!NOTE]
 >
->Massimporteraren Assets Essentials använder samma serverdel som bulkimporteraren i Assets as a Cloud Service. Assets Essentials erbjuder dock fler datakällor att importera från och en smidigare användarupplevelse.
+>Assets Essentials bulkimportör använder samma backend som den as a Cloud Service bulkimportören för tillgångar. Assets Essentials har dock fler datakällor att importera från och en mer strömlinjeformad användarupplevelse.
 
 Du kan importera resurser från följande datakällor:
 
@@ -33,9 +33,9 @@ Du kan importera resurser från följande datakällor:
 
 ## Förutsättningar {#prerequisites}
 
-| Data Source | Förutsättningar |
+| Datakälla | Förutsättningar |
 |-----|------|
-| Azure | <ul> <li>Azure Storage-konto </li> <li> Azure Blob Container <li> Azure Access Key eller SAS-token baserat på autentiseringsläge </li></ul> |
+| Azure | <ul> <li>Azure lagringskonto </li> <li> Azure Blob Container <li> Azure Access Key eller SAS Token baserat på autentiseringsläge </li></ul> |
 | AWS | <ul> <li>AWS </li> <li> AWS Bucket <li> AWS Access Key </li><li> AWS Access Secret </li></ul> |
 | Google Cloud | <ul> <li>GCP Bucket </li> <li> E-postadress för GCP-tjänstkonto <li> Privat nyckel för GCP-tjänstkonto</li></ul> |
 | Dropbox | <ul> <li>Dropbox Klient-ID </li> <li> Dropbox Client Secret</li></ul> |
@@ -129,7 +129,7 @@ Utför följande steg för att skapa en bulkimportkonfiguration i [!DNL Experien
    >
    >Om du använder Dropbox som datakälla anger du källmappens sökväg baserat på följande regler:
    >* Om du väljer **Fullständig Dropbox** när du skapar Dropbox-programmet och den mapp som innehåller resurserna finns på `https://www.dropbox.com/home/bulkimport-assets` anger du `bulkimport-assets` i fältet **[!UICONTROL Source Folder]**.
-   >* Om du väljer **App-mapp** när du skapar Dropbox-programmet och den mapp som innehåller resurserna finns på `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets` anger du `bulkimport-assets` i fältet **[!UICONTROL Source Folder]** där `BulkImportAppFolderScope` refererar till programmets namn. `Apps` läggs automatiskt till efter `home` i det här fallet.
+   >* Om du väljer **App-mapp** när du skapar Dropbox-programmet och den mapp som innehåller resurserna finns på `https://www.dropbox.com/home/Apps/BulkImportAppFolderScope/bulkimport-assets` anger du `bulkimport-assets` i fältet **[!UICONTROL Source Folder]** där `BulkImportAppFolderScope` refererar till programmets namn. `Apps` läggs till automatiskt efter `home` i det här fallet.
 
 1. (Valfritt) Välj alternativet **[!UICONTROL Delete source file after import]** om du vill ta bort originalfilerna från källdatalagret när filerna har importerats till [!DNL Experience Manager Assets].
 1. Välj **[!UICONTROL Import Mode]**. Välj **[!UICONTROL Skip]**, **[!UICONTROL Replace]** eller **[!UICONTROL Create Version]**. Hoppa över är standardläget och i det här läget hoppar användaren över att importera en resurs om den redan finns.
@@ -161,20 +161,22 @@ När du importerar resurser eller mappar i grupp importerar [!DNL Experience Man
 
 Under bulkimporten letar [!DNL Experience Manager] efter de befintliga mapparna för att undvika att importera resurserna och mapparna igen, och verifierar även rensningsreglerna som tillämpas i den överordnade mappen där importen sker. Om saneringsreglerna tillämpas i den överordnade mappen, tillämpas samma regler på importkällan. För ny import används följande saneringsregler för att hantera filnamnen på resurser och mappar.
 
-Mer information om otillåtna namn, hantering av resursnamn och hantering av mappnamn vid bulkimport finns i [Hantera filnamn vid bulkimport](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=sv-SE#filename-handling-bulkimport).
+Mer information om otillåtna namn, hantering av resursnamn och hantering av mappnamn vid bulkimport finns i [Hantera filnamn vid bulkimport](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
 
 ## Visa befintliga bulkimportkonfigurationer {#view-import-configuration}
 
-Om du vill visa den befintliga massimporten väljer du alternativet **[!UICONTROL Bulk Imports]** i den vänstra rutan. Sidan för bulkimport visas med listan **[!UICONTROL Executed Imports]**. <br>
+Om du vill visa den befintliga massimporten väljer du alternativet **[!UICONTROL Bulk Imports]** i den vänstra rutan. Sidan för bulkimport visas med listan över **[!UICONTROL Executed Imports]**. <br>
 Du kan även visa **[!UICONTROL Saved Imports]** och **[!UICONTROL Scheduled Imports]** från listrutan.
 
 ![Spara bulkimportkonfiguration](assets/bulk-import-options.png)
 
-<!-- If you select to save and run the import, the import configuration displays in the **[!UICONTROL Executed Imports]** tab.
+<!-- 
+If you select to save and run the import, the import configuration displays in the **[!UICONTROL Executed Imports]** tab.
 
 ![Save bulk import configuration](assets/bulk-import-executed.png)
 
-If you schedule an import, it displays in the **[!UICONTROL Scheduled Imports]** tab.  -->
+If you schedule an import, it displays in the **[!UICONTROL Scheduled Imports]** tab.  
+-->
 
 ## Redigera bulkimportkonfiguration {#edit-import-configuration}
 

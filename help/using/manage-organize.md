@@ -4,9 +4,9 @@ description: Flytta, ta bort, kopiera, byta namn på, uppdatera och version av d
 role: User,Leader
 contentOwner: AG
 exl-id: b01e98b9-0cc2-47c5-9f5b-79b8e6bef39f
-source-git-commit: ce92eb58ede5d1ebbe88a98bfa7629532396f3be
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Du kan markera de resurser som visas i sökresultaten och göra följande:
 
 * ![Fäst resursikonen](assets/do-not-localize/pin-quick-access.svg) Fäst en resurs för snabbare åtkomst när du behöver den senare. Alla fästa objekt visas i avsnittet **Snabbåtkomst** i Min Workspace.
 
-* ![redigera i Express-ikon](assets/do-not-localize/edit-e.svg) Redigera en bild i den integrerade Adobe Expressen i Adobe Experience Manager Assets.
+* ![redigera i Express-ikon](assets/do-not-localize/edit-e.svg) Redigera en bild i den integrerade Adobe Express-filen i Adobe Experience Manager Assets.
 
 * ![redigera resursikon](assets/do-not-localize/edit-e.svg) Redigera bilden med Adobe Express.
 
@@ -47,43 +47,44 @@ Du kan markera de resurser som visas i sökresultaten och göra följande:
 
 * ![flytta ikon](assets/do-not-localize/move-icon.png) Flytta den markerade resursen eller mappen till en annan plats i databashierarkin.
 
-* ![Byt namn på ikonen](assets/do-not-localize/rename-icon.png) Byt namn på den markerade resursen eller mappen. Använd ett unikt namn, annars misslyckas namnbytet med en varning. Försök igen med ett nytt namn.
-Du kan också klicka på titeln för en resurs eller en mapp för att byta namn på den. Ange den nya texten i textrutan **Byt namn på resurs** och klicka på **Spara**. Den här funktionen är tillgänglig i stödraster-, galleri-, vattenfalls- och listvyerna.
+* ![Byt namn på ikonen](assets/do-not-localize/rename-icon.png) Byt namn på den valda resursen eller mappen. Använd ett unikt namn. Annars misslyckas namnbytet och en varning visas. Du kan försöka igen med ett nytt namn.
+Du kan även klicka på rubriken för en resurs eller en mapp och byta namn på den. Ange den nya texten i textrutan **Byt namn på resurs** och klicka på **Spara**. Den här funktionen är tillgänglig i rutnäts-, galleri-, vattenfalls- och listvy.
 
-* ![ikon för vattenfallsvy](assets/do-not-localize/waterfall-view.png) [!UICONTROL Waterfall View].
+* ![Vyikonen för vattenfall](assets/do-not-localize/waterfall-view.png) [!UICONTROL Waterfall View].
 
-* ![kopiera biblioteksikonen](assets/do-not-localize/copy-icon.png) Lägg till en resurs i biblioteket.
+* ![Kopiera biblioteksikon](assets/do-not-localize/copy-icon.png) Lägg till en resurs i biblioteket.
 
-* ![tilldela en aktivitetsikon](assets/do-not-localize/review-delegate-icon.png) Tilldela uppgifter till andra användare för samarbete i en resurs.
+* ![tilldela uppgiftsikonen](assets/do-not-localize/review-delegate-icon.png) tilldela andra användare uppgifter för att samarbeta i en resurs.
 
-* ![tilldelningsikonen](assets/do-not-localize/watch-asset.svg) Övervaka åtgärder som utförs på en resurs.
+* ![Tilldela aktivitetsikon](assets/do-not-localize/watch-asset.svg) Övervaka åtgärderna som utförs på en resurs.
 
-Du kan visa samma alternativ för miniatyrbilder av resurser.
+Du kan visa samma alternativ på mediefilens miniatyrbilder.
 
-![Alternativ på miniatyrbild av resurs för att hantera en resurs](assets/options-on-thumbnail.png)
+![Alternativ på mediefilens miniatyrbild för att hantera en mediefil](assets/options-on-thumbnail.png)
 
-[!DNL Assets Essentials] visar bara de relevanta alternativen i verktygsfältet som är beroende av den valda resursens typ.
+[!DNL Assets Essentials] visar bara de relevanta alternativen i verktygsfältet som beror på den valda resursens typ.
 
-![Verktygsfältsalternativ när du väljer en resurs](assets/toolbar-folder-selected.png)
+![Alternativ för verktygsfält när du väljer en resurs](assets/toolbar-folder-selected.png)
 
-*Bild: Alternativ i verktygsfältet för en markerad mapp.*
+*Bild: Alternativ tillgängliga i verktygsfältet för en vald mapp.*
 
-![Verktygsfältsalternativ när du väljer en resurs](assets/toolbar-pdf-selected.png)
+![Alternativ för verktygsfält när du väljer en resurs](assets/toolbar-pdf-selected.png)
 
-*Bild: Alternativ i verktygsfältet för en markerad PDF-fil.*
+*Bild: Alternativ tillgängliga i verktygsfältet för en markerad PDF-fil.*
 
-## Hämta och distribuera resurser {#download}
+## Hämta och distribuera mediefiler {#download}
 
-Du kan välja en eller flera resurser eller mappar eller en kombination av båda och hämta urvalet till det lokala filsystemet. Du kan redigera resurserna och överföra dem igen eller distribuera resurserna utanför [!DNL Assets Essentials]. Du kan även [hämta återgivningarna](/help/using/add-delete.md#renditions) för en resurs.
+Du kan välja en eller flera resurser eller mappar eller en kombination av båda och hämta markeringen till det lokala filsystemet. Du kan redigera resurserna och överföra dem igen eller distribuera resurserna utanför [!DNL Assets Essentials]. Du kan också [hämta återgivningarna](/help/using/add-delete.md#renditions) av en resurs.
 
-## Resursversionshantering {#versions-of-assets}
+## Resursversion {#versions-of-assets}
 
 <!-- 
-TBD: query for engineering: How many versions are maintained. What happens when we reach that limit? Are old versions automatically removed? -->
+TBD: query for engineering: How many versions are maintained. What happens when we reach that limit? Are old versions automatically removed? 
+-->
 
-[!DNL Assets Essentials] versioner av resurserna när resurserna överförs igen som uppdateras eller redigeras. Du kan visa versionshistorik, tidigare versioner och återställa en tidigare version av resurser som den senaste versionen, som återställs till en tidigare version om det behövs. Resursversioner skapas i följande scenarier:
+[!DNL Assets Essentials] versioner av resurserna när resurserna överförs igen och uppdateras eller redigeras. Du kan visa versionshistorik och tidigare versioner och återställa en tidigare version av resurser som den senaste versionen, som återställs till en tidigare version vid behov. Resursversioner skapas i följande scenarier:
 
-* Överför en ny resurs med samma filnamn som en befintlig resurs och i samma mapp som den befintliga resursen. [!DNL Assets Essentials] uppmanar dig att antingen skriva över den tidigare resursen eller spara den nya resursen som en version. Se [Överför duplicerade resurser](/help/using/add-delete.md#resolve-upload-fails).
+* Överför en ny resurs med samma filnamn som en befintlig resurs och i samma mapp som den befintliga resursen. [!DNL Assets Essentials] uppmanas att antingen skriva över den tidigare resursen eller spara den nya resursen som en version. Se [Överför duplicerade resurser](/help/using/add-delete.md#resolve-upload-fails).
 
   ![Skapa versioner vid överföring](assets/uploads-manage-duplicates.png)
 
@@ -115,7 +116,7 @@ Du kan också skapa versioner från tidslinjen för versionerna. Välj den senas
 
 **Behörigheter krävs:** `Can Edit`, `Owner` eller administratörsbehörighet för en resurs.
 
-Med Assets Essentials kan du ange status för resurser som är tillgängliga i databasen. Ange en resursstatus som bättre styr och hanterar nedströmsanvändningen av digitala resurser.
+Med Resurser Essentials kan du ange status för resurser som är tillgängliga i databasen. Ange en resursstatus som bättre styr och hanterar nedströmsanvändningen av digitala resurser.
 
 Du kan ange följande status för resurser:
 
@@ -132,14 +133,14 @@ Så här anger du resursstatus:
 1. Markera resursen och klicka på **[!UICONTROL Details]** i verktygsfältet.
 
 1. Välj resursstatus i listrutan **[!UICONTROL Status]** på fliken **[!UICONTROL Basic]**. Möjliga värden är Godkänd, Avvisat och Ingen status (standard).
-Om du har Dynamic Media med OpenAPI-funktioner tilldelade för din miljö, genererar Experience Manager Assets en offentlig URL så fort du markerar resursen som `Approved`.
+Om du har aktiverat Dynamic Media med OpenAPI-funktioner för din miljö, genererar Experience Manager Assets en offentlig URL så fort du markerar resursen som `Approved`.
 
    >[!VIDEO](https://video.tv.adobe.com/v/342495)
 
 
 ### Ange förfallodatum för tillgång {#set-asset-expiration-date}
 
-Assets Essentials kan även ange förfallodatum för resurser som är tillgängliga i databasen. Du kan sedan [filtrera sökresultaten](search.md#refine-search-results) baserat på en `Expired`-resursstatus. Du kan dessutom ange ett förfallodatumintervall för resurser för att ytterligare filtrera sökresultaten.
+Med Resurser Essentials kan du också ange förfallodatum för resurser som är tillgängliga i databasen. Du kan sedan [filtrera sökresultaten](search.md#refine-search-results) baserat på en `Expired`-resursstatus. Du kan dessutom ange ett förfallodatumintervall för resurser för att ytterligare filtrera sökresultaten.
 
 Så här anger du förfallodatum för tillgång:
 
@@ -149,13 +150,13 @@ Så här anger du förfallodatum för tillgång:
 
 Indikatorn för `Expired`-resurskortet åsidosätter indikatorn `Approved` eller `Rejected` som angetts för en resurs.
 
-Du kan också filtrera resurser baserat på en resursstatus. Mer information finns i [Söka efter resurser i Assets Essentials](search.md).
+Du kan också filtrera resurser baserat på en resursstatus. Mer information finns i [Söka efter resurser i Resurser - Grundläggande](search.md).
 
 ## Anpassa metadataformulär för att inkludera resursstatusfält {#customize-asset-status-metadata-form}
 
 **Behörigheter krävs:** Administratör
 
-Assets Essentials tillhandahåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält på sidan [!UICONTROL Details] för en resurs. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser.
+Assets Essentials innehåller många standardmetadatafält som standard. Organisationer har ytterligare metadatabehov och behöver fler metadatafält för att kunna lägga till företagsspecifika metadata. Med metadataformulär kan företag lägga till anpassade metadatafält på sidan [!UICONTROL Details] för en resurs. De företagsspecifika metadata förbättrar styrningen och identifieringen av dess resurser.
 
 Mer information om hur du lägger till ytterligare metadatafält i metadataformuläret finns i [Metadata Forms](metadata.md##metadata-forms).
 
@@ -169,10 +170,10 @@ Om du vill lägga till metadatafältet Förfallodatum i formuläret drar du **[!
 
 ## Nästa steg {#next-steps}
 
-* [Titta på en video för att hantera resurser i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html?lang=sv-SE)
+* [Titta på en video där du kan hantera resurser i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/basics/managing.html)
 
-* Ge produktfeedback med alternativet [!UICONTROL Feedback] som finns i användargränssnittet för Assets Essentials
+* Ge produktfeedback med alternativet [!UICONTROL Feedback] som finns i användargränssnittet Assets Essentials
 
 * Ge feedback om dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som är tillgängligt på den högra sidopanelen
 
-* Kontakta [kundtjänst](https://experienceleague.adobe.com/sv?support-solution=General#support)
+* Kontakta [kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)

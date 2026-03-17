@@ -1,12 +1,12 @@
 ---
 title: Hantera metadata
 description: Hantera metadata för resurser i  [!DNL Assets Essentials]
-role: User,Leader,Admin,Architect,Developer
+role: User,Leader,Admin,Developer
 contentOwner: AG
 exl-id: cfc105d1-41fc-4418-9905-b2a28a348682
-source-git-commit: 1cda73b6ddc573d2736fdaa45b582198420ed5b1
+source-git-commit: 2ad90f931f84bf8e0ceb51e4e6450d36a7b31a03
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2117'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Om du vill visa metadata för en resurs bläddrar du till resursen eller söker 
 
 ![Visa metadata för en resurs](assets/metadata-view1.png)
 
-*Figur: Om du vill visa en resurs och dess metadata klickar du på&#x200B;**[!UICONTROL Details]**&#x200B;i verktygsfältet eller dubbelklickar på resursen.*
+*Figur: Om du vill visa en resurs och dess metadata klickar du på&#x200B;**[!UICONTROL Details]**i verktygsfältet eller dubbelklickar på resursen.*
 
 Grundläggande metadata som titel, beskrivning och överföringsdatum är tillgängliga på fliken [!UICONTROL Basic]. Fliken [!UICONTROL Advanced] innehåller mer avancerade metadata som kameramodell, objektivinformation och geotaggar. Fliken [!UICONTROL Tags] innehåller automatiskt tillämpade taggar baserat på bildens innehåll.
 
@@ -47,13 +47,13 @@ De smarta taggarna används nästan i realtid och genereras baserat på bildens 
 
 ![Visa smarta taggar för en resurs](assets/metadata-view-tags.png)
 
-*Figur: Om du vill visa smarta taggar för en resurs klickar du på&#x200B;**[!UICONTROL Details]**&#x200B;i verktygsfältet eller dubbelklickar på resursen.*
+*Figur: Om du vill visa smarta taggar för en resurs klickar du på&#x200B;**[!UICONTROL Details]**i verktygsfältet eller dubbelklickar på resursen.*
 
 Smarta taggar innehåller också ett konfidensintervall som ett procenttal. Det anger förtroendet som är kopplat till den tillämpade taggen. Du kan moderera de automatiskt tillämpade smarta taggarna.
 
 ## Lägga till eller uppdatera nyckelord {#manually-tag}
 
-Du kan lägga till fler taggar i dina resurser, utöver de smarta taggar som läggs till automatiskt med den smarta tjänsten [!DNL Adobe Sensei]. Öppna en resurs för förhandsgranskning, klicka på [!UICONTROL Tags] och skriv önskade nyckelord i fältet [!UICONTROL Keywords]. Om du vill lägga till taggen trycker du på Retur. [!DNL Assets Essentials] indexerar nyckelordet i nästan realtid och ditt team kan snart söka efter uppdaterade resurser med de nya nyckelorden.
+Du kan lägga till fler taggar i dina resurser, utöver de smarta taggar som läggs till automatiskt med den smarta tjänsten [!DNL Adobe Sensei]. Öppna en resurs för förhandsgranskning, klicka på [!UICONTROL Tags] och skriv önskade nyckelord i fältet [!UICONTROL Keywords]. Om du vill lägga till taggen trycker du på Retur. [!DNL Assets Essentials] indexerar nyckelordet i nära realtid och ditt team kan snart söka efter uppdaterade resurser med de nya nyckelorden.
 
 Du kan också ta bort taggar från avsnittet [!UICONTROL Smart Tags] som automatiskt läggs till av [!DNL Assets Essentials] till alla överförda resurser.
 
@@ -129,11 +129,11 @@ Nedan visas en översikt över varje egenskapstyp och hur de lagras.
 | Datum | Lägg till en datumkomponent. |
 | Nedrullningsbar meny | Lägg till en listruta. |
 | Läge | Lägg till egenskapen för databastillstånd (mappas till repo:state) |
-| Resursstatus | Lägg till standardegenskapen för tillgångsstatus (mappas till dam:assetStatus) |
+| Resursstatus | Lägg till standardegenskapen Resursstatus (mappad till dam:assetStatus) |
 | Taggar | Lägg till en tagg från värden som lagras i taxonomihantering (mappas till xcm:tags). |
 | Nyckelord | Lägg till nyckelord med valfri form (mappas till dc:subject). |
 | Smarta taggar | Förbättra sökfunktionerna genom att automatiskt lägga till metadatataggar. |
-| Länk | Lägg till för att aktivera externa URL:er. När URL-komponenten har konfigurerats på metadataformuläret kan den mappas till en viss metadataegenskap på sidan för metadataredigeraren. Det här [metadataformuläret kan tilldelas mappar &#x200B;](#assign-metadata-form-folder). |
+| Länk | Lägg till för att aktivera externa URL:er. När URL-komponenten har konfigurerats på metadataformuläret kan den mappas till en viss metadataegenskap på sidan för metadataredigeraren. Det här [metadataformuläret kan tilldelas mappar ](#assign-metadata-form-folder). |
 
 ### Tilldela metadataformulär till mappar {#assign-metadata-form-folder}
 
@@ -189,13 +189,13 @@ Rotelementet representerar trädstrukturen för de taggar som du kan associera m
 Konfigurera taggkomponenten genom att utföra följande steg:
 
 1. Gå till metadataredigeraren och navigera till **[!UICONTROL Tags]** och placera den på arbetsytan.
-1. Byt namn på komponenten på arbetsytan. Det gör du genom att gå till **[!UICONTROL Label]** under [!UICONTROL Metadata property] på inställningspanelen och lägga till texten för identifieringen.
-1. Under [!UICONTROL Metadata property] på inställningspanelen söker du efter metadataegenskapen som du vill tilldela komponenten.
-1. Klicka på **[!UICONTROL Restrict to specific taxonomy]** om du vill begränsa taxonomins rotsökväg. Det gör du genom att bläddra bland taggarna och välja taxonomin till den specifika sökvägen.
-1. Klicka på **[!UICONTROL Save]** om du vill spara ändringarna.
+1. Byt namn på komponenten på arbetsytan. Gör det genom att gå till **[!UICONTROL Label]** under [!UICONTROL Metadata property] i inställningspanelen och lägga till texten för dess identifiering.
+1. Under [!UICONTROL Metadata property] i inställningspanelen söker du efter den metadataegenskap som du vill tilldela komponenten.
+1. Klicka på **[!UICONTROL Restrict to specific taxonomy]** om du vill begränsa taxonomins rotsökväg. Det gör du genom att bläddra bland taggarna och välja taxonomin för den specifika sökvägen.
+1. Klicka på **[!UICONTROL Save]** för att spara ändringarna.
 
    ![Konfiguration av rottaggar](assets/root-tag-config.png)
-1. [Tilldela metadata till mappar](#assign-metadata-form-folder).
+1. [Tilldela metadataformulär till mappar](#assign-metadata-form-folder).
 
 <!--
 #### Mapping between assets and taxonomy {#asset-taxonomy-mapping}
@@ -209,19 +209,20 @@ See [Assign metadata form to folders](#assign-metadata-form-folder). Follow the 
 1. Click **[!UICONTROL Assign]**.
 -->
 
-Om du vill visa de konfigurerade rottaggarna går du till objektets informationssida där mappningen mellan metadataformuläret och rottaggarna utförs.
+Om du vill visa de konfigurerade rottaggarna går du till resursens informationssida där mappningen mellan metadataformuläret och rottaggarna utförs.
 
 ## Nästa steg {#next-steps}
 
-* [Titta på en video för att hantera metadataformulär i Resurser Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html?lang=sv-SE)
+* [Titta på en video för att hantera metadataformulär i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html)
 
-* Ge produktfeedback med alternativet [!UICONTROL Feedback] som finns i användargränssnittet Assets Essentials
+* Ge produktfeedback med hjälp av alternativet [!UICONTROL Feedback] som är tillgängligt i Assets Essentials-användargränssnittet
 
-* Ge feedback om dokumentationen med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som är tillgängligt på den högra sidopanelen
+* Ge dokumentationsfeedback med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns på sidopanelen till höger
 
-* Kontakta [kundtjänst](https://experienceleague.adobe.com/sv?support-solution=General#support)
+* Kontakta [kundtjänsten](https://experienceleague.adobe.com/?support-solution=General#support)
 
-<!-- TBD: Cannot create a form using the second option. Documenting only the first option for now.
+<!-- 
+TBD: Cannot create a form using the second option. Documenting only the first option for now.
 To reuse an existing form to create a new form, do one of these:
 
 * Select a metadata form and click **[!UICONTROL Copy]** from the toolbar, provide a name, and click **[!UICONTROL Confirm]**.
@@ -229,7 +230,8 @@ To reuse an existing form to create a new form, do one of these:
 * Click **[!UICONTROL Create]**, select **[!UICONTROL Use existing form structure as template]** option, and select an existing form. 
 -->
 
-<!-- TBD: Queries for PM and engg.
+<!-- 
+TBD: Queries for PM and engg.
 
 Can we edit the existing metadata in any form?
 
@@ -244,7 +246,8 @@ Is there a detailed metadata tab. Where do the other details of an asset go?
 How can one search based strictly on the metadata. Similar to AEM Assets GQL queries.
 -->
 
-<!-- TBD: Link to related articles if any.
+<!-- 
+TBD: Link to related articles if any.
 
 >[!MORELIKETHIS]
 >
