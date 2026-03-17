@@ -213,13 +213,13 @@ Om du vill visa de konfigurerade rottaggarna går du till resursens informations
 
 ## Nästa steg {#next-steps}
 
-* [Titta på en video för att hantera metadataformulär i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html)
+* [Titta på en video för att hantera metadataformulär i Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/configuring/metadata-forms.html?lang=sv-SE)
 
 * Ge produktfeedback med hjälp av alternativet [!UICONTROL Feedback] som är tillgängligt i Assets Essentials-användargränssnittet
 
 * Ge dokumentationsfeedback med [!UICONTROL Edit this page] ![redigera sidan](assets/do-not-localize/edit-page.png) eller [!UICONTROL Log an issue] ![skapa ett GitHub-problem](assets/do-not-localize/github-issue.png) som finns på sidopanelen till höger
 
-* Kontakta [kundtjänsten](https://experienceleague.adobe.com/?support-solution=General#support)
+* Kontakta [kundtjänsten](https://experienceleague.adobe.com/sv?support-solution=General#support)
 
 <!-- 
 TBD: Cannot create a form using the second option. Documenting only the first option for now.

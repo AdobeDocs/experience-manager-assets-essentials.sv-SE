@@ -161,7 +161,7 @@ När du importerar resurser eller mappar i grupp importerar [!DNL Experience Man
 
 Under bulkimporten letar [!DNL Experience Manager] efter de befintliga mapparna för att undvika att importera resurserna och mapparna igen, och verifierar även rensningsreglerna som tillämpas i den överordnade mappen där importen sker. Om saneringsreglerna tillämpas i den överordnade mappen, tillämpas samma regler på importkällan. För ny import används följande saneringsregler för att hantera filnamnen på resurser och mappar.
 
-Mer information om otillåtna namn, hantering av resursnamn och hantering av mappnamn vid bulkimport finns i [Hantera filnamn vid bulkimport](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=en#filename-handling-bulkimport).
+Mer information om otillåtna namn, hantering av resursnamn och hantering av mappnamn vid bulkimport finns i [Hantera filnamn vid bulkimport](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=sv-SE#filename-handling-bulkimport).
 
 ## Visa befintliga bulkimportkonfigurationer {#view-import-configuration}
 
