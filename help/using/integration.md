@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den inbäddade [!DNL Assets Essentials]-upplevelsen kan integreras med följande lösningar:
 
-* **[!DNL Creative Cloud for Enterprise]**: [ Med Adobe Asset Link kan kreativa proffs ansluta till [!DNL Assets Essentials]-databasen inifrån de [!DNL Adobe Creative Cloud]-skrivbordsprogram som stöds.](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html) Panelen är tillgänglig för [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] och [!DNL Adobe XD]. Det effektiviserar åtkomsten till resurser som i sin tur ökar innehållets hastighet. Se [hantera resurser med  [!DNL Adobe Asset Link]](https://helpx.adobe.com/enterprise/using/manage-assets-using-adobe-asset-link.html).
+* **[!DNL Creative Cloud for Enterprise]**: [&#x200B; Med Adobe Asset Link kan kreativa proffs ansluta till [!DNL Assets Essentials]-databasen inifrån de [!DNL Adobe Creative Cloud]-skrivbordsprogram som stöds.](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html) Panelen är tillgänglig för [!DNL Adobe Photoshop], [!DNL Adobe Illustrator], [!DNL Adobe InDesign] och [!DNL Adobe XD]. Det effektiviserar åtkomsten till resurser som i sin tur ökar innehållets hastighet. Se [hantera resurser med  [!DNL Adobe Asset Link]](https://helpx.adobe.com/enterprise/using/manage-assets-using-adobe-asset-link.html).
 
   [Se en video om hur Assets Essentials kan integreras med Adobe Creative Cloud Libraries](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/creative-cloud.html)
 

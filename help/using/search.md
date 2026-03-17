@@ -280,7 +280,7 @@ Du kan lägga till en logotyp och en bakgrundsbild på din första söksida. Utf
 
 1. Navigera till avsnittet **[!UICONTROL Background and Logo image]** under **[!UICONTROL Homepage]**.
 1. Klicka på **[!UICONTROL Replace]** om du vill bläddra bland bilder från den befintliga resurskatalogen.
-1. Klicka på **[!UICONTROL Save]**. [Förhandsgranska ](#preview-configured-homepage) ändringarna för att granska ändringarna.
+1. Klicka på **[!UICONTROL Save]**. [Förhandsgranska &#x200B;](#preview-configured-homepage) ändringarna för att granska ändringarna.
 
 ### Förgranska konfigurerad startsida {#preview-configured-homepage}
 

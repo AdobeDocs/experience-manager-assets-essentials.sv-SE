@@ -334,7 +334,7 @@ Med meddelanden om Resurser Essentials kan du [övervaka åtgärder som utförs 
 
 **Rapportering**
 
-Med tillgångsrapportering kan administratörer utvärdera användaraktiviteten i Adobe Experience Manager Assets Essentials. Rapporterna och kontrollpanelen för live-statistik innehåller användbar information om hur användare interagerar med resurser som är tillgängliga i din distribution. [Använd informationen i rapporterna ](manage-reports.md) för att härleda viktiga framgångsmått för att mäta användningen av Assets i ditt företag och av dina kunder.
+Med tillgångsrapportering kan administratörer utvärdera användaraktiviteten i Adobe Experience Manager Assets Essentials. Rapporterna och kontrollpanelen för live-statistik innehåller användbar information om hur användare interagerar med resurser som är tillgängliga i din distribution. [Använd informationen i rapporterna &#x200B;](manage-reports.md) för att härleda viktiga framgångsmått för att mäta användningen av Assets i ditt företag och av dina kunder.
 
 Visa tillgångshämtningsrapporter och instrumentpanelsmodulen för livstatistik för att se vilka resurser som hämtas och hur ofta hämtningarna görs.
 
