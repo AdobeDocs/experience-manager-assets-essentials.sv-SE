@@ -1,15 +1,17 @@
 ---
 cloud: Experience Cloud
 solution: Experience Manager, Experience Manager Assets
+landing-page-name: experience-manager
+landing-page-breadcrumb-title: AEM
 product: adobe experience manager
 type: Documentation
-git-repo: https://github.com/AdobeDocs/experience-manager-assets-essentials.sv-SE
+git-repo: https://github.com/AdobeDocs/experience-manager-assets-essentials.en
 mini-toc-levels: 1
 index: true
 recommendations: noDisplay
-source-git-commit: a33f67452fdb1c42e534c5f423549c933fd5d59a
+source-git-commit: 22ad420175d3e8ee00ef8486a3c6684c6aec3b05
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
